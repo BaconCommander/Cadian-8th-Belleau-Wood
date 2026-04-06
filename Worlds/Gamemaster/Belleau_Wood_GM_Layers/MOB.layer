@@ -1083,10 +1083,6 @@ $grp SplineShapeEntity {
   }
  }
 }
-SCR_DestructibleEntity : "{0B3C42E51BD96FAD}Prefabs/Structures/Signs/SignLarge_02/SignLarge_8th_Enlisted_01.et" {
- coords 74.467 182.376 437.135
- angles 0 -180 0
-}
 SCR_DestructibleBuildingEntity : "{0B551E5D1F11D69D}Prefabs/Structures/Houses/Village/House_Village_E_1I02/House_Village_E_1I02_ruin2.et" {
  coords 135.595 0 103.372
 }
@@ -1489,7 +1485,7 @@ SCR_DestructibleBuildingEntity : "{714CBC1C4FCCA9FB}PrefabLibrary/DefaultLibrary
  }
 }
 GenericEntity : "{733C642B71996E53}Buildings/Promethean/PlasmaGenerator/PowerTower.et" {
- coords 121.542 178.377 285.475
+ coords 121.542 177.856 285.475
 }
 $grp GenericEntity : "{74B3C3B9AFC69136}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_end_plastic.et" {
  {
