@@ -1,3 +1,6 @@
+SCR_DestructibleBuildingEntity : "{21E86BA3108E0A9B}PrefabLibrary/CainLibrary/Structures/Military/Bunker_SPS_covered.et" {
+ coords 1410.932 222.391 931.314
+}
 $grp SCR_DestructibleBuildingEntity : "{23764D9776ABBFC4}Prefabs/Structures/Military/Fortifications/Bunker_SPS/Bunker_SPS_covered.et" {
  {
   coords 2844.404 205.563 1204.762
@@ -45,6 +48,42 @@ SCR_DestructibleBuildingEntity : "{2EBA3486062A5A53}Prefabs/Structures/Military/
 SCR_DestructibleBuildingEntity : "{8A8A7A558772D718}Prefabs/Structures/Military/Bunkers/AirfieldBunker_E_01/AirfieldBunker_E_01_small.et" {
  coords 2761.906 204.487 1199.588
  angles 0 69.434 0
+}
+$grp StaticModelEntity : "{94021BCA593A8CFF}Prefabs/Structures/BuildingParts/Entry/ConcreteStairs_02_Wide.et" {
+ {
+  coords 2975.161 203.073 1134.189
+  angles 0 6.602 0
+ }
+ {
+  coords 2976.993 203.376 1149.083
+  angles 0 -173.398 0
+ }
+ {
+  coords 2950.094 203.761 1152.949
+  angles 0 -164.252 0
+ }
+ {
+  coords 2947.191 203.46 1141.023
+  angles 0 15.132 0
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{BE248D0B31D3B097}Prefabs/Structures/Military/Bunkers/AmmoDump_E_02/AmmoDump_E_02.et" {
+ {
+  coords 2947.462 203.417 1142.421
+  angles 0 15 0
+ }
+ {
+  coords 2949.938 203.775 1151.662
+  angles 0 -165 0
+ }
+ {
+  coords 2976.806 203.357 1147.745
+  angles 0 -173.126 0
+ }
+ {
+  coords 2975.343 202.999 1135.613
+  angles 0 6.874 0
+ }
 }
 GenericEntity : "{C61B76E5EF5FE46B}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_bunker_burlap_camonet.et" {
  coords 2761.933 203.656 1182.713
