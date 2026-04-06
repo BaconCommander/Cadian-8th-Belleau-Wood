@@ -449,6 +449,10 @@ $grp GenericEntity : "{57BD5DBBD9BF24E5}Prefabs/Trench/Trench_TSection.et" {
   coords 670.285 199.161 520.86
   angles 0 71.572 0
  }
+ {
+  coords 680.033 198.346 424.785
+  angles 0 159.215 0
+ }
 }
 $grp GenericEntity : "{5A0992D551419C1C}Buildings/ConcreteBunkers/BattlementBunker/BattlementBunker_Prefab.et" {
  {
@@ -517,7 +521,7 @@ $grp GenericEntity : "{7FA95863264F3F10}Buildings/ConcreteBunkers/LookoutTower/L
 $grp StaticModelEntity : "{88208B13596A61E9}PrefabLibrary/Crater02.et" {
  {
   coords 686.598 -0.29 465.071
-  angles 18.166 -0 0.851
+  angles 18.166 0 0.851
  }
  {
   coords 662.116 0.025 499.836
@@ -532,22 +536,22 @@ $grp StaticModelEntity : "{88208B13596A61E9}PrefabLibrary/Crater02.et" {
   coords 691.311 0 578.11
  }
  {
-  coords 719.361 -0 563.662
+  coords 719.361 0 563.662
  }
  {
   coords 742.793 0 424.88
  }
  {
-  coords 784.394 -0 377.825
+  coords 784.394 0 377.825
  }
  {
-  coords 728.933 -0 440.893
+  coords 728.933 0 440.893
  }
  {
-  coords 765.732 -0 343.14
+  coords 765.732 0 343.14
  }
  {
-  coords 801.646 -0 437.964
+  coords 801.646 0 437.964
  }
  {
   coords 757.046 0 542.257
@@ -699,6 +703,14 @@ $grp StaticModelEntity : "{D3B748962659D281}Prefabs/Trench/Barrier5.et" {
  {
   coords 629.93 199.234 552.576
   angles 0 91.112 0
+ }
+ {
+  coords 675.249 198.208 430.758
+  angles 0 69.394 0
+ }
+ {
+  coords 682.314 198.417 433.414
+  angles 0 69.394 0
  }
 }
 $grp StaticModelEntity : "{E474BFF3E5AEEEC7}PrefabLibrary/Crater01.et" {
