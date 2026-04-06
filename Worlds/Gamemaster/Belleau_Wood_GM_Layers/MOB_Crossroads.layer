@@ -1,22 +1,244 @@
-$grp StaticModelEntity : "{4A15F1249EB9653C}Prefabs/Structures/Military/Bunkers/AmmoDump_E_01/AmmoDump_E_01_Ruin.et" {
+GenericEntity BrokenChurch {
+ coords 1715.865 209.711 781.204
+ angles 0 -24.827 0
  {
-  coords 1721.018 207.973 778.996
-  angles 0 -114.893 0
+  $grp GenericEntity : "{063C1A4FC1D71FDC}Buildings/ModularGothic/2mWallBroken.et" {
+   {
+    coords -6.469 -0.807 -4.611
+    angles 0 90 0
+   }
+   {
+    coords -6.469 2.193 0.389
+    angles 0 -90 0
+   }
+   {
+    coords 5.531 2.193 -9.611
+    angles 0 90 0
+   }
+   {
+    coords 5.531 -0.807 -4.611
+    angles 0 90 0
+   }
+   {
+    coords -4.437 1.739 -11.941
+   }
+  }
+  $grp StaticModelEntity : "{4A15F1249EB9653C}Prefabs/Structures/Military/Bunkers/AmmoDump_E_01/AmmoDump_E_01_Ruin.et" {
+   {
+    coords -0.469 -1.738 0.889
+    angles 0 -90 0
+   }
+   {
+    coords -0.469 -1.738 13.071
+    angles 0 90 0
+   }
+   {
+    coords 5.571 -1.738 -11.214
+    angles 0 -90 0
+   }
+   {
+    coords -6.354 -1.738 0.828
+    angles 0 90 0
+   }
+  }
+  $grp GenericEntity : "{912EBDA3A340684E}Buildings/ModularGothic/6mWallWindow.et" {
+   {
+    coords -6.469 -0.784 5.389
+    angles 0 90 0
+   }
+   {
+    coords 5.531 -0.784 5.389
+    angles 0 90 0
+   }
+  }
+  $grp GenericEntity : "{BBF2E444B91CDC05}Buildings/ModularGothic/PillarWhole.et" {
+   {
+    coords -6.601 -0.706 7.903
+   }
+   {
+    coords -6.601 2.294 7.903
+   }
+   {
+    coords -6.601 2.294 2.903
+   }
+   {
+    coords -6.601 -0.706 2.903
+   }
+   {
+    coords -6.601 2.294 -7.097
+   }
+   {
+    coords -6.601 -0.706 -7.097
+   }
+   {
+    coords -6.601 2.294 -12.097
+   }
+   {
+    coords -6.601 -0.706 -12.097
+   }
+   {
+    coords -6.601 2.294 12.903
+   }
+   {
+    coords -6.601 -0.706 12.903
+   }
+   {
+    coords 5.556 2.294 7.903
+   }
+   {
+    coords 5.556 2.294 2.903
+   }
+   {
+    coords 5.556 -0.706 2.903
+   }
+   {
+    coords 5.556 2.294 -7.097
+   }
+   {
+    coords 5.556 -0.706 -7.097
+   }
+   {
+    coords 5.556 2.294 -12.097
+   }
+   {
+    coords 5.556 -0.706 -12.097
+   }
+   {
+    coords 5.556 2.294 12.903
+   }
+   {
+    coords 5.556 -0.706 12.903
+   }
+   {
+    coords 5.556 -0.706 7.903
+   }
+   {
+    coords -6.639 -2.674 -2.213
+   }
+   {
+    coords 2.754 2.294 -12.097
+   }
+   {
+    coords 2.754 -0.706 -12.097
+   }
+   {
+    coords -2.595 2.294 -12.097
+   }
+   {
+    coords -2.595 -0.706 -12.097
+   }
+  }
+  $grp GenericEntity : "{C90BD9F77B715DC7}Buildings/ModularGothic/3mWallBare.et" {
+   {
+    coords -6.469 -0.707 10.389
+    angles 0 90 0
+   }
+   {
+    coords -6.469 2.293 10.389
+    angles 0 90 0
+   }
+   {
+    coords -6.469 -0.707 0.389
+    angles 0 90 0
+   }
+   {
+    coords -6.469 2.293 -9.611
+    angles 0 90 0
+   }
+   {
+    coords -6.469 -0.707 -9.611
+    angles 0 90 0
+   }
+   {
+    coords 5.531 -0.707 -9.611
+    angles 0 90 0
+   }
+   {
+    coords 5.531 -0.707 0.389
+    angles 0 90 0
+   }
+   {
+    coords 5.531 2.293 0.389
+    angles 0 90 0
+   }
+   {
+    coords 5.531 2.293 10.389
+    angles 0 90 0
+   }
+   {
+    coords 5.531 -0.707 10.389
+    angles 0 90 0
+   }
+   {
+    coords -4.126 -1.207 -11.936
+   }
+   {
+    coords 3.286 2.293 12.805
+   }
+   {
+    coords 3.286 -0.707 12.805
+   }
+   {
+    coords -3.969 2.293 12.789
+    angles 0 180 0
+   }
+   {
+    coords -3.969 -0.707 12.789
+    angles 0 180 0
+   }
+   {
+    coords -0.493 2.293 12.805
+   }
+   {
+    coords -0.493 -0.707 12.805
+   }
+  }
+  GenericEntity : "{E83A06A60292FE47}Buildings/ModularGothic/6mDoor.et" {
+   coords 0.077 -1.394 -11.939
+  }
+  $grp GenericEntity : "{EEED9A5CF7F06C78}Buildings/ModularGothic/PillarBroken.et" {
+   {
+    coords -6.588 0.278 -2.215
+   }
+   {
+    coords -6.647 5.299 -7.111
+    angles 0 -142.3 0
+   }
+   {
+    coords -6.647 5.299 2.889
+   }
+   {
+    coords -6.647 5.299 7.889
+    angles 0 -115.8 0
+   }
+   {
+    coords -6.647 5.299 12.889
+    angles 0 123.3 0
+   }
+   {
+    coords 5.353 5.299 12.889
+    angles 0 -179.7 0
+   }
+   {
+    coords 5.353 5.299 7.889
+    angles 0 96.9 0
+   }
+   {
+    coords 5.353 5.299 2.889
+    angles 0 -25.8 0
+   }
+   {
+    coords 5.353 5.299 -7.111
+    angles 0 -150.1 0
+   }
+   {
+    coords 5.353 5.299 -12.111
+    angles 0 -63.9 0
+   }
+   {
+    coords 5.353 -0.201 -2.111
+    angles 0 55.7 0
+   }
+  }
  }
- {
-  coords 1726.42 207.973 767.619
-  angles 0 -114.893 0
- }
- {
-  coords 1721.218 207.973 765.88
-  angles 0 -114.893 0
- }
- {
-  coords 1705.333 207.973 785.168
-  angles 0 65.107 0
- }
-}
-GenericEntity : "{C90BD9F77B715DC7}Buildings/ModularGothic/3mWallBare.et" {
- coords 1706.316 209.004 782.636
- angles 0 65.107 0
 }
