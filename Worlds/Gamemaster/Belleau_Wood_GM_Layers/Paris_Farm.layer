@@ -1,3 +1,7 @@
 SCR_DestructibleEntity : "{425B3F37AE13AE3C}Prefabs/Structures/Walls/Crashbarrier/CrashBarrier_01/CrashBarrier_01_8m_V1.et" {
- coords 2756.8 -0 1182.166
+ coords 2756.8 0 1182.166
+}
+StaticModelEntity : "{469DF26FAB606152}Prefabs/Structures/Walls/Brick/BrickGate_01/BrickGate_01.et" {
+ coords 2792.893 0 1198.206
+ angles 0 75 0
 }
