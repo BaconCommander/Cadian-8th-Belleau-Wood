@@ -1,16 +1,31 @@
-SCR_DestructibleEntity : "{425B3F37AE13AE3C}Prefabs/Structures/Walls/Crashbarrier/CrashBarrier_01/CrashBarrier_01_8m_V1.et" {
- coords 2756.8 0 1182.166
+GenericEntity : "{1FB2F0AEA420C1FB}Prefabs/Terrain/Trenches/Trench_90_Long.et" {
+ coords 2898.476 204.014 1161.67
+ angles 0 15 0
 }
-StaticModelEntity : "{469DF26FAB606152}Prefabs/Structures/Walls/Brick/BrickGate_01/BrickGate_01.et" {
- coords 2792.893 0 1198.206
+SCR_DestructibleBuildingEntity : "{23764D9776ABBFC4}Prefabs/Structures/Military/Fortifications/Bunker_SPS/Bunker_SPS_covered.et" {
+ coords 2844.404 205.563 1204.762
  angles 0 75 0
+ scale 1.1
 }
-GenericEntity : "{E04793C8A04BE215}Buildings/ConcreteBunkers/SmallBunker/SmallBunker.et" {
- components {
-  MeshObject "{68F8FA68A92856BE}" {
-   ClutterOccluder 1
-  }
+$grp GenericEntity : "{6675E8586EBB29B2}Prefabs/Terrain/Trenches/Trench_Straight_Long.et" {
+ {
+  coords 2881.409 204.753 1197.028
+  angles 0 -75 0
  }
- coords 2770.108 203.845 1196.152
- angles 0 50.215 0
+ {
+  coords 2897.181 203.421 1139.736
+  angles 0 -75 0
+ }
+}
+SCR_DestructibleBuildingEntity : "{8A8A7A558772D718}Prefabs/Structures/Military/Bunkers/AirfieldBunker_E_01/AirfieldBunker_E_01_small.et" {
+ coords 2761.906 204.487 1199.588
+ angles 0 69.434 0
+}
+GenericEntity : "{AD508960F9EC4174}PrefabsEditable/Auto/Terrain/Trenches/E_Trench_90_Long.et" {
+ coords 2880.697 204.787 1175.403
+ angles 0 -165 0
+}
+GenericEntity : "{C61B76E5EF5FE46B}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_bunker_burlap_camonet.et" {
+ coords 2761.933 203.656 1182.713
+ angles 0 -105 0
 }
