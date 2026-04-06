@@ -577,30 +577,37 @@ $grp SCR_DestructibleBuildingEntity : "{23764D9776ABBFC4}Prefabs/Structures/Mili
  {
   coords 841.659 204.585 578.342
   angles 0 75.305 0
+  scale 1.1
  }
  {
   coords 810.198 204.585 650.421
   angles 0 51.055 0
+  scale 1.1
  }
  {
   coords 791.393 206.716 700.582
   angles 0 93.057 0
+  scale 1.1
  }
  {
   coords 775.003 206.716 775.668
   angles 0 52.311 0
+  scale 1.1
  }
  {
   coords 856.931 202.123 448.001
   angles 0 92.891 0
+  scale 1.1
  }
  {
   coords 891.698 205.411 357.676
   angles 0 61.431 0
+  scale 1.1
  }
  {
   coords 913.189 202.117 270.338
   angles 0 104.158 0
+  scale 1.1
  }
 }
 GenericEntity : "{25A50558A5B65EDC}Prefabs/Props/Industrial/CrawlerCraneWreck_01/CrawlerCraneWreck_01_cabin_base.et" {

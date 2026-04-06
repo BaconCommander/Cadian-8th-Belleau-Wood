@@ -1,0 +1,22 @@
+$grp StaticModelEntity : "{4A15F1249EB9653C}Prefabs/Structures/Military/Bunkers/AmmoDump_E_01/AmmoDump_E_01_Ruin.et" {
+ {
+  coords 1721.018 207.973 778.996
+  angles 0 -114.893 0
+ }
+ {
+  coords 1726.42 207.973 767.619
+  angles 0 -114.893 0
+ }
+ {
+  coords 1721.218 207.973 765.88
+  angles 0 -114.893 0
+ }
+ {
+  coords 1705.333 207.973 785.168
+  angles 0 65.107 0
+ }
+}
+GenericEntity : "{C90BD9F77B715DC7}Buildings/ModularGothic/3mWallBare.et" {
+ coords 1706.316 209.004 782.636
+ angles 0 65.107 0
+}
