@@ -5,3 +5,12 @@ StaticModelEntity : "{469DF26FAB606152}Prefabs/Structures/Walls/Brick/BrickGate_
  coords 2792.893 0 1198.206
  angles 0 75 0
 }
+GenericEntity : "{E04793C8A04BE215}Buildings/ConcreteBunkers/SmallBunker/SmallBunker.et" {
+ components {
+  MeshObject "{68F8FA68A92856BE}" {
+   ClutterOccluder 1
+  }
+ }
+ coords 2770.108 203.845 1196.152
+ angles 0 50.215 0
+}
