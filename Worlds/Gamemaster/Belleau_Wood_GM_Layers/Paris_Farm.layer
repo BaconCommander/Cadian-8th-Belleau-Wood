@@ -1,31 +1,136 @@
-GenericEntity : "{1FB2F0AEA420C1FB}Prefabs/Terrain/Trenches/Trench_90_Long.et" {
- coords 2898.476 204.014 1161.67
- angles 0 15 0
-}
-SCR_DestructibleBuildingEntity : "{23764D9776ABBFC4}Prefabs/Structures/Military/Fortifications/Bunker_SPS/Bunker_SPS_covered.et" {
- coords 2844.404 205.563 1204.762
- angles 0 75 0
- scale 1.1
-}
-$grp GenericEntity : "{6675E8586EBB29B2}Prefabs/Terrain/Trenches/Trench_Straight_Long.et" {
+$grp SCR_DestructibleBuildingEntity : "{23764D9776ABBFC4}Prefabs/Structures/Military/Fortifications/Bunker_SPS/Bunker_SPS_covered.et" {
  {
-  coords 2881.409 204.753 1197.028
-  angles 0 -75 0
+  coords 2844.404 205.563 1204.762
+  angles 0 75 0
+  scale 1.1
  }
  {
-  coords 2897.181 203.421 1139.736
-  angles 0 -75 0
+  coords 2891.733 204.679 1171.405
+  angles 0 75.405 0
+  scale 1.1
  }
+ {
+  coords 2907.332 203.899 1144.676
+  angles 0 54.28 0
+ }
+ {
+  coords 2893.719 202.734 1079.281
+  angles 0 110.499 0
+  scale 1.1
+ }
+ {
+  coords 2901.904 201.225 1041.82
+  angles 0 65.578 0
+  scale 1.1
+ }
+ {
+  coords 2892.331 200.981 989.7
+  angles 0 116.916 0
+  scale 1.1
+ }
+ {
+  coords 2894.689 202.116 961.281
+  angles 0 60 0
+  scale 1.1
+ }
+}
+StaticModelEntity : "{23BB711062057CC5}Prefabs/Props/Military/Sandbags/Sandbag_01_bunker_plastic_foundation_camonet.et" {
+ coords 2882.875 204.797 1203.364
+ angles 0 -135.88 0
+}
+SCR_DestructibleBuildingEntity : "{2EBA3486062A5A53}Prefabs/Structures/Military/Bunkers/AirfieldBunker_E_01/AirfieldBunker_E_01_big.et" {
+ coords 2924.643 206.173 1191.887
+ angles 0 -45 0
 }
 SCR_DestructibleBuildingEntity : "{8A8A7A558772D718}Prefabs/Structures/Military/Bunkers/AirfieldBunker_E_01/AirfieldBunker_E_01_small.et" {
  coords 2761.906 204.487 1199.588
  angles 0 69.434 0
 }
-GenericEntity : "{AD508960F9EC4174}PrefabsEditable/Auto/Terrain/Trenches/E_Trench_90_Long.et" {
- coords 2880.697 204.787 1175.403
- angles 0 -165 0
-}
 GenericEntity : "{C61B76E5EF5FE46B}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_bunker_burlap_camonet.et" {
  coords 2761.933 203.656 1182.713
  angles 0 -105 0
+}
+$grp SCR_DestructibleEntity : "{DFAD5338DECCD74E}PrefabLibrary/DefaultLibrary/Walls/Stone/StoneWall_02_4m.et" {
+ {
+  coords 2904.193 0.034 1009.311
+  angles 0 -81.188 0
+ }
+ {
+  coords 2903.782 0.078 1006.663
+  angles 0 -81.188 0
+ }
+ {
+  coords 2901.112 -0.063 1013.554
+  angles 0 8.812 0
+ }
+ {
+  coords 2900.039 0.098 1007.633
+  angles 0 10.394 0
+ }
+}
+$grp StaticModelEntity : "{E4DD0292A16CEC49}Prefabs/Structures/Military/Fortifications/Trenches/TrenchOld_03/TrenchOld_03_6m_wood_base.et" {
+ {
+  coords 2881.02 0.116 1209.766
+  angles 0 45 0
+ }
+ {
+  coords 2889.1 0.178 1201.686
+  angles 0 45 0
+ }
+ {
+  coords 2902.212 0.184 996.257
+  angles 0 116.361 1.891
+ }
+ {
+  coords 2904.62 -0.019 1003.096
+  angles 0 103.072 0
+ }
+ {
+  coords 2907.208 -0.087 1004.687
+  angles 0 -170.921 0
+ }
+ {
+  coords 2912.521 -0.304 1008.672
+  angles 0 99.273 0
+ }
+ {
+  coords 2908.602 -0.118 1014.033
+  angles 0 9.136 0
+ }
+ {
+  coords 2907.052 -0.103 1016.339
+  angles 0 100.309 0
+ }
+ {
+  coords 2908.068 -0.216 1023.424
+  angles 0 96.257 0
+ }
+ {
+  coords 2907.733 -0.291 1030.765
+  angles 0 79.804 0
+ }
+ {
+  coords 2892.047 0.197 1194.859
+  angles 0 90 0
+ }
+ {
+  coords 2892.79 0.344 1188.427
+  angles 0 78.865 0
+ }
+ {
+  coords 2894.147 0.336 1181.535
+  angles 0 78.865 2.913
+ }
+ {
+  coords 2901.509 0.047 1051.746
+  angles 0 63.426 0
+ }
+ {
+  coords 2898.44 -0.117 1057.882
+  angles 0 63.426 0
+ }
+}
+SCR_DestructibleBuildingEntity : "{F78E8A56BFA8D57C}Prefabs/Structures/Military/Bunkers/AirfieldBunker_E_01/AirfieldBunker_USSR_01_small_BARS.et" {
+ coords 2896.993 205.866 1217.717
+ angles 0 135 0
 }
