@@ -1,0 +1,32 @@
+SCR_AIWorld : "{B387BF3199BFF72D}Worlds/Gamemaster/AI/SCR_AIWorld_BelleauWoodAI.et" {
+ components {
+  NavmeshWorldComponent "{659802DC6F02C42E}" {
+   NavmeshSettings NavmeshWorld "{659802DC6F02C433}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{5C90BD0EC793647D}" {
+     NavmeshFile "{1E154D1DFDBC3B55}Worlds/Gamemaster/Belleau_wood_navmeshGM/LowRes.nmn"
+    }
+   }
+  }
+  NavmeshWorldComponent "{659802DC6F02D677}" {
+   NavmeshSettings NavmeshWorld "{659802DC6F02D67B}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{6598051A436BBD38}" {
+     NavmeshFile "{972D93CA1AFF09BE}Worlds/Gamemaster/Belleau_wood_navmeshGM/Soldiers.nmn"
+    }
+   }
+  }
+  NavmeshWorldComponent "{659802DC6F02D67C}" {
+   NavmeshSettings ChimeraNavmeshWorld "{659802DC6F02C426}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{60CA9BE5536BF701}" {
+     NavmeshFile "{FB9987D19DF53969}Worlds/Gamemaster/Belleau_wood_navmeshGM/BTRlike.nmn"
+    }
+   }
+  }
+ }
+ coords 5479.789 197.432 1953.331
+}
+PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 5864.054 126.598 6017.903
+}
+SCR_GameModeEditor GameMode_Editor_Full : "{DA3986AF1B5032B7}Prefabs/MP/Modes/Editor/GameMode_Editor_Full.et" {
+ coords 5864.054 126.645 6016.903
+}
