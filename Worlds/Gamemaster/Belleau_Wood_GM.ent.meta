@@ -16,4 +16,5 @@ MetaFileClass {
   ENTResourceClass Xbox : PC {
   }
  }
+ Tags "license"
 }
