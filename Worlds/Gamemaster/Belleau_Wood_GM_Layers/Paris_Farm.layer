@@ -1,0 +1,16 @@
+SCR_DestructibleEntity : "{425B3F37AE13AE3C}Prefabs/Structures/Walls/Crashbarrier/CrashBarrier_01/CrashBarrier_01_8m_V1.et" {
+ coords 2756.8 0 1182.166
+}
+StaticModelEntity : "{469DF26FAB606152}Prefabs/Structures/Walls/Brick/BrickGate_01/BrickGate_01.et" {
+ coords 2792.893 0 1198.206
+ angles 0 75 0
+}
+GenericEntity : "{E04793C8A04BE215}Buildings/ConcreteBunkers/SmallBunker/SmallBunker.et" {
+ components {
+  MeshObject "{68F8FA68A92856BE}" {
+   ClutterOccluder 1
+  }
+ }
+ coords 2770.108 203.845 1196.152
+ angles 0 50.215 0
+}
