@@ -1485,7 +1485,7 @@ SCR_DestructibleBuildingEntity : "{714CBC1C4FCCA9FB}PrefabLibrary/DefaultLibrary
  }
 }
 GenericEntity : "{733C642B71996E53}Buildings/Promethean/PlasmaGenerator/PowerTower.et" {
- coords 121.542 178.377 285.475
+ coords 121.542 177.856 285.475
 }
 $grp GenericEntity : "{74B3C3B9AFC69136}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_end_plastic.et" {
  {
