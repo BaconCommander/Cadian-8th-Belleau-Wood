@@ -1,244 +1,314 @@
 GenericEntity BrokenChurch {
- coords 1715.865 209.711 781.204
+ coords 1715.865 208.696 781.204
  angles 0 -24.827 0
  {
   $grp GenericEntity : "{063C1A4FC1D71FDC}Buildings/ModularGothic/2mWallBroken.et" {
    {
-    coords -6.469 -0.807 -4.611
+    coords -6.469 -0.216 -4.611
     angles 0 90 0
    }
    {
-    coords -6.469 2.193 0.389
+    coords -6.469 2.784 0.389
     angles 0 -90 0
    }
    {
-    coords 5.531 2.193 -9.611
+    coords 5.531 2.784 -9.611
     angles 0 90 0
    }
    {
-    coords 5.531 -0.807 -4.611
+    coords 5.531 -0.216 -4.611
     angles 0 90 0
    }
    {
-    coords -4.437 1.739 -11.941
+    coords -4.437 2.33 -11.941
    }
   }
-  $grp StaticModelEntity : "{4A15F1249EB9653C}Prefabs/Structures/Military/Bunkers/AmmoDump_E_01/AmmoDump_E_01_Ruin.et" {
+  StaticModelEntity : "{0C904BACB486FC2E}Prefabs/Structures/Debris/DebrisPile_HouseVillage/DebrisPile_HouseVillage_02_Small.et" {
+   coords 4.347 -0.708 0.202
+   angles 0 24.827 0
+  }
+  $grp StaticModelEntity : "{11B789B5F476A4B5}Prefabs/Structures/Debris/DebrisPile_HouseVillage/DebrisPile_HouseVillage_01_Large.et" {
    {
-    coords -0.469 -1.738 0.889
-    angles 0 -90 0
+    coords 0.124 -0.694 2.268
+    angles 0 -2.071 0
    }
    {
-    coords -0.469 -1.738 13.071
-    angles 0 90 0
+    coords -4.659 0.107 -9.003
+    angles 0 99.575 0
+   }
+  }
+  $grp StaticModelEntity : "{2D0FEDF121395411}Prefabs/Structures/Debris/DebrisPile_HouseVillage/DebrisPile_HouseVillage_01_Huge.et" {
+   {
+    coords -0.845 -0.641 9.402
+    angles 0 3.407 0
    }
    {
-    coords 5.571 -1.738 -11.214
-    angles 0 -90 0
+    coords 1.903 0.467 -5.867
+    angles 0 91.947 0
+   }
+  }
+  $grp StaticModelEntity : "{478A9EBEF939DAD1}Prefabs/Walls/Manner Wall a.et" {
+   {
+    coords 1.769 4.075 8.792
+    angles -90 -155.173 -115.106
    }
    {
-    coords -6.354 -1.738 0.828
-    angles 0 90 0
+    coords -2.691 4.075 8.899
+    angles -90 -155.173 -115.106
    }
+  }
+  StaticModelEntity : "{8940EB8236BDEDED}Prefabs/Structures/Debris/DebrisPile_HouseVillage/DebrisPile_HouseVillage_01_Narrow_Huge.et" {
+   coords -4.49 0.569 1.19
+   angles 0 86.207 0
+  }
+  StaticModelEntity : "{8E4573676405F031}Prefabs/Structures/Debris/DebrisPile_HouseVillage/DebrisPile_HouseVillage_01_Medium.et" {
+   coords -1.209 -0.727 -2.715
+   angles 0 24.827 0
   }
   $grp GenericEntity : "{912EBDA3A340684E}Buildings/ModularGothic/6mWallWindow.et" {
    {
-    coords -6.469 -0.784 5.389
+    coords -6.469 -0.193 5.389
     angles 0 90 0
    }
    {
-    coords 5.531 -0.784 5.389
+    coords 5.531 -0.193 5.389
     angles 0 90 0
    }
   }
+  StaticModelEntity : "{9F9516E7AFB67010}Prefabs/Structures/Debris/DebrisPile/DebrisPile_Concrete_01_Medium.et" {
+   coords -4.124 0.478 10.609
+   angles 0 100.316 0
+  }
+  StaticModelEntity : "{A46154C492EB961E}Prefabs/Structures/Debris/DebrisPile_HouseVillage/DebrisPile_HouseVillage_02_Medium.et" {
+   coords 4.137 0.549 3.752
+   angles 0 24.827 0
+  }
   $grp GenericEntity : "{BBF2E444B91CDC05}Buildings/ModularGothic/PillarWhole.et" {
    {
-    coords -6.601 -0.706 7.903
+    coords -6.601 -0.115 7.903
    }
    {
-    coords -6.601 2.294 7.903
+    coords -6.601 2.885 7.903
    }
    {
-    coords -6.601 2.294 2.903
+    coords -6.601 2.885 2.903
    }
    {
-    coords -6.601 -0.706 2.903
+    coords -6.601 -0.115 2.903
    }
    {
-    coords -6.601 2.294 -7.097
+    coords -6.601 2.885 -7.097
    }
    {
-    coords -6.601 -0.706 -7.097
+    coords -6.601 -0.115 -7.097
    }
    {
-    coords -6.601 2.294 -12.097
+    coords -6.601 2.885 -12.097
    }
    {
-    coords -6.601 -0.706 -12.097
+    coords -6.601 -0.115 -12.097
    }
    {
-    coords -6.601 2.294 12.903
+    coords -6.601 2.885 12.903
    }
    {
-    coords -6.601 -0.706 12.903
+    coords -6.601 -0.115 12.903
    }
    {
-    coords 5.556 2.294 7.903
+    coords 5.556 2.885 7.903
    }
    {
-    coords 5.556 2.294 2.903
+    coords 5.556 2.885 2.903
    }
    {
-    coords 5.556 -0.706 2.903
+    coords 5.556 -0.115 2.903
    }
    {
-    coords 5.556 2.294 -7.097
+    coords 5.556 2.885 -7.097
    }
    {
-    coords 5.556 -0.706 -7.097
+    coords 5.556 -0.115 -7.097
    }
    {
-    coords 5.556 2.294 -12.097
+    coords 5.556 2.885 -12.097
    }
    {
-    coords 5.556 -0.706 -12.097
+    coords 5.556 -0.115 -12.097
    }
    {
-    coords 5.556 2.294 12.903
+    coords 5.556 2.885 12.903
    }
    {
-    coords 5.556 -0.706 12.903
+    coords 5.556 -0.115 12.903
    }
    {
-    coords 5.556 -0.706 7.903
+    coords 5.556 -0.115 7.903
    }
    {
-    coords -6.639 -2.674 -2.213
+    coords -6.639 -2.083 -2.213
    }
    {
-    coords 2.754 2.294 -12.097
+    coords 2.754 2.885 -12.097
    }
    {
-    coords 2.754 -0.706 -12.097
+    coords 2.754 -0.115 -12.097
    }
    {
-    coords -2.595 2.294 -12.097
+    coords -2.595 2.885 -12.097
    }
    {
-    coords -2.595 -0.706 -12.097
+    coords -2.595 -0.115 -12.097
+   }
+   {
+    coords 0.928 -0.706 7.903
+    angles 0 24.827 0
+   }
+   {
+    coords 0.928 2.294 7.903
+    angles 0 24.827 0
+   }
+   {
+    coords -3.532 2.294 8.01
+    angles 0 24.827 0
+   }
+   {
+    coords -3.532 -0.706 8.01
+    angles 0 24.827 0
    }
   }
   $grp GenericEntity : "{C90BD9F77B715DC7}Buildings/ModularGothic/3mWallBare.et" {
    {
-    coords -6.469 -0.707 10.389
+    coords -6.469 -0.116 10.389
     angles 0 90 0
    }
    {
-    coords -6.469 2.293 10.389
+    coords -6.469 2.884 10.389
     angles 0 90 0
    }
    {
-    coords -6.469 -0.707 0.389
+    coords -6.469 -0.116 0.389
     angles 0 90 0
    }
    {
-    coords -6.469 2.293 -9.611
+    coords -6.469 2.884 -9.611
     angles 0 90 0
    }
    {
-    coords -6.469 -0.707 -9.611
+    coords -6.469 -0.116 -9.611
     angles 0 90 0
    }
    {
-    coords 5.531 -0.707 -9.611
+    coords 5.531 -0.116 -9.611
     angles 0 90 0
    }
    {
-    coords 5.531 -0.707 0.389
+    coords 5.531 -0.116 0.389
     angles 0 90 0
    }
    {
-    coords 5.531 2.293 0.389
+    coords 5.531 2.884 0.389
     angles 0 90 0
    }
    {
-    coords 5.531 2.293 10.389
+    coords 5.531 2.884 10.389
     angles 0 90 0
    }
    {
-    coords 5.531 -0.707 10.389
+    coords 5.531 -0.116 10.389
     angles 0 90 0
    }
    {
-    coords -4.126 -1.207 -11.936
+    coords -4.126 -0.616 -11.936
    }
    {
-    coords 3.286 2.293 12.805
+    coords 3.286 2.884 12.805
    }
    {
-    coords 3.286 -0.707 12.805
+    coords 3.286 -0.116 12.805
    }
    {
-    coords -3.969 2.293 12.789
+    coords -3.969 2.884 12.789
     angles 0 180 0
    }
    {
-    coords -3.969 -0.707 12.789
+    coords -3.969 -0.116 12.789
     angles 0 180 0
    }
    {
-    coords -0.493 2.293 12.805
+    coords -0.493 2.884 12.805
    }
    {
-    coords -0.493 -0.707 12.805
+    coords -0.493 -0.116 12.805
    }
   }
+  StaticModelEntity : "{CAF8666F26CEB7AD}Prefabs/Structures/BuildingParts/Entry/ConcreteStairs_02_Narrow.et" {
+   coords 4.295 4.116 7.609
+   angles 0 178.655 0
+  }
   GenericEntity : "{E83A06A60292FE47}Buildings/ModularGothic/6mDoor.et" {
-   coords 0.077 -1.394 -11.939
+   coords 0.077 -0.803 -11.939
   }
   $grp GenericEntity : "{EEED9A5CF7F06C78}Buildings/ModularGothic/PillarBroken.et" {
    {
-    coords -6.588 0.278 -2.215
+    coords -6.588 0.869 -2.215
    }
    {
-    coords -6.647 5.299 -7.111
+    coords -6.647 5.89 -7.111
     angles 0 -142.3 0
    }
    {
-    coords -6.647 5.299 2.889
+    coords -6.647 5.89 2.889
    }
    {
-    coords -6.647 5.299 7.889
+    coords -6.647 5.89 7.889
     angles 0 -115.8 0
    }
    {
-    coords -6.647 5.299 12.889
+    coords -6.647 5.89 12.889
     angles 0 123.3 0
    }
    {
-    coords 5.353 5.299 12.889
+    coords 5.353 5.89 12.889
     angles 0 -179.7 0
    }
    {
-    coords 5.353 5.299 7.889
+    coords 5.353 5.89 7.889
     angles 0 96.9 0
    }
    {
-    coords 5.353 5.299 2.889
+    coords 5.353 5.89 2.889
     angles 0 -25.8 0
    }
    {
-    coords 5.353 5.299 -7.111
+    coords 5.353 5.89 -7.111
     angles 0 -150.1 0
    }
    {
-    coords 5.353 5.299 -12.111
+    coords 5.353 5.89 -12.111
     angles 0 -63.9 0
    }
    {
-    coords 5.353 -0.201 -2.111
+    coords 5.353 0.39 -2.111
     angles 0 55.7 0
    }
   }
  }
+}
+StaticModelEntity : "{26916E5C118EBDC3}Prefabs/Structures/Airport/ControlTower_01/Dst/ControlTower_01_Ruin_base.et" {
+ coords 1681.401 208.481 773.601
+ angles 0 -28.816 0
+}
+$grp SCR_DestructibleBuildingEntity : "{7F0E9789EB7F1BCF}Prefabs/Structures/Military/Bunkers/AmmoDump_E_01/AmmoDump_E_01_cover.et" {
+ {
+  coords 1701.453 209.622 830.22
+  angles 0 -109.093 0
+ }
+ {
+  coords 1699.02 210.959 837.247
+  angles 0 -118.582 0
+ }
+}
+SCR_DestructibleBuildingEntity : "{84DEA01FFFE606FE}Prefabs/Structures/Military/Bunkers/AirfieldBunker_E_01/AirfieldBunker_E_01_base.et" {
+ coords 1685.643 212.225 835.03
+ angles 0 -26.275 0
 }
