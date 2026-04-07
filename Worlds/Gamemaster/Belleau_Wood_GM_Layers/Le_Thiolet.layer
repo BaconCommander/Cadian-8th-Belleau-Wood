@@ -1,0 +1,165 @@
+$grp GenericEntity : "{5A0992D551419C1C}Prefabs/Structures/ConcreteBunkers/BattlementBunker_Prefab.et" {
+ {
+  components {
+   MeshObject "{68F6DD9ECE8FBD60}" {
+    ClutterOccluder 1
+   }
+  }
+  coords 7252.6 209.396 1537.142
+  angles 0 -103.502 0
+ }
+ {
+  components {
+   MeshObject "{68F6DD9ECE8FBD60}" {
+    ClutterOccluder 1
+   }
+  }
+  coords 6962.542 201.54 1515.73
+  angles 0 104.096 0
+ }
+}
+$grp GenericEntity : "{63DE4420146B569B}PrefabsEditable/Auto/Props/Industrial/CargoContainers/CargoContainer_01/E_CargoContainer_Open_Blu_SKYHOOK.et" {
+ {
+  coords 7006.232 201.344 1508.268
+ }
+ {
+  coords 7002.837 201.479 1493.931
+ }
+}
+$grp GenericEntity : "{733C642B71996E53}Buildings/Promethean/PlasmaGenerator/PowerTower.et" {
+ {
+  coords 7045.725 195.877 1437.352
+ }
+ {
+  coords 7021.656 195.877 1437.352
+ }
+ {
+  coords 7033.878 195.877 1437.352
+ }
+ {
+  coords 7057.937 195.877 1437.352
+ }
+ {
+  coords 7008.897 195.877 1437.352
+ }
+}
+$grp GenericEntity : "{A49BB77E7A9348DB}PrefabsEditable/Auto/Props/Industrial/CargoContainers/CargoContainer_01/E_CargoContainer_Open_MEd_SKYHOOK.et" {
+ {
+  coords 7002.973 201.301 1508.318
+ }
+ {
+  coords 7003.11 201.094 1501.126
+ }
+ {
+  coords 7004.812 204.451 1507.332
+  angles 0 -36.42 0
+ }
+}
+$grp GenericEntity : "{BBF2E444B91CDC05}Buildings/ModularGothic/PillarWhole.et" {
+ {
+  coords 7024.67 201.593 1499.392
+ }
+ {
+  coords 7024.67 201.593 1494.193
+ }
+ {
+  coords 7024.67 198.615 1494.193
+ }
+ {
+  coords 7024.852 198.615 1489.874
+ }
+ {
+  coords 7024.852 201.593 1489.874
+ }
+ {
+  coords 7024.898 198.615 1484.95
+ }
+ {
+  coords 7024.898 201.593 1484.95
+ }
+ {
+  coords 7025.091 198.615 1479.696
+ }
+ {
+  coords 7025.091 201.593 1479.696
+ }
+ {
+  coords 7033.234 198.615 1480.098
+ }
+ {
+  coords 7033.234 201.593 1480.098
+ }
+ {
+  coords 7033.047 198.615 1485.123
+ }
+ {
+  coords 7033.047 201.593 1485.123
+ }
+ {
+  coords 7032.907 198.615 1490.112
+ }
+ {
+  coords 7032.907 201.593 1490.112
+ }
+ {
+  coords 7032.692 198.615 1494.54
+ }
+ {
+  coords 7032.692 201.593 1494.54
+ }
+}
+$grp GenericEntity : "{C396ADE062C42A2C}Buildings/Promethean/Refiner/PrometheumRefiner.et" {
+ {
+  coords 7017.098 203.887 1551.828
+ }
+ {
+  coords 7010.66 203.887 1551.451
+ }
+}
+$grp GenericEntity : "{EEED9A5CF7F06C78}Buildings/ModularGothic/PillarBroken.et" {
+ {
+  coords 7032.382 201.503 1500.187
+ }
+ {
+  coords 7024.658 204.539 1499.387
+ }
+ {
+  coords 7024.658 204.539 1494.207
+  angles 0 45 0
+ }
+ {
+  coords 7024.837 204.539 1489.89
+  angles 0 90 0
+ }
+}
+GenericEntity : "{F35F3CCE81557757}Buildings/ModularGothic/3mWallTech.et" {
+ coords 7025.455 205.422 1538.367
+ angles 0 -88.081 0
+}
+$grp GenericEntity : "{F599E10111B3A82A}PrefabsEditable/Auto/Props/Industrial/CargoContainers/CargoContainer_01/E_CargoContainer_Open_SKYHOOK.et" {
+ {
+  coords 7006.239 201.329 1501.169
+ }
+ {
+  coords 7004.49 204.3 1500.972
+  angles 0 -28.265 0
+ }
+}
+$grp StaticModelEntity : "{FDC92872D165E74A}Prefabs/Trench/Erode_3_Stone.et" {
+ {
+  coords 6968.916 198.373 1511.762
+  angles 0 102.571 0
+ }
+ {
+  coords 6958.409 198.373 1514.105
+  angles 0 -77.429 0
+ }
+ {
+  coords 7245.113 206.229 1537.705
+  angles 0 -105.027 0
+ }
+ {
+  coords 7255.509 206.229 1540.497
+  angles 0 74.973 0
+ }
+}

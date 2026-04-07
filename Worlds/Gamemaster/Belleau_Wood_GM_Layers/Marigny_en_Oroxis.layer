@@ -94,7 +94,7 @@ $grp GenericEntity : "{3608FCE22D6B7767}Prefabs/Terrain/Trenches/Trench_Straight
  }
  {
   coords 1142.68 179.933 3558.8
-  angles -1.79 -0 0.895
+  angles -1.79 0 0.895
  }
  {
   coords 1120.443 180.968 3547.944
@@ -150,7 +150,7 @@ $grp GenericEntity : "{3608FCE22D6B7767}Prefabs/Terrain/Trenches/Trench_Straight
  }
  {
   coords 1147.27 177.888 3675.15
-  angles -0.895 -0 0
+  angles -0.895 0 0
  }
  {
   coords 913.263 178.348 3572.23
@@ -1142,7 +1142,7 @@ $grp StaticModelEntity : "{D3B748962659D281}Prefabs/Trench/Barrier5.et" {
 $grp GenericEntity : "{DB09806FB8861A40}Prefabs/Terrain/Trenches/Trench_Cross_Short.et" {
  {
   coords 1137.76 178.46 3605.28
-  angles -0.895 -0 2.683
+  angles -0.895 0 2.683
  }
  {
   coords 926.934 177.101 3513.92
