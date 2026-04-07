@@ -1,0 +1,58 @@
+GenericEntity : "{25B265F3E7CBDFC8}Prefabs/Props/Wrecks/BMP1_wreck/BMP1_wreck.et" {
+ coords 1119.076 214.163 1772.925
+ angles 0 66.549 0
+}
+StaticModelEntity : "{5088E2D220E37FB5}PrefabLibrary/Crater04.et" {
+ coords 1119.29 213.805 1728.85
+ angles 0 -0 4.467
+}
+$grp StaticModelEntity : "{6DBCC7EA558FF682}PrefabLibrary/Crater03.et" {
+ {
+  coords 1188.51 207.64 1774.97
+  angles -0.895 -0 3.576
+ }
+ {
+  coords 1156.8 210.873 1782.63
+  angles 0.895 -0 5.355
+ }
+}
+GenericEntity : "{733C642B71996E53}Buildings/Promethean/PlasmaGenerator/PowerTower.et" {
+ coords 1037.395 216.919 1787.128
+}
+StaticModelEntity : "{88208B13596A61E9}PrefabLibrary/Crater02.et" {
+ coords 1053.08 0 1828.28
+ angles -0.895 -0 0
+}
+GenericEntity : "{967488E3C13C17EB}Prefabs/Vehicles/WagenWreck.et" {
+ coords 1053.247 217.824 1724.63
+ angles 0 0 0
+}
+GenericEntity : "{97BC8B79BFE292BA}Prefabs/Props/Industrial/CompressorTrailerWreck_01/Dst/CompressorTrailerWreck_01_dst_01.et" {
+ coords 1104.953 215.004 1765.97
+}
+GenericEntity : "{ADE9BC49AAB00D11}Buildings/Promethean/Refiner/FullRefinery.et" {
+ coords 1049.821 215.864 1788.832
+ angles 0 90 0
+}
+$grp GenericEntity : "{BAC84AA2CD50C7A3}PrefabsEditable/Auto/Props/Military/AegisDefenseLine/E_AegisDefenseLineSingle_01_Gray.et" {
+ {
+  coords 1141.543 212.337 1754.34
+  angles 0 67.021 0
+ }
+ {
+  coords 1138.122 212.54 1763.297
+  angles 0 67.021 0
+ }
+ {
+  coords 1124.492 212.654 1836.658
+  angles 0 -105 0
+ }
+ {
+  coords 1126.938 212.795 1827.142
+  angles 0 -113.324 0
+ }
+}
+GenericEntity : "{F6FF03B114D6EF0A}Buildings/Promethean/Furnace/PrometheanFurnace.et" {
+ coords 1033.902 217.062 1773.266
+ angles 0 93.565 0
+}
