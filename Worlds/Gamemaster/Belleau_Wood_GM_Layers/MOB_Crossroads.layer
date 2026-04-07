@@ -294,6 +294,9 @@ GenericEntity BrokenChurch {
   }
  }
 }
+SCR_DestructibleBuildingEntity : "{21E86BA3108E0A9B}PrefabLibrary/CainLibrary/Structures/Military/Bunker_SPS_covered.et" {
+ coords 1410.932 222.391 931.314
+}
 StaticModelEntity : "{26916E5C118EBDC3}Prefabs/Structures/Airport/ControlTower_01/Dst/ControlTower_01_Ruin_base.et" {
  coords 1681.401 208.481 773.601
  angles 0 -28.816 0
