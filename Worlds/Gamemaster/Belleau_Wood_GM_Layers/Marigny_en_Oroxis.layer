@@ -8,6 +8,10 @@ $grp GenericEntity : "{0DF7BC81CAD01845}PrefabsEditable/Auto/Terrain/Trenches/E_
   angles 4.403 85.434 0.431
  }
 }
+GenericEntity : "{187F5139CAD843CC}Prefabs/Structures/CadianGreen/CommandPost.et" {
+ coords 854.475 173.06 3857.392
+ angles 0 -86.137 0
+}
 GenericEntity : "{1C89C55D1DEDB2BF}Buildings/Religious/Podium/Podium.et" {
  coords 915.631 172 3892.206
  angles 0 2.546 0
@@ -710,6 +714,10 @@ $grp StaticModelEntity : "{481D44B7A7E581F0}Prefabs/Walls/Wall_1.et" {
   scale 5
  }
 }
+GenericEntity : "{51114C5E8E823D15}Prefabs/Props/Fabric/Flags/Flag_1_2_IMP_01.et" {
+ coords 866.47 181.184 3848.469
+ angles 0 156.114 0
+}
 $grp GenericEntity : "{51C4AC5C58A27E54}Prefabs/Terrain/Trenches/Trench_90_Short.et" {
  {
   coords 1114 180.826 3528.88
@@ -1145,9 +1153,15 @@ $grp GenericEntity : "{DB09806FB8861A40}Prefabs/Terrain/Trenches/Trench_Cross_Sh
   angles 0 -40.298 0
  }
 }
-GenericEntity : "{F35F3CCE81557757}Buildings/ModularGothic/3mWallTech.et" {
- coords 1026.608 181.012 3631.05
- angles 0 -93.596 0
+$grp GenericEntity : "{F35F3CCE81557757}Buildings/ModularGothic/3mWallTech.et" {
+ {
+  coords 1048.352 179.186 3572.368
+  angles 0 -101.17 0
+ }
+ {
+  coords 1026.458 181.877 3633.582
+  angles 0 -94.015 0
+ }
 }
 $grp GenericEntity : "{F754381A6B4E289D}PrefabsEditable/Auto/Terrain/Trenches/E_Trench_Straight_Short.et" {
  {
