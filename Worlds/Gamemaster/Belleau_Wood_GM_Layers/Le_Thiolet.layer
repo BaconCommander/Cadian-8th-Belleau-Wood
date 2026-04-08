@@ -75,9 +75,6 @@ $grp GenericEntity : "{BBF2E444B91CDC05}Buildings/ModularGothic/PillarWhole.et" 
   coords 7024.898 198.615 1484.95
  }
  {
-  coords 7024.898 201.593 1484.95
- }
- {
   coords 7025.091 198.615 1479.696
  }
  {
@@ -85,9 +82,6 @@ $grp GenericEntity : "{BBF2E444B91CDC05}Buildings/ModularGothic/PillarWhole.et" 
  }
  {
   coords 7033.234 198.615 1480.098
- }
- {
-  coords 7033.234 201.593 1480.098
  }
  {
   coords 7033.047 198.615 1485.123
@@ -130,6 +124,18 @@ $grp GenericEntity : "{EEED9A5CF7F06C78}Buildings/ModularGothic/PillarBroken.et"
  {
   coords 7024.837 204.539 1489.89
   angles 0 90 0
+ }
+ {
+  coords 7032.674 204.539 1494.565
+  angles 0 135 0
+ }
+ {
+  coords 7032.916 204.539 1490.108
+  angles 0 45 0
+ }
+ {
+  coords 7024.876 201.593 1484.941
+  angles 0 180 0
  }
 }
 GenericEntity : "{F35F3CCE81557757}Buildings/ModularGothic/3mWallTech.et" {
