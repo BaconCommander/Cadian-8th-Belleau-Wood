@@ -233,6 +233,110 @@ $grp SCR_DestructibleBuildingEntity : "{47DA19EDF2754DE0}Prefabs/Structures/Cult
   angles 0 45.838 0
  }
 }
+$grp GenericEntity : "{5A0992D551419C1C}Prefabs/Structures/ConcreteBunkers/BattlementBunker_Prefab.et" {
+ {
+  coords 4705.428 160.811 3222.752
+  angles 0 11.773 0
+ }
+ {
+  coords 4885.692 159.707 3372.559
+  angles 0 -67.255 0
+ }
+ {
+  coords 4868.001 186.423 3815.852
+  angles 0 -176.221 0
+ }
+ {
+  coords 4764.241 187.868 3828.104
+  angles 0 -176.221 0
+ }
+ {
+  coords 4328.25 185.076 3575.637
+  angles 0 85.545 0
+ }
+}
+$grp StaticModelEntity : "{5D93DBBACD6ABDE9}Prefabs/Trench/Erode_3_Dirt.et" {
+ {
+  coords 4701.167 157.504 3216.883
+  angles 0 -165.271 0
+ }
+ {
+  coords 4704.351 157.504 3226.906
+  angles 0 14.729 0
+ }
+ {
+  coords 4706.387 157.504 3234.652
+  angles 0 14.729 0
+ }
+ {
+  coords 4703.203 157.504 3224.629
+  angles 0 -165.271 0
+ }
+ {
+  coords 4881.409 156.4 3372.292
+  angles 0 -64.299 0
+ }
+ {
+  coords 4874.192 156.4 3375.765
+  angles 0 -64.299 0
+ }
+ {
+  coords 4883.426 156.4 3370.732
+  angles 0 115.701 0
+ }
+ {
+  coords 4890.643 156.4 3367.258
+  angles 0 115.701 0
+ }
+ {
+  coords 4869.646 183.116 3811.889
+  angles 0 -173.266 0
+ }
+ {
+  coords 4868.707 183.116 3803.934
+  angles 0 -173.266 0
+ }
+ {
+  coords 4870.466 183.116 3814.302
+  angles 0 6.734 0
+ }
+ {
+  coords 4871.405 183.116 3822.257
+  angles 0 6.734 0
+ }
+ {
+  coords 4765.886 184.561 3824.141
+  angles 0 -173.266 0
+ }
+ {
+  coords 4764.947 184.561 3816.186
+  angles 0 -173.266 0
+ }
+ {
+  coords 4766.706 184.561 3826.554
+  angles 0 6.734 0
+ }
+ {
+  coords 4767.645 184.561 3834.509
+  angles 0 6.734 0
+ }
+ {
+  coords 4331.936 181.769 3577.832
+  angles 0 88.501 0
+ }
+ {
+  coords 4339.944 181.769 3578.042
+  angles 0 88.501 0
+ }
+ {
+  coords 4329.431 181.769 3578.298
+  angles 0 -91.499 0
+ }
+ {
+  coords 4321.424 181.769 3578.088
+  angles 0 -91.499 0
+ }
+}
 $grp SCR_DestructibleBuildingEntity : "{92F8DAE5E56CA22E}Prefabs/Structures/Cultural/Castles/Castle_01_OuterWall_01.et" {
  {
   coords 4606.73 5.425 3631.473
@@ -326,4 +430,8 @@ $grp SCR_DestructibleBuildingEntity : "{92F8DAE5E56CA22E}Prefabs/Structures/Cult
 SCR_DestructibleBuildingEntity : "{DECF116069DCCC2B}Prefabs/Structures/Cultural/Castles/Castle_01_Tower.et" {
  coords 4515.295 -2.993 3631.045
  angles 0 96.553 0
+}
+SCR_DestructibleBuildingEntity : "{EF16F8B955B3CCC0}Prefabs/Structures/Ruins/Church_Ruin_01/Church_Ruin_01.et" {
+ coords 4558.358 -0.783 3395.546
+ angles 0 -45.285 0
 }
