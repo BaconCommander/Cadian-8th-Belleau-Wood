@@ -408,6 +408,11 @@ StaticModelEntity : "{0D27EB8D104D0506}Prefabs/Trench/LogBunker1.et" {
  coords 691.743 199.514 484.115
  angles 0 -110.865 0
 }
+SCR_IndestructibleEnvironmentalEntity : "{0D98C34E6FA16D53}PrefabsEditable/Auto/Rocks/Granite/E_GraniteRock_01.et" {
+ coords 860.365 220.772 1173.181
+ angles 0 27.918 0
+ scale 5
+}
 $grp GenericEntity : "{0DF7BC81CAD01845}PrefabsEditable/Auto/Terrain/Trenches/E_Trench_Straight_Long.et" {
  {
   coords 641.531 199 557.404
@@ -567,6 +572,43 @@ GenericEntity : "{21B4CFCFAE632E30}PrefabsEditable/Auto/Props/Wrecks/E_T62_wreck
 GenericEntity : "{2283BF92B64851D0}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Tent_Barracks_USSR_01.et" {
  coords 657.785 199.107 484.288
  angles 0 -19.407 0
+}
+$grp SCR_DestructibleBuildingEntity : "{23764D9776ABBFC4}Prefabs/Structures/Military/Fortifications/Bunker_SPS/Bunker_SPS_covered.et" {
+ {
+  coords 841.659 204.585 578.342
+  angles 0 75.305 0
+  scale 1.1
+ }
+ {
+  coords 810.198 204.585 650.421
+  angles 0 51.055 0
+  scale 1.1
+ }
+ {
+  coords 791.393 206.716 700.582
+  angles 0 93.057 0
+  scale 1.1
+ }
+ {
+  coords 775.003 206.716 775.668
+  angles 0 52.311 0
+  scale 1.1
+ }
+ {
+  coords 856.931 202.123 448.001
+  angles 0 92.891 0
+  scale 1.1
+ }
+ {
+  coords 891.698 205.411 357.676
+  angles 0 61.431 0
+  scale 1.1
+ }
+ {
+  coords 913.189 202.117 270.338
+  angles 0 104.158 0
+  scale 1.1
+ }
 }
 GenericEntity : "{25A50558A5B65EDC}Prefabs/Props/Industrial/CrawlerCraneWreck_01/CrawlerCraneWreck_01_cabin_base.et" {
  coords 742.785 198.105 542.352
@@ -1242,6 +1284,10 @@ $grp StaticModelEntity : "{5D93DBBACD6ABDE9}Prefabs/Trench/Erode_3_Dirt.et" {
   coords 725.273 202.21 744.167
   angles 1.73 77.18 -7.715
  }
+}
+SCR_IndestructibleEnvironmentalEntity : "{61CCF7AED365E27D}PrefabsEditable/Auto/Rocks/Granite/E_GraniteRock_02.et" {
+ coords 892.13 214.046 1136.954
+ scale 4
 }
 $grp GenericEntity : "{68294E69921FBA21}PrefabsEditable/Auto/Terrain/Trenches/E_Trench_Cross_Short.et" {
  {
@@ -2352,40 +2398,6 @@ SCR_IndestructibleEnvironmentalEntity : "{BBDBFDFAD5276562}PrefabsEditable/Auto/
 StaticModelEntity : "{C30DA965B46BB912}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Tent_Barrack_Camo_Cluttered_USSR_02.et" {
  coords 687.255 199.279 406.235
  angles 0 128.949 0
-}
-$grp SCR_DestructibleBuildingEntity : "{C3A427E5AD7B1D98}Prefabs/Structures/Military/Fortifications/Bunker_SPS/Bunker_SPS_base.et" {
- {
-  coords 795.423 203.224 651.077
-  angles 0 65.134 0
- }
- {
-  coords 785.353 205.784 694.262
-  angles 0 91.037 0
- }
- {
-  coords 836.834 203.954 581.374
-  angles 0 68.284 0
- }
- {
-  coords 866.768 202.143 441.601
-  angles 0 84.037 0
- }
- {
-  coords 894.353 202.143 368.072
-  angles 0 84.037 0
- }
- {
-  coords 894.353 204.473 368.072
-  angles 0 66.239 0
- }
- {
-  coords 783.46 205.912 768.208
-  angles 0 60.381 0
- }
- {
-  coords 751.587 206.13 837.48
-  angles 0 86.745 0
- }
 }
 $grp StaticModelEntity : "{C58B360670444FC1}Prefabs/Trench/Barrier8.et" {
  {
