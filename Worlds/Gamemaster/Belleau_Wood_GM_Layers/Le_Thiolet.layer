@@ -1,3 +1,17 @@
+SCR_DestructibleBuildingEntity : "{034A45B0D41025B9}Prefabs/Structures/Cultural/Castles/Castle_01_OuterWall_01_Corner.et" {
+ coords 7092.79 7.082 1474.917
+ angles 0 -173.691 0
+}
+$grp SCR_DestructibleBuildingEntity : "{4149B317B5990FCC}PrefabsEditable/Auto/Structures/Cultural/Castles/E_Castle_01_Bridge.et" {
+ {
+  coords 6993.45 11.922 1521.316
+  angles 9.241 19.295 0.394
+ }
+ {
+  coords 7157.434 10.043 1537.213
+  angles 12.731 -20.254 -0.992
+ }
+}
 $grp GenericEntity : "{5A0992D551419C1C}Prefabs/Structures/ConcreteBunkers/BattlementBunker_Prefab.et" {
  {
   components {
@@ -26,6 +40,88 @@ $grp GenericEntity : "{63DE4420146B569B}PrefabsEditable/Auto/Props/Industrial/Ca
   coords 7002.837 201.479 1493.931
  }
 }
+$grp StaticModelEntity : "{7022F1A36DC9510C}Prefabs/Structures/BuildingParts/Entry/ConcreteStairs_02_SideSquareWide.et" {
+ {
+  coords 6991.741 207.157 1508.96
+  angles -0.006 -163.993 0.025
+ }
+ {
+  coords 6991.743 203.558 1508.96
+  angles -0.006 -163.993 0.025
+ }
+ {
+  coords 6990.719 203.558 1505.391
+  angles -0.006 -163.993 0.025
+ }
+ {
+  coords 6990.717 207.157 1505.391
+  angles -0.006 -163.993 0.025
+ }
+ {
+  coords 6989.687 203.558 1501.793
+  angles -0.006 -163.993 0.025
+ }
+ {
+  coords 7054.124 207.157 1517.786
+  angles -0.006 -163.993 0.025
+ }
+ {
+  coords 7054.126 203.558 1517.786
+  angles -0.006 -163.993 0.025
+ }
+ {
+  coords 7053.102 203.558 1514.217
+  angles -0.006 -163.993 0.025
+ }
+ {
+  coords 7053.1 207.157 1514.217
+  angles -0.006 -163.993 0.025
+ }
+ {
+  coords 7052.07 203.558 1510.619
+  angles -0.006 -163.993 0.025
+ }
+ {
+  coords 7142.958 216.027 1556.355
+  angles -0.006 -39.698 0.025
+ }
+ {
+  coords 7142.957 212.428 1556.354
+  angles -0.006 -39.698 0.025
+ }
+ {
+  coords 7140.586 212.428 1559.211
+  angles -0.006 -39.698 0.025
+ }
+ {
+  coords 7140.587 216.027 1559.212
+  angles -0.006 -39.698 0.025
+ }
+ {
+  coords 7138.195 212.428 1562.09
+  angles -0.006 -39.698 0.025
+ }
+ {
+  coords 7082.992 210.52 1445.342
+  angles -0.006 11.288 0.025
+ }
+ {
+  coords 7082.991 206.921 1445.343
+  angles -0.006 11.288 0.025
+ }
+ {
+  coords 7083.719 206.921 1448.984
+  angles -0.006 11.288 0.025
+ }
+ {
+  coords 7083.72 210.52 1448.984
+  angles -0.006 11.288 0.025
+ }
+ {
+  coords 7084.45 206.921 1452.653
+  angles -0.006 11.288 0.025
+ }
+}
 $grp GenericEntity : "{733C642B71996E53}Buildings/Promethean/PlasmaGenerator/PowerTower.et" {
  {
   coords 7045.725 195.877 1437.352
@@ -43,6 +139,124 @@ $grp GenericEntity : "{733C642B71996E53}Buildings/Promethean/PlasmaGenerator/Pow
   coords 7008.897 195.877 1437.352
  }
 }
+$grp SCR_DestructibleBuildingEntity : "{92F8DAE5E56CA22E}Prefabs/Structures/Cultural/Castles/Castle_01_OuterWall_01.et" {
+ {
+  coords 6988.424 5.357 1513.937
+  angles 0 104.785 0
+ }
+ {
+  coords 6983.188 5.357 1494.266
+  angles 0 96.516 0
+ }
+ {
+  coords 6980.816 5.356 1473.497
+  angles 0 96.516 0
+ }
+ {
+  coords 6978.225 5.357 1452.923
+  angles 0 63.402 0
+ }
+ {
+  coords 6987.459 5.357 1434.481
+  angles 0 63.402 0
+ }
+ {
+  coords 6996.684 8.045 1416.058
+  angles 0 63.402 0
+ }
+ {
+  coords 7005.571 5.357 1397.64
+  angles 0 1.719 0
+ }
+ {
+  coords 7026.416 5.357 1397.014
+  angles 0 1.719 0
+ }
+ {
+  coords 7047.21 5.357 1396.39
+  angles 0 1.719 0
+ }
+ {
+  coords 7067.874 5.357 1395.77
+  angles 0 -53.304 0
+ }
+ {
+  coords 7080.297 5.357 1412.439
+  angles 0 -77.744 0
+ }
+ {
+  coords 7084.705 5.356 1432.732
+  angles 0 -77.744 0
+ }
+ {
+  coords 7088.785 5.357 1451.511
+  angles 0 -77.744 0
+ }
+ {
+  coords 7092.196 7.179 1471.305
+  angles 0 5.489 0
+ }
+ {
+  coords 7112.804 5.357 1469.325
+  angles 0 2.808 0
+ }
+ {
+  coords 7133.753 5.357 1468.297
+  angles 0 2.808 0
+ }
+ {
+  coords 7155.387 5.356 1467.235
+  angles 0 -82.412 0
+ }
+ {
+  coords 7158.149 5.357 1487.969
+  angles 0 -82.412 0
+ }
+ {
+  coords 7160.924 5.357 1508.795
+  angles 0 -82.412 0
+ }
+ {
+  coords 7156.043 5.356 1546.415
+  angles 0 -127.547 0
+ }
+ {
+  coords 7143.477 5.357 1562.764
+  angles 0 -127.547 0
+ }
+ {
+  coords 7130.915 5.357 1579.108
+  angles 0 -174.004 0
+ }
+ {
+  coords 7110.21 5.357 1581.283
+  angles 0 177.619 0
+ }
+ {
+  coords 7089.238 5.357 1580.411
+  angles 0 177.619 0
+ }
+ {
+  coords 7068.164 5.357 1579.535
+  angles 0 166.721 0
+ }
+ {
+  coords 7047.888 5.357 1574.75
+  angles 0 166.721 0
+ }
+ {
+  coords 7028.225 5.357 1570.063
+  angles 0 -179.223 0
+ }
+ {
+  coords 7006.829 5.357 1570.353
+  angles 0 107.504 0
+ }
+ {
+  coords 7000.465 5.357 1550.173
+  angles 0 107.504 0
+ }
+}
 $grp GenericEntity : "{A49BB77E7A9348DB}PrefabsEditable/Auto/Props/Industrial/CargoContainers/CargoContainer_01/E_CargoContainer_Open_MEd_SKYHOOK.et" {
  {
   coords 7002.973 201.301 1508.318
@@ -53,6 +267,40 @@ $grp GenericEntity : "{A49BB77E7A9348DB}PrefabsEditable/Auto/Props/Industrial/Ca
  {
   coords 7004.812 204.451 1507.332
   angles 0 -36.42 0
+ }
+}
+$grp StaticModelEntity : "{B08DF585ECD2CF4D}Prefabs/Structures/BuildingParts/Entry/ConcreteStairs_02_SideSquareNarrow.et" {
+ {
+  coords 6991.321 207.086 1510.938
+  angles 0 -75 0
+ }
+ {
+  coords 6991.321 203.428 1510.938
+  angles 0 -75 0
+ }
+ {
+  coords 7053.704 207.086 1519.764
+  angles 0 -75 0
+ }
+ {
+  coords 7053.704 203.428 1519.764
+  angles 0 -75 0
+ }
+ {
+  coords 7144.829 215.956 1555.588
+  angles 0 49.295 0
+ }
+ {
+  coords 7144.829 212.298 1555.588
+  angles 0 49.295 0
+ }
+ {
+  coords 7083.575 210.449 1443.406
+  angles 0 100.281 0
+ }
+ {
+  coords 7083.575 206.791 1443.406
+  angles 0 100.281 0
  }
 }
 $grp GenericEntity : "{BBF2E444B91CDC05}Buildings/ModularGothic/PillarWhole.et" {
@@ -108,6 +356,136 @@ $grp GenericEntity : "{C396ADE062C42A2C}Buildings/Promethean/Refiner/PrometheumR
  }
  {
   coords 7010.66 203.887 1551.451
+ }
+}
+$grp StaticModelEntity : "{CAF8666F26CEB7AD}Prefabs/Structures/BuildingParts/Entry/ConcreteStairs_02_Narrow.et" {
+ {
+  coords 6980.467 211.154 1454.611
+  angles 0 7.231 0
+ }
+ {
+  coords 6982.609 211.154 1473.048
+  angles 0 -172.769 0
+ }
+ {
+  coords 6984.762 212.589 1492.12
+  angles 0 -172.769 0
+ }
+ {
+  coords 6988.785 213.358 1435.961
+  angles 0 -27.624 0
+ }
+ {
+  coords 6997.714 214.805 1417.925
+  angles 0 -27.624 0
+ }
+ {
+  coords 7006.122 216.226 1401.309
+  angles 0 -26.962 0
+ }
+ {
+  coords 7048.02 216.226 1398.189
+  angles 0 93.177 0
+ }
+ {
+  coords 7078.118 216.59 1412.497
+  angles 0 -142.691 0
+ }
+ {
+  coords 7091.16 217.743 1471.013
+  angles 0 -167.863 0
+ }
+ {
+  coords 7113.994 217.743 1471.114
+  angles 0 95.172 0
+ }
+ {
+  coords 7159.082 217.082 1508.659
+  angles 0 -174.35 0
+ }
+ {
+  coords 7089.123 221.782 1578.587
+  angles 0 -93.12 0
+ }
+ {
+  coords 7068.05 220.693 1577.581
+  angles 0 -102.672 0
+ }
+ {
+  coords 7047.702 219.046 1572.867
+  angles 0 -103.006 0
+ }
+ {
+  coords 7026.478 217.329 1568.356
+  angles 0 -90.429 0
+ }
+ {
+  coords 7001.924 216.827 1548.6
+  angles 0 -162.055 0
+ }
+ {
+  coords 6990.999 212.402 1509.2
+  angles 0 -163.794 0
+ }
+ {
+  coords 6989.509 208.98 1504.074
+  angles 0 -163.794 0
+ }
+ {
+  coords 6988.085 205.54 1499.175
+  angles 0 -163.794 0
+ }
+ {
+  coords 6986.688 202.291 1494.371
+  angles 0 -163.794 0
+ }
+ {
+  coords 7051.892 208.98 1512.9
+  angles 0 -163.794 0
+ }
+ {
+  coords 7050.468 205.54 1508.001
+  angles 0 -163.794 0
+ }
+ {
+  coords 7049.071 202.291 1503.197
+  angles 0 -163.794 0
+ }
+ {
+  coords 7053.382 212.402 1518.026
+  angles 0 -163.794 0
+ }
+ {
+  coords 7140.18 217.85 1560.952
+  angles 0 -39.499 0
+ }
+ {
+  coords 7136.934 214.41 1564.889
+  angles 0 -39.499 0
+ }
+ {
+  coords 7133.752 211.161 1568.75
+  angles 0 -39.499 0
+ }
+ {
+  coords 7143.575 221.272 1556.833
+  angles 0 -39.499 0
+ }
+ {
+  coords 7084.816 212.343 1450.395
+  angles 0 11.488 0
+ }
+ {
+  coords 7085.832 208.903 1455.395
+  angles 0 11.488 0
+ }
+ {
+  coords 7086.829 205.654 1460.298
+  angles 0 11.488 0
+ }
+ {
+  coords 7083.753 215.765 1445.164
+  angles 0 11.488 0
  }
 }
 $grp GenericEntity : "{EEED9A5CF7F06C78}Buildings/ModularGothic/PillarBroken.et" {
