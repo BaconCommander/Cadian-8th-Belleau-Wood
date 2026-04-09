@@ -251,8 +251,8 @@ $grp SCR_DestructibleBuildingEntity : "{8A8A7A558772D718}Prefabs/Structures/Mili
   angles -2.766 111.923 0
  }
  {
-  coords 2826.305 205.803 1041.063
-  angles -2.385 108.112 0
+  coords 2826.306 205.891 1041.063
+  angles -1.188 108.112 0
  }
  {
   coords 2857.665 204.781 1029.057
