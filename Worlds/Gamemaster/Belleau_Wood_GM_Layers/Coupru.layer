@@ -1,0 +1,987 @@
+GenericEntity : "{1C89C55D1DEDB2BF}Buildings/Religious/Podium/Podium.et" {
+ coords 4118.449 166.557 683.109
+ angles 0 -5.131 0
+ scale 0.1
+}
+$grp GenericEntity : "{1FB2F0AEA420C1FB}Prefabs/Terrain/Trenches/Trench_90_Long.et" {
+ {
+  coords 3935.73 179.092 832.503
+  angles 1.861 -144.627 -4.159
+ }
+ {
+  coords 3966.81 177.131 814.57
+  angles -1.35 131.037 -1.175
+ }
+ {
+  coords 4032.38 176.592 883.091
+  angles 4.42 -88.542 1.897
+ }
+ {
+  coords 4008.24 177.986 857.08
+  angles 0.074 -99.024 1.048
+ }
+ {
+  coords 4272.26 168.659 1006.36
+  angles 0.014 44.691 2.53
+ }
+ {
+  coords 4244.49 172.232 1028.88
+  angles 6.957 -40.254 -0.054
+ }
+ {
+  coords 4169.06 172.034 971.444
+  angles -4.903 98.846 8.208
+ }
+ {
+  coords 4197.09 172.971 993.238
+  angles -5.114 87.805 6.415
+ }
+}
+$grp GenericEntity : "{3608FCE22D6B7767}Prefabs/Terrain/Trenches/Trench_Straight_Short.et" {
+ {
+  coords 3951.12 177.725 816.321
+  angles 1.79 -0 1.789
+ }
+ {
+  coords 3956.9 177.52 823.554
+  angles 2.683 -91.321 -0.062
+ }
+ {
+  coords 3993.441 177.612 831.262
+  angles 2.054 -42.976 -4.35
+ }
+ {
+  coords 4076.92 176.342 921.903
+  angles -2.004 -127.44 -2.324
+ }
+ {
+  coords 4076.66 176.404 914.847
+  angles -1.34 -49.825 0.472
+ }
+ {
+  coords 4036.18 176.222 908.099
+  angles 0.077 -94.616 -3.773
+ }
+ {
+  coords 4036.81 176.309 903.488
+  angles 3.503 -99.335 -2.028
+ }
+ {
+  coords 4038.9 176.388 896.787
+  angles 2.149 -111.256 -2.957
+ }
+ {
+  coords 4030.31 176.54 912.511
+  angles 0.141 170.246 -6.557
+ }
+ {
+  coords 4045.3 176.438 875.554
+  angles -1.149 -104.666 4.147
+ }
+ {
+  coords 4002.884 177.802 842.066
+  angles -3.064 133.645 -0.959
+ }
+ {
+  coords 4013.01 177.766 848.907
+  angles -3.4 139.148 -2.288
+ }
+ {
+  coords 4026.92 177.126 858.458
+  angles -0.049 170.021 -5.429
+ }
+ {
+  coords 4019.43 177.808 854.424
+  angles -0.085 138.334 -0.9
+ }
+ {
+  coords 3998.279 177.911 837.131
+  angles -3.064 133.645 -0.959
+ }
+ {
+  coords 3967.66 177.079 846.193
+  angles 2.471 -67.006 1.048
+ }
+ {
+  coords 4045.16 176.446 882.535
+  angles -3.243 -71.257 2.829
+ }
+ {
+  coords 4259.65 170.709 1024.73
+  angles -3.681 -170.611 -5.122
+ }
+ {
+  coords 4252.79 170.77 1018.51
+  angles -5.738 96.79 2.904
+ }
+ {
+  coords 4215.74 173.654 1016.43
+  angles -6.923 145.926 -0.693
+ }
+ {
+  coords 4119.08 173.537 940.023
+  angles -7.178 61.524 -0.159
+ }
+ {
+  coords 4120.49 173.319 946.915
+  angles -1.664 141.435 -7.781
+ }
+ {
+  coords 4161.23 169.133 947.466
+  angles -13.269 93.377 0.97
+ }
+ {
+  coords 4161.37 169.528 952.086
+  angles -7.428 84.561 15.477
+ }
+ {
+  coords 4160.42 170.849 958.982
+  angles -3.256 75.982 9.028
+ }
+ {
+  coords 4166.3 168.694 942.21
+  angles 1.79 -0.332 -0.01
+ }
+ {
+  coords 4157.6 173.858 980.819
+  angles -1.854 82.586 6.529
+ }
+ {
+  coords 4204.76 173.805 1007.21
+  angles 6.785 -37.332 1.545
+ }
+ {
+  coords 4193.72 174.203 1002.02
+  angles 7.443 -32.42 -1.559
+ }
+ {
+  coords 4178.47 174.424 994.787
+  angles 6.251 -0.116 4.428
+ }
+ {
+  coords 4186.54 174.207 997.555
+  angles 6.688 -33.016 -1.154
+ }
+ {
+  coords 4210.08 173.684 1011.36
+  angles 6.953 -37.607 0.266
+ }
+ {
+  coords 4238.52 170.306 997.917
+  angles -4.913 121.556 1.173
+ }
+ {
+  coords 4156.61 173.088 973.933
+  angles -5.498 115.583 5.261
+ }
+}
+$grp StaticModelEntity : "{481D44B7A7E581F0}Prefabs/Walls/Wall_1.et" {
+ {
+  coords 3946.304 180.329 789.488
+  angles 0 -33.095 0
+  scale 5
+ }
+ {
+  coords 3964.255 180.45 801.188
+  angles 0 -33.095 0
+  scale 5
+ }
+ {
+  coords 4000.134 180.836 824.573
+  angles 0 -33.095 0
+  scale 5
+ }
+ {
+  coords 3982.183 180.286 812.872
+  angles 0 -33.095 0
+  scale 5
+ }
+ {
+  coords 4035.947 179.988 847.915
+  angles 0 -33.095 0
+  scale 5
+ }
+ {
+  coords 4071.826 179.998 871.3
+  angles 0 -33.095 0
+  scale 5
+ }
+ {
+  coords 4053.875 179.981 859.599
+  angles 0 -33.095 0
+  scale 5
+ }
+ {
+  coords 4017.996 180.925 836.215
+  angles 0 -33.095 0
+  scale 5
+ }
+ {
+  coords 4108.104 178.567 891.453
+  angles 0 -25.249 0
+  scale 5
+ }
+ {
+  coords 4146.84 173.219 909.721
+  angles 0 -25.249 0
+  scale 5
+ }
+ {
+  coords 4127.459 176.138 900.58
+  angles 0 -25.249 0
+  scale 5
+ }
+ {
+  coords 4185.504 169.732 927.956
+  angles 0 -25.249 0
+  scale 5
+ }
+ {
+  coords 4224.239 171.37 946.224
+  angles 0 -25.249 0
+  scale 5
+ }
+ {
+  coords 4204.859 170.463 937.083
+  angles 0 -25.249 0
+  scale 5
+ }
+ {
+  coords 4166.124 171.078 918.816
+  angles 0 -25.249 0
+  scale 5
+ }
+ {
+  coords 4088.724 179.471 882.313
+  angles 0 -25.249 0
+  scale 5
+ }
+ {
+  coords 4242.704 171.37 954.932
+  angles 0 17.951 0
+  scale 5
+ }
+ {
+  coords 4261.648 171.37 948.795
+  angles 0 -75.102 0
+  scale 5
+ }
+ {
+  coords 4266.837 171.37 968.3
+  angles 0 -75.102 0
+  scale 5
+ }
+ {
+  coords 4300.037 171.284 982.946
+  angles 0 8.043 0
+  scale 5
+ }
+ {
+  coords 4320.711 171.233 980.025
+  angles 0 8.043 0
+  scale 5
+ }
+ {
+  coords 4341.566 171.968 977.078
+  angles 0 3.583 0
+  scale 5
+ }
+ {
+  coords 4362.286 172.416 975.781
+  angles 0 9.661 0
+  scale 5
+ }
+ {
+  coords 4383.183 173.37 972.224
+  angles 0 8.221 0
+  scale 5
+ }
+ {
+  coords 4403.971 174.29 969.221
+  angles 0 8.221 0
+  scale 5
+ }
+ {
+  coords 4424.457 175.077 966.261
+  angles 0 6.32 0
+  scale 5
+ }
+ {
+  coords 4445.185 175.16 963.965
+  angles 0 6.32 0
+  scale 5
+ }
+ {
+  coords 4465.951 175.756 961.665
+  angles 0 6.32 0
+  scale 5
+ }
+ {
+  coords 4486.283 177.07 959.413
+  angles 0 6.32 0
+  scale 5
+ }
+ {
+  coords 4507.177 178.905 957.099
+  angles 0 6.32 0
+  scale 5
+ }
+ {
+  coords 4526.985 180.378 954.905
+  angles 0 6.32 0
+  scale 5
+ }
+ {
+  coords 4547.538 181.818 952.629
+  angles 0 6.32 0
+  scale 5
+ }
+ {
+  coords 4567.903 182.874 950.374
+  angles 0 6.32 0
+  scale 5
+ }
+ {
+  coords 4588.702 182.942 948.07
+  angles 0 95.378 0
+  scale 5
+ }
+ {
+  coords 4586.698 183.036 926.779
+  angles 0 95.378 0
+  scale 5
+ }
+ {
+  coords 4584.829 182.946 906.919
+  angles 0 95.378 0
+  scale 5
+ }
+ {
+  coords 4582.842 182.553 885.814
+  angles 0 95.378 0
+  scale 5
+ }
+ {
+  coords 4580.924 181.846 865.444
+  angles 0 95.378 0
+  scale 5
+ }
+ {
+  coords 4578.969 180.54 844.678
+  angles 0 95.378 0
+  scale 5
+ }
+ {
+  coords 4576.994 179.665 823.696
+  angles 0 95.378 0
+  scale 5
+ }
+ {
+  coords 4575.069 179.502 803.244
+  angles 0 95.378 0
+  scale 5
+ }
+ {
+  coords 4573.161 179.52 782.982
+  angles 0 95.378 0
+  scale 5
+ }
+ {
+  coords 4571.244 179.836 762.613
+  angles 0 95.378 0
+  scale 5
+ }
+ {
+  coords 4569.271 179.903 741.66
+  angles 0 95.378 0
+  scale 5
+ }
+ {
+  coords 4567.37 179.588 721.47
+  angles 0 95.378 0
+  scale 5
+ }
+ {
+  coords 4565.458 179.674 701.163
+  angles 0 95.378 0
+  scale 5
+ }
+ {
+  coords 4563.516 178.274 680.536
+  angles 0 95.378 0
+  scale 5
+ }
+ {
+  coords 4561.54 177.929 659.548
+  angles 0 95.378 0
+  scale 5
+ }
+ {
+  coords 4559.653 177.711 639.505
+  angles 0 95.378 0
+  scale 5
+ }
+ {
+  coords 4557.739 177.619 619.172
+  angles 0 95.378 0
+  scale 5
+ }
+ {
+  coords 4555.724 177.812 597.771
+  angles 0 95.378 0
+  scale 5
+ }
+ {
+  coords 4551.44 177.812 552.27
+  angles 0 102.213 0
+  scale 5
+ }
+ {
+  coords 4547.004 177.812 531.778
+  angles 0 102.213 0
+  scale 5
+ }
+ {
+  coords 4542.588 177.812 511.378
+  angles 0 102.213 0
+  scale 5
+ }
+ {
+  coords 4538.222 178.153 491.209
+  angles 0 -177.686 0
+  scale 5
+ }
+ {
+  coords 4517.318 175.739 492.054
+  angles 0 -177.686 0
+  scale 5
+ }
+ {
+  coords 4495.415 173.566 492.939
+  angles 0 -177.686 0
+  scale 5
+ }
+ {
+  coords 4474.048 172.451 493.803
+  angles 0 -177.686 0
+  scale 5
+ }
+ {
+  coords 4452.615 171.232 494.669
+  angles 0 -177.686 0
+  scale 5
+ }
+ {
+  coords 4430.929 169.262 495.546
+  angles 0 -177.686 0
+  scale 5
+ }
+ {
+  coords 4409.515 168.107 496.411
+  angles 0 -177.686 0
+  scale 5
+ }
+ {
+  coords 4388.063 167.278 497.278
+  angles 0 -177.686 0
+  scale 5
+ }
+ {
+  coords 4366.855 166.246 498.135
+  angles 0 -177.686 0
+  scale 5
+ }
+ {
+  coords 4345.59 164.825 498.994
+  angles 0 -177.686 0
+  scale 5
+ }
+ {
+  coords 4324.683 162.429 499.839
+  angles 0 -177.686 0
+  scale 5
+ }
+ {
+  coords 4303.352 160.135 500.701
+  angles 0 -177.686 0
+  scale 5
+ }
+ {
+  coords 4282.008 158.767 501.564
+  angles 0 -177.686 0
+  scale 5
+ }
+ {
+  coords 4260.518 157.605 502.433
+  angles 0 -177.686 0
+  scale 5
+ }
+ {
+  coords 4238.69 156.237 503.315
+  angles 0 -177.686 0
+  scale 5
+ }
+ {
+  coords 4217.146 156.276 504.186
+  angles 0 102.526 0
+  scale 5
+ }
+ {
+  coords 4212.619 156.951 483.809
+  angles 0 102.526 0
+  scale 5
+ }
+ {
+  coords 4208.039 158.308 463.191
+  angles 0 102.526 0
+  scale 5
+ }
+ {
+  coords 4203.463 159.965 442.595
+  angles 0 102.526 0
+  scale 5
+ }
+ {
+  coords 4198.871 161.128 421.926
+  angles 0 102.526 0
+  scale 5
+ }
+ {
+  coords 4194.447 160.781 402.014
+  angles 0 -177.503 0
+  scale 5
+ }
+ {
+  coords 4176.127 162.384 402.812
+  angles 0 -177.503 0
+  scale 5
+ }
+ {
+  coords 4134.867 166.554 404.611
+  angles 0 -111.454 0
+  scale 5
+ }
+ {
+  coords 4127.611 168.171 423.076
+  angles 0 -114.959 0
+  scale 5
+ }
+ {
+  coords 4118.884 170.067 441.826
+  angles 0 -128.572 0
+  scale 5
+ }
+ {
+  coords 4106.024 171.992 457.952
+  angles 0 -138.555 0
+  scale 5
+ }
+ {
+  coords 4090.63 173.12 471.532
+  angles 0 -140.552 0
+  scale 5
+ }
+ {
+  coords 4073.992 172.986 485.222
+  angles 0 -140.552 0
+  scale 5
+ }
+ {
+  coords 4057.379 173.45 498.891
+  angles 0 -137.572 0
+  scale 5
+ }
+ {
+  coords 4042.156 174.456 512.805
+  angles 0 -137.572 0
+  scale 5
+ }
+ {
+  coords 4028.763 175.236 525.047
+  angles 0 -137.572 0
+  scale 5
+ }
+ {
+  coords 4013.125 175.236 539.341
+  angles 0 -137.572 0
+  scale 5
+ }
+ {
+  coords 3998.431 175.236 552.772
+  angles 0 -114.507 0
+  scale 5
+ }
+ {
+  coords 3989.994 175.42 571.28
+  angles 0 -114.507 0
+  scale 5
+ }
+ {
+  coords 3981.692 175.839 589.492
+  angles 0 -114.507 0
+  scale 5
+ }
+ {
+  coords 3973.337 176.899 607.82
+  angles 0 -114.507 0
+  scale 5
+ }
+ {
+  coords 3965.172 178.297 625.731
+  angles 0 -114.507 0
+  scale 5
+ }
+ {
+  coords 3956.755 179.417 644.194
+  angles 0 -114.507 0
+  scale 5
+ }
+ {
+  coords 3948.758 179.943 661.736
+  angles 0 -114.507 0
+  scale 5
+ }
+ {
+  coords 3940.196 180.414 680.517
+  angles 0 -114.507 0
+  scale 5
+ }
+ {
+  coords 3931.704 180.838 699.145
+  angles 0 -114.507 0
+  scale 5
+ }
+ {
+  coords 3923.273 181.269 717.639
+  angles 0 -114.507 0
+  scale 5
+ }
+ {
+  coords 3914.472 181.886 736.945
+  angles 0 -114.507 0
+  scale 5
+ }
+ {
+  coords 3906.187 182.147 755.119
+  angles 0 -43.386 0
+  scale 5
+ }
+}
+$grp GenericEntity : "{51C4AC5C58A27E54}Prefabs/Terrain/Trenches/Trench_90_Short.et" {
+ {
+  coords 3945.12 178.239 823.906
+  angles 1.772 0.286 3.583
+ }
+ {
+  coords 4085.59 175.751 940.068
+  angles -0.225 -89.869 9.373
+ }
+ {
+  coords 4083.18 176.27 930.187
+  angles 0.625 108.996 -1.276
+ }
+ {
+  coords 4074.01 176.427 932.663
+  angles -1.816 -79.147 0.899
+ }
+ {
+  coords 4075.88 176.521 901.022
+  angles 1.498 -35.5 -1.954
+ }
+ {
+  coords 3991.15 176.88 891.551
+  angles -2.266 -101.685 2.294
+ }
+ {
+  coords 4080.55 176.242 894.445
+  angles -6.026 148.633 2.839
+ }
+ {
+  coords 3974.539 176.805 855.355
+  angles 0 56.696 0
+ }
+ {
+  coords 4264.36 169.409 1016.31
+  angles -3.08 -170.4 -3.237
+ }
+ {
+  coords 4120.2 173.191 928.996
+  angles -3.052 110.105 -2.068
+ }
+ {
+  coords 4123.51 173.791 960.379
+  angles -3.591 153.812 -1.222
+ }
+ {
+  coords 4208.12 168.299 956.881
+  angles -0.502 85.826 5.406
+ }
+ {
+  coords 4119.97 174.262 967.579
+  angles 3.163 -22.473 0.627
+ }
+ {
+  coords 4230.26 170.236 989.974
+  angles 0.534 -115.093 -5.178
+ }
+}
+GenericEntity : "{5ACE15347EC7FB65}Prefabs/Structures/CadianGreen/ArtilleryPlatform.et" {
+ coords 4102.797 174.455 936.444
+ angles 0 63.502 0
+}
+$grp GenericEntity : "{6675E8586EBB29B2}Prefabs/Terrain/Trenches/Trench_Straight_Long.et" {
+ {
+  coords 3937.26 178.161 811.114
+  angles 4.273 -36.132 1.305
+ }
+ {
+  coords 3961.45 177.276 833.813
+  angles 2.249 -56.905 1.465
+ }
+ {
+  coords 3983.604 176.987 823.551
+  angles 0 -35.932 0
+ }
+ {
+  coords 4068.32 176.456 892.096
+  angles -0.545 122.581 -2.471
+ }
+ {
+  coords 4088.29 175.96 917.714
+  angles 1.175 -173.913 -2.573
+ }
+ {
+  coords 4067.11 176.658 908.843
+  angles 2.034 154.784 0.621
+ }
+ {
+  coords 4053.07 176.438 898.973
+  angles -3.388 -45.53 0.133
+ }
+ {
+  coords 4021.93 177.599 868.872
+  angles -0.596 -46.107 1.91
+ }
+ {
+  coords 3986.755 176.951 879.571
+  angles -4.03 -53.423 -0.365
+ }
+ {
+  coords 4037.566 176.369 863.825
+  angles -1.236 148.793 -0.232
+ }
+ {
+  coords 4057.7 176.565 878.851
+  angles -5.736 -45.378 -5.668
+ }
+ {
+  coords 3977.893 176.58 869.149
+  angles 0 -44.795 0
+ }
+ {
+  coords 4246.64 170.548 1009.13
+  angles -5.633 131.681 0.957
+ }
+ {
+  coords 4226.56 173.306 1022.59
+  angles -6.368 153.675 -2.81
+ }
+ {
+  coords 4132.36 173.83 968.023
+  angles 6.654 -49.65 -3.689
+ }
+ {
+  coords 4108.58 174.182 945.895
+  angles -0.977 15.836 3.44
+ }
+ {
+  coords 4130.85 172.852 951.353
+  angles 5.476 -15.187 3.13
+ }
+ {
+  coords 4146.19 172.245 958.963
+  angles -6.749 143.939 -1.695
+ }
+ {
+  coords 4181.72 172.843 983.747
+  angles -9.411 142.553 -0.612
+ }
+ {
+  coords 4214.38 169.175 967.99
+  angles -5.041 134.769 2.541
+ }
+ {
+  coords 4167.08 174.712 991.193
+  angles 6.583 -22.588 -2.731
+ }
+ {
+  coords 4144.93 174.302 979.434
+  angles -4.653 143.476 1.221
+ }
+ {
+  coords 4224.71 169.524 976.94
+  angles -5.902 143.919 0.987
+ }
+ {
+  coords 4274.13 169.978 1027.71
+  angles -3.997 152.806 0.044
+ }
+ {
+  coords 4107.52 174.603 962.407
+  angles 2.621 -21.73 2.035
+ }
+ {
+  coords 4094.41 174.79 950.493
+  angles 3.355 -63.219 1.461
+ }
+ {
+  coords 4091.719 175.796 900.605
+  angles -0.255 154.875 -4.484
+ }
+}
+GenericEntity : "{733C642B71996E53}Buildings/Promethean/PlasmaGenerator/PowerTower.et" {
+ coords 4465.352 169.279 539.953
+ angles 0 99.429 0
+}
+$grp GenericEntity : "{7FA95863264F3F10}Prefabs/Structures/ConcreteBunkers/LookoutTower.et" {
+ {
+  coords 3917.89 177.158 780.701
+  angles 0 -38.039 0
+ }
+ {
+  coords 4162.303 157.34 380.625
+  angles 0 -4.078 0
+ }
+ {
+  coords 4562.166 175.103 557.17
+  angles 0 93.483 0
+ }
+ {
+  coords 4284.079 168.917 992.368
+  angles 0 5.988 0
+ }
+ {
+  coords 4112.287 174.169 917.654
+  angles 0 -24.247 0
+ }
+}
+$grp GenericEntity : "{86C9C97FF2E85003}Prefabs/Structures/CadianGreen/CadianGreenTrenchWall.et" {
+ {
+  coords 4046.137 176.063 944.966
+  angles 0 -160.842 0
+ }
+ {
+  coords 4041.497 176.03 944.402
+  angles 0 146.389 0
+ }
+ {
+  coords 4039.117 176.037 940.514
+  angles 0 94.004 0
+ }
+ {
+  coords 4153.892 176.504 1004.049
+  angles 0 -145.78 0
+ }
+ {
+  coords 4149.344 176.602 1004.638
+  angles 0 163.279 0
+ }
+ {
+  coords 4145.913 176.289 1001.62
+  angles 0 110.834 0
+ }
+}
+$grp GenericEntity : "{ADE9BC49AAB00D11}Buildings/Promethean/Refiner/FullRefinery.et" {
+ {
+  coords 4330.642 163.828 603.382
+  angles 0 19.518 0
+ }
+ {
+  coords 4068.575 166.637 565.794
+  angles 0 -135.012 0
+ }
+ {
+  coords 4075.996 165.942 560.346
+  angles 0 -135.012 0
+ }
+ {
+  coords 4082.278 165.776 554.314
+  angles 0 -135.012 0
+ }
+}
+$grp StaticModelEntity : "{B1C9B97256E1D7B0}Prefabs/Walls/Wall_1_Post.et" {
+ {
+  coords 3921.615 181.88 769.511
+  angles 0 -45.884 0
+  scale 5
+ }
+ {
+  coords 4155.056 162.582 403.338
+  angles 0 -2.868 0
+  scale 5
+ }
+ {
+  coords 4553.83 177.975 576.643
+  angles 0 -88.102 0
+  scale 5
+ }
+ {
+  coords 4271.922 171.008 988.64
+  angles 0 -88.102 0
+  scale 5
+ }
+}
+$grp GenericEntity : "{B325645C144505DA}Prefabs/Terrain/Trenches/Trench_Bend.et" {
+ {
+  coords 3952.36 177.827 851.296
+  angles -1.321 150.531 -2.336
+ }
+ {
+  coords 4054.28 176.527 920.146
+  angles 1.41 160.481 0.253
+ }
+ {
+  coords 4012.18 177.357 901.737
+  angles -2.287 -31.853 -2.356
+ }
+ {
+  coords 4252.77 168.497 990.517
+  angles 7.604 -20.543 0.002
+ }
+ {
+  coords 4141.639 171.876 938.202
+  angles 3.982 -11.022 4.05
+ }
+ {
+  coords 4185.91 168.342 949.987
+  angles -2.13 157.275 1.861
+ }
+}
+GenericEntity : "{BBF2E444B91CDC05}Buildings/ModularGothic/PillarWhole.et" {
+ coords 4141.181 164.999 687.234
+ angles 0 175.521 0
+}
+GenericEntity : "{D6F015C42913655E}Prefabs/Props/Military/Aquilla/Props_Aquilla.et" {
+ coords 4135.099 188.994 684.485
+ angles 0 85.211 0
+}
+$grp GenericEntity : "{DB09806FB8861A40}Prefabs/Terrain/Trenches/Trench_Cross_Short.et" {
+ {
+  coords 4043.04 176.289 889.702
+  angles 1.614 -127.474 3.014
+ }
+ {
+  coords 4157.5 172.112 966.582
+  angles -0.408 60.767 8.375
+ }
+}
+$grp GenericEntity : "{EEED9A5CF7F06C78}Buildings/ModularGothic/PillarBroken.et" {
+ {
+  coords 4141.496 164.794 682.765
+  angles 0 175.521 0
+ }
+ {
+  coords 4141.179 168.025 687.18
+  angles 0 40.521 0
+ }
+}
