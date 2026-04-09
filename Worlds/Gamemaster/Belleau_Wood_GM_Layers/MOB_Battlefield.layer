@@ -1207,7 +1207,7 @@ $grp GenericEntity : "{57BD5DBBD9BF24E5}Prefabs/Trench/Trench_TSection.et" {
   angles 0 -65.785 0
  }
 }
-$grp GenericEntity : "{5A0992D551419C1C}Buildings/ConcreteBunkers/BattlementBunker/BattlementBunker_Prefab.et" {
+$grp GenericEntity : "{5A0992D551419C1C}Prefabs/Structures/ConcreteBunkers/BattlementBunker_Prefab.et" {
  {
   components {
    MeshObject "{68F6DD9ECE8FBD60}" {
@@ -1379,7 +1379,7 @@ StaticModelEntity : "{7D03D1E2B8BB77FB}Prefabs/Structures/Military/Fortification
  coords 824.58 205.783 639.618
  angles 0 -16.415 0
 }
-$grp GenericEntity : "{7FA95863264F3F10}Buildings/ConcreteBunkers/LookoutTower/LookoutTower.et" {
+$grp GenericEntity : "{7FA95863264F3F10}Prefabs/Structures/ConcreteBunkers/LookoutTower.et" {
  {
   coords 704.005 196.985 457.214
   angles 0 69.359 0
@@ -1422,7 +1422,7 @@ $grp StaticModelEntity : "{84E8415C26FF817E}Prefabs/Trench/Erode_5_BigDirt.et" {
   angles 0 26.298 0
  }
 }
-$grp GenericEntity : "{86C9C97FF2E85003}Buildings/CadianGreen/CadianGreenTrenchWall/CadianGreenTrenchWall.et" {
+$grp GenericEntity : "{86C9C97FF2E85003}Prefabs/Structures/CadianGreen/CadianGreenTrenchWall.et" {
  {
   components {
    MeshObject "{690A19EBA4CFAC9F}" {
