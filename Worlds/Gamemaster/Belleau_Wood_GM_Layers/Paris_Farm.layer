@@ -1,3 +1,12 @@
+GenericEntity {
+ components {
+  MeshObject "{691159B4A830C624}" {
+   Object "{A75F10971A514D12}Assets/Structures/Military/Fortifications/Trenches/TrenchOld_03/TrenchOld_03_6m_wood_right.xob"
+  }
+ }
+ coords 2911.284 202.7 1107.517
+ angles 0 -59.186 0
+}
 $grp SCR_DestructibleBuildingEntity : "{23764D9776ABBFC4}Prefabs/Structures/Military/Fortifications/Bunker_SPS/Bunker_SPS_covered.et" {
  {
   coords 2844.404 205.563 1204.762
@@ -38,9 +47,15 @@ StaticModelEntity : "{23BB711062057CC5}Prefabs/Props/Military/Sandbags/Sandbag_0
  coords 2882.875 204.797 1203.364
  angles 0 -135.88 0
 }
-SCR_DestructibleBuildingEntity : "{2EBA3486062A5A53}Prefabs/Structures/Military/Bunkers/AirfieldBunker_E_01/AirfieldBunker_E_01_big.et" {
- coords 2924.643 206.173 1191.887
- angles 0 -45 0
+$grp SCR_DestructibleBuildingEntity : "{2EBA3486062A5A53}Prefabs/Structures/Military/Bunkers/AirfieldBunker_E_01/AirfieldBunker_E_01_big.et" {
+ {
+  coords 2924.643 206.173 1191.887
+  angles 0 -45 0
+ }
+ {
+  coords 2914.739 202.763 976.94
+  angles 0 -60 0
+ }
 }
 SCR_DestructibleBuildingEntity : "{8A8A7A558772D718}Prefabs/Structures/Military/Bunkers/AirfieldBunker_E_01/AirfieldBunker_E_01_small.et" {
  coords 2761.906 204.487 1199.588
@@ -162,8 +177,108 @@ $grp StaticModelEntity : "{E4DD0292A16CEC49}Prefabs/Structures/Military/Fortific
   angles 0 63.426 0
  }
  {
-  coords 2898.44 -0.117 1057.882
+  coords 2898.823 -0.093 1057.115
   angles 0 63.426 0
+ }
+ {
+  coords 2903.058 0.124 993.688
+  angles 0 -61.838 0
+ }
+ {
+  coords 2905.221 0.039 999.046
+  angles 0 -74.161 0
+ }
+ {
+  coords 2909.532 0.031 1019.479
+  angles 0 -80.03 0
+ }
+ {
+  coords 2910.239 -0.004 1025.277
+  angles 0 -87.45 0
+ }
+ {
+  coords 2911.831 0 1032.45
+  angles 0 -66.9 0
+ }
+ {
+  coords 2911.909 0.035 1037.24
+  angles 0 -111.089 0
+ }
+ {
+  coords 2909.637 0.135 1042.735
+  angles 0 -114.849 0
+ }
+ {
+  coords 2907.133 0.143 1048.202
+  angles 0 -114.473 0
+ }
+ {
+  coords 2896.059 -0.115 1062.505
+  angles 0 62.069 2.548
+ }
+ {
+  coords 2894.537 -0.299 1067.764
+  angles 0 84.176 3.275
+ }
+ {
+  coords 2902.995 0.079 1090.992
+  angles 0 118.565 0
+ }
+ {
+  coords 2905.653 0.016 1096.514
+  angles 0 112.705 0
+ }
+ {
+  coords 2908.267 -0.072 1101.824
+  angles 0 119.128 0
+ }
+ {
+  coords 2913.755 -0.182 1114.084
+  angles 0 93.857 0
+ }
+ {
+  coords 2915.312 -0.24 1119.291
+  angles 0 117.896 0
+ }
+ {
+  coords 2916.637 -0.211 1126.505
+  angles 0 83.62 0
+ }
+ {
+  coords 2916.983 -0.208 1132.116
+  angles 0 101.81 0
+ }
+ {
+  coords 2915.302 -0.224 1139.291
+  angles 0 52.826 0
+ }
+ {
+  coords 2904.217 0.061 1153.412
+  angles 0 53.998 0
+ }
+ {
+  coords 2901.38 -0.044 1158.459
+  angles 0 65.705 0
+ }
+ {
+  coords 2898.941 -0.253 1163.963
+  angles 0 65.944 0
+ }
+ {
+  coords 2892.8 0.204 981.707
+  angles 0 118.231 0
+ }
+ {
+  coords 2910.997 -0.078 1102.506
+  angles 0 -150 0
+ }
+ {
+  coords 2917.36 -0.019 1104.301
+  angles 0 120 0
+ }
+ {
+  coords 2915.594 -0.053 1110.767
+  angles 0 30 0
  }
 }
 SCR_DestructibleBuildingEntity : "{F78E8A56BFA8D57C}Prefabs/Structures/Military/Bunkers/AirfieldBunker_E_01/AirfieldBunker_USSR_01_small_BARS.et" {
