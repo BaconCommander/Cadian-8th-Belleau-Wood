@@ -1189,10 +1189,20 @@ $grp StaticModelEntity : "{18E3F1942F2C8509}Prefabs/Structures/BuildingParts/Ent
 }
 $grp GenericEntity : "{1AE1D881171B98F8}PrefabsEditable/Auto/Systems/Arsenal/ArsenalBoxes/IMP/E_ArsenalBox_IMP.et" {
  {
+  components {
+   RplComponent "{56F2C6D1431AD4FE}" {
+    "Rpl State Override" None
+   }
+  }
   coords 68.699 181.977 424.953
   angles 1.79 0 1.789
  }
  {
+  components {
+   RplComponent "{56F2C6D1431AD4FE}" {
+    "Rpl State Override" None
+   }
+  }
   coords 68.615 182.274 434.379
   angles 1.79 0 1.789
  }
@@ -1829,10 +1839,20 @@ SCR_DestructibleBuildingEntity : "{53ED57F93F1DCE1F}PrefabLibrary/DefaultLibrary
 }
 $grp Turret : "{54838E573DCDC027}Prefabs/Weapons/Howitzers/M777/M777_Howitzer.et" {
  {
+  components {
+   RplComponent "{51ACD09DAD530767}" {
+    "Rpl State Override" None
+   }
+  }
   coords 41.22 178.548 207.868
   angles 0 67.117 0
  }
  {
+  components {
+   RplComponent "{51ACD09DAD530767}" {
+    "Rpl State Override" None
+   }
+  }
   coords 27.949 178.699 239.311
   angles 0 67.117 0
  }
