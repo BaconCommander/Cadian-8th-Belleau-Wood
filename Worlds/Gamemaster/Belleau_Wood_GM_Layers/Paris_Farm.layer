@@ -18,9 +18,19 @@ $grp GenericEntity {
   angles 0 27.806 3.883
  }
 }
-GenericEntity : "{1FB2F0AEA420C1FB}Prefabs/Terrain/Trenches/Trench_90_Long.et" {
- coords 2829.168 206.478 1104.563
- angles -1.84 -75.431 2.365
+$grp GenericEntity : "{1FB2F0AEA420C1FB}Prefabs/Terrain/Trenches/Trench_90_Long.et" {
+ {
+  coords 2829.168 206.478 1104.563
+  angles -1.84 -75.431 2.365
+ }
+ {
+  coords 2873.32 202.106 1029.4
+  angles 4.159 -152.263 -7.853
+ }
+ {
+  coords 2885.74 201.383 1014.33
+  angles -0.814 27.047 1.594
+ }
 }
 $grp SCR_DestructibleBuildingEntity : "{23764D9776ABBFC4}Prefabs/Structures/Military/Fortifications/Bunker_SPS/Bunker_SPS_covered.et" {
  {
@@ -137,6 +147,14 @@ $grp GenericEntity : "{51C4AC5C58A27E54}Prefabs/Terrain/Trenches/Trench_90_Short
   coords 2799.124 205.637 1019.018
   angles 0 -173.534 0
  }
+ {
+  coords 2882.031 201.351 996.919
+  angles 0 113.164 0
+ }
+ {
+  coords 2872.162 201.891 1000.985
+  angles 0 -63.352 0
+ }
 }
 $grp GenericEntity : "{6675E8586EBB29B2}Prefabs/Terrain/Trenches/Trench_Straight_Long.et" {
  {
@@ -176,20 +194,6 @@ $grp GenericEntity : "{6675E8586EBB29B2}Prefabs/Terrain/Trenches/Trench_Straight
   angles -0.666 -83.846 0
  }
 }
-GenericEntity : "{68294E69921FBA21}PrefabsEditable/Auto/Terrain/Trenches/E_Trench_Cross_Short.et" {
- coords 2866.197 204.457 1097.868
- angles 0 18.187 2.802
-}
-$grp GenericEntity : "{6AE1CD160BE6668E}PrefabsEditable/Auto/Terrain/Trenches/E_Trench_90_Short.et" {
- {
-  coords 2872.165 201.74 1000.668
-  angles 0 -63.533 0
- }
- {
-  coords 2882.734 201.515 995.424
-  angles 0 116.343 0
- }
-}
 StaticModelEntity : "{6DBCC7EA558FF682}PrefabLibrary/Crater03.et" {
  coords 2868.031 205.25 1179.05
 }
@@ -225,15 +229,15 @@ $grp StaticModelEntity : "{88208B13596A61E9}PrefabLibrary/Crater02.et" {
   angles -0.421 0.02 -2.716
  }
  {
-  coords 2798.966 -0 979.647
+  coords 2798.966 0 979.647
   angles 2.473 0 -0.538
  }
  {
-  coords 2812.892 -0 1033.218
+  coords 2812.892 0 1033.218
   angles -0.081 -0.004 2.473
  }
  {
-  coords 2885.466 -0 1118.357
+  coords 2885.466 0 1118.357
   angles 3.543 0.215 3.481
  }
  {
@@ -275,16 +279,6 @@ $grp StaticModelEntity : "{94021BCA593A8CFF}Prefabs/Structures/BuildingParts/Ent
  {
   coords 2947.191 203.46 1141.023
   angles 0 15.132 0
- }
-}
-$grp GenericEntity : "{AD508960F9EC4174}PrefabsEditable/Auto/Terrain/Trenches/E_Trench_90_Long.et" {
- {
-  coords 2886.59 201.233 1012.724
-  angles 0 26.648 0
- }
- {
-  coords 2873.086 201.836 1029.555
-  angles 0 -148.959 0
  }
 }
 $grp GenericEntity : "{B325645C144505DA}Prefabs/Terrain/Trenches/Trench_Bend.et" {
@@ -331,6 +325,10 @@ $grp GenericEntity : "{DB09806FB8861A40}Prefabs/Terrain/Trenches/Trench_Cross_Sh
  {
   coords 2858.362 204.716 1075.578
   angles 0 22.674 0
+ }
+ {
+  coords 2865.521 204.617 1098.076
+  angles 0 17.173 0
  }
 }
 $grp SCR_DestructibleEntity : "{DFAD5338DECCD74E}PrefabLibrary/DefaultLibrary/Walls/Stone/StoneWall_02_4m.et" {

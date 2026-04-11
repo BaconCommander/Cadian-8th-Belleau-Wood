@@ -2,6 +2,16 @@ GenericEntity : "{25B265F3E7CBDFC8}Prefabs/Props/Wrecks/BMP1_wreck/BMP1_wreck.et
  coords 1119.076 214.163 1772.925
  angles 0 66.549 0
 }
+$grp GenericEntity : "{31A455F7FD8DCE84}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_plastic.et" {
+ {
+  coords 1129.873 210.953 2164.984
+  angles 0 8.622 0
+ }
+ {
+  coords 1130.203 210.953 2167.16
+  angles 0 8.622 0
+ }
+}
 StaticModelEntity : "{5088E2D220E37FB5}PrefabLibrary/Crater04.et" {
  coords 1119.29 213.805 1728.85
  angles 0 0 4.467
@@ -13,6 +23,10 @@ GenericEntity : "{5ACE15347EC7FB65}Prefabs/Structures/CadianGreen/ArtilleryPlatf
 GenericEntity : "{621AD664E58BC26B}Prefabs/Compositions/Misc/SubCompositions/Tents/Tent_Supply_Small_USSR_01.et" {
  coords 1135.06 210.075 2173.8
  angles -1.075 -72.532 3.411
+}
+GenericEntity : "{64A3A595C0A833AC}Prefabs/Props/Military/Sandbags/Sandbag_01_round_plastic.et" {
+ coords 1132.928 212.395 2164.01
+ angles 0 -117.167 0
 }
 $grp StaticModelEntity : "{6DBCC7EA558FF682}PrefabLibrary/Crater03.et" {
  {
@@ -27,17 +41,9 @@ $grp StaticModelEntity : "{6DBCC7EA558FF682}PrefabLibrary/Crater03.et" {
 GenericEntity : "{733C642B71996E53}Buildings/Promethean/PlasmaGenerator/PowerTower.et" {
  coords 1037.395 216.919 1787.128
 }
-GenericEntity : "{7949746E8D314957}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_end_high_plastic.et" {
- coords 1130.981 210.963 2164.672
- angles 0 16.613 0
-}
 StaticModelEntity : "{88208B13596A61E9}PrefabLibrary/Crater02.et" {
  coords 1053.08 0 1828.28
  angles -0.895 0 0
-}
-GenericEntity : "{95E4917C4E27A44D}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_wall_plastic.et" {
- coords 1128.885 210.851 2165.082
- angles 0 11.217 0
 }
 GenericEntity : "{967488E3C13C17EB}Prefabs/Vehicles/WagenWreck.et" {
  coords 1053.247 217.824 1724.63
@@ -67,10 +73,6 @@ $grp GenericEntity : "{BAC84AA2CD50C7A3}PrefabsEditable/Auto/Props/Military/Aegi
   coords 1126.938 212.795 1827.142
   angles 0 -113.324 0
  }
-}
-GenericEntity : "{BCC00821EF26F003}PrefabsEditable/Auto/Props/Military/Sandbags/Deployable/E_Sandbag_01_short_plastic_Deployable.et" {
- coords 1132.846 212.395 2163.851
- angles 0 57.284 0
 }
 $grp GenericEntity : "{DBD94125F4DAB97A}PrefabsEditable/Auto/Props/Military/AegisDefenseLine/E_AegisDefenseLineSingle_01_Green.et" {
  {

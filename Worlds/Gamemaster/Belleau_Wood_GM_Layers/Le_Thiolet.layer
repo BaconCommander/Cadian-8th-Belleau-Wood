@@ -8,19 +8,21 @@ $grp SCR_DestructibleBuildingEntity : "{034A45B0D41025B9}Prefabs/Structures/Cult
   angles 0 157.779 0
  }
 }
+$grp GenericEntity : "{156E8B64A6A6E53A}Prefabs/Props/Industrial/CargoContainers/CargoContainer_01/CargoContainer_Open_Blu.et" {
+ {
+  coords 7007.795 201.528 1498.157
+ }
+ {
+  coords 7003.02 201.486 1498.249
+ }
+ {
+  coords 7005.886 204.734 1505.805
+  angles 0 -44.475 0
+ }
+}
 SCR_DestructibleBuildingEntity : "{2EBA3486062A5A53}Prefabs/Structures/Military/Bunkers/AirfieldBunker_E_01/AirfieldBunker_E_01_big.et" {
  coords 6978.324 207.147 1558.607
  angles 0 99.195 0
-}
-$grp SCR_DestructibleBuildingEntity : "{4149B317B5990FCC}PrefabsEditable/Auto/Structures/Cultural/Castles/E_Castle_01_Bridge.et" {
- {
-  coords 6993.45 11.922 1521.316
-  angles 9.241 19.295 0.394
- }
- {
-  coords 7157.434 10.043 1537.213
-  angles 12.731 -20.254 -0.992
- }
 }
 $grp GenericEntity : "{5A0992D551419C1C}Prefabs/Structures/ConcreteBunkers/BattlementBunker_Prefab.et" {
  {
@@ -40,14 +42,6 @@ $grp GenericEntity : "{5A0992D551419C1C}Prefabs/Structures/ConcreteBunkers/Battl
   }
   coords 6962.542 201.54 1515.73
   angles 0 104.096 0
- }
-}
-$grp GenericEntity : "{63DE4420146B569B}PrefabsEditable/Auto/Props/Industrial/CargoContainers/CargoContainer_01/E_CargoContainer_Open_Blu_SKYHOOK.et" {
- {
-  coords 7006.232 201.344 1508.268
- }
- {
-  coords 7002.837 201.479 1493.931
  }
 }
 $grp StaticModelEntity : "{7022F1A36DC9510C}Prefabs/Structures/BuildingParts/Entry/ConcreteStairs_02_SideSquareWide.et" {
@@ -271,16 +265,23 @@ $grp SCR_DestructibleBuildingEntity : "{92F8DAE5E56CA22E}Prefabs/Structures/Cult
   angles 0 149.744 0
  }
 }
-$grp GenericEntity : "{A49BB77E7A9348DB}PrefabsEditable/Auto/Props/Industrial/CargoContainers/CargoContainer_01/E_CargoContainer_Open_MEd_SKYHOOK.et" {
+$grp GenericEntity : "{9872024066D31343}Prefabs/Props/Industrial/CargoContainers/CargoContainer_01/CargoContainer_Open_MEd.et" {
  {
-  coords 7002.973 201.301 1508.318
+  coords 7002.662 201.069 1506.48
  }
  {
-  coords 7003.11 201.094 1501.126
+  coords 7003.581 201.238 1490.315
+  angles 0 21.447 0
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{ADDA5472F867C249}Prefabs/Structures/Cultural/Castles/Castle_01_Bridge.et" {
+ {
+  coords 6992.823 12.296 1521.899
+  angles 10.836 19.255 1.773
  }
  {
-  coords 7004.812 204.451 1507.332
-  angles 0 -36.42 0
+  coords 7157.733 10.317 1537.44
+  angles 12 -20 0
  }
 }
 $grp StaticModelEntity : "{B08DF585ECD2CF4D}Prefabs/Structures/BuildingParts/Entry/ConcreteStairs_02_SideSquareNarrow.et" {
@@ -362,6 +363,15 @@ $grp GenericEntity : "{C396ADE062C42A2C}Buildings/Promethean/Refiner/PrometheumR
  }
  {
   coords 7010.66 203.887 1551.451
+ }
+}
+$grp GenericEntity : "{C8BD8865BAA45DA7}Prefabs/Props/Industrial/CargoContainers/CargoContainer_01/CargoContainer_Open.et" {
+ {
+  coords 7007.34 201.331 1506.598
+ }
+ {
+  coords 7005.895 204.734 1498.454
+  angles 0 -47.124 0
  }
 }
 $grp StaticModelEntity : "{CAF8666F26CEB7AD}Prefabs/Structures/BuildingParts/Entry/ConcreteStairs_02_Narrow.et" {
@@ -505,15 +515,6 @@ $grp GenericEntity : "{EEED9A5CF7F06C78}Buildings/ModularGothic/PillarBroken.et"
 GenericEntity : "{F35F3CCE81557757}Buildings/ModularGothic/3mWallTech.et" {
  coords 7025.455 205.422 1538.367
  angles 0 -88.081 0
-}
-$grp GenericEntity : "{F599E10111B3A82A}PrefabsEditable/Auto/Props/Industrial/CargoContainers/CargoContainer_01/E_CargoContainer_Open_SKYHOOK.et" {
- {
-  coords 7006.239 201.329 1501.169
- }
- {
-  coords 7004.49 204.3 1500.972
-  angles 0 -28.265 0
- }
 }
 $grp StaticModelEntity : "{FDC92872D165E74A}Prefabs/Trench/Erode_3_Stone.et" {
  {
