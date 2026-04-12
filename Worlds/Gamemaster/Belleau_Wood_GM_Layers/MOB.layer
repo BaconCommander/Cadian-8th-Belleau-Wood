@@ -193,6 +193,18 @@ $grp GenericEntity {
    }
   }
  }
+ {
+  coords 97.395 181.49 439.912
+  angles 0 -180 0
+ }
+ {
+  coords 108.962 181.237 439.912
+  angles 0 180 0
+ }
+ {
+  coords 71.323 183.026 436.457
+  angles 0 -180 0
+ }
 }
 RoadEntity {
  coords 62.079 182.052 408.941
@@ -210,6 +222,16 @@ RoadEntity {
  Material "{0321085373CFFA4F}Assets/Structures/Infrastructure/Roads/Data/TrailDirt_01.emat"
  VScale 2
  RandomSeed 19229
+}
+$grp SCR_DestructibleBuildingEntity {
+ {
+  coords 88.648 0.23 399.093
+  angles 0 88.636 0
+ }
+ {
+  coords 144.165 -0.001 428.962
+  angles 0 2.24 0
+ }
 }
 $grp SplineShapeEntity {
  MainRoadIntoMob {
@@ -1102,10 +1124,6 @@ $grp GenericEntity : "{11E588E215EBCF24}Prefabs/Props/Military/SupplyBox/SupplyC
 SCR_DestructibleBuildingEntity : "{1313DD43E02F9149}Prefabs/Structures/Infrastructure/Power/Powerlines/Powerline_HV_USSR_01/Powerline_HV_USSR_01_end_v3.et" {
  coords 118.317 0.471 303.937
 }
-SCR_DestructibleBuildingEntity : "{173DC7BA29091402}Prefabs/Structures/Services/Government/MunicipalOffice_E_01/MunicipalOffice_E_01_8thREGHQ.et" {
- coords 88.648 0.23 399.093
- angles 0 88.636 0
-}
 GenericEntity : "{187F5139CAD843CC}Prefabs/Structures/CadianGreen/CommandPost.et" {
  coords 103.242 181.18 441.635
 }
@@ -1619,16 +1637,13 @@ $grp GenericEntity : "{24D27F38324B98AC}Prefabs/Props/Military/Skulls/Props_Skul
   angles 0 90 0
  }
 }
-SCR_DestructibleBuildingEntity : "{27D9CFBB76C6DF7B}Prefabs/Structures/Industrial/Houses/Office_06/OfficeBuilding8th_E_06.et" {
- coords 144.165 -0.001 428.962
- angles 0 2.24 0
-}
 GenericEntity : "{27E1789DF0BA674D}Buildings/Walkways/WalkwayStandardClosed.et" {
  coords 104.101 180.868 313.581
  angles 0 -90 0
 }
 SCR_SpawnPoint : "{309A9CED277B3061}Prefabs/MP/Spawning/SpawnPoint_IMP.et" {
  coords 81.977 182.962 419.225
+ m_sFaction "BFV"
 }
 $grp GenericEntity : "{346AAE670CA2CD5D}Buildings/SupportPylons/Short Support Pylon/ShortPylon.et" {
  {
@@ -2390,23 +2405,14 @@ $grp GenericEntity : "{D2BBB29E13CCE206}Prefabs/Props/Fabric/Flags/Flag_1_2_Aqui
 StaticModelEntity : "{D424ED54002CBAF8}Prefabs/Structures/Military/Bunkers/AmmoDump_E_01/AmmoDump_E_01_Ruin_base.et" {
  coords 112.78 173.301 106.736
 }
-$grp GenericEntity : "{D5908440366EFBFB}PrefabsEditable/Auto/Props/Military/Compositions/US/E_VoxTerminal_01_US.et" {
- {
-  coords 97.395 181.49 439.912
-  angles 0 -180 0
- }
- {
-  coords 108.962 181.237 439.912
-  angles 0 180 0
- }
-}
 $grp GenericEntity : "{D6F015C42913655E}Prefabs/Props/Military/Aquilla/Props_Aquilla.et" {
  {
   coords 97.022 184.41 399.262
   angles 0 -90 0
  }
  {
-  coords 131.168 183.678 422.167
+  coords 124.248 184.869 430.196
+  angles 0 -90 0
  }
  {
   coords 102.998 176.762 455.702
@@ -3104,10 +3110,6 @@ $grp StaticModelEntity : "{EE836DAE53355BB6}Prefabs/Trench/Barrier2.et" {
 GenericEntity : "{F47C56E3678C7D87}PrefabLibrary/DefaultLibrary/Props/Industrial/VehicleGarbage_01_pile_large.et" {
  coords 131.525 178.307 366.209
  angles 0.871 -161.378 -5.371
-}
-GenericEntity : "{F9EEFB8D6BE87A51}Prefabs/Structures/Signs/Military/SignRectangle_01_140x100/SignFlag_cadian_02.et" {
- coords 71.323 183.026 436.457
- angles 0 -180 0
 }
 $grp StaticModelEntity : "{F9F0FBA940588BAF}Prefabs/Compositions/Misc/SubCompositions/Tent_Barrack_Cluttered_US_02.et" {
  {
