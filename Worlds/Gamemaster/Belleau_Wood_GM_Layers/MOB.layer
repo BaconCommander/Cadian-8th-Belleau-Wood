@@ -1627,17 +1627,6 @@ GenericEntity : "{27E1789DF0BA674D}Buildings/Walkways/WalkwayStandardClosed.et" 
  coords 104.101 180.868 313.581
  angles 0 -90 0
 }
-$grp GenericEntity : "{2A20D1D6B598E470}PrefabsEditable/Auto/Props/Industrial/CargoContainers/CargoContainer_01/E_ImperialBastion_Base.et" {
- {
-  coords 149.44 180.282 451.894
- }
- {
-  coords 56.61 183.531 451.894
- }
-}
-GenericEntity : "{2BFEC69142E9F65E}PrefabsEditable/Auto/Structures/Military/Industrial/ImperialGuard/FortressWall_01/E_ImperialFortressWall_Green.et" {
- coords 103.145 181.076 450.803
-}
 SCR_SpawnPoint : "{309A9CED277B3061}Prefabs/MP/Spawning/SpawnPoint_IMP.et" {
  coords 81.977 182.962 419.225
 }
@@ -2420,8 +2409,8 @@ $grp GenericEntity : "{D6F015C42913655E}Prefabs/Props/Military/Aquilla/Props_Aqu
   coords 131.168 183.678 422.167
  }
  {
-  coords 102.998 191.547 451.024
-  scale 4
+  coords 102.998 176.762 455.702
+  scale 15
  }
  {
   coords 144.031 228.151 325.569

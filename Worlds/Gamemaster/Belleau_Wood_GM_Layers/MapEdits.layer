@@ -1,6 +1,2597 @@
+SCR_GameModeEditor {
+ components {
+  Persistence "{691917C00A580140}" {
+  }
+  AFW_RadialMenuItemsComponent "{691917C00A580183}" {
+   m_MenuController SCR_RadialMenuController "{691917C00A580181}" {
+    m_RMControls SCR_RadialMenuControllerInputs "{691917C00A58018F}" {
+     m_sControllerContext "WeaponSelectionContext"
+     m_sOpenAction "AFW_OpenRadialMenu"
+     m_bCloseOnReleaseOpen 0
+     m_bPerformOnClose 0
+     m_bCloseOnPerform 1
+     m_bShowWhileUnconcious 0
+     m_bDeselectInCenter 0
+    }
+   }
+  }
+  BON_RadialMenuAnimationsComponent "{691917C00A56A6CD}" {
+   m_MenuController SCR_RadialMenuController "{691917C00A5801EA}" {
+    m_RMControls SCR_RadialMenuControllerInputs "{691917C00A5801EB}" {
+     m_sControllerContext "WeaponSelectionContext"
+     m_sOpenAction "BON_OpenAnimationMenu"
+     m_bCloseOnReleaseOpen 0
+     m_bCloseOnPerform 1
+     m_bShowWhileUnconcious 0
+     m_bDeselectInCenter 0
+     m_bShowInnerBackground 0
+    }
+   }
+   m_AnimationConfig BON_AnimationsMenuConfig "{691917C00A59337D}" {
+    m_RootCategory BON_AnimationMenuEntryCategory "{691917C00A593371}" {
+     m_aElements {
+      BON_AnimationMenuEntryCategory "{691917C00A580276}" {
+       m_sCategoryDisplayText "Military"
+       m_aElements {
+        BON_AnimationMenuEntry "{691917C00A580234}" {
+         m_ItemPrefab "{F32EBE6A3C50B9D4}Prefabs/AnimatorItems/Military/AnimationPlayerItem_HighReady.et"
+         m_sAnimationName "High ready"
+         m_bClearHands 0
+        }
+        BON_AnimationMenuEntry "{691917C00A580228}" {
+         m_ItemPrefab "{078F3E790981C167}Prefabs/AnimatorItems/Military/AnimationPlayerItem_MilHalt.et"
+         m_sAnimationName "Halt"
+         m_bClearHands 0
+        }
+        BON_AnimationMenuEntry "{691917C00A580220}" {
+         m_ItemPrefab "{06EE757CBDAD3A19}Prefabs/AnimatorItems/Military/AnimationPlayerItem_MilMove.et"
+         m_sAnimationName "Move"
+         m_bClearHands 0
+        }
+        BON_AnimationMenuEntry "{691917C00A580227}" {
+         m_ItemPrefab "{1A9F073676B44F1A}Prefabs/AnimatorItems/Military/AnimationPlayerItem_Salute.et"
+         m_sAnimationName "Salute"
+        }
+        BON_AnimationMenuEntry "{691917C00A58021A}" {
+         m_ItemPrefab "{591BD2826ECAB7D5}Prefabs/AnimatorItems/Military/AnimationPlayerItem_Attention.et"
+         m_sAnimationName "Attention"
+        }
+        BON_AnimationMenuEntry "{691917C00A58020B}" {
+         m_ItemPrefab "{8AED5C8ECB2A69F3}Prefabs/AnimatorItems/Military/AnimationPlayerItem_AtEase.et"
+         m_sAnimationName "At Ease"
+        }
+        BON_AnimationMenuEntry "{691917C00A58020E}" {
+         m_ItemPrefab "{0A2585493FEF007D}Prefabs/AnimatorItems/Military/AnimationPlayerItem_Handsup.et"
+         m_sAnimationName "Hands Up"
+         m_bAllowInventory 0
+        }
+        BON_AnimationMenuEntry "{691917C00A580205}" {
+         m_ItemPrefab "{A6406E7F1BAAD31E}Prefabs/AnimatorItems/Military/AnimationPlayerItem_SupermanWalk.et"
+         m_sAnimationName "Superman (W)"
+        }
+        BON_AnimationMenuEntry "{691917C00A580279}" {
+         m_ItemPrefab "{E41ED6629747BC7D}Prefabs/AnimatorItems/Military/AnimationPlayerItem_Superman.et"
+         m_sAnimationName "Superman"
+        }
+        BON_AnimationMenuEntry "{691917C00A58027C}" {
+         m_ItemPrefab "{60BC66C3B3EB36D3}Prefabs/AnimatorItems/Military/AnimationPlayerItem_ArmsCrossedWalk.et"
+         m_sAnimationName "Arms Crossed (W)"
+        }
+        BON_AnimationMenuEntry "{691917C00A580270}" {
+         m_ItemPrefab "{C1B96D4A352B5B0F}Prefabs/AnimatorItems/Military/AnimationPlayerItem_ArmsCrossed.et"
+         m_sAnimationName "Arms Crossed"
+        }
+        BON_AnimationMenuEntry "{691917C00A580277}" {
+         m_ItemPrefab "{2D22810FD4BF580D}Prefabs/AnimatorItems/Military/AnimationPlayerItem_Canting.et"
+         m_sAnimationName "Canting"
+         m_bClearHands 0
+        }
+       }
+      }
+      BON_AnimationMenuEntryCategory "{691917C00A580256}" {
+       m_sCategoryDisplayText "Sit"
+       m_aElements {
+        BON_AnimationMenuEntry "{691917C00A580267}" {
+         m_ItemPrefab "{6A2A7E462FFB030F}Prefabs/AnimatorItems/Sit/AnimationPlayerItem_Sit.et"
+         m_sAnimationName "Sit 1"
+        }
+        BON_AnimationMenuEntry "{691917C00A58025D}" {
+         m_ItemPrefab "{E15FD6A66E446D3A}Prefabs/AnimatorItems/Sit/AnimationPlayerItem_Sit02.et"
+         m_sAnimationName "Sit 2"
+        }
+        BON_AnimationMenuEntry "{691917C00A58025E}" {
+         m_ItemPrefab "{04C39A5F62A1FA51}Prefabs/AnimatorItems/Sit/AnimationPlayerItem_Sit03.et"
+         m_sAnimationName "Sit 3"
+        }
+        BON_AnimationMenuEntry "{691917C00A580252}" {
+         m_ItemPrefab "{39F7BF6717CD7366}Prefabs/AnimatorItems/Sit/AnimationPlayerItem_Sit04.et"
+         m_sAnimationName "Sit 4"
+        }
+        BON_AnimationMenuEntry "{691917C00A580254}" {
+         m_ItemPrefab "{8A450ACB8BD934B4}Prefabs/AnimatorItems/Sit/AnimationPlayerItem_SitBox.et"
+         m_sAnimationName "Sit Box"
+        }
+       }
+      }
+      BON_AnimationMenuEntryCategory "{691917C00A580299}" {
+       m_sCategoryDisplayText "Idle"
+       m_aElements {
+        BON_AnimationMenuEntry "{691917C00A580241}" {
+         m_ItemPrefab "{32FB6E0335B33A79}Prefabs/AnimatorItems/Idle/AnimationPlayerItem_WeaponIdle01.et"
+         m_sAnimationName "Idle Weapon"
+         m_bClearHands 0
+        }
+        BON_AnimationMenuEntry "{691917C00A580244}" {
+         m_ItemPrefab "{B5C4BF787DEF043F}Prefabs/AnimatorItems/Idle/AnimationPlayerItem_Cigarette.et"
+         m_sAnimationName "Cigarette"
+        }
+        BON_AnimationMenuEntry "{691917C00A5802B9}" {
+         m_ItemPrefab "{B2FF777C93660436}Prefabs/AnimatorItems/Idle/AnimationPlayerItem_BoxingIdle.et"
+         m_sAnimationName "Boxing Idle"
+        }
+        BON_AnimationMenuEntry "{691917C00A5802BA}" {
+         m_ItemPrefab "{C903811772002C56}Prefabs/AnimatorItems/Idle/AnimationPlayerItem_LayIdle1.et"
+         m_sAnimationName "Lay Idle 1"
+        }
+        BON_AnimationMenuEntry "{691917C00A5802B1}" {
+         m_ItemPrefab "{A557B5F7CEC4A378}Prefabs/AnimatorItems/Idle/AnimationPlayerItem_LayIdle2.et"
+         m_sAnimationName "Lay Idle 2"
+        }
+        BON_AnimationMenuEntry "{691917C00A5802B4}" {
+         m_ItemPrefab "{96664606A18708B0}Prefabs/AnimatorItems/Idle/AnimationPlayerItem_Injure.et"
+         m_sAnimationName "Lay Injured"
+        }
+        BON_AnimationMenuEntry "{691917C00A5802AB}" {
+         m_ItemPrefab "{821ED5B8F38251B2}Prefabs/AnimatorItems/Idle/AnimationPlayerItem_Squatting.et"
+         m_sAnimationName "Squatting"
+        }
+        BON_AnimationMenuEntry "{691917C00A5802AF}" {
+         m_ItemPrefab "{804302304D254D14}Prefabs/AnimatorItems/Idle/AnimationPlayerItem_HoldWrist.et"
+         m_sAnimationName "Hold Wrist"
+        }
+        BON_AnimationMenuEntry "{691917C00A5802A3}" {
+         m_ItemPrefab "{F3C95A482E3E740B}Prefabs/AnimatorItems/Idle/AnimationPlayerItem_LeanIdle1.et"
+         m_sAnimationName "Lean Idle 1"
+         m_bClearHands 0
+        }
+        BON_AnimationMenuEntry "{691917C00A5802A6}" {
+         m_ItemPrefab "{9F9D6EA892FAFB25}Prefabs/AnimatorItems/Idle/AnimationPlayerItem_LeanIdle2.et"
+         m_sAnimationName "Lean Idle 2"
+         m_bClearHands 0
+        }
+       }
+      }
+      BON_AnimationMenuEntryCategory "{691917C00A59F2D3}" {
+       m_sCategoryDisplayText "Dance"
+       m_aElements {
+        BON_AnimationMenuEntry "{691917C00A580292}" {
+         m_ItemPrefab "{DA74119429E002E9}Prefabs/AnimatorItems/Dance/AnimationPlayerItem_FlairDance.et"
+         m_sAnimationName "Flair"
+        }
+        BON_AnimationMenuEntry "{691917C00A580296}" {
+         m_ItemPrefab "{C63E036B1AFC8695}Prefabs/AnimatorItems/Dance/AnimationPlayerItem_ChickenDance.et"
+         m_sAnimationName "Chicken"
+        }
+        BON_AnimationMenuEntry "{691917C00A58028A}" {
+         m_ItemPrefab "{DBA225BF847D75FA}Prefabs/AnimatorItems/Dance/AnimationPlayerItem_HouseDance.et"
+         m_sAnimationName "House"
+        }
+        BON_AnimationMenuEntry "{691917C00A58028F}" {
+         m_ItemPrefab "{99B28752D0FE96C9}Prefabs/AnimatorItems/Dance/AnimationPlayerItem_GangnamStyleDance.et"
+         m_sAnimationName "Gangnamstyle"
+        }
+        BON_AnimationMenuEntry "{691917C00A580283}" {
+         m_ItemPrefab "{0A71000F455B839C}Prefabs/AnimatorItems/Dance/AnimationPlayerItem_JazzDance.et"
+         m_sAnimationName "Jazz"
+        }
+        BON_AnimationMenuEntry "{691917C00A580282}" {
+         m_ItemPrefab "{ABEE80585618582B}Prefabs/AnimatorItems/Dance/AnimationPlayerItem_OrangeJusticeDance.et"
+         m_sAnimationName "Orangejustice"
+        }
+        BON_AnimationMenuEntry "{691917C00A580287}" {
+         m_ItemPrefab "{B5878660A1AA1D4A}Prefabs/AnimatorItems/Dance/AnimationPlayerItem_RobotHipHopDance.et"
+         m_sAnimationName "Robot"
+        }
+        BON_AnimationMenuEntry "{691917C00A5802F8}" {
+         m_ItemPrefab "{3A9B6D9DC2393D92}Prefabs/AnimatorItems/Dance/AnimationPlayerItem_TwistDance.et"
+         m_sAnimationName "Twist"
+        }
+       }
+      }
+      BON_AnimationMenuEntryCategory "{691917C00A59D5E5}" {
+       m_sCategoryDisplayText "Misc"
+       m_aElements {
+        BON_AnimationMenuEntry "{691917C00A59F2C2}" {
+         m_ItemPrefab "{16CEEAEBB0CB7D18}Prefabs/AnimatorItems/Misc/AnimationPlayerItem_MiddleFinger.et"
+         m_sAnimationName "Middlefinger"
+         m_bClearHands 0
+        }
+        BON_AnimationMenuEntry "{691917C00A59F2C6}" {
+         m_ItemPrefab "{BF46392D6CC19E29}Prefabs/AnimatorItems/Misc/AnimationPlayerItem_ThumbsUp.et"
+         m_sAnimationName "Thumbs Up"
+         m_bClearHands 0
+        }
+        BON_AnimationMenuEntry "{691917C00A59F2CB}" {
+         m_ItemPrefab "{CB14D4DC57BC9FF8}Prefabs/AnimatorItems/Misc/AnimationPlayerItem_ThumbsDown.et"
+         m_sAnimationName "Thumbs Down"
+         m_bClearHands 0
+        }
+        BON_AnimationMenuEntry "{691917C00A59F2CF}" {
+         m_ItemPrefab "{44A0375833293A7A}Prefabs/AnimatorItems/Misc/AnimationPlayerItem_Wave.et"
+         m_sAnimationName "Wave"
+        }
+        BON_AnimationMenuEntry "{691917C00A59F2F3}" {
+         m_ItemPrefab "{4E3214DE91480563}Prefabs/AnimatorItems/Misc/AnimationPlayerItem_Halt.et"
+         m_sAnimationName "Halt"
+         m_bClearHands 0
+        }
+        BON_AnimationMenuEntry "{691917C00A59F2F4}" {
+         m_ItemPrefab "{4DCEB0CC3BEA4B5E}Prefabs/AnimatorItems/Misc/AnimationPlayerItem_Shrug.et"
+         m_sAnimationName "Shrug"
+        }
+        BON_AnimationMenuEntry "{691917C00A59F2FB}" {
+         m_ItemPrefab "{8DF28412BA34F269}Prefabs/AnimatorItems/Misc/AnimationPlayerItem_Think.et"
+         m_sAnimationName "Think"
+         m_bClearHands 0
+        }
+        BON_AnimationMenuEntry "{691917C00A59F2FC}" {
+         m_ItemPrefab "{999D7D282D9A2796}Prefabs/AnimatorItems/Misc/AnimationPlayerItem_Pray.et"
+         m_sAnimationName "Pray"
+        }
+        BON_AnimationMenuEntry "{691917C00A59F2E3}" {
+         m_ItemPrefab "{77014A80D7F49EDE}Prefabs/AnimatorItems/Misc/AnimationPlayerItem_OK.et"
+         m_sAnimationName "Ok"
+         m_bClearHands 0
+        }
+        BON_AnimationMenuEntry "{691917C00A59F2E5}" {
+         m_ItemPrefab "{58376DB803BA501D}Prefabs/AnimatorItems/Speech/AnimationPlayerItem_WriteMap.et"
+         m_sAnimationName "Write Map"
+        }
+       }
+      }
+      BON_AnimationMenuEntryCategory "{691917C00A5958B1}" {
+       m_sCategoryDisplayText "Movement"
+       m_aElements {
+        BON_AnimationMenuEntry "{691917C00A59D41A}" {
+         m_ItemPrefab "{40296522BFAB9D0A}Prefabs/AnimatorItems/Movement/AnimationPlayerItem_Boxing.et"
+         m_sAnimationName "Boxing"
+        }
+        BON_AnimationMenuEntry "{691917C00A59D41C}" {
+         m_ItemPrefab "{D72901606B39534E}Prefabs/AnimatorItems/Movement/AnimationPlayerItem_Burpee.et"
+         m_sAnimationName "Burpee"
+        }
+        BON_AnimationMenuEntry "{691917C00A59D403}" {
+         m_ItemPrefab "{81F1813DD82E01F3}Prefabs/AnimatorItems/Movement/AnimationPlayerItem_Pushups.et"
+         m_sAnimationName "Pushups"
+        }
+        BON_AnimationMenuEntry "{691917C00A59D407}" {
+         m_ItemPrefab "{1D57F71CB23C28E2}Prefabs/AnimatorItems/Movement/AnimationPlayerItem_CartWheel.et"
+         m_sAnimationName "CartWheel"
+        }
+        BON_AnimationMenuEntry "{691917C00A59D40B}" {
+         m_ItemPrefab "{E89C0C42CB981C14}Prefabs/AnimatorItems/Movement/AnimationPlayerItem_Jogging.et"
+         m_sAnimationName "Jogging"
+        }
+        BON_AnimationMenuEntry "{691917C00A59D40D}" {
+         m_ItemPrefab "{BE1FD8BCE4EA0AD6}Prefabs/AnimatorItems/Movement/AnimationPlayerItem_JumpingJacks.et"
+         m_sAnimationName "JumpingJacks"
+        }
+        BON_AnimationMenuEntry "{691917C00A59D437}" {
+         m_ItemPrefab "{F5C8CE35CFDBD66A}Prefabs/AnimatorItems/Movement/AnimationPlayerItem_WideWalk.et"
+         m_sAnimationName "WideWalk"
+        }
+        BON_AnimationMenuEntry "{691917C00A59D43B}" {
+         m_ItemPrefab "{7EFE43BD10011BDE}Prefabs/AnimatorItems/Misc/AnimationPlayerItem_NarutoRun.et"
+         m_sAnimationName "Naruto run"
+        }
+        BON_AnimationMenuEntry "{691917C00A59D43F}" {
+         m_ItemPrefab "{1C90D614EBD355D2}Prefabs/AnimatorItems/Movement/AnimationPlayerItem_Repair.et"
+         m_sAnimationName "Repair"
+        }
+       }
+      }
+      BON_AnimationMenuEntryCategory "{691917C00A5958DB}" {
+       m_sCategoryDisplayText "Instructor"
+       m_aElements {
+        BON_AnimationMenuEntry "{691917C00A5958A9}" {
+         m_ItemPrefab "{FF47385E05E51226}Prefabs/AnimatorItems/Speech/AnimationPlayerItem_SimpleSpeech.et"
+         m_sAnimationName "Simple Speech"
+        }
+        BON_AnimationMenuEntry "{691917C00A5958A4}" {
+         m_ItemPrefab "{1D42E29422F430EA}Prefabs/AnimatorItems/Speech/AnimationPlayerItem_RndSpeech.et"
+         m_sAnimationName "Random Speech"
+        }
+        BON_AnimationMenuEntry "{691917C00A5958A1}" {
+         m_ItemPrefab "{5B715B42036F99BF}Prefabs/AnimatorItems/Speech/AnimationPlayerItem_RndTalkCalm.et"
+         m_sAnimationName "Random Talk Calm"
+        }
+        BON_AnimationMenuEntry "{691917C00A5958DE}" {
+         m_ItemPrefab "{5B715B42036F99BF}Prefabs/AnimatorItems/Speech/AnimationPlayerItem_RndTalkCalm.et"
+         m_sAnimationName "Random Talk Intense"
+        }
+        BON_AnimationMenuEntry "{691917C00A5958DA}" {
+         m_ItemPrefab "{FFC9E187435A96C0}Prefabs/AnimatorItems/Speech/AnimationPlayerItem_SlowWalk.et"
+         m_sAnimationName "Slow Walk (W)"
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  Bacon_622120A5448725E3_GamemodeComponent "{691917C00A56A6E5}" {
+   m_vOffsetPositions {
+    0 0 0
+    -1.5 0 0
+    1.5 0 0
+    0 0 0
+    3 0 0
+    -3 0 0
+    -1.5 0 0
+    1.5 0 0
+    -4.5 0 0
+    4.5 0 0
+    0 0 0
+    3 0 0
+    -3 0 0
+    6 0 0
+    -6 0 0
+    -1.5 0 0
+    1.5 0 0
+    -4.5 0 0
+    4.5 0 0
+    -7.5 0 0
+    7.5 0 0
+    0 0 0
+    3 0 0
+    -3 0 0
+    6 0 0
+    -6 0 0
+    9 0 0
+    -9 0 0
+    -1.5 0 0
+    1.5 0 0
+    -4.5 0 0
+    4.5 0 0
+    -7.5 0 0
+    7.5 0 0
+    -10.5 0 0
+    10.5 0 0
+    0 0 0
+    3 0 0
+    -3 0 0
+    6 0 0
+    -6 0 0
+    9 0 0
+    -9 0 0
+    12 0 0
+    -12 0 0
+    -1.5 0 0
+    1.5 0 0
+    -4.5 0 0
+    4.5 0 0
+    -7.5 0 0
+    7.5 0 0
+    -10.5 0 0
+    10.5 0 0
+    -13.5 0 0
+    13.5 0 -13.5
+   }
+  }
+  Bacon_GunBuilder_LoadoutStorageComponent "{691917C00A56A6E1}" {
+  }
+  SCR_AdditionalGameModeSettingsComponent "{691917C00A56A6E8}" {
+  }
+  SCR_ArsenalManagerComponent "{691917C00A56A6F3}" {
+  }
+  SCR_CallsignManagerComponent "{691917C00A56A6FE}" {
+  }
+  SCR_CampaignBuildingManagerComponent "{691917C00A50073B}" {
+   m_sFreeRoamBuildingClientTrigger "{5E191CEAF4B95816}Prefabs/MP/FreeRoamBuildingClientTrigger.et"
+   m_BudgetType CAMPAIGN
+   m_iCompositionRefundPercentage 100
+   m_OutlineManager SCR_CampaignBuildingCompositionOutlineManager "{691917C00A50073A}" {
+   }
+   m_sPrefabsToBuildResource "{D2527D9AA5B4A33E}Configs/Editor/PlaceableEntities/Compositions/Compositions_FreeRoamBuilding.conf"
+   m_sPrefabToHoldSupplyOnRefund "{4BBE0A784C01900E}Prefabs/Props/Military/SupplyBox/SupplyCrate/SupplyCrate_01/SupplyCrate_01_FreeRoamBuilding.et"
+  }
+  SCR_CampaignBuildingManagerComponent "{691917C00A56A01E}" {
+   Enabled 0
+   m_sFreeRoamBuildingClientTrigger "{5E191CEAF4B95816}Prefabs/MP/FreeRoamBuildingClientTrigger.et"
+   m_BudgetType CAMPAIGN
+   m_iCompositionRefundPercentage 100
+   m_OutlineManager SCR_CampaignBuildingCompositionOutlineManager "{691917C00A56A09E}" {
+    m_sSlotFlatSmallLayout "{7FD4E6A668B4537A}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_SlotFLatSmall.et"
+    m_sSlotFlatMediumLayout "{579FF731013436B5}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_SlotFlatMedium.et"
+    m_sSlotFlatLargeLayout "{D06D9D47008E794F}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_SlotRoadLarge.et"
+    m_sSlotRoadSmallLayout "{8DBA7E7BF662A393}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_SlotRoadSmall.et"
+    m_sSlotRoadMediumLayout "{3A5E87ADA26C6940}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_SlotRoadMedium.et"
+    m_sSlotRoadLargeLayout "{D06D9D47008E794F}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_SlotRoadLarge.et"
+    m_aCompositionLayouts {
+     SCR_CampaignBuildingCompositionOutline "{691917C00A56A622}" {
+      m_sEditableEntity "{18BEFC9A7FA72CD8}PrefabsEditable/Auto/Compositions/Misc/FreeRoamBuilding/E_BarbedTapeKnifeRest_S_US_01.et"
+      m_sCompositionLayout "{9721D32C8E5CDE9C}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_BarbedTapeKnifeRest.et"
+      m_iBuildingValue 20
+     }
+     SCR_CampaignBuildingCompositionOutline "{691917C00A56A62A}" {
+      m_sEditableEntity "{54523DB76981D7E0}PrefabsEditable/Auto/Compositions/Misc/FreeRoamBuilding/E_CzechHedgehog_S_01_painted.et"
+      m_sCompositionLayout "{8E0A17590AA58A72}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_CzechHedgehog.et"
+      m_iBuildingValue 20
+     }
+     SCR_CampaignBuildingCompositionOutline "{691917C00A56A62B}" {
+      m_sEditableEntity "{F3208517509E0B9B}PrefabsEditable/Auto/Compositions/Misc/FreeRoamBuilding/E_Dragonsteeth_S_US_01.et"
+      m_sCompositionLayout "{8E0A17590AA58A72}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_CzechHedgehog.et"
+      m_iBuildingValue 20
+     }
+     SCR_CampaignBuildingCompositionOutline "{691917C00A56A633}" {
+      m_sEditableEntity "{DA1772BDB575BB5A}PrefabsEditable/Auto/Compositions/Misc/FreeRoamBuilding/E_SandbagRoundBurlap_S_USSR_01.et"
+      m_sCompositionLayout "{A407FE596AB356EE}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_Sandbag_01_Round.et"
+      m_iBuildingValue 20
+     }
+     SCR_CampaignBuildingCompositionOutline "{691917C00A56A63B}" {
+      m_sEditableEntity "{9E4FAFB289C2EA68}PrefabsEditable/Auto/Compositions/Misc/FreeRoamBuilding/E_SandbagRoundHighBurlap_S_USSR_01.et"
+      m_sCompositionLayout "{A407FE596AB356EE}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_Sandbag_01_Round.et"
+      m_iBuildingValue 20
+     }
+     SCR_CampaignBuildingCompositionOutline "{691917C00A56A645}" {
+      m_sEditableEntity "{977FF11A13375BEB}PrefabsEditable/Auto/Compositions/Misc/FreeRoamBuilding/E_SandbagLongBurlap_S_USSR_01.et"
+      m_sCompositionLayout "{1EC6725681D75742}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_Sandbag_Long.et"
+      m_iBuildingValue 20
+     }
+     SCR_CampaignBuildingCompositionOutline "{691917C00A56A640}" {
+      m_sEditableEntity "{93C99155F356A38A}PrefabsEditable/Auto/Compositions/Misc/FreeRoamBuilding/E_SandbagLongHighBurlap_S_USSR_01.et"
+      m_sCompositionLayout "{1EC6725681D75742}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_Sandbag_Long.et"
+      m_iBuildingValue 30
+     }
+     SCR_CampaignBuildingCompositionOutline "{691917C00A56A64D}" {
+      m_sEditableEntity "{BBA9E7B2D06B7E3E}PrefabsEditable/Auto/Compositions/Misc/FreeRoamBuilding/E_SandbagWallSolidBurlap_S_USSR_01.et"
+      m_sCompositionLayout "{F470194B53F2A4F2}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_Sandbag_Solid.et"
+      m_iBuildingValue 30
+     }
+     SCR_CampaignBuildingCompositionOutline "{691917C00A56A649}" {
+      m_sEditableEntity "{AACF7C732B82F6B2}PrefabsEditable/Auto/Compositions/Misc/FreeRoamBuilding/E_SandbagWallBurlap_S_USSR_01.et"
+      m_sCompositionLayout "{F470194B53F2A4F2}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_Sandbag_Solid.et"
+      m_iBuildingValue 30
+     }
+     SCR_CampaignBuildingCompositionOutline "{691917C00A56A650}" {
+      m_sEditableEntity "{1C551075D2A439D8}PrefabsEditable/Auto/Compositions/Misc/FreeRoamBuilding/E_CamoNetSmall_S_USSR_01.et"
+      m_sCompositionLayout "{81CCDB622DCA0182}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_CamoNet_Small_USSR.et"
+      m_iBuildingValue 30
+     }
+     SCR_CampaignBuildingCompositionOutline "{691917C00A56A658}" {
+      m_sEditableEntity "{E0E71FDE7F9F7555}PrefabsEditable/Auto/Compositions/Misc/FreeRoamBuilding/E_CamoNetMedium_S_USSR_01.et"
+      m_sCompositionLayout "{D26E030AD2BF514F}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_CamoNetMedium_USSR.et"
+      m_iBuildingValue 40
+     }
+     SCR_CampaignBuildingCompositionOutline "{691917C00A56A664}" {
+      m_sEditableEntity "{A8FD282C1C15E427}PrefabsEditable/Auto/Compositions/Misc/FreeRoamBuilding/E_CamoNetLarge_M_USSR_01.et"
+      m_sCompositionLayout "{DC1B385EDB26DB5E}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_CamoNet_Large_USSR.et"
+     }
+     SCR_CampaignBuildingCompositionOutline "{691917C00A56A660}" {
+      m_sEditableEntity "{7419CCE202790CBB}PrefabsEditable/Auto/Compositions/Misc/FreeRoamBuilding/E_SandbagRoundPlastic_S_US_01.et"
+      m_sCompositionLayout "{A407FE596AB356EE}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_Sandbag_01_Round.et"
+      m_iBuildingValue 20
+     }
+     SCR_CampaignBuildingCompositionOutline "{691917C00A56A66C}" {
+      m_sEditableEntity "{C90548D80CB6F09A}PrefabsEditable/Auto/Compositions/Misc/FreeRoamBuilding/E_SandbagRoundHighPlastic_S_US_01.et"
+      m_sCompositionLayout "{A407FE596AB356EE}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_Sandbag_01_Round.et"
+      m_iBuildingValue 20
+     }
+     SCR_CampaignBuildingCompositionOutline "{691917C00A56A668}" {
+      m_sEditableEntity "{2C8BC8352CE10EE2}PrefabsEditable/Auto/Compositions/Misc/FreeRoamBuilding/E_SandbagLongPlastic_S_US_01.et"
+      m_sCompositionLayout "{1EC6725681D75742}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_Sandbag_Long.et"
+      m_iBuildingValue 30
+     }
+     SCR_CampaignBuildingCompositionOutline "{691917C00A56A669}" {
+      m_sEditableEntity "{1CFE263700517700}PrefabsEditable/Auto/Compositions/Misc/FreeRoamBuilding/E_SandbagLongHighPlastic_S_US_01.et"
+      m_sCompositionLayout "{1EC6725681D75742}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_Sandbag_Long.et"
+      m_iBuildingValue 30
+     }
+     SCR_CampaignBuildingCompositionOutline "{691917C00A56A675}" {
+      m_sEditableEntity "{FD726FB018BC4169}PrefabsEditable/Auto/Compositions/Misc/FreeRoamBuilding/E_SandbagWallSolidPlastic_S_US_01.et"
+      m_sCompositionLayout "{F470194B53F2A4F2}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_Sandbag_Solid.et"
+      m_iBuildingValue 30
+     }
+     SCR_CampaignBuildingCompositionOutline "{691917C00A56A671}" {
+      m_sEditableEntity "{CC778DF86D8A69F5}PrefabsEditable/Auto/Compositions/Misc/FreeRoamBuilding/E_SandbagWallPlastic_S_US_01.et"
+      m_sCompositionLayout "{F470194B53F2A4F2}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_Sandbag_Solid.et"
+      m_iBuildingValue 30
+     }
+     SCR_CampaignBuildingCompositionOutline "{691917C00A56A67D}" {
+      m_sEditableEntity "{C1641825486E3697}PrefabsEditable/Auto/Compositions/Misc/FreeRoamBuilding/E_CamoNetSmall_S_US_01.et"
+      m_sCompositionLayout "{347608996C687A02}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_CamoNet_Small_US.et"
+      m_iBuildingValue 30
+     }
+     SCR_CampaignBuildingCompositionOutline "{691917C00A56A18C}" {
+      m_sEditableEntity "{EA8CDB3A64FC1181}PrefabsEditable/Auto/Compositions/Misc/FreeRoamBuilding/E_CamoNetMedium_S_US_01.et"
+      m_sCompositionLayout "{A90C5CF19DF184B9}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_CamoNet_Medium_US.et"
+      m_iBuildingValue 40
+     }
+     SCR_CampaignBuildingCompositionOutline "{691917C00A56A18D}" {
+      m_sEditableEntity "{7C7C67CD404E794D}PrefabsEditable/Auto/Compositions/Misc/FreeRoamBuilding/E_CamoNetLarge_M_US_01.et"
+      m_sCompositionLayout "{DC1B385EDB26DB5E}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_CamoNet_Large_USSR.et"
+     }
+     SCR_CampaignBuildingCompositionOutline "{691917C00A56A18B}" {
+      m_sEditableEntity "{AB1E83746BDF76D1}PrefabsEditable/Auto/Compositions/Misc/FreeRoamBuilding/E_BarbedTapeTriple_S_USSR_01.et"
+      m_sCompositionLayout "{9721D32C8E5CDE9C}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_BarbedTapeKnifeRest.et"
+      m_iBuildingValue 20
+     }
+     SCR_CampaignBuildingCompositionOutline "{691917C00A56A189}" {
+      m_sEditableEntity "{AEC16F21B733AD5E}PrefabsEditable/Auto/Compositions/Misc/FreeRoamBuilding/E_FloodlightGenerator_S_US_01.et"
+      m_sCompositionLayout "{C96F58B66745C08B}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_FloodLight.et"
+      m_iBuildingValue 20
+     }
+     SCR_CampaignBuildingCompositionOutline "{691917C00A56A196}" {
+      m_sEditableEntity "{76EE6AC7AB210D1F}PrefabsEditable/Auto/Compositions/Misc/FreeRoamBuilding/E_FloodlightGenerator_S_USSR_01.et"
+      m_sCompositionLayout "{C96F58B66745C08B}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_FloodLight.et"
+      m_iBuildingValue 20
+     }
+     SCR_CampaignBuildingCompositionOutline "{691917C00A56A192}" {
+      m_sEditableEntity "{B8138FFE79F61D33}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SandbagPosition_S_US_01.et"
+      m_sCompositionLayout "{4CB404D199F6C2E7}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_SandbagPosition_S_01.et"
+     }
+     SCR_CampaignBuildingCompositionOutline "{691917C00A56A19E}" {
+      m_sEditableEntity "{9BC88E502B836DBF}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SandbagPosition_S_USSR_01.et"
+      m_sCompositionLayout "{4CB404D199F6C2E7}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_SandbagPosition_S_01.et"
+     }
+     SCR_CampaignBuildingCompositionOutline "{691917C00A56A19D}" {
+      m_sEditableEntity "{D447BB1EC532921D}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SandbagPosition_S_US_02.et"
+      m_sCompositionLayout "{8EB9FE4B4A24F0D8}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_SandbagPosition_US_S_02.et"
+     }
+     SCR_CampaignBuildingCompositionOutline "{691917C00A56A19A}" {
+      m_sEditableEntity "{F79CBAB09747E291}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SandbagPosition_S_USSR_02.et"
+      m_sCompositionLayout "{F33B37DFDC5CDF75}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_SandbagPosition_USSR_S_02.et"
+     }
+     SCR_CampaignBuildingCompositionOutline "{691917C00A56A198}" {
+      m_sEditableEntity "{31DBF7E7C9D70576}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SandbagPosition_S_US_03.et"
+      m_sCompositionLayout "{C57C7CC829D7DAA2}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_SandbagPosition_S_03.et"
+     }
+     SCR_CampaignBuildingCompositionOutline "{691917C00A56A1A6}" {
+      m_sEditableEntity "{1200F6499BA275FB}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SandbagPosition_S_USSR_03.et"
+      m_sCompositionLayout "{C57C7CC829D7DAA2}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_SandbagPosition_S_03.et"
+     }
+     SCR_CampaignBuildingCompositionOutline "{691917C00A56A1A5}" {
+      m_sEditableEntity "{0CEFD2DFBCBB8C41}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SandbagPosition_S_US_04.et"
+      m_sCompositionLayout "{F84859F05CBB5395}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_SandbagPosition_S_04.et"
+     }
+     SCR_CampaignBuildingCompositionOutline "{691917C00A56A1A0}" {
+      m_sEditableEntity "{2F34D371EECEFCCD}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SandbagPosition_S_USSR_04.et"
+      m_sCompositionLayout "{F84859F05CBB5395}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_SandbagPosition_S_04.et"
+     }
+     SCR_CampaignBuildingCompositionOutline "{691917C00A56A1AA}" {
+      m_sEditableEntity "{D7B8408B96F4DF79}PrefabsEditable/Auto/Compositions/Slotted/SlotRoadSmall/E_Barricade_S_US_01.et"
+      m_sCompositionLayout "{501EE308E7CD554A}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_Barricade_S_01.et"
+     }
+     SCR_CampaignBuildingCompositionOutline "{691917C00A56A1A9}" {
+      m_sEditableEntity "{17B68DA54A970140}PrefabsEditable/Auto/Compositions/Slotted/SlotRoadSmall/E_Barricade_S_USSR_01.et"
+      m_sCompositionLayout "{501EE308E7CD554A}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_Barricade_S_01.et"
+     }
+     SCR_CampaignBuildingCompositionOutline "{691917C00A56A1B5}" {
+      m_sEditableEntity "{6FE74C9C75DA8A52}PrefabsEditable/Auto/Compositions/Slotted/SlotRoadMedium/E_Barricade_M_US_01.et"
+      m_sCompositionLayout "{EEC12B161BCF255F}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_Barricade_M_01.et"
+     }
+     SCR_CampaignBuildingCompositionOutline "{691917C00A56A1B3}" {
+      m_sEditableEntity "{1236588FCEA4848F}PrefabsEditable/Auto/Compositions/Slotted/SlotRoadMedium/E_Barricade_M_USSR_01.et"
+      m_sCompositionLayout "{EEC12B161BCF255F}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_Barricade_M_01.et"
+     }
+     SCR_CampaignBuildingCompositionOutline "{691917C00A56A1BE}" {
+      m_sEditableEntity "{DAEC7898BE11C117}PrefabsEditable/Auto/Compositions/Slotted/SlotRoadLarge/E_Barricade_L_US_01.et"
+      m_sCompositionLayout "{290DBB8BEE996653}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_Barricade_L_01.et"
+     }
+     SCR_CampaignBuildingCompositionOutline "{691917C00A56A1BA}" {
+      m_sEditableEntity "{3FB42D0A5589A530}PrefabsEditable/Auto/Compositions/Slotted/SlotRoadLarge/E_Barricade_L_USSR_01.et"
+      m_sCompositionLayout "{290DBB8BEE996653}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_Barricade_L_01.et"
+     }
+     SCR_CampaignBuildingCompositionOutline "{691917C00A56A1C7}" {
+      m_sEditableEntity "{02C9F8198A7B9897}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_MachineGunNest_S_US_01.et"
+      m_sCompositionLayout "{33A2B437003B14DB}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_MachineGunNest_01.et"
+     }
+     SCR_CampaignBuildingCompositionOutline "{691917C00A56A1CB}" {
+      m_sEditableEntity "{047B9C8AAB50CE0F}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_MachineGunNest_S_USSR_01.et"
+      m_sCompositionLayout "{33A2B437003B14DB}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_MachineGunNest_01.et"
+     }
+     SCR_CampaignBuildingCompositionOutline "{691917C00A56A1C9}" {
+      m_sEditableEntity "{6E9DCCF936BF17B9}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_MachineGunNest_S_US_02.et"
+      m_sCompositionLayout "{5FF680D7BCFF9BF5}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_MachineGunNest_02.et"
+     }
+     SCR_CampaignBuildingCompositionOutline "{691917C00A56A1D4}" {
+      m_sEditableEntity "{682FA86A17944120}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_MachineGunNest_S_USSR_02.et"
+      m_sCompositionLayout "{5FF680D7BCFF9BF5}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_MachineGunNest_02.et"
+     }
+     SCR_CampaignBuildingCompositionOutline "{691917C00A56A1D3}" {
+      m_sEditableEntity "{E87F2E0B5C56A1C3}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Bunker_S_US_01.et"
+      m_sCompositionLayout "{E9CCAD99622A35F5}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_Bunker_US_01.et"
+     }
+     SCR_CampaignBuildingCompositionOutline "{691917C00A56A1DF}" {
+      m_sEditableEntity "{4885DEA01D687DB3}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Bunker_S_USSR_01.et"
+      m_sCompositionLayout "{02291E93335E0856}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_Bunker_USSR_01.et"
+     }
+     SCR_CampaignBuildingCompositionOutline "{691917C00A56A1DA}" {
+      m_sEditableEntity "{CDE540ACD9415078}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_AmmoStorage_S_FIA_01.et"
+      m_sCompositionLayout "{8E350990D5F5ABB5}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_AmmoStorage_S_01.et"
+     }
+     SCR_CampaignBuildingCompositionOutline "{691917C00A56A1E6}" {
+      m_sEditableEntity "{1BED8F81D2FA2137}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_AmmoStorage_S_US_01.et"
+      m_sCompositionLayout "{8E350990D5F5ABB5}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_AmmoStorage_S_01.et"
+     }
+     SCR_CampaignBuildingCompositionOutline "{691917C00A56A1E7}" {
+      m_sEditableEntity "{CD9004C6229D900B}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_AmmoStorage_S_USSR_01.et"
+      m_sCompositionLayout "{8E350990D5F5ABB5}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_AmmoStorage_S_01.et"
+     }
+     SCR_CampaignBuildingCompositionOutline "{691917C00A56A1E5}" {
+      m_sEditableEntity "{543C31BC05F032B6}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_VehicleMaintenance_S_US_01.et"
+      m_sCompositionLayout "{B2EAAF9C153CAFDE}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_VehicleMaintenance_S_01.et"
+     }
+     SCR_CampaignBuildingCompositionOutline "{691917C00A56A1E2}" {
+      m_sEditableEntity "{DA380948C0CE5990}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_VehicleMaintenance_S_USSR_01.et"
+      m_sCompositionLayout "{B2EAAF9C153CAFDE}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_VehicleMaintenance_S_01.et"
+     }
+     SCR_CampaignBuildingCompositionOutline "{691917C00A56A1E0}" {
+      m_sEditableEntity "{DA1AF79DD1C79E83}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_VehicleMaintenance_S_FIA_01.et"
+      m_sCompositionLayout "{B2EAAF9C153CAFDE}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_VehicleMaintenance_S_01.et"
+     }
+     SCR_CampaignBuildingCompositionOutline "{691917C00A56A1EF}" {
+      m_sEditableEntity "{DB7F01C68EACBEC0}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_LivingArea_S_US_01.et"
+      m_sCompositionLayout "{0828F87137D2F0C0}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_LivingArea_S_01.et"
+     }
+     SCR_CampaignBuildingCompositionOutline "{691917C00A56A1EA}" {
+      m_sEditableEntity "{BE3988DF6E3CD0B2}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_LivingArea_S_USSR_01.et"
+      m_sCompositionLayout "{0828F87137D2F0C0}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_LivingArea_S_01.et"
+     }
+     SCR_CampaignBuildingCompositionOutline "{691917C00A56A1E8}" {
+      m_sEditableEntity "{B6CF358D07FFC99F}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_FuelStorage_S_FIA_01.et"
+      m_sCompositionLayout "{AA991650F6F3ADFD}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_FuelStorage_S_01.et"
+     }
+     SCR_CampaignBuildingCompositionOutline "{691917C00A56A1F6}" {
+      m_sEditableEntity "{6D2A35DA74224780}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_FuelStorage_S_US_01.et"
+      m_sCompositionLayout "{AA991650F6F3ADFD}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_FuelStorage_S_01.et"
+     }
+     SCR_CampaignBuildingCompositionOutline "{691917C00A56A1F4}" {
+      m_sEditableEntity "{C2D040BB21F15A20}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_FuelStorage_S_USSR_01.et"
+      m_sCompositionLayout "{AA991650F6F3ADFD}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_FuelStorage_S_01.et"
+     }
+     SCR_CampaignBuildingCompositionOutline "{691917C00A56A1F0}" {
+      m_sEditableEntity "{41A21CF37593EC91}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatMedium/E_VehicleMaintenance_M_USSR_01.et"
+      m_sCompositionLayout "{F28A8D6AC99AD4E8}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_VehicleMaintenance_M_01.et"
+      m_iBuildingValue 100
+     }
+     SCR_CampaignBuildingCompositionOutline "{691917C00A56A1FE}" {
+      m_sEditableEntity "{C0B1ABD67607623A}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatMedium/E_VehicleMaintenance_M_US_01.et"
+      m_sCompositionLayout "{F28A8D6AC99AD4E8}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_VehicleMaintenance_M_01.et"
+      m_iBuildingValue 100
+     }
+     SCR_CampaignBuildingCompositionOutline "{691917C00A56A1FA}" {
+      m_sEditableEntity "{D0281DAF0B131742}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatMedium/E_FieldHospital_M_US_01.et"
+      m_sCompositionLayout "{B3EB9207435EEE1A}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_FieldHospital_M_01.et"
+     }
+     SCR_CampaignBuildingCompositionOutline "{691917C00A56A107}" {
+      m_sEditableEntity "{505F78512FE8B698}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatMedium/E_FieldHospital_M_USSR_01.et"
+      m_sCompositionLayout "{B3EB9207435EEE1A}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_FieldHospital_M_01.et"
+     }
+     SCR_CampaignBuildingCompositionOutline "{691917C00A56A103}" {
+      m_sEditableEntity "{74B740B56C82C0CF}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatLarge/E_LivingArea_L_US_01.et"
+      m_sCompositionLayout "{6F40C26A3C08E3C0}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_LivingArea_L_US_01.et"
+     }
+     SCR_CampaignBuildingCompositionOutline "{691917C00A56A108}" {
+      m_sEditableEntity "{85E7D977EFAC11CB}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatLarge/E_LivingArea_L_USSR_01.et"
+      m_sCompositionLayout "{2862411B0FB84CF7}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_LivingArea_L_USSR_01.et"
+     }
+     SCR_CampaignBuildingCompositionOutline "{691917C00A56A114}" {
+      m_sEditableEntity "{E14F00C2836CAB68}PrefabsEditable/Auto/Compositions/Misc/FreeRoamBuilding/E_ACE_DirtCover_01_long_v1.et"
+      m_sCompositionLayout "{4409EBD9F169E898}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_ACE_DirtCover.et"
+      m_iBuildingValue 30
+     }
+     SCR_CampaignBuildingCompositionOutline "{691917C00A56A112}" {
+      m_sEditableEntity "{32B0F4CA468D8A56}PrefabsEditable/Auto/Compositions/Misc/FreeRoamBuilding/E_ACE_DirtCover_01_short.et"
+      m_sCompositionLayout "{4409EBD9F169E898}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_ACE_DirtCover.et"
+      m_iBuildingValue 20
+     }
+     SCR_CampaignBuildingCompositionOutline "{691917C00A56A11E}" {
+      m_sEditableEntity "{39438D0364234231}PrefabsEditable/Auto/Compositions/Misc/FreeRoamBuilding/E_ACE_TrenchSegment_01_short.et"
+      m_sCompositionLayout "{4409EBD9F169E898}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_ACE_DirtCover.et"
+      m_iBuildingValue 30
+     }
+     SCR_CampaignBuildingCompositionOutline "{691917C00A56A11A}" {
+      m_sEditableEntity "{F22CBF116CBCBD62}PrefabsEditable/Auto/Compositions/Misc/FreeRoamBuilding/E_ACE_PersonalTrench_01_small.et"
+      m_sCompositionLayout "{4409EBD9F169E898}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_ACE_DirtCover.et"
+     }
+     SCR_CampaignBuildingCompositionOutline "{691917C00A56A119}" {
+      m_sEditableEntity "{68BE02FEBBE7E5D3}PrefabsEditable/Auto/Compositions/Misc/FreeRoamBuilding/E_ACE_PersonalTrench_01_big.et"
+      m_sCompositionLayout "{4409EBD9F169E898}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_ACE_DirtCover.et"
+      m_iBuildingValue 70
+     }
+     SCR_CampaignBuildingCompositionOutline "{691917C00A56A125}" {
+      m_sEditableEntity "{C8CB97EAACBAA7BB}PrefabsEditable/Auto/Compositions/Misc/FreeRoamBuilding/E_ACE_PersonalTrench_01_giant.et"
+      m_sCompositionLayout "{4409EBD9F169E898}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_ACE_DirtCover.et"
+      m_iBuildingValue 130
+     }
+     SCR_CampaignBuildingCompositionOutline "{691917C00A56A120}" {
+      m_sEditableEntity "{36307D704B0D1F04}PrefabsEditable/Auto/Compositions/Misc/FreeRoamBuilding/E_ACE_VehicleTrench_01.et"
+      m_sCompositionLayout "{4409EBD9F169E898}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_ACE_DirtCover.et"
+      m_iBuildingValue 240
+     }
+    }
+   }
+   m_sPrefabsToBuildResource "{D2527D9AA5B4A33E}Configs/Editor/PlaceableEntities/Compositions/Compositions_FreeRoamBuilding.conf"
+   m_sPrefabToHoldSupplyOnRefund "{4BBE0A784C01900E}Prefabs/Props/Military/SupplyBox/SupplyCrate/SupplyCrate_01/SupplyCrate_01_FreeRoamBuilding.et"
+  }
+  SCR_CommandingManagerComponent "{691917C00A5007C2}" {
+  }
+  SCR_CompositionSlotManagerComponent "{691917C00A56A01D}" {
+  }
+  SCR_DataCollectorComponent "{691917C00A5680D4}" {
+   m_aModules {
+    SCR_DataCollectorBasicActionsModule "{691917C00A56A02C}" {
+    }
+    SCR_DataCollectorDriverModule "{691917C00A56A029}" {
+    }
+    SCR_DataCollectorShootingModule "{691917C00A56A030}" {
+    }
+    SCR_DataCollectorHealingItemsModule "{691917C00A56A057}" {
+     m_aConsumableTypes {
+      ConsumableTypeStats "{691917C00A56A045}" {
+       m_eConsumableType BANDAGE
+       m_eDataStatsSelf BANDAGE_SELF
+       m_eDataStatsFriend BANDAGE_FRIENDLIES
+      }
+      ConsumableTypeStats "{691917C00A56A04E}" {
+       m_eConsumableType TOURNIQUET
+       m_eDataStatsSelf TOURNIQUET_SELF
+       m_eDataStatsFriend TOURNIQUET_FRIENDLIES
+      }
+      ConsumableTypeStats "{691917C00A56A04D}" {
+       m_eConsumableType SALINE
+       m_eDataStatsSelf SALINE_SELF
+       m_eDataStatsFriend SALINE_FRIENDLIES
+      }
+      ConsumableTypeStats "{691917C00A56A056}" {
+       m_eConsumableType MORPHINE
+       m_eDataStatsSelf MORPHINE_SELF
+       m_eDataStatsFriend MORPHINE_FRIENDLIES
+      }
+     }
+    }
+    SCR_DataCollectorCrimesModule "{691917C00A56A067}" {
+     m_aLightBanPunishments {
+      5
+      15
+     }
+     m_aHeavyBanPunishments {
+      120
+      480
+      1440
+     }
+    }
+    SCR_DataCollectorAchievementsModule "{691917C00A56A060}" {
+    }
+   }
+  }
+  SCR_DestructionManagerComponent "{691917C00A5680D8}" {
+  }
+  SCR_EditorRespawnBriefingComponent "{691917C00A57DE1C}" {
+   m_Info SCR_FormatUIInfo "{691917C00A5654EB}" {
+    Icon "{1CD65C97061661F6}UI/Textures/Editor/Logos/Editor-Logo.imageset"
+    IconSetName "Logo_Editor"
+    m_aDescriptionBlocks {
+     SCR_SubBlockUIName "{691917C00A56833C}" {
+      Name "#AR-EditorRespawnBriefing_Description_1"
+     }
+     SCR_SubBlockUIName "{691917C00A568320}" {
+      Name "<br/>"
+     }
+     SCR_SubBlockUIName "{691917C00A56832A}" {
+      Name "#AR-EditorRespawnBriefing_Description_2"
+     }
+     SCR_SubBlockUIName "{691917C00A56832E}" {
+      Name "<br/>"
+     }
+     SCR_ActionBlockUIName "{691917C00A568316}" {
+      Name "#AR-EditorRespawnBriefing_Description_4"
+      m_iDevice "Mouse & Keyboard"
+      m_sActionName "ShowScoreboard"
+     }
+     SCR_ActionBlockUIName "{691917C00A568319}" {
+      Name "#AR-EditorRespawnBriefing_Description_5"
+      m_iDevice Gamepad
+      m_sActionName "MenuOpen"
+     }
+    }
+   }
+   m_SimpleBriefingBackground "{3C50D67D082BA322}UI/Textures/DeployMenu/Briefing/conflict_HintBanner_2_UI.edds"
+   m_InfoGameMaster SCR_FormatUIInfo "{691917C00A565490}" {
+    Icon "{1CD65C97061661F6}UI/Textures/Editor/Logos/Editor-Logo.imageset"
+    IconSetName "Logo_Editor"
+    m_aDescriptionBlocks {
+     SCR_SubBlockUIName "{691917C00A5654FB}" {
+      Name "#AR-EditorRespawnBriefing_Description_GameMaster_1"
+     }
+     SCR_SubBlockUIName "{691917C00A565488}" {
+      Name "<br/>"
+      m_bInline 1
+     }
+     SCR_SubBlockUIName "{691917C00A56548D}" {
+      Name "#AR-EditorRespawnBriefing_Description_GameMaster_2"
+     }
+    }
+   }
+   m_InfoHost SCR_FormatUIInfo "{691917C00A5654A8}" {
+    Icon "{1CD65C97061661F6}UI/Textures/Editor/Logos/Editor-Logo.imageset"
+    IconSetName "Logo_Editor"
+    m_aDescriptionBlocks {
+     SCR_SubBlockUIName "{691917C00A56549D}" {
+      Name "#AR-EditorRespawnBriefing_Description_1"
+     }
+     SCR_SubBlockUIName "{691917C00A5654A4}" {
+      Name "<br/>"
+      m_bInline 1
+     }
+     SCR_SubBlockUIName "{691917C00A5654A7}" {
+      Name "#AR-EditorRespawnBriefing_Description_3"
+     }
+    }
+   }
+  }
+  SCR_EntityCatalogManagerComponent "{691917C00A549898}" {
+   m_aEntityCatalogs {
+    SCR_EntityCatalogMultiList "{691917C00A57DEF1}" {
+     m_eEntityCatalogType CHARACTER
+    }
+    SCR_EntityCatalogMultiList "{691917C00A57DEFF}" {
+     m_eEntityCatalogType VEHICLE
+    }
+    SCR_EntityCatalogMultiList "{691917C00A57DEE5}" {
+     m_eEntityCatalogType GROUP
+    }
+    SCR_EntityCatalogMultiList "{691917C00A57DEEC}" {
+     m_eEntityCatalogType WEAPONS_TRIPOD
+    }
+    SCR_EntityCatalogMultiList "{691917C00A5740FD}" {
+     m_eEntityCatalogType ITEM
+     m_aMultiLists {
+      SCR_EntityCatalogMultiListEntry "{691917C00A5740F8}" {
+       m_sIdentifier "Other"
+       m_aEntities {
+        SCR_EntityCatalogInventoryItem "{691917C00A5740F7}" {
+         m_sEntityPrefab "{E7FF723379730BD5}Prefabs/Items/PersonalBelongings/PersonalBelongings_CIV.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{691917C00A57DEC5}" {
+           m_eItemType EQUIPMENT
+           m_iSupplyCost 0
+          }
+          SCR_EntityCatalogIdentityItemData "{691917C00A57DEC3}" {
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+    SCR_EntityCatalog "{691917C00A549899}" {
+     m_eEntityCatalogType SUPPLY_CONTAINER_ITEM
+     m_aEntityEntryList {
+      SCR_EntityCatalogInventoryItem "{691917C00A54FE97}" {
+       m_sEntityPrefab "{7165ECD98DF55E7C}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_Large_01/SupplyStack_Large_01_item.et"
+       m_aEntityDataList {
+        SCR_ResourceContainerItemData "{691917C00A57408F}" {
+        }
+       }
+      }
+      SCR_EntityCatalogInventoryItem "{691917C00A54FB95}" {
+       m_sEntityPrefab "{A8A4609979D3385D}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_Small_01/SupplyStack_Small_01_item.et"
+       m_aEntityDataList {
+        SCR_ResourceContainerItemData "{691917C00A54FE8E}" {
+        }
+       }
+      }
+      SCR_EntityCatalogInventoryItem "{691917C00A54DCE1}" {
+       m_sEntityPrefab "{2E93D634BF435971}Prefabs/Props/Military/SupplyBox/SupplyCrate/SupplyCrate_01/SupplyCrate_01_item.et"
+       m_aEntityDataList {
+        SCR_ResourceContainerItemData "{691917C00A54FB9E}" {
+        }
+       }
+      }
+      SCR_EntityCatalogInventoryItem "{691917C00A54DCDA}" {
+       m_sEntityPrefab "{A8B7AD5DBDCF22C2}Prefabs/Props/Military/SupplyBox/SupplyPortableContainers/SupplyPortableContainer_01/SupplyPortableContainers_01_large_item.et"
+       m_aEntityDataList {
+        SCR_ResourceContainerItemData "{691917C00A54DCD9}" {
+        }
+       }
+      }
+      SCR_EntityCatalogInventoryItem "{691917C00A549894}" {
+       m_sEntityPrefab "{024ADA8FA4FC92E0}Prefabs/Props/Military/SupplyBox/SupplyPortableContainers/SupplyPortableContainer_01/SupplyPortableContainers_01_medium_item.et"
+       m_aEntityDataList {
+        SCR_ResourceContainerItemData "{691917C00A54DCCD}" {
+        }
+       }
+      }
+      SCR_EntityCatalogInventoryItem "{691917C00A549892}" {
+       m_sEntityPrefab "{F5604E614B23F81E}Prefabs/Props/Military/SupplyBox/SupplyPortableContainers/SupplyPortableContainer_01/SupplyPortableContainers_01_small_item.et"
+       m_aEntityDataList {
+        SCR_ResourceContainerItemData "{691917C00A549893}" {
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  SCR_GameModeHealthSettings "{691917C00A549941}" {
+   m_bPermitUnconsciousVON 1
+  }
+  SCR_GameOverScreenManagerComponent "{691917C00A53E272}" {
+   m_GameOverScreenConfig SCR_GameOverScreenConfig "{691917C00A53E271}" {
+    m_aGameOverScreens {
+     SCR_BaseGameOverScreenInfo "{691917C00A540B65}" {
+      m_GameOverScreenId NEUTRAL
+      m_GameOverContentLayout "{E04021BC742BE432}UI/layouts/HUD/GameOver/EndScreen/EndScreenContent_Default.layout"
+      m_OptionalParams SCR_BaseGameOverScreenInfoOptional "{691917C00A549923}" {
+       m_sTitle "#AR-MatchResult_Default-UC"
+       m_sImageTexture "{BD2E2F871E6A3EBF}UI/Textures/Flags/Flag_Faction_Base.edds"
+       m_sAudioOneShot "SOUND_ONVICTORY"
+      }
+     }
+     SCR_FactionGameOverScreenInfo "{691917C00A540B72}" {
+      m_GameOverScreenId FACTION_NEUTRAL
+      m_GameOverContentLayout "{E04021BC742BE432}UI/layouts/HUD/GameOver/EndScreen/EndScreenContent_Default.layout"
+      m_OptionalParams SCR_BaseGameOverScreenInfoOptional "{691917C00A540B73}" {
+       m_sTitle "#AR-MatchResult_Default-UC"
+       m_sSubtitle "#AR-Campaign_MatchResult"
+       m_sDebriefing "#AR-MatchResult_FactionNeutral_Subtitle"
+       m_sAudioOneShot "SOUND_ONVICTORY"
+      }
+     }
+     SCR_FactionVictoryGameOverScreenInfo "{691917C00A540B44}" {
+      m_GameOverScreenId FACTION_VICTORY_SCORE
+      m_GameOverContentLayout "{E04021BC742BE432}UI/layouts/HUD/GameOver/EndScreen/EndScreenContent_Default.layout"
+      m_OptionalParams SCR_BaseGameOverScreenInfoOptional "{691917C00A540B46}" {
+       m_sTitle "#AR-MatchResult_Victory-UC"
+       m_sSubtitle "#AR-Campaign_MatchResult"
+       m_sDebriefing "#AR-Campaign_MatchResult_VictoryDetail_Score"
+       m_sAudioOneShot "SOUND_ONVICTORY"
+      }
+     }
+     SCR_FactionGameOverScreenInfo "{691917C00A540B50}" {
+      m_GameOverScreenId FACTION_DEFEAT_SCORE
+      m_GameOverContentLayout "{E04021BC742BE432}UI/layouts/HUD/GameOver/EndScreen/EndScreenContent_Default.layout"
+      m_OptionalParams SCR_BaseGameOverScreenInfoOptional "{691917C00A540B51}" {
+       m_sTitle "#AR-MatchResult_Defeat-UC"
+       m_sSubtitle "#AR-Campaign_MatchResult"
+       m_sDebriefing "#AR-Campaign_MatchResult_DefeatDetail_Score"
+       m_sAudioOneShot "SOUND_ONDEFEAT"
+      }
+     }
+     SCR_FactionVictoryGameOverScreenInfo "{691917C00A541F58}" {
+      m_GameOverScreenId FACTION_VICTORY_TIME
+      m_GameOverContentLayout "{E04021BC742BE432}UI/layouts/HUD/GameOver/EndScreen/EndScreenContent_Default.layout"
+      m_OptionalParams SCR_BaseGameOverScreenInfoOptional "{691917C00A540B5C}" {
+       m_sTitle "#AR-MatchResult_Victory-UC"
+       m_sSubtitle "#AR-Campaign_MatchResult"
+       m_sDebriefing "#AR-Campaign_MatchResult_VictoryDetail_Time"
+       m_sAudioOneShot "SOUND_ONVICTORY"
+      }
+     }
+     SCR_FactionGameOverScreenInfo "{691917C00A55C97B}" {
+      m_GameOverScreenId FACTION_DEFEAT_TIME
+      m_GameOverContentLayout "{E04021BC742BE432}UI/layouts/HUD/GameOver/EndScreen/EndScreenContent_Default.layout"
+      m_OptionalParams SCR_BaseGameOverScreenInfoOptional "{691917C00A541FAB}" {
+       m_sTitle "#AR-MatchResult_Defeat-UC"
+       m_sSubtitle "#AR-Campaign_MatchResult"
+       m_sDebriefing "#AR-Campaign_MatchResult_DefeatDetail_Time"
+       m_sAudioOneShot "SOUND_ONDEFEAT"
+      }
+     }
+     SCR_BaseGameOverScreenInfo "{691917C00A55C96F}" {
+      m_GameOverScreenId FACTION_DRAW
+      m_GameOverContentLayout "{E04021BC742BE432}UI/layouts/HUD/GameOver/EndScreen/EndScreenContent_Default.layout"
+      m_OptionalParams SCR_BaseGameOverScreenInfoOptional "{691917C00A55C960}" {
+       m_sTitle "#AR-MatchResult_Draw-UC"
+       m_sSubtitle "#AR-MatchResult_Draw"
+       m_sDebriefing "#AR-Campaign_MatchResult_DrawDetail"
+       m_sAudioOneShot "SOUND_ONDEFEAT"
+      }
+     }
+     SCR_DeathMatchGameOverScreenInfo "{691917C00A55C951}" {
+      m_GameOverScreenId DEATHMATCH_VICTORY_SCORE
+      m_GameOverContentLayout "{E04021BC742BE432}UI/layouts/HUD/GameOver/EndScreen/EndScreenContent_Default.layout"
+      m_OptionalParams SCR_BaseGameOverScreenInfoOptional "{691917C00A55C952}" {
+       m_sTitle "#AR-MatchResult_Victory-UC"
+       m_sSubtitle "#AR-Campaign_MatchResult"
+       m_sImageTexture "{0B03F611D52043AE}UI/Textures/placeholder.edds"
+       m_sDebriefing "#AR-MatchResult_DM_Score_Debrief"
+       m_sAudioOneShot "SOUND_ONVICTORY"
+      }
+     }
+     SCR_DeathMatchGameOverScreenInfo "{691917C00A5567CC}" {
+      m_GameOverScreenId DEATHMATCH_DEFEAT_SCORE
+      m_GameOverContentLayout "{E04021BC742BE432}UI/layouts/HUD/GameOver/EndScreen/EndScreenContent_Default.layout"
+      m_OptionalParams SCR_BaseGameOverScreenInfoOptional "{691917C00A55C943}" {
+       m_sTitle "#AR-MatchResult_Defeat-UC"
+       m_sSubtitle "#AR-Campaign_MatchResult"
+       m_sDebriefing "#AR-MatchResult_DM_Score_Debrief"
+       m_sAudioOneShot "SOUND_ONDEFEAT"
+      }
+     }
+     SCR_DeathMatchGameOverScreenInfo "{691917C00A5567C4}" {
+      m_GameOverScreenId DEATHMATCH_VICTORY_TIME
+      m_GameOverContentLayout "{E04021BC742BE432}UI/layouts/HUD/GameOver/EndScreen/EndScreenContent_Default.layout"
+      m_OptionalParams SCR_BaseGameOverScreenInfoOptional "{691917C00A5567C3}" {
+       m_sTitle "#AR-MatchResult_Victory-UC"
+       m_sSubtitle "#AR-Campaign_MatchResult"
+       m_sDebriefing "#AR-MatchResult_DM_Time_Debrief"
+       m_sAudioOneShot "SOUND_ONVICTORY"
+      }
+     }
+     SCR_DeathMatchGameOverScreenInfo "{691917C00A551B1E}" {
+      m_GameOverScreenId DEATHMATCH_DEFEAT_TIME
+      m_GameOverContentLayout "{E04021BC742BE432}UI/layouts/HUD/GameOver/EndScreen/EndScreenContent_Default.layout"
+      m_OptionalParams SCR_BaseGameOverScreenInfoOptional "{691917C00A5567BE}" {
+       m_sTitle "#AR-MatchResult_Defeat-UC"
+       m_sSubtitle "#AR-Campaign_MatchResult"
+       m_sDebriefing "loc DM debrief"
+       m_sAudioOneShot "SOUND_ONDEFEAT"
+      }
+     }
+     SCR_BaseGameOverScreenInfo "{691917C00A52D4EF}" {
+      m_GameOverScreenId EDITOR_NEUTRAL
+      m_GameOverContentLayout "{E04021BC742BE432}UI/layouts/HUD/GameOver/EndScreen/EndScreenContent_Default.layout"
+      m_OptionalParams SCR_BaseGameOverScreenInfoOptional "{691917C00A551B17}" {
+       m_sTitle "#AR-MatchResult_EditorSessionEnd-UC"
+       m_sSubtitle "#AR-MatchResult_EditorNeutral_Subtitle"
+       m_sImageTexture "{45BF8792AAF74C6E}UI/Textures/Editor/Logos/Logo_Editor_GameOver.edds"
+       m_sDebriefing "#AR-MatchResult_EditorNeutral_Debrief"
+       m_sAudioOneShot "SOUND_ONVICTORY"
+      }
+      m_OptionalEditorParams SCR_BaseGameOverScreenInfoEditor "{691917C00A551B0C}" {
+       m_sDisplayName "#AR-Editor_GameOverAttribute_Neutral_Name"
+       m_sDescription "#AR-Editor_GameOverAttribute_Neutral_Description"
+      }
+     }
+     SCR_BaseGameOverScreenInfo "{691917C00A529E80}" {
+      m_GameOverScreenId SERVER_RESTART
+      m_GameOverContentLayout "{C4507D07F3C54831}UI/layouts/HUD/GameOver/EndScreen/EndScreenContent_NoImage.layout"
+      m_OptionalParams SCR_BaseGameOverScreenInfoOptional "{691917C00A52D4DB}" {
+       m_sTitle "#AR-ServerRestart_Title-UC"
+       m_sSubtitle "#AR-ServerRestart_Description"
+      }
+      m_OptionalEditorParams SCR_BaseGameOverScreenInfoEditor "{691917C00A52D4DD}" {
+       m_sDisplayName "#AR-Editor_GameOverAttribute_RestartServer_Name"
+       m_sDescription "#AR-Editor_GameOverAttribute_RestartServer_Description"
+      }
+     }
+     SCR_FactionGameOverScreenInfo "{691917C00A529E93}" {
+      m_GameOverScreenId EDITOR_FACTION_NEUTRAL
+      m_GameOverContentLayout "{E04021BC742BE432}UI/layouts/HUD/GameOver/EndScreen/EndScreenContent_Default.layout"
+      m_OptionalParams SCR_BaseGameOverScreenInfoOptional "{691917C00A529E89}" {
+       m_sTitle "#AR-MatchResult_EditorSessionEnd-UC"
+       m_sSubtitle "#AR-MatchResult_FactionNeutral_Subtitle"
+       m_sDebriefing "#AR-MatchResult_EditorNeutral_Debrief"
+       m_sAudioOneShot "SOUND_ONVICTORY"
+      }
+      m_OptionalEditorParams SCR_BaseGameOverScreenInfoEditor "{691917C00A529E92}" {
+       m_bCanBeSetByGameMaster 0
+      }
+     }
+     SCR_FactionVictoryGameOverScreenInfo "{691917C00A528165}" {
+      m_GameOverScreenId EDITOR_FACTION_VICTORY
+      m_GameOverContentLayout "{E04021BC742BE432}UI/layouts/HUD/GameOver/EndScreen/EndScreenContent_Default.layout"
+      m_OptionalParams SCR_BaseGameOverScreenInfoOptional "{691917C00A529E99}" {
+       m_sTitle "#AR-MatchResult_Victory-UC"
+       m_sSubtitle "#AR-Campaign_MatchResult"
+       m_sDebriefing "#AR-MatchResult_EditorNeutral_Debrief"
+       m_sAudioOneShot "SOUND_ONVICTORY"
+      }
+      m_OptionalEditorParams SCR_BaseGameOverScreenInfoEditor "{691917C00A528164}" {
+       m_bNeedsPlayableFactions 1
+       m_sDisplayName "#AR-Editor_GameOverAttribute_FactionVictory_Name"
+       m_sDescription "#AR-Editor_GameOverAttribute_FactionVictory_Description"
+       m_MirroredState EDITOR_FACTION_DEFEAT
+      }
+     }
+     SCR_EditorFactionGameOverScreenInfo "{691917C00A5225A1}" {
+      m_GameOverScreenId EDITOR_FACTION_DEFEAT
+      m_GameOverContentLayout "{E04021BC742BE432}UI/layouts/HUD/GameOver/EndScreen/EndScreenContent_Default.layout"
+      m_OptionalParams SCR_BaseGameOverScreenInfoOptional "{691917C00A528168}" {
+       m_sTitle "#AR-MatchResult_Defeat-UC"
+       m_sSubtitle "#AR-Campaign_MatchResult"
+       m_sDebriefing "#AR-MatchResult_EditorNeutral_Debrief"
+       m_sAudioOneShot "SOUND_ONDEFEAT"
+      }
+      m_OptionalEditorParams SCR_BaseGameOverScreenInfoEditor "{691917C00A528172}" {
+       m_bCanBeSetByGameMaster 0
+       m_MirroredState EDITOR_FACTION_VICTORY
+      }
+      m_sMultiFactionsSubtiteText "#AR-MatchResult_MultiFactions"
+     }
+     SCR_FactionGameOverScreenInfo "{691917C00A53E270}" {
+      m_GameOverScreenId EDITOR_FACTION_DRAW
+      m_GameOverContentLayout "{E04021BC742BE432}UI/layouts/HUD/GameOver/EndScreen/EndScreenContent_Default.layout"
+      m_OptionalParams SCR_BaseGameOverScreenInfoOptional "{691917C00A5225A9}" {
+       m_sTitle "#AR-MatchResult_Draw-UC"
+       m_sSubtitle "#AR-MatchResult_Draw"
+       m_sDebriefing "#AR-MatchResult_EditorNeutral_Debrief"
+       m_sAudioOneShot "SOUND_ONDEFEAT"
+      }
+      m_OptionalEditorParams SCR_BaseGameOverScreenInfoEditor "{691917C00A522595}" {
+       m_bNeedsPlayableFactions 1
+       m_sDisplayName "#AR-Editor_GameOverAttribute_FactionDraw_Name"
+       m_sDescription "#AR-Editor_GameOverAttribute_FactionDraw_Description"
+      }
+      m_bGetWinningFactionImage 0
+      m_bGetWinningSubtitleParam 0
+     }
+    }
+   }
+  }
+  SCR_GroupsManagerComponent "{691917C00A53E27C}" {
+   m_sDefaultGroupPrefab "{8B4D49A9F324E7D5}Prefabs/Groups/PlayableGroup.et"
+   m_iPlayableGroupFrequencyOffset 200
+   m_iPlayableGroupFrequencyMax 44400
+  }
+  SCR_HintManagerComponent "{691917C00A534097}" {
+   m_aConditionLists {
+    SCR_HintConditionList "{691917C00A534083}" {
+     m_aConditions {
+      SCR_VoteGameMasterCondition "{691917C00A53E236}" {
+       m_Info SCR_HintUIInfo "{691917C00A53E235}" {
+        Name "#AR-Hint_GAME_MODE_EDITOR_NO_GM_Name"
+        m_aDescriptionBlocks {
+         SCR_SubBlockUIName "{691917C00A53E203}" {
+          Name "#AR-Hint_GAME_MODE_EDITOR_NO_GM_Block_0"
+         }
+         SCR_ActionBlockUIName "{691917C00A53E208}" {
+          Name "#AR-Hint_GAME_MODE_EDITOR_NO_GM_Block_1"
+          m_sActionName "ShowScoreboard"
+         }
+         SCR_SubBlockUIName "{691917C00A53E20F}" {
+          Name "<br/>"
+          m_bInline 1
+         }
+         SCR_SubBlockUIName "{691917C00A53E233}" {
+          Name "#AR-Hint_GAME_MODE_EDITOR_NO_GM_Block_3"
+         }
+        }
+        m_Type GAME_MODE_EDITOR_NO_GM
+        m_iShowLimit 4
+       }
+       m_Type EDITOR_IN
+      }
+      SCR_VoteGameMasterCondition "{691917C00A53BCCA}" {
+       m_Info SCR_HintUIInfo "{691917C00A53BCC9}" {
+        Name "#AR-Hint_GAME_MODE_EDITOR_PLAYER_LIST_Name"
+        m_aDescriptionBlocks {
+         SCR_SubBlockUIName "{691917C00A53E2D2}" {
+          Name "#AR-Hint_GAME_MODE_EDITOR_PLAYER_LIST_Block_0"
+         }
+         SCR_SubBlockUIName "{691917C00A53E2D5}" {
+          Name "#AR-Hint_GAME_MODE_EDITOR_PLAYER_LIST_Block_1"
+         }
+        }
+        m_Type GAME_MODE_EDITOR_PLAYER_LIST
+        m_iShowLimit 4
+        m_fDuration -1
+        m_aHighlightWidgetsNames {
+         "VotingCombo"
+        }
+       }
+       m_Type KICK
+       m_bShowInPlayerList 1
+      }
+     }
+    }
+   }
+  }
+  SCR_IdentityManagerComponent "{691917C00A52DBA8}" {
+   m_aIdentityBioTypeHoldersConfigs {
+    "{C99114D74D03727F}Configs/Identities/Characters/Character_Identities.conf"
+   }
+   m_bEnableIdentityItemSlot 0
+   m_ExtendedIdentityHints SCR_GeneralHintStorage "{691917C00A532263}" {
+    m_aHintEntries {
+     SCR_HintEntry "{691917C00A532260}" {
+      m_HintInfo SCR_HintUIInfo "{691917C00A5340BC}" {
+       Name "#AR-Item_Identity_Name"
+       m_aDescriptionBlocks {
+        SCR_SubBlockUIName "{691917C00A5340AA}" {
+         Name "#AR-ExtendedIdentity_Hint_Line1"
+        }
+        SCR_SubBlockUIName "{691917C00A5340B1}" {
+         Name "<br/>"
+         m_bInline 1
+        }
+        SCR_SubBlockUIName "{691917C00A5340BD}" {
+         Name "#AR-ExtendedIdentity_Hint_Line2"
+        }
+       }
+       m_Type GAMEPLAY_PERSONAL_BELONGINGS
+       m_iShowLimit 4
+       m_fDuration 20
+      }
+     }
+    }
+   }
+  }
+  SCR_InitWeatherComponent "{691917C00A52DB4F}" {
+   m_sInitialStartingWeatherId "Cloudy"
+   m_iSetWeatherConstant 1
+  }
+  SCR_MapConfigComponent "{691917C00A52DB47}" {
+  }
+  SCR_MapMarkerManagerComponent "{691917C00A52DB7A}" {
+  }
+  SCR_NametagConfigComponent "{691917C00A52DB6D}" {
+   m_sConfigPath "{09F7AAA14A642683}Configs/NameTags/NametagFriendlies.conf"
+  }
+  SCR_NightModeGameModeComponent "{691917C00A52DB00}" {
+   m_bAllowGlobalNightMode 1
+  }
+  SCR_NotificationSenderComponent "{691917C00A52C13E}" {
+   m_aKillfeedTypeNames {
+    SCR_NotificationKillfeedTypeName "{691917C00A52D8D5}" {
+     m_iKillfeedType DISABLED
+     m_sKillfeedTypeName "#AR-Notification_KillfeedType_DISABLED"
+    }
+    SCR_NotificationKillfeedTypeName "{691917C00A52D8C9}" {
+     m_iKillfeedType UNKNOWN_KILLER
+     m_sKillfeedTypeName "#AR-Notification_KillfeedType_UNKNOWN_KILLER"
+    }
+    SCR_NotificationKillfeedTypeName "{691917C00A52D8CE}" {
+     m_iKillfeedType FULL
+     m_sKillfeedTypeName "#AR-Notification_KillfeedType_FULL"
+    }
+   }
+   m_aKillfeedReceiveTypeNames {
+    SCR_NotificationKillfeedreceiveTypeName "{691917C00A52D8F9}" {
+     m_iKillfeedreceiveType ALL
+     m_sKillfeedReceiveTypeName "#AR-Notification_KillfeedReceiveType_ALL"
+    }
+    SCR_NotificationKillfeedreceiveTypeName "{691917C00A52D8FD}" {
+     m_iKillfeedreceiveType ALLIES_ONLY
+     m_sKillfeedReceiveTypeName "#AR-Notification_KillfeedReceiveType_ALLIES_ONLY"
+    }
+    SCR_NotificationKillfeedreceiveTypeName "{691917C00A52D8F1}" {
+     m_iKillfeedreceiveType SAME_FACTION_ONLY
+     m_sKillfeedReceiveTypeName "#AR-Notification_KillfeedReceiveType_SAME_FACTION_ONLY"
+    }
+    SCR_NotificationKillfeedreceiveTypeName "{691917C00A52D8F2}" {
+     m_iKillfeedreceiveType GROUP_ONLY
+     m_sKillfeedReceiveTypeName "#AR-Notification_KillfeedReceiveType_GROUP_ONLY"
+    }
+    SCR_NotificationKillfeedreceiveTypeName "{691917C00A52D8E9}" {
+     m_iKillfeedreceiveType ENEMIES_ONLY
+     m_sKillfeedReceiveTypeName "#AR-Notification_KillfeedReceiveType_ENEMIES_ONLY"
+    }
+   }
+   m_aFriendlyFireKillfeedTypeNames {
+    SCR_NotificationFriendlyFireKillfeedTypeName "{691917C00A52D8EF}" {
+     m_sFriendlyFireKillfeedTypeName "#AR-Notification_KillfeedFriendlyFireType_Default"
+    }
+    SCR_NotificationFriendlyFireKillfeedTypeName "{691917C00A52D8E0}" {
+     m_eFriendlyFireKillfeedType SHOW_FRIENDLY_KILLS_TO_PLAYERS_INVOLVED
+     m_sFriendlyFireKillfeedTypeName "#AR-Notification_KillfeedFriendlyFireType_PlayersInvolved"
+    }
+    SCR_NotificationFriendlyFireKillfeedTypeName "{691917C00A52D8E5}" {
+     m_eFriendlyFireKillfeedType SHOW_FRIENDLY_KILLS_TO_TEAM
+     m_sFriendlyFireKillfeedTypeName "#AR-Notification_KillfeedFriendlyFireType_FriendlyTeam"
+    }
+   }
+   m_PlayerKickReasonsConfig SCR_ConfigurableDialogUiPresets "{691917C00A52C13F}" {
+    m_aPresets {
+     SCR_KickDialogUiPreset "{691917C00A52D837}" {
+      m_sLayout "{0AD1F1993FE94C28}UI/layouts/Menus/Dialogs/KickDialog.layout"
+      m_sTag "DEFAULT_ERROR"
+      m_eVisualStyle WARNING
+      m_sTitleIconImageName "warning"
+      m_sMessage "#AR-KickDialog_Default"
+      m_sTitle "#AR-ServerBrowser_SessionError"
+      m_aButtons {
+       SCR_ConfigurableDialogUiButtonPreset "{691917C00A52D85D}" {
+        m_sTag "confirm"
+        m_sActionName "DialogConfirm"
+        m_sLabel "#AR-Button_Confirm-UC"
+        m_eAlign RIGHT
+       }
+       SCR_ConfigurableDialogUiButtonPreset "{691917C00A52D84F}" {
+        m_sTag "cancel"
+        m_sActionName "MenuBack"
+        m_sLabel "#AR-QuickMenu_Close"
+        m_sSoundClicked "SOUND_FE_BUTTON_CANCEL"
+       }
+      }
+      m_bCanBeReconnected 0
+     }
+     SCR_KickDialogUiPreset "{691917C00A52D9B0}" {
+      m_sLayout "{0AD1F1993FE94C28}UI/layouts/Menus/Dialogs/KickDialog.layout"
+      m_sTag "PLATFORM_USER_SIGNED_OUT"
+      m_eVisualStyle WARNING
+      m_sTitleIconImageName "warning"
+      m_sMessage "#AR-KickDialog_Default"
+      m_sTitle "#AR-ServerBrowser_SessionError"
+      m_aButtons {
+       SCR_ConfigurableDialogUiButtonPreset "{691917C00A52D9C5}" {
+        m_sTag "confirm"
+        m_sActionName "DialogConfirm"
+        m_sLabel "#AR-Button_Confirm-UC"
+        m_eAlign RIGHT
+       }
+       SCR_ConfigurableDialogUiButtonPreset "{691917C00A52D9EE}" {
+        m_sTag "cancel"
+        m_sActionName "MenuBack"
+        m_sLabel "#AR-QuickMenu_Close"
+        m_sSoundClicked "SOUND_FE_BUTTON_CANCEL"
+       }
+      }
+      m_bCanBeReconnected 0
+     }
+     SCR_KickDialogUiPreset "{691917C00A52D97A}" {
+      m_sLayout "{0AD1F1993FE94C28}UI/layouts/Menus/Dialogs/KickDialog.layout"
+      m_sTag "REPLICATION"
+      m_eVisualStyle WARNING
+      m_sTitleIconImageName "warning"
+      m_sMessage "#AR-KickDialog_Default"
+      m_sTitle "#AR-ServerBrowser_SessionError"
+      m_aButtons {
+       SCR_ConfigurableDialogUiButtonPreset "{691917C00A52D958}" {
+        m_sTag "confirm"
+        m_sActionName "DialogConfirm"
+        m_sLabel "#AR-Button_Confirm-UC"
+        m_eAlign RIGHT
+       }
+       SCR_ConfigurableDialogUiButtonPreset "{691917C00A52D955}" {
+        m_sTag "cancel"
+        m_sActionName "MenuBack"
+        m_sLabel "#AR-QuickMenu_Close"
+        m_sSoundClicked "SOUND_FE_BUTTON_CANCEL"
+       }
+      }
+      m_bCanBeReconnected 0
+     }
+     SCR_KickDialogUiPreset "{691917C00A52D93C}" {
+      m_sLayout "{0AD1F1993FE94C28}UI/layouts/Menus/Dialogs/KickDialog.layout"
+      m_sTag "REPLICATION_SYSTEM_FAILURE"
+      m_eVisualStyle WARNING
+      m_sTitleIconImageName "warning"
+      m_sMessage "#AR-KickDialog_Default"
+      m_sTitle "#AR-ServerBrowser_SessionError"
+      m_aButtons {
+       SCR_ConfigurableDialogUiButtonPreset "{691917C00A52D960}" {
+        m_sTag "confirm"
+        m_sActionName "DialogConfirm"
+        m_sLabel "#AR-Button_Confirm-UC"
+        m_eAlign RIGHT
+       }
+       SCR_ConfigurableDialogUiButtonPreset "{691917C00A52D911}" {
+        m_sTag "cancel"
+        m_sActionName "MenuBack"
+        m_sLabel "#AR-QuickMenu_Close"
+        m_sSoundClicked "SOUND_FE_BUTTON_CANCEL"
+       }
+      }
+     }
+     SCR_KickDialogUiPreset "{691917C00A52DEC7}" {
+      m_sLayout "{0AD1F1993FE94C28}UI/layouts/Menus/Dialogs/KickDialog.layout"
+      m_sTag "REPLICATION_DISCONNECTION"
+      m_eVisualStyle WARNING
+      m_sTitleIconImageName "warning"
+      m_sMessage "#AR-KickDialog_Replication_Disconect"
+      m_sTitle "#AR-ServerBrowser_SessionError"
+      m_aButtons {
+       SCR_ConfigurableDialogUiButtonPreset "{691917C00A52D925}" {
+        m_sTag "confirm"
+        m_sActionName "DialogConfirm"
+        m_sLabel "#AR-Button_Confirm-UC"
+        m_eAlign RIGHT
+       }
+       SCR_ConfigurableDialogUiButtonPreset "{691917C00A52DEDE}" {
+        m_sTag "cancel"
+        m_sActionName "MenuBack"
+        m_sLabel "#AR-QuickMenu_Close"
+        m_sSoundClicked "SOUND_FE_BUTTON_CANCEL"
+       }
+      }
+     }
+     SCR_KickDialogUiPreset "{691917C00A52DE89}" {
+      m_sLayout "{0AD1F1993FE94C28}UI/layouts/Menus/Dialogs/KickDialog.layout"
+      m_sTag "REPLICATION_CONNECTION_FAILURE"
+      m_eVisualStyle WARNING
+      m_sTitleIconImageName "warning"
+      m_sMessage "#AR-KickDialog_Replication_ConnectionFail"
+      m_sTitle "#AR-ServerBrowser_SessionError"
+      m_aButtons {
+       SCR_ConfigurableDialogUiButtonPreset "{691917C00A52DEF5}" {
+        m_sTag "confirm"
+        m_sActionName "DialogConfirm"
+        m_sLabel "#AR-Button_Confirm-UC"
+        m_eAlign RIGHT
+       }
+       SCR_ConfigurableDialogUiButtonPreset "{691917C00A52DEEF}" {
+        m_sTag "cancel"
+        m_sActionName "MenuBack"
+        m_sLabel "#AR-QuickMenu_Close"
+        m_sSoundClicked "SOUND_FE_BUTTON_CANCEL"
+       }
+      }
+     }
+     SCR_KickDialogUiPreset "{691917C00A52DE5D}" {
+      m_sLayout "{0AD1F1993FE94C28}UI/layouts/Menus/Dialogs/KickDialog.layout"
+      m_sTag "REPLICATION_TIMEOUT"
+      m_eVisualStyle WARNING
+      m_sTitleIconImageName "warning"
+      m_sMessage "#AR-KickDialog_Replication_Timeout"
+      m_sTitle "#AR-ServerBrowser_SessionError"
+      m_aButtons {
+       SCR_ConfigurableDialogUiButtonPreset "{691917C00A52DE84}" {
+        m_sTag "confirm"
+        m_sActionName "DialogConfirm"
+        m_sLabel "#AR-Button_Confirm-UC"
+        m_eAlign RIGHT
+       }
+       SCR_ConfigurableDialogUiButtonPreset "{691917C00A52DEBF}" {
+        m_sTag "cancel"
+        m_sActionName "MenuBack"
+        m_sLabel "#AR-QuickMenu_Close"
+        m_sSoundClicked "SOUND_FE_BUTTON_CANCEL"
+       }
+      }
+     }
+     SCR_KickDialogUiPreset "{691917C00A52DE6A}" {
+      m_sLayout "{0AD1F1993FE94C28}UI/layouts/Menus/Dialogs/KickDialog.layout"
+      m_sTag "REPLICATION_FLOODED"
+      m_eVisualStyle WARNING
+      m_sTitleIconImageName "warning"
+      m_sMessage "#AR-KickDialog_Default"
+      m_sTitle "#AR-ServerBrowser_SessionError"
+      m_aButtons {
+       SCR_ConfigurableDialogUiButtonPreset "{691917C00A52DE48}" {
+        m_sTag "confirm"
+        m_sActionName "DialogConfirm"
+        m_sLabel "#AR-Button_Confirm-UC"
+        m_eAlign RIGHT
+       }
+       SCR_ConfigurableDialogUiButtonPreset "{691917C00A52DE40}" {
+        m_sTag "cancel"
+        m_sActionName "MenuBack"
+        m_sLabel "#AR-QuickMenu_Close"
+        m_sSoundClicked "SOUND_FE_BUTTON_CANCEL"
+       }
+      }
+     }
+     SCR_KickDialogUiPreset "{691917C00A52DE3B}" {
+      m_sLayout "{0AD1F1993FE94C28}UI/layouts/Menus/Dialogs/KickDialog.layout"
+      m_sTag "REPLICATION_STALLED"
+      m_eVisualStyle WARNING
+      m_sTitleIconImageName "warning"
+      m_sMessage "#AR-KickDialog_Default"
+      m_sTitle "#AR-ServerBrowser_SessionError"
+      m_aButtons {
+       SCR_ConfigurableDialogUiButtonPreset "{691917C00A52DE19}" {
+        m_sTag "confirm"
+        m_sActionName "DialogConfirm"
+        m_sLabel "#AR-Button_Confirm-UC"
+        m_eAlign RIGHT
+       }
+       SCR_ConfigurableDialogUiButtonPreset "{691917C00A52DE11}" {
+        m_sTag "cancel"
+        m_sActionName "MenuBack"
+        m_sLabel "#AR-QuickMenu_Close"
+        m_sSoundClicked "SOUND_FE_BUTTON_CANCEL"
+       }
+      }
+     }
+     SCR_KickDialogUiPreset "{691917C00A52DFCC}" {
+      m_sLayout "{0AD1F1993FE94C28}UI/layouts/Menus/Dialogs/KickDialog.layout"
+      m_sTag "REPLICATION_JIP_ERROR"
+      m_eVisualStyle WARNING
+      m_sTitleIconImageName "warning"
+      m_sMessage "#AR-KickDialog_Default"
+      m_sTitle "#AR-ServerBrowser_SessionError"
+      m_aButtons {
+       SCR_ConfigurableDialogUiButtonPreset "{691917C00A52DE2C}" {
+        m_sTag "confirm"
+        m_sActionName "DialogConfirm"
+        m_sLabel "#AR-Button_Confirm-UC"
+        m_eAlign RIGHT
+       }
+       SCR_ConfigurableDialogUiButtonPreset "{691917C00A52DE25}" {
+        m_sTag "cancel"
+        m_sActionName "MenuBack"
+        m_sLabel "#AR-QuickMenu_Close"
+        m_sSoundClicked "SOUND_FE_BUTTON_CANCEL"
+       }
+      }
+     }
+     SCR_KickDialogUiPreset "{691917C00A52DF9C}" {
+      m_sLayout "{0AD1F1993FE94C28}UI/layouts/Menus/Dialogs/KickDialog.layout"
+      m_sTag "REPLICATION_CREATION_FAILURE"
+      m_eVisualStyle WARNING
+      m_sTitleIconImageName "warning"
+      m_sMessage "#AR-KickDialog_Default"
+      m_sTitle "#AR-ServerBrowser_SessionError"
+      m_aButtons {
+       SCR_ConfigurableDialogUiButtonPreset "{691917C00A52DFFB}" {
+        m_sTag "confirm"
+        m_sActionName "DialogConfirm"
+        m_sLabel "#AR-Button_Confirm-UC"
+        m_eAlign RIGHT
+       }
+       SCR_ConfigurableDialogUiButtonPreset "{691917C00A52DFF7}" {
+        m_sTag "cancel"
+        m_sActionName "MenuBack"
+        m_sLabel "#AR-QuickMenu_Close"
+        m_sSoundClicked "SOUND_FE_BUTTON_CANCEL"
+       }
+      }
+     }
+     SCR_KickDialogUiPreset "{691917C00A52DFA1}" {
+      m_sLayout "{0AD1F1993FE94C28}UI/layouts/Menus/Dialogs/KickDialog.layout"
+      m_sTag "BATTLEYE_INIT"
+      m_eVisualStyle WARNING
+      m_sTitleIconImageName "warning"
+      m_sMessage "#AR-KickDialog_Default"
+      m_sTitle "#AR-ServerBrowser_SessionError"
+      m_aButtons {
+       SCR_ConfigurableDialogUiButtonPreset "{691917C00A52DF8F}" {
+        m_sTag "confirm"
+        m_sActionName "DialogConfirm"
+        m_sLabel "#AR-Button_Confirm-UC"
+        m_eAlign RIGHT
+       }
+       SCR_ConfigurableDialogUiButtonPreset "{691917C00A52DFBB}" {
+        m_sTag "cancel"
+        m_sActionName "MenuBack"
+        m_sLabel "#AR-QuickMenu_Close"
+        m_sSoundClicked "SOUND_FE_BUTTON_CANCEL"
+       }
+      }
+      m_bCanBeReconnected 0
+     }
+     SCR_KickDialogUiPreset "{691917C00A52DF1B}" {
+      m_sLayout "{0AD1F1993FE94C28}UI/layouts/Menus/Dialogs/KickDialog.layout"
+      m_sTag "BATTLEYE_INIT_LOAD_ERROR"
+      m_eVisualStyle WARNING
+      m_sTitleIconImageName "warning"
+      m_sMessage "#AR-KickDialog_BattlEye_NotInstalled"
+      m_sTitle "#AR-ServerBrowser_SessionError"
+      m_aButtons {
+       SCR_ConfigurableDialogUiButtonPreset "{691917C00A52DF4E}" {
+        m_sTag "confirm"
+        m_sActionName "DialogConfirm"
+        m_sLabel "#AR-Button_Confirm-UC"
+        m_eAlign RIGHT
+       }
+       SCR_ConfigurableDialogUiButtonPreset "{691917C00A52DF7F}" {
+        m_sTag "cancel"
+        m_sActionName "MenuBack"
+        m_sLabel "#AR-QuickMenu_Close"
+        m_sSoundClicked "SOUND_FE_BUTTON_CANCEL"
+       }
+      }
+      m_bCanBeReconnected 0
+     }
+     SCR_KickDialogUiPreset "{691917C00A52DCDA}" {
+      m_sLayout "{0AD1F1993FE94C28}UI/layouts/Menus/Dialogs/KickDialog.layout"
+      m_sTag "BATTLEYE_INIT_UNSUPPORTED_VERSION"
+      m_eVisualStyle WARNING
+      m_sTitleIconImageName "warning"
+      m_sMessage "#AR-KickDialog_BattlEye_Unsupported"
+      m_sTitle "#AR-ServerBrowser_SessionError"
+      m_aButtons {
+       SCR_ConfigurableDialogUiButtonPreset "{691917C00A52DF03}" {
+        m_sTag "confirm"
+        m_sActionName "DialogConfirm"
+        m_sLabel "#AR-Button_Confirm-UC"
+        m_eAlign RIGHT
+       }
+       SCR_ConfigurableDialogUiButtonPreset "{691917C00A52DF3E}" {
+        m_sTag "cancel"
+        m_sActionName "MenuBack"
+        m_sLabel "#AR-QuickMenu_Close"
+        m_sSoundClicked "SOUND_FE_BUTTON_CANCEL"
+       }
+      }
+      m_bCanBeReconnected 0
+     }
+     SCR_KickDialogUiPreset "{691917C00A52DC9C}" {
+      m_sLayout "{0AD1F1993FE94C28}UI/layouts/Menus/Dialogs/KickDialog.layout"
+      m_sTag "BATTLEYE"
+      m_eVisualStyle WARNING
+      m_sTitleIconImageName "warning"
+      m_sMessage "#AR-KickDialog_BattlEye_GenericIssue"
+      m_sTitle "#AR-ServerBrowser_SessionError"
+      m_aButtons {
+       SCR_ConfigurableDialogUiButtonPreset "{691917C00A52DCC6}" {
+        m_sTag "confirm"
+        m_sActionName "DialogConfirm"
+        m_sLabel "#AR-Button_Confirm-UC"
+        m_eAlign RIGHT
+       }
+       SCR_ConfigurableDialogUiButtonPreset "{691917C00A52DCF5}" {
+        m_sTag "cancel"
+        m_sActionName "MenuBack"
+        m_sLabel "#AR-QuickMenu_Close"
+        m_sSoundClicked "SOUND_FE_BUTTON_CANCEL"
+       }
+      }
+      m_bCanBeReconnected 0
+     }
+     SCR_KickDialogUiPreset "{691917C00A52DC59}" {
+      m_sLayout "{0AD1F1993FE94C28}UI/layouts/Menus/Dialogs/KickDialog.layout"
+      m_sTag "BATTLEYE_BAD_SERVICE_VERSION"
+      m_eVisualStyle WARNING
+      m_sTitleIconImageName "warning"
+      m_sMessage "#AR-KickDialog_BattlEye_Unsupported"
+      m_sTitle "#AR-ServerBrowser_SessionError"
+      m_aButtons {
+       SCR_ConfigurableDialogUiButtonPreset "{691917C00A52DC80}" {
+        m_sTag "confirm"
+        m_sActionName "DialogConfirm"
+        m_sLabel "#AR-Button_Confirm-UC"
+        m_eAlign RIGHT
+       }
+       SCR_ConfigurableDialogUiButtonPreset "{691917C00A52DCBE}" {
+        m_sTag "cancel"
+        m_sActionName "MenuBack"
+        m_sLabel "#AR-QuickMenu_Close"
+        m_sSoundClicked "SOUND_FE_BUTTON_CANCEL"
+       }
+      }
+      m_bCanBeReconnected 0
+     }
+     SCR_KickDialogUiPreset "{691917C00A52DC19}" {
+      m_sLayout "{0AD1F1993FE94C28}UI/layouts/Menus/Dialogs/KickDialog.layout"
+      m_sTag "DATA"
+      m_eVisualStyle WARNING
+      m_sTitleIconImageName "warning"
+      m_sMessage "#AR-KickDialog_Default"
+      m_sTitle "#AR-ServerBrowser_SessionError"
+      m_aButtons {
+       SCR_ConfigurableDialogUiButtonPreset "{691917C00A52DC4B}" {
+        m_sTag "confirm"
+        m_sActionName "DialogConfirm"
+        m_sLabel "#AR-Button_Confirm-UC"
+        m_eAlign RIGHT
+       }
+       SCR_ConfigurableDialogUiButtonPreset "{691917C00A52DC7A}" {
+        m_sTag "cancel"
+        m_sActionName "MenuBack"
+        m_sLabel "#AR-QuickMenu_Close"
+        m_sSoundClicked "SOUND_FE_BUTTON_CANCEL"
+       }
+      }
+      m_bCanBeReconnected 0
+     }
+     SCR_KickDialogUiPreset "{691917C00A52DC24}" {
+      m_sLayout "{0AD1F1993FE94C28}UI/layouts/Menus/Dialogs/KickDialog.layout"
+      m_sTag "DATA_VERSION_MISMATCH"
+      m_eVisualStyle WARNING
+      m_sTitleIconImageName "warning"
+      m_sMessage "#AR-KickDialog_Data_VersionMismatch"
+      m_sTitle "#AR-ServerBrowser_SessionError"
+      m_aButtons {
+       SCR_ConfigurableDialogUiButtonPreset "{691917C00A52DC09}" {
+        m_sTag "confirm"
+        m_sActionName "DialogConfirm"
+        m_sLabel "#AR-Button_Confirm-UC"
+        m_eAlign RIGHT
+       }
+       SCR_ConfigurableDialogUiButtonPreset "{691917C00A52DC07}" {
+        m_sTag "cancel"
+        m_sActionName "MenuBack"
+        m_sLabel "#AR-QuickMenu_Close"
+        m_sSoundClicked "SOUND_FE_BUTTON_CANCEL"
+       }
+      }
+      m_bCanBeReconnected 0
+     }
+     SCR_KickDialogUiPreset "{691917C00A52DDE4}" {
+      m_sLayout "{0AD1F1993FE94C28}UI/layouts/Menus/Dialogs/KickDialog.layout"
+      m_sTag "DATA_RDB_MISMATCH"
+      m_eVisualStyle WARNING
+      m_sTitleIconImageName "warning"
+      m_sMessage "#AR-KickDialog_Data_RDBMismatch"
+      m_sTitle "#AR-ServerBrowser_SessionError"
+      m_aButtons {
+       SCR_ConfigurableDialogUiButtonPreset "{691917C00A52DDD6}" {
+        m_sTag "confirm"
+        m_sActionName "DialogConfirm"
+        m_sLabel "#AR-Button_Confirm-UC"
+        m_eAlign RIGHT
+       }
+       SCR_ConfigurableDialogUiButtonPreset "{691917C00A52DDC0}" {
+        m_sTag "cancel"
+        m_sActionName "MenuBack"
+        m_sLabel "#AR-QuickMenu_Close"
+        m_sSoundClicked "SOUND_FE_BUTTON_CANCEL"
+       }
+      }
+      m_bCanBeReconnected 0
+     }
+     SCR_KickDialogUiPreset "{691917C00A52DD45}" {
+      m_sLayout "{0AD1F1993FE94C28}UI/layouts/Menus/Dialogs/KickDialog.layout"
+      m_sTag "DATA_SCRIPT_MISMATCH"
+      m_eVisualStyle WARNING
+      m_sTitleIconImageName "warning"
+      m_sMessage "#AR-KickDialog_Data_ScriptMismatch"
+      m_sTitle "#AR-ServerBrowser_SessionError"
+      m_aButtons {
+       SCR_ConfigurableDialogUiButtonPreset "{691917C00A52DDBE}" {
+        m_sTag "confirm"
+        m_sActionName "DialogConfirm"
+        m_sLabel "#AR-Button_Confirm-UC"
+        m_eAlign RIGHT
+       }
+       SCR_ConfigurableDialogUiButtonPreset "{691917C00A52DDA3}" {
+        m_sTag "cancel"
+        m_sActionName "MenuBack"
+        m_sLabel "#AR-QuickMenu_Close"
+        m_sSoundClicked "SOUND_FE_BUTTON_CANCEL"
+       }
+      }
+      m_bCanBeReconnected 0
+     }
+     SCR_KickDialogUiPreset "{691917C00A52DD37}" {
+      m_sLayout "{0AD1F1993FE94C28}UI/layouts/Menus/Dialogs/KickDialog.layout"
+      m_sTag "DATA_WORLD_LOAD_ERROR"
+      m_eVisualStyle WARNING
+      m_sTitleIconImageName "warning"
+      m_sMessage "#AR-KickDialog_Data_WorldLoad"
+      m_sTitle "#AR-ServerBrowser_SessionError"
+      m_aButtons {
+       SCR_ConfigurableDialogUiButtonPreset "{691917C00A52DD60}" {
+        m_sTag "confirm"
+        m_sActionName "DialogConfirm"
+        m_sLabel "#AR-Button_Confirm-UC"
+        m_eAlign RIGHT
+       }
+       SCR_ConfigurableDialogUiButtonPreset "{691917C00A52DD10}" {
+        m_sTag "cancel"
+        m_sActionName "MenuBack"
+        m_sLabel "#AR-QuickMenu_Close"
+        m_sSoundClicked "SOUND_FE_BUTTON_CANCEL"
+       }
+      }
+     }
+     SCR_KickDialogUiPreset "{691917C00A52C2E0}" {
+      m_sLayout "{0AD1F1993FE94C28}UI/layouts/Menus/Dialogs/KickDialog.layout"
+      m_sTag "PLATFORM"
+      m_eVisualStyle WARNING
+      m_sTitleIconImageName "warning"
+      m_sMessage "#AR-KickDialog_Default"
+      m_sTitle "#AR-ServerBrowser_SessionError"
+      m_aButtons {
+       SCR_ConfigurableDialogUiButtonPreset "{691917C00A52C2D0}" {
+        m_sTag "confirm"
+        m_sActionName "DialogConfirm"
+        m_sLabel "#AR-Button_Confirm-UC"
+        m_eAlign RIGHT
+       }
+       SCR_ConfigurableDialogUiButtonPreset "{691917C00A52C2CF}" {
+        m_sTag "cancel"
+        m_sActionName "MenuBack"
+        m_sLabel "#AR-QuickMenu_Close"
+        m_sSoundClicked "SOUND_FE_BUTTON_CANCEL"
+       }
+      }
+      m_bCanBeReconnected 0
+     }
+     SCR_KickDialogUiPreset "{691917C00A52C25E}" {
+      m_sLayout "{0AD1F1993FE94C28}UI/layouts/Menus/Dialogs/KickDialog.layout"
+      m_sTag "PLATFORM_NO_MP_PRIVILEGE"
+      m_eVisualStyle WARNING
+      m_sTitleIconImageName "warning"
+      m_sMessage "#AR-KickDialog_Platform_NoPrivilege"
+      m_sTitle "#AR-ServerBrowser_SessionError"
+      m_aButtons {
+       SCR_ConfigurableDialogUiButtonPreset "{691917C00A52C28D}" {
+        m_sTag "confirm"
+        m_sActionName "DialogConfirm"
+        m_sLabel "#AR-Button_Confirm-UC"
+        m_eAlign RIGHT
+       }
+       SCR_ConfigurableDialogUiButtonPreset "{691917C00A52C2BD}" {
+        m_sTag "cancel"
+        m_sActionName "MenuBack"
+        m_sLabel "#AR-QuickMenu_Close"
+        m_sSoundClicked "SOUND_FE_BUTTON_CANCEL"
+       }
+      }
+      m_bCanBeReconnected 0
+     }
+     SCR_KickDialogUiPreset "{691917C00A52C202}" {
+      m_sLayout "{0AD1F1993FE94C28}UI/layouts/Menus/Dialogs/KickDialog.layout"
+      m_sTag "PLAYER"
+      m_eVisualStyle WARNING
+      m_sTitleIconImageName "warning"
+      m_sMessage "#AR-KickDialog_Default"
+      m_sTitle "#AR-ServerBrowser_SessionError"
+      m_aButtons {
+       SCR_ConfigurableDialogUiButtonPreset "{691917C00A52C27F}" {
+        m_sTag "confirm"
+        m_sActionName "DialogConfirm"
+        m_sLabel "#AR-Button_Confirm-UC"
+        m_eAlign RIGHT
+       }
+       SCR_ConfigurableDialogUiButtonPreset "{691917C00A52C26C}" {
+        m_sTag "cancel"
+        m_sActionName "MenuBack"
+        m_sLabel "#AR-QuickMenu_Close"
+        m_sSoundClicked "SOUND_FE_BUTTON_CANCEL"
+       }
+      }
+      m_bCanBeReconnected 0
+     }
+     SCR_KickDialogUiPreset "{691917C00A52C3F4}" {
+      m_sLayout "{0AD1F1993FE94C28}UI/layouts/Menus/Dialogs/KickDialog.layout"
+      m_sTag "PLAYER_MANAGER"
+      m_eVisualStyle WARNING
+      m_sTitleIconImageName "warning"
+      m_sMessage "#AR-KickDialog_PM_Kicked"
+      m_sTitle "#AR-ServerBrowser_SessionError"
+      m_aButtons {
+       SCR_ConfigurableDialogUiButtonPreset "{691917C00A52C22A}" {
+        m_sTag "confirm"
+        m_sActionName "DialogConfirm"
+        m_sLabel "#AR-Button_Confirm-UC"
+        m_eAlign RIGHT
+       }
+       SCR_ConfigurableDialogUiButtonPreset "{691917C00A52C3DD}" {
+        m_sTag "cancel"
+        m_sActionName "MenuBack"
+        m_sLabel "#AR-QuickMenu_Close"
+        m_sSoundClicked "SOUND_FE_BUTTON_CANCEL"
+       }
+      }
+      m_bCanBeReconnected 0
+     }
+     SCR_KickDialogUiPreset "{691917C00A52C3A5}" {
+      m_sLayout "{0AD1F1993FE94C28}UI/layouts/Menus/Dialogs/KickDialog.layout"
+      m_sTag "PLAYER_MANAGER_KICK"
+      m_eVisualStyle WARNING
+      m_sTitleIconImageName "warning"
+      m_sMessage "#AR-KickDialog_PM_Kicked"
+      m_sTitle "#AR-ServerBrowser_SessionError"
+      m_aButtons {
+       SCR_ConfigurableDialogUiButtonPreset "{691917C00A52C390}" {
+        m_sTag "confirm"
+        m_sActionName "DialogConfirm"
+        m_sLabel "#AR-Button_Confirm-UC"
+        m_eAlign RIGHT
+       }
+       SCR_ConfigurableDialogUiButtonPreset "{691917C00A52C380}" {
+        m_sTag "cancel"
+        m_sActionName "MenuBack"
+        m_sLabel "#AR-QuickMenu_Close"
+        m_sSoundClicked "SOUND_FE_BUTTON_CANCEL"
+       }
+      }
+      m_bCanBeReconnected 0
+     }
+     SCR_KickDialogUiPreset "{691917C00A52C31E}" {
+      m_sLayout "{0AD1F1993FE94C28}UI/layouts/Menus/Dialogs/KickDialog.layout"
+      m_sTag "PLAYER_MANAGER_KICK_VOTED"
+      m_eVisualStyle WARNING
+      m_sTitleIconImageName "warning"
+      m_sMessage "#AR-KickDialog_PM_Kicked"
+      m_sTitle "#AR-ServerBrowser_SessionError"
+      m_aButtons {
+       SCR_ConfigurableDialogUiButtonPreset "{691917C00A52C34C}" {
+        m_sTag "confirm"
+        m_sActionName "DialogConfirm"
+        m_sLabel "#AR-Button_Confirm-UC"
+        m_eAlign RIGHT
+       }
+       SCR_ConfigurableDialogUiButtonPreset "{691917C00A52C37F}" {
+        m_sTag "cancel"
+        m_sActionName "MenuBack"
+        m_sLabel "#AR-QuickMenu_Close"
+        m_sSoundClicked "SOUND_FE_BUTTON_CANCEL"
+       }
+      }
+      m_bCanBeReconnected 0
+     }
+     SCR_KickDialogUiPreset "{691917C00A52C0C5}" {
+      m_sLayout "{0AD1F1993FE94C28}UI/layouts/Menus/Dialogs/KickDialog.layout"
+      m_sTag "PLAYER_MANAGER_FRIENDLY_FIRE"
+      m_eVisualStyle WARNING
+      m_sTitleIconImageName "warning"
+      m_sMessage "#AR-KickDialog_Behavior_FriendlyFire"
+      m_aButtons {
+       SCR_ConfigurableDialogUiButtonPreset "{691917C00A52C33D}" {
+        m_sTag "confirm"
+        m_sActionName "DialogConfirm"
+        m_sLabel "#AR-Button_Confirm-UC"
+        m_eAlign RIGHT
+       }
+       SCR_ConfigurableDialogUiButtonPreset "{691917C00A52C32F}" {
+        m_sTag "cancel"
+        m_sActionName "MenuBack"
+        m_sLabel "#AR-QuickMenu_Close"
+        m_sSoundClicked "SOUND_FE_BUTTON_CANCEL"
+       }
+      }
+      m_bCanBeReconnected 0
+     }
+     SCR_KickDialogUiPreset "{691917C00A52C0B6}" {
+      m_sLayout "{0AD1F1993FE94C28}UI/layouts/Menus/Dialogs/KickDialog.layout"
+      m_sTag "PLAYER_MANAGER_DISRUPTIVE_BEHAVIOUR"
+      m_eVisualStyle WARNING
+      m_sTitleIconImageName "warning"
+      m_sMessage "#AR-KickDialog_Behavior_Trolling"
+      m_aButtons {
+       SCR_ConfigurableDialogUiButtonPreset "{691917C00A52C0ED}" {
+        m_sTag "confirm"
+        m_sActionName "DialogConfirm"
+        m_sLabel "#AR-Button_Confirm-UC"
+        m_eAlign RIGHT
+       }
+       SCR_ConfigurableDialogUiButtonPreset "{691917C00A52C09C}" {
+        m_sTag "cancel"
+        m_sActionName "MenuBack"
+        m_sLabel "#AR-QuickMenu_Close"
+        m_sSoundClicked "SOUND_FE_BUTTON_CANCEL"
+       }
+      }
+      m_bCanBeReconnected 0
+     }
+     SCR_KickDialogUiPreset "{691917C00A52C00B}" {
+      m_sLayout "{0AD1F1993FE94C28}UI/layouts/Menus/Dialogs/KickDialog.layout"
+      m_sTag "PLAYER_MANAGER_KICKED_BY_GM"
+      m_eVisualStyle WARNING
+      m_sTitleIconImageName "warning"
+      m_sMessage "#AR-KickDialog_Editor_KickedByGM"
+      m_aButtons {
+       SCR_ConfigurableDialogUiButtonPreset "{691917C00A52C052}" {
+        m_sTag "confirm"
+        m_sActionName "DialogConfirm"
+        m_sLabel "#AR-Button_Confirm-UC"
+        m_eAlign RIGHT
+       }
+       SCR_ConfigurableDialogUiButtonPreset "{691917C00A52C079}" {
+        m_sTag "cancel"
+        m_sActionName "MenuBack"
+        m_sLabel "#AR-QuickMenu_Close"
+        m_sSoundClicked "SOUND_FE_BUTTON_CANCEL"
+       }
+      }
+      m_bCanBeReconnected 0
+     }
+     SCR_KickDialogUiPreset "{691917C00A52C1F4}" {
+      m_sLayout "{0AD1F1993FE94C28}UI/layouts/Menus/Dialogs/KickDialog.layout"
+      m_sTag "PLAYER_MANAGER_BANNED_BY_GM"
+      m_eVisualStyle WARNING
+      m_sTitleIconImageName "warning"
+      m_sMessage "#AR-KickDialog_Editor_BannedByGM"
+      m_aButtons {
+       SCR_ConfigurableDialogUiButtonPreset "{691917C00A52C037}" {
+        m_sTag "confirm"
+        m_sActionName "DialogConfirm"
+        m_sLabel "#AR-Button_Confirm-UC"
+        m_eAlign RIGHT
+       }
+       SCR_ConfigurableDialogUiButtonPreset "{691917C00A52C026}" {
+        m_sTag "cancel"
+        m_sActionName "MenuBack"
+        m_sLabel "#AR-QuickMenu_Close"
+        m_sSoundClicked "SOUND_FE_BUTTON_CANCEL"
+       }
+      }
+      m_bCanBeReconnected 0
+     }
+     SCR_KickDialogUiPreset "{691917C00A52C15A}" {
+      m_sLayout "{0AD1F1993FE94C28}UI/layouts/Menus/Dialogs/KickDialog.layout"
+      m_sTag "PLAYER_MANAGER_BAN"
+      m_eVisualStyle WARNING
+      m_sTitleIconImageName "warning"
+      m_sMessage "#AR-ServerBrowser_JoinErrorBanMsg"
+      m_sTitle "#AR-ServerBrowser_JoinErrorBanTittle"
+      m_aButtons {
+       SCR_ConfigurableDialogUiButtonPreset "{691917C00A52C19C}" {
+        m_sTag "confirm"
+        m_sActionName "DialogConfirm"
+        m_sLabel "#AR-Button_Confirm-UC"
+        m_eAlign RIGHT
+       }
+       SCR_ConfigurableDialogUiButtonPreset "{691917C00A52C18C}" {
+        m_sTag "cancel"
+        m_sActionName "MenuBack"
+        m_sLabel "#AR-QuickMenu_Close"
+        m_sSoundClicked "SOUND_FE_BUTTON_CANCEL"
+       }
+      }
+      m_bCanBeReconnected 0
+     }
+     SCR_KickDialogUiPreset "{691917C00A52C13C}" {
+      m_sLayout "{0AD1F1993FE94C28}UI/layouts/Menus/Dialogs/KickDialog.layout"
+      m_sTag "PLAYER_MANAGER_TEMP_BAN"
+      m_eVisualStyle WARNING
+      m_sTitleIconImageName "warning"
+      m_sMessage "#AR-ServerBrowser_JoinErrorBanMsg"
+      m_sTitle "#AR-ServerBrowser_JoinErrorBanTittle"
+      m_aButtons {
+       SCR_ConfigurableDialogUiButtonPreset "{691917C00A52C17C}" {
+        m_sTag "confirm"
+        m_sActionName "DialogConfirm"
+        m_sLabel "#AR-Button_Confirm-UC"
+        m_eAlign RIGHT
+       }
+       SCR_ConfigurableDialogUiButtonPreset "{691917C00A52C163}" {
+        m_sTag "cancel"
+        m_sActionName "MenuBack"
+        m_sLabel "#AR-QuickMenu_Close"
+        m_sSoundClicked "SOUND_FE_BUTTON_CANCEL"
+       }
+      }
+      m_bCanBeReconnected 0
+     }
+    }
+   }
+  }
+  SCR_PerceivedFactionManagerComponent "{691917C00A52C95B}" {
+   m_eCharacterPerceivedFactionOutfitType HIGHEST_VALUE
+   m_PerceivedFactionHints SCR_GeneralHintStorage "{691917C00A52C92A}" {
+    m_aHintEntries {
+     SCR_HintEntry "{691917C00A52C6E3}" {
+      m_HintInfo SCR_HintUIInfo "{691917C00A52C6E0}" {
+       Name "#AR-PerceivedFaction_Hint_Title"
+       m_aDescriptionBlocks {
+        SCR_SubBlockUIName "{691917C00A52C6EC}" {
+         Name "#AR-PerceivedFaction_Hint_FriendlyKills"
+        }
+       }
+       m_Type GAMEPLAY_PERCEIVED_FACTION_CHANGED
+       m_iShowLimit 4
+       m_fDuration 20
+      }
+     }
+     SCR_HintEntry "{691917C00A52C9E1}" {
+      m_HintInfo SCR_HintUIInfo "{691917C00A52C9E0}" {
+       Name "#AR-PerceivedFaction_Hint_Title"
+       m_aDescriptionBlocks {
+        SCR_SubBlockUIName "{691917C00A52C685}" {
+         Name "#AR-PerceivedFaction_Hint_FriendlyKills"
+        }
+        SCR_SubBlockUIName "{691917C00A52C6B6}" {
+         Name "<br/>"
+         m_bInline 1
+        }
+        SCR_SubBlockUIName "{691917C00A52C6A1}" {
+         Name "#AR-PerceivedFaction_Hint_Warcrime"
+        }
+       }
+       m_Type GAMEPLAY_PERCEIVED_FACTION_CHANGED_PUNISH_WARCRIME
+       m_iShowLimit 4
+       m_fDuration 20
+      }
+     }
+     SCR_HintEntry "{691917C00A52C929}" {
+      m_HintInfo SCR_HintUIInfo "{691917C00A52C928}" {
+       Name "#AR-PerceivedFaction_Hint_Title"
+       m_aDescriptionBlocks {
+        SCR_SubBlockUIName "{691917C00A52C90F}" {
+         Name "#AR-PerceivedFaction_Hint_FriendlyKills"
+        }
+        SCR_SubBlockUIName "{691917C00A52C930}" {
+         Name "<br/>"
+         m_bInline 1
+        }
+        SCR_SubBlockUIName "{691917C00A52C935}" {
+         Name "#AR-PerceivedFaction_Hint_LoseXP"
+        }
+       }
+       m_Type GAMEPLAY_PERCEIVED_FACTION_CHANGED_PUNISH_XP
+      }
+     }
+    }
+   }
+  }
+  SCR_PlayerListedAdminManagerComponent "{691917C00A52C953}" {
+  }
+  SCR_PlayerSpawnPointManagerComponent "{691917C00A52C946}" {
+   m_SpawnPointPrefab "{456EFDDA59DD6EB2}Prefabs/MP/PlayerRadioSpawnPoint.et"
+   m_bEnablePlayerSpawnPoints 0
+  }
+  SCR_PlayersRestrictionZoneManagerComponent "{691917C00A52C974}" {
+  }
+  SCR_PossessingManagerComponent "{691917C00A52C96A}" {
+  }
+  SCR_RadialMenuItemsComponent "{691917C00A52E773}" {
+   m_MenuController SCR_RadialMenuController "{691917C00A52E772}" {
+    m_RMControls SCR_RadialMenuControllerInputs "{691917C00A52C8A4}" {
+     m_sControllerContext "WeaponSelectionContext"
+     m_sOpenAction "Inventory_WeaponSwitchingRadial"
+     m_bCloseOnPerform 1
+     m_bShowWhileUnconcious 0
+    }
+   }
+  }
+  SCR_RespawnSystemComponent "{691917C00A52E7F6}" {
+   components {
+    SCR_FreeSpawnHandlerComponent "{691917C00A52E714}" {
+    }
+    SCR_PossessSpawnHandlerComponent "{691917C00A52E727}" {
+    }
+    SCR_SpawnPointSpawnHandlerComponent "{691917C00A52E721}" {
+    }
+   }
+   m_SpawnLogic SCR_MenuSpawnLogic "{691917C00A52E7C6}" {
+   }
+  }
+  SCR_RespawnTimerComponent "{691917C00A52E78D}" {
+  }
+  SCR_RestoreEditorModesComponent "{691917C00A52E785}" {
+  }
+  SCR_RewindComponent "{691917C00A52E79B}" {
+  }
+  SCR_ScoringSystemComponent "{691917C00A52E7AF}" {
+  }
+  SCR_SpawnerAIGroupManagerComponent "{691917C00A52E7A6}" {
+  }
+  SCR_SupportStationManagerComponent "{691917C00A52E7BE}" {
+  }
+  SCR_TaskFinishHistoryManagerComponent "{691917C00A52E7BB}" {
+  }
+  SCR_TaskManagerUIComponent "{691917C00A52E44E}" {
+  }
+  SCR_TextsTaskManagerComponent "{691917C00A51DF10}" {
+   m_aEntries {
+    SCR_TextsTaskManagerEntry "{691917C00A52E4CA}" {
+     m_TextType MOVE
+     m_aTexts {
+      SCR_UIDescription "{691917C00A52E47D}" {
+       Name "#AR-Editor_MoveTask_1_Name"
+       Description "#AR-Editor_MoveTask_1_Description"
+      }
+      SCR_UIDescription "{691917C00A52E471}" {
+       Name "#AR-Editor_MoveTask_2_Name"
+       Description "#AR-Editor_MoveTask_2_Description"
+      }
+      SCR_UIDescription "{691917C00A52E406}" {
+       Name "#AR-Editor_MoveTask_3_Name"
+       Description "#AR-Editor_MoveTask_3_Description"
+      }
+      SCR_UIDescription "{691917C00A52E41E}" {
+       Name "#AR-Editor_MoveTask_4_Name"
+       Description "#AR-Editor_MoveTask_4_Description"
+      }
+      SCR_UIDescription "{691917C00A52E418}" {
+       Name "#AR-Editor_MoveTask_5_Name"
+       Description "#AR-Editor_MoveTask_5_Description"
+      }
+      SCR_UIDescription "{691917C00A52E411}" {
+       Name "#AR-Editor_MoveTask_6_Name"
+       Description "#AR-Editor_MoveTask_6_Description"
+      }
+      SCR_UIDescription "{691917C00A52E42D}" {
+       Name "#AR-Editor_MoveTask_7_Name"
+       Description "#AR-Editor_MoveTask_7_Description"
+      }
+      SCR_UIDescription "{691917C00A52E426}" {
+       Name "#AR-Editor_MoveTask_8_Name"
+       Description "#AR-Editor_MoveTask_8_Description"
+      }
+      SCR_UIDescription "{691917C00A52E421}" {
+       Name "#AR-Editor_MoveTask_9_Name"
+       Description "#AR-Editor_MoveTask_9_Description"
+      }
+      SCR_UIDescription "{691917C00A52E439}" {
+       Name "#AR-Editor_MoveTask_10_Name"
+       Description "#AR-Editor_MoveTask_10_Description"
+      }
+      SCR_UIDescription "{691917C00A52E433}" {
+       Name "#AR-Editor_MoveTask_11_Name"
+       Description "#AR-Editor_MoveTask_11_Description"
+      }
+      SCR_UIDescription "{691917C00A52E4CD}" {
+       Name "#AR-Editor_MoveTask_12_Name"
+       Description "#AR-Editor_MoveTask_12_Description"
+      }
+     }
+    }
+    SCR_TextsTaskManagerEntry "{691917C00A515906}" {
+     m_TextType ATTACK
+     m_aTexts {
+      SCR_UIDescription "{691917C00A52E4C2}" {
+       Name "#AR-Editor_AttackTask_0_Name"
+       Description "#AR-Editor_AttackTask_0_Description"
+      }
+      SCR_UIDescription "{691917C00A52E4C0}" {
+       Name "#AR-Editor_AttackTask_2_Name"
+       Description "#AR-Editor_AttackTask_2_Description"
+      }
+      SCR_UIDescription "{691917C00A52E4DD}" {
+       Name "#AR-Editor_AttackTask_1_Name"
+       Description "#AR-Editor_AttackTask_1_Description"
+      }
+      SCR_UIDescription "{691917C00A52E4D9}" {
+       Name "#AR-Editor_AttackTask_3_Name"
+       Description "#AR-Editor_AttackTask_3_Description"
+      }
+      SCR_UIDescription "{691917C00A52E4D1}" {
+       Name "#AR-Editor_AttackTask_4_Name"
+       Description "#AR-Editor_AttackTask_4_Description"
+      }
+      SCR_UIDescription "{691917C00A52E4EA}" {
+       Name "#AR-Editor_AttackTask_5_Name"
+       Description "#AR-Editor_AttackTask_5_Description"
+      }
+      SCR_UIDescription "{691917C00A52E4E2}" {
+       Name "#AR-Editor_AttackTask_6_Name"
+       Description "#AR-Editor_AttackTask_6_Description"
+      }
+     }
+    }
+    SCR_TextsTaskManagerEntry "{691917C00A514ABF}" {
+     m_TextType DEFEND
+     m_aTexts {
+      SCR_UIDescription "{691917C00A51591C}" {
+       Name "#AR-Editor_DefendTask_0_Name"
+       Description "#AR-Editor_DefendTask_0_Description"
+      }
+      SCR_UIDescription "{691917C00A515910}" {
+       Name "#AR-Editor_DefendTask_1_Name"
+       Description "#AR-Editor_DefendTask_1_Description"
+      }
+      SCR_UIDescription "{691917C00A515915}" {
+       Name "#AR-Editor_DefendTask_2_Name"
+       Description "#AR-Editor_DefendTask_2_Description"
+      }
+      SCR_UIDescription "{691917C00A515969}" {
+       Name "#AR-Editor_DefendTask_3_Name"
+       Description "#AR-Editor_DefendTask_3_Description"
+      }
+      SCR_UIDescription "{691917C00A515962}" {
+       Name "#AR-Editor_DefendTask_4_Name"
+       Description "#AR-Editor_DefendTask_4_Description"
+      }
+      SCR_UIDescription "{691917C00A515966}" {
+       Name "#AR-Editor_DefendTask_5_Name"
+       Description "#AR-Editor_DefendTask_5_Description"
+      }
+      SCR_UIDescription "{691917C00A51597E}" {
+       Name "#AR-Editor_DefendTask_6_Name"
+       Description "#AR-Editor_DefendTask_6_Description"
+      }
+      SCR_UIDescription "{691917C00A515971}" {
+       Name "#AR-Editor_DefendTask_7_Name"
+       Description "#AR-Editor_DefendTask_7_Description"
+      }
+     }
+    }
+    SCR_TextsTaskManagerEntry "{691917C00A51DF12}" {
+     m_TextType CUSTOM
+     m_aTexts {
+      SCR_UIDescription "{691917C00A514A8F}" {
+       Name "#AR-Editor_CustomTask_1_Name"
+       Description "#AR-Editor_CustomTask_1_Description"
+      }
+      SCR_UIDescription "{691917C00A514A94}" {
+       Name "#AR-Editor_CustomTask_2_Name"
+       Description "#AR-Editor_CustomTask_2_Description"
+      }
+      SCR_UIDescription "{691917C00A514A97}" {
+       Name "#AR-Editor_CustomTask_3_Name"
+       Description "#AR-Editor_CustomTask_3_Description"
+      }
+      SCR_UIDescription "{691917C00A514A9C}" {
+       Name "#AR-Editor_CustomTask_4_Name"
+       Description "#AR-Editor_CustomTask_4_Description"
+      }
+      SCR_UIDescription "{691917C00A514A98}" {
+       Name "#AR-Editor_CustomTask_5_Name"
+       Description "#AR-Editor_CustomTask_5_Description"
+      }
+      SCR_UIDescription "{691917C00A514B65}" {
+       Name "#AR-Editor_CustomTask_6_Name"
+       Description "#AR-Editor_CustomTask_6_Description"
+      }
+      SCR_UIDescription "{691917C00A514B62}" {
+       Name "#AR-Editor_CustomTask_7_Name"
+       Description "#AR-Editor_CustomTask_7_Description"
+      }
+      SCR_UIDescription "{691917C00A514B69}" {
+       Name "#AR-Editor_CustomTask_8_Name"
+       Description "#AR-Editor_CustomTask_8_Description"
+      }
+      SCR_UIDescription "{691917C00A514B75}" {
+       Name "#AR-Editor_CustomTask_9_Name"
+       Description "#AR-Editor_CustomTask_9_Description"
+      }
+      SCR_UIDescription "{691917C00A514B72}" {
+       Name "#AR-Editor_CustomTask_10_Name"
+       Description "#AR-Editor_CustomTask_10_Description"
+      }
+      SCR_UIDescription "{691917C00A514B7F}" {
+       Name "#AR-Editor_CustomTask_11_Name"
+       Description "#AR-Editor_CustomTask_11_Description"
+      }
+      SCR_UIDescription "{691917C00A514B44}" {
+       Name "#AR-Editor_CustomTask_12_Name"
+       Description "#AR-Editor_CustomTask_12_Description"
+      }
+      SCR_UIDescription "{691917C00A514B41}" {
+       Name "#AR-Editor_CustomTask_13_Name"
+       Description "#AR-Editor_CustomTask_13_Description"
+      }
+      SCR_UIDescription "{691917C00A514B4E}" {
+       Name "#AR-Editor_CustomTask_14_Name"
+       Description "#AR-Editor_CustomTask_14_Description"
+      }
+      SCR_UIDescription "{691917C00A514B4B}" {
+       Name "#AR-Editor_CustomTask_15_Name"
+       Description "#AR-Editor_CustomTask_15_Description"
+      }
+      SCR_UIDescription "{691917C00A514B50}" {
+       Name "#AR-Editor_CustomTask_16_Name"
+       Description "#AR-Editor_CustomTask_16_Description"
+      }
+      SCR_UIDescription "{691917C00A514B5F}" {
+       Name "#AR-Editor_CustomTask_17_Name"
+       Description "#AR-Editor_CustomTask_17_Description"
+      }
+      SCR_UIDescription "{691917C00A514B24}" {
+       Name "#AR-Editor_CustomTask_18_Name"
+       Description "#AR-Editor_CustomTask_18_Description"
+      }
+      SCR_UIDescription "{691917C00A514B20}" {
+       Name "#AR-Editor_CustomTask_19_Name"
+       Description "#AR-Editor_CustomTask_19_Description"
+      }
+      SCR_UIDescription "{691917C00A514B2E}" {
+       Name "#AR-Editor_CustomTask_20_Name"
+       Description "#AR-Editor_CustomTask_20_Description"
+      }
+      SCR_UIDescription "{691917C00A514B34}" {
+       Name "#AR-Editor_CustomTask_21_Name"
+       Description "#AR-Editor_CustomTask_21_Description"
+      }
+     }
+    }
+   }
+  }
+  SCR_VotingManagerComponent "{691917C00A51D1EF}" {
+   m_aVotingTemplates {
+    SCR_VotingKick "{691917C00A51DFF6}" {
+     m_bIsValuePlayerID 1
+     m_bCancelWhenSubjectLeavesTheServer 0
+     m_fThreshold 0.45
+     m_iMinParticipation 0.45
+     m_Info SCR_VotingUIInfo "{691917C00A51DF3F}" {
+      Name "#AR-Voting_KICK_AddVoteName"
+      m_sStartVotingName "#AR-Voting_KICK_StartVotingName"
+      m_sCancelVotingName "#AR-Voting_KICK_CancelVotingName"
+      m_sAbstainVoteName "#AR-Voting_KICK_AbstainVoteName"
+      m_sStickyNotificationText "#AR-Notification_Sticky_VoteKickPlayer"
+      m_sVoteAuthorText "(#AR-Campaign_MobileAssemblyPlayerName)"
+      m_iStartNotificationId VOTING_KICK_START
+      m_iSucceededNotificationId VOTING_KICK_SUCCEED
+      m_iFailedNotificationId VOTING_KICK_FAIL
+      m_iAlternativeNotificationId VOTING_KICK_SUCCEED_SUBJECT_LEFT
+      m_eVoteCastedLocalNotification VOTING_KICK_VOTE_CASTED
+      m_eVoteAbstainedLocalNotification VOTING_KICK_VOTE_ABSTAINED
+     }
+     m_iJoinServerVoteCooldown 420
+     m_iServerRuntimeIgnoreJoinServerCooldown 120
+     m_iVoteCooldownTime 300
+     m_bFactionSpecific 1
+    }
+    SCR_VotingAutoKick "{691917C00A51DFB1}" {
+     m_Type AUTO_KICK
+     m_bIsValuePlayerID 1
+     m_fThreshold 0.3
+     m_iMinParticipation 0.3
+     m_Info SCR_VotingUIInfo "{691917C00A51DF84}" {
+      Name "#AR-Voting_KICK_AddVoteName"
+      m_sStartVotingName "!PLAYER CAN NEVER START AUTO KICK!"
+      m_sCancelVotingName "#AR-Voting_KICK_CancelVotingName"
+      m_sAbstainVoteName "#AR-Voting_KICK_AbstainVoteName"
+      m_sStickyNotificationText "#AR-Notification_Sticky_VoteAutoKickPlayer"
+      m_iStartNotificationId VOTING_AUTO_KICK_START
+      m_iSucceededNotificationId VOTING_KICK_SUCCEED
+      m_iFailedNotificationId VOTING_KICK_FAIL
+      m_eVoteCastedLocalNotification VOTING_KICK_VOTE_CASTED
+      m_eVoteAbstainedLocalNotification VOTING_KICK_VOTE_ABSTAINED
+     }
+     m_bFactionSpecific 1
+    }
+    SCR_VotingAutoKick "{691917C00A51D05E}" {
+     m_Type AUTO_LIGHTBAN
+     m_bIsValuePlayerID 1
+     m_fThreshold 0.3
+     m_iMinParticipation 0.3
+     m_Info SCR_VotingUIInfo "{691917C00A51D043}" {
+      Name "#AR-Voting_BAN_AddVoteName"
+      m_sStartVotingName "!PLAYER CAN NEVER START AUTO LIGHT BAN!"
+      m_sCancelVotingName "#AR-Voting_BAN_CancelVotingName"
+      m_sAbstainVoteName "#AR-Voting_BAN_AbstainVoteName"
+      m_sStickyNotificationText "#AR-Notification_Sticky_VoteAutoLightBanPlayer"
+      m_iStartNotificationId VOTING_AUTO_BAN_LIGHT_START
+      m_iSucceededNotificationId VOTING_BAN_SUCCEED
+      m_iFailedNotificationId VOTING_BAN_FAIL
+      m_eVoteCastedLocalNotification VOTING_BAN_VOTE_CASTED
+      m_eVoteAbstainedLocalNotification VOTING_BAN_VOTE_ABSTAINED
+     }
+     m_bFactionSpecific 1
+    }
+    SCR_VotingAutoKick "{691917C00A51D00D}" {
+     m_Type AUTO_HEAVYBAN
+     m_bIsValuePlayerID 1
+     m_fThreshold 0.3
+     m_iMinParticipation 0.3
+     m_Info SCR_VotingUIInfo "{691917C00A51D070}" {
+      Name "#AR-Voting_BAN_AddVoteName"
+      m_sStartVotingName "!PLAYER CAN NEVER START AUTO HEAVY BAN!"
+      m_sCancelVotingName "#AR-Voting_BAN_CancelVotingName"
+      m_sAbstainVoteName "#AR-Voting_BAN_AbstainVoteName"
+      m_sStickyNotificationText "#AR-Notification_Sticky_VoteAutoHeavyBanPlayer"
+      m_iStartNotificationId VOTING_AUTO_BAN_HEAVY_START
+      m_iSucceededNotificationId VOTING_BAN_SUCCEED
+      m_iFailedNotificationId VOTING_BAN_FAIL
+      m_eVoteCastedLocalNotification VOTING_BAN_VOTE_CASTED
+      m_eVoteAbstainedLocalNotification VOTING_BAN_VOTE_ABSTAINED
+     }
+     m_bFactionSpecific 1
+    }
+    SCR_VotingGroupLeader "{691917C00A51D025}" {
+     m_Type GROUP_LEADER
+     m_bIsValuePlayerID 1
+     m_fDuration 60
+     m_iMinVotes 2
+     m_Info SCR_VotingUIInfo "{691917C00A51D027}" {
+      m_sStartVotingName "#AR-Player_Groups_Leader_Volunteer"
+      m_sStickyNotificationText "#AR-Player_Groups_Notifications_Volunteered_Leader"
+     }
+     m_iJoinServerVoteCooldown 1
+     m_iVoteCooldownTime 240
+     m_bAlwaysDisplayVoteSubjectVotingTimer 1
+    }
+    SCR_VotingEditorIn "{691917C00A51D0F6}" {
+     m_Type EDITOR_IN
+     m_bIsValuePlayerID 1
+     m_Info SCR_VotingUIInfo "{691917C00A51D0C4}" {
+      Name "#AR-Voting_EDITOR_IN_AddVoteName"
+      m_sStartVotingName "#AR-Voting_EDITOR_IN_StartVotingName"
+      m_sCancelVotingName "#AR-Voting_EDITOR_IN_CancelVotingName"
+      m_sAbstainVoteName "#AR-Voting_EDITOR_IN_AbstainVotingName"
+      m_sStickyNotificationText "#AR-Notification_Sticky_VoteGM"
+      m_iStartNotificationId VOTING_EDITOR_IN_START
+      m_iSucceededNotificationId VOTING_EDITOR_IN_SUCCEED
+      m_iFailedNotificationId VOTING_EDITOR_IN_FAIL
+      m_eVoteCastedLocalNotification VOTING_EDITOR_IN_VOTE_CASTED
+      m_eVoteAbstainedLocalNotification VOTING_EDITOR_IN_VOTE_ABSTAINED
+     }
+     m_iVoteCooldownTime 300
+    }
+    SCR_VotingEditorOut "{691917C00A51D0BE}" {
+     m_Type EDITOR_OUT
+     m_bIsValuePlayerID 1
+     m_fThreshold 0.333
+     m_iMinParticipation 0.333
+     m_Info SCR_VotingUIInfo "{691917C00A51D08B}" {
+      Name "#AR-Voting_EDITOR_OUT_AddVoteName"
+      m_sStartVotingName "#AR-Voting_EDITOR_OUT_StartVotingName"
+      m_sCancelVotingName "#AR-Voting_EDITOR_OUT_CancelVotingName"
+      m_sAbstainVoteName "#AR-Voting_EDITOR_OUT_AbstainVotingName"
+      m_sStickyNotificationText "#AR-Notification_Sticky_VoteRemoveGM"
+      m_iStartNotificationId VOTING_EDITOR_OUT_START
+      m_iSucceededNotificationId VOTING_EDITOR_OUT_SUCCEED
+      m_iFailedNotificationId VOTING_EDITOR_OUT_FAIL
+      m_eVoteCastedLocalNotification VOTING_EDITOR_OUT_VOTE_CASTED
+      m_eVoteAbstainedLocalNotification VOTING_EDITOR_OUT_VOTE_ABSTAINED
+     }
+     m_iJoinServerVoteCooldown 420
+     m_iServerRuntimeIgnoreJoinServerCooldown 120
+     m_iVoteCooldownTime 300
+    }
+    SCR_VotingEditorWithdraw "{691917C00A51D1DA}" {
+     m_Type EDITOR_WITHDRAW
+     m_bIsValuePlayerID 1
+     m_fThreshold 0
+     m_iMinParticipation 0
+     m_iMinVotes 1
+     m_Info SCR_VotingUIInfo "{691917C00A51D14C}" {
+      Name "#AR-Voting_EDITOR_WIDRAW_Name"
+      m_sStartVotingName "#AR-Voting_EDITOR_WIDRAW_Name"
+     }
+    }
+   }
+  }
+  SCR_WelcomeScreenComponent "{691917C00A50076C}" {
+   m_sHeaderTitle "#AR-Editor_DeployMenu_Screen_Title"
+   m_BaseLayout SCR_WelcomeScreenThreeHorizontalColumns "{691917C00A50076F}" {
+    m_LeftColumn SCR_WelcomeScreenIntroductionContent "{691917C00A51D241}" {
+     m_aIntroduction {
+      SCR_WelcomeScreenIntroduction "{691917C00A51D243}" {
+       m_sContentImage "{352FDBC685A7FCD8}UI/Textures/DeployMenu/DeployImages/GMDeploy_Player.edds"
+       m_sContentTitleText "#AR-Editor_DeployMenu_Player_Title"
+       m_sContentDescriptionText "#AR-Editor_DeployMenu_Player_Description"
+      }
+     }
+    }
+    m_MiddleColumn SCR_WelcomeScreenIntroductionContent "{691917C00A51E97A}" {
+     m_aIntroduction {
+      SCR_WelcomeScreenIntroduction "{691917C00A51D251}" {
+       m_sContentImage "{2A9663A5D9B16758}UI/Textures/DeployMenu/DeployImages/GMDeploy_Gamemaster.edds"
+       m_sContentTitleText "#AR-Editor_DeployMenu_Scenario_Title"
+       m_sContentDescriptionText "#AR-Editor_DeployMenu_Scenario_Description"
+      }
+     }
+    }
+    m_RightColumn SCR_WelcomeScreenIntroductionContent "{691917C00A51E940}" {
+     m_aIntroduction {
+      SCR_WelcomeScreenIntroduction "{691917C00A51E941}" {
+       m_sContentImage "{5DFB6BDBD880CB49}UI/Textures/DeployMenu/DeployImages/GMDeploy_BecomeGM.edds"
+       m_sContentTitleText "#AR-Editor_DeployMenu_GM_Rule_Title"
+       m_sContentDescriptionText "#AR-Editor_DeployMenu_GM_Rule_Description"
+      }
+     }
+    }
+   }
+  }
+  SerializerInventoryStorageManagerComponent "{691917C00A500771}" {
+  }
+  RplComponent "{691917C00A50070E}" {
+   "Rpl State Override" None
+   Streamable Disabled
+  }
+  SCR_ReconnectComponent "{691917C00A50070A}" {
+  }
+ }
+ Flags 0 0x3
+ coords 5864.054 126.645 6016.903
+ PlayerControllerPrefab "{A1AE127F16DD352E}Prefabs/Characters/Core/DefaultPlayerControllerMP_Factions.et"
+ m_fAutoReloadTime 30
+ m_aDisabledResourceTypes {
+  SUPPLIES
+ }
+ {
+  RadioManagerEntity {
+   components {
+    RplComponent "{691917C01DD6B07B}" {
+     Streamable Disabled
+    }
+   }
+   Flags 0 0x3
+   coords -26.889 38.579 -2.478
+  }
+  ScriptedChatEntity {
+   components {
+    RplComponent "{691917C01FF53563}" {
+    }
+   }
+   coords -318.967 54.514 1.838
+   Channels {
+    BaseChatChannel "{691917C01FF53508}" {
+     "Channel name" "Global"
+    }
+    FactionChatChannel "{691917C01FF53517}" {
+     "Channel name" "Faction"
+    }
+    GroupChatChannel "{691917C01FF5351E}" {
+     "Channel name" "Group"
+    }
+    SCR_VehicleChatChannel "{691917C01FF53526}" {
+     "Channel name" "Vehicle"
+    }
+    LocalChatChannel "{691917C01FF5352A}" {
+     "Channel name" "Local"
+    }
+   }
+   "Whisper channel" PrivateMessageChannel "{691917C01FF53533}" {
+    "Channel name" "Whisper"
+   }
+   "Default channel" "Global"
+  }
+  SCR_FactionManager FactionManager_Editor2 : "{4A188E44289B9A50}Prefabs/MP/Managers/Factions/FactionManager_Editor.et" {
+   coords 0 0 0
+  }
+  SCR_EditorSettingsEntity {
+   coords 0 0 0
+   m_bIsUnlimitedEditorLegal 1
+  }
+  SCR_LoadoutManager : "{B54D08AEA74A5354}Prefabs/MP/Managers/Loadouts/LoadoutManager_Editor.et" {
+   coords 0 0 0
+  }
+ }
+}
 PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
  coords 5864.054 126.598 6017.903
-}
-SCR_GameModeEditor GameMode_Editor_Full : "{DA3986AF1B5032B7}Prefabs/MP/Modes/Editor/GameMode_Editor_Full.et" {
- coords 5864.054 126.645 6016.903
 }
