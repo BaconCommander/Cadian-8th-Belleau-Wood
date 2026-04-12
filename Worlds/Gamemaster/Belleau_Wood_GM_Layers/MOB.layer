@@ -2411,7 +2411,8 @@ $grp GenericEntity : "{D6F015C42913655E}Prefabs/Props/Military/Aquilla/Props_Aqu
   angles 0 -90 0
  }
  {
-  coords 131.168 183.678 422.167
+  coords 124.248 184.869 430.196
+  angles 0 -90 0
  }
  {
   coords 102.998 176.762 455.702
