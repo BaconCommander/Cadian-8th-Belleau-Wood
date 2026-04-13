@@ -1205,6 +1205,10 @@ $grp StaticModelEntity : "{18E3F1942F2C8509}Prefabs/Structures/BuildingParts/Ent
   angles 0 -23.285 0
  }
 }
+SCR_DestructibleBuildingEntity : "{1A774A9DF37FE9CA}Prefabs/Structures/Services/Government/MunicipalOffice_E_01/MunicipalOffice_E_01_beige.et" {
+ coords 88.868 0.309 399.26
+ angles 0 90 0
+}
 $grp GenericEntity : "{1AE1D881171B98F8}PrefabsEditable/Auto/Systems/Arsenal/ArsenalBoxes/IMP/E_ArsenalBox_IMP.et" {
  {
   components {
@@ -1669,6 +1673,10 @@ $grp SCR_DestructibleEntity : "{35648B063A2B4400}Prefabs/Props/Military/Graves/G
   coords 181.911 176.974 315.325
   angles 0 89.979 0
  }
+}
+SCR_DestructibleBuildingEntity : "{35A406D39D6E0ADA}Prefabs/Structures/Military/Houses/Barracks_01/Barracks_01_military_camo_v1.et" {
+ coords 140.078 0.575 430.255
+ angles 0 90 0
 }
 GenericEntity : "{3C3C1BE8A9C49CF9}PrefabLibrary/DefaultLibrary/Props/Garbage/Junk_01_pile_medium.et" {
  coords 113.992 179.217 373.882

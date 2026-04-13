@@ -1,3 +1,29 @@
+$grp GenericEntity {
+ {
+  coords 1141.543 212.337 1754.34
+  angles 0 67.021 0
+ }
+ {
+  coords 1138.122 212.54 1763.297
+  angles 0 67.021 0
+ }
+ {
+  coords 1124.492 212.654 1836.658
+  angles 0 -105 0
+ }
+ {
+  coords 1126.938 212.795 1827.142
+  angles 0 -113.324 0
+ }
+ {
+  coords 1135.001 212.395 2162.737
+  angles 0 -174.062 0
+ }
+ {
+  coords 1135.86 212.395 2167.798
+  angles 0 12.127 0
+ }
+}
 PolylineShapeEntity {
  coords 1288.15 208.091 1791.845
  Points {
@@ -2137,34 +2163,6 @@ GenericEntity : "{97BC8B79BFE292BA}Prefabs/Props/Industrial/CompressorTrailerWre
 GenericEntity : "{ADE9BC49AAB00D11}Buildings/Promethean/Refiner/FullRefinery.et" {
  coords 1049.821 215.864 1788.832
  angles 0 90 0
-}
-$grp GenericEntity : "{BAC84AA2CD50C7A3}PrefabsEditable/Auto/Props/Military/AegisDefenseLine/E_AegisDefenseLineSingle_01_Gray.et" {
- {
-  coords 1141.543 212.337 1754.34
-  angles 0 67.021 0
- }
- {
-  coords 1138.122 212.54 1763.297
-  angles 0 67.021 0
- }
- {
-  coords 1124.492 212.654 1836.658
-  angles 0 -105 0
- }
- {
-  coords 1126.938 212.795 1827.142
-  angles 0 -113.324 0
- }
-}
-$grp GenericEntity : "{DBD94125F4DAB97A}PrefabsEditable/Auto/Props/Military/AegisDefenseLine/E_AegisDefenseLineSingle_01_Green.et" {
- {
-  coords 1135.001 212.395 2162.737
-  angles 0 -174.062 0
- }
- {
-  coords 1135.86 212.395 2167.798
-  angles 0 12.127 0
- }
 }
 GenericEntity : "{F6FF03B114D6EF0A}Buildings/Promethean/Furnace/PrometheanFurnace.et" {
  coords 1033.902 217.062 1773.266

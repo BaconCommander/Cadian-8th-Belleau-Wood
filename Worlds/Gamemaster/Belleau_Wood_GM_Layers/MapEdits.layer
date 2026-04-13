@@ -2583,11 +2583,3 @@ SCR_GameModeEditor {
 PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
  coords 5864.054 126.598 6017.903
 }
-SCR_DestructibleBuildingEntity : "{1A774A9DF37FE9CA}Prefabs/Structures/Services/Government/MunicipalOffice_E_01/MunicipalOffice_E_01_beige.et" {
- coords 88.868 0.309 399.26
- angles 0 90 0
-}
-SCR_DestructibleBuildingEntity : "{35A406D39D6E0ADA}Prefabs/Structures/Military/Houses/Barracks_01/Barracks_01_military_camo_v1.et" {
- coords 140.078 0.575 430.255
- angles 0 90 0
-}
