@@ -1205,9 +1205,16 @@ $grp StaticModelEntity : "{18E3F1942F2C8509}Prefabs/Structures/BuildingParts/Ent
   angles 0 -23.285 0
  }
 }
+SCR_DestructibleBuildingEntity : "{1A774A9DF37FE9CA}Prefabs/Structures/Services/Government/MunicipalOffice_E_01/MunicipalOffice_E_01_beige.et" {
+ coords 88.868 0.309 399.26
+ angles 0 90 0
+}
 $grp GenericEntity : "{1AE1D881171B98F8}PrefabsEditable/Auto/Systems/Arsenal/ArsenalBoxes/IMP/E_ArsenalBox_IMP.et" {
  {
   components {
+   SCR_ArsenalComponent "{56F2C6D1431AD9AF}" {
+    m_eArsenalSaveType NO_RESTRICTIONS
+   }
    RplComponent "{56F2C6D1431AD4FE}" {
     "Rpl State Override" None
    }
@@ -1217,6 +1224,9 @@ $grp GenericEntity : "{1AE1D881171B98F8}PrefabsEditable/Auto/Systems/Arsenal/Ars
  }
  {
   components {
+   SCR_ArsenalComponent "{56F2C6D1431AD9AF}" {
+    m_eArsenalSaveType NO_RESTRICTIONS
+   }
    RplComponent "{56F2C6D1431AD4FE}" {
     "Rpl State Override" None
    }
@@ -1643,7 +1653,7 @@ GenericEntity : "{27E1789DF0BA674D}Buildings/Walkways/WalkwayStandardClosed.et" 
 }
 SCR_SpawnPoint : "{309A9CED277B3061}Prefabs/MP/Spawning/SpawnPoint_IMP.et" {
  coords 81.977 182.962 419.225
- m_sFaction "BFV"
+ m_sFaction "BFA"
 }
 $grp GenericEntity : "{346AAE670CA2CD5D}Buildings/SupportPylons/Short Support Pylon/ShortPylon.et" {
  {
@@ -1669,6 +1679,10 @@ $grp SCR_DestructibleEntity : "{35648B063A2B4400}Prefabs/Props/Military/Graves/G
   coords 181.911 176.974 315.325
   angles 0 89.979 0
  }
+}
+SCR_DestructibleBuildingEntity : "{35A406D39D6E0ADA}Prefabs/Structures/Military/Houses/Barracks_01/Barracks_01_military_camo_v1.et" {
+ coords 140.078 0.575 430.255
+ angles 0 90 0
 }
 GenericEntity : "{3C3C1BE8A9C49CF9}PrefabLibrary/DefaultLibrary/Props/Garbage/Junk_01_pile_medium.et" {
  coords 113.992 179.217 373.882
@@ -1711,26 +1725,6 @@ $grp GenericEntity : "{4B5D1DDB2B7C36E0}Prefabs/Props/Military/Sandbags/Sandbag_
 }
 SCR_DestructibleBuildingEntity : "{53ED57F93F1DCE1F}PrefabLibrary/DefaultLibrary/Structures/Industrial/Warehouse_01.et" {
  coords 48.327 1.696 429.983
-}
-$grp Turret : "{54838E573DCDC027}Prefabs/Weapons/Howitzers/M777/M777_Howitzer.et" {
- {
-  components {
-   RplComponent "{51ACD09DAD530767}" {
-    "Rpl State Override" None
-   }
-  }
-  coords 41.22 178.548 207.868
-  angles 0 67.117 0
- }
- {
-  components {
-   RplComponent "{51ACD09DAD530767}" {
-    "Rpl State Override" None
-   }
-  }
-  coords 27.949 178.699 239.311
-  angles 0 67.117 0
- }
 }
 $grp SCR_DestructibleBuildingEntity : "{5945D1EF6878D47C}PrefabLibrary/DefaultLibrary/Structures/Industrial/FuelTank_01/FuelTank_01.et" {
  {
@@ -2578,6 +2572,16 @@ $grp StaticModelEntity : "{D773642C59FEB0C8}Prefabs/Structures/Tower/Mammut.et" 
  {
   coords 97.291 176.433 318.886
   angles 0 -178.224 0
+ }
+}
+$grp GenericEntity : "{DA79D5A887166E6B}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_M777_KriegPlacement.et" {
+ {
+  coords 41.787 178.589 207.435
+  angles 0 70.094 0
+ }
+ {
+  coords 28.755 179.159 239.539
+  angles 0 70.094 0
  }
 }
 $grp GenericEntity : "{DC4B11930753ABC2}Prefabs/Props/Military/Sandbags/Sandbag_01_round_high_base.et" {
