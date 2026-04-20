@@ -2110,6 +2110,28 @@ StaticModelEntity : "{5088E2D220E37FB5}PrefabLibrary/Crater04.et" {
  coords 1119.29 213.805 1728.85
  angles 0 0 4.467
 }
+StaticModelEntity : "{56DC80CF8932FC9A}Prefabs/Structures/Military/Fortifications/Trenches/TrenchOld_01/TrenchOld_01_6m_bare.et" {
+ components {
+  MeshObject "{5272E314F6439B95}" {
+   ClutterOccluder 1
+  }
+ }
+ coords 1129.973 0.279 1709.095
+ {
+  $grp StaticModelEntity : "{4C2C73627DF3B0C5}Prefabs/Structures/Helpers/TerrainBlender6mCube.et" {
+   {
+    coords 0 -0.801 -4.76
+    angles 13.014 0 0
+    scale 1.2
+   }
+   {
+    coords 0 -0.801 4.76
+    angles -13.014 0 0
+    scale 1.2
+   }
+  }
+ }
+}
 GenericEntity : "{5ACE15347EC7FB65}Prefabs/Structures/CadianGreen/ArtilleryPlatform.et" {
  coords 1135.052 210.398 2165.375
  angles 0 -172.553 0

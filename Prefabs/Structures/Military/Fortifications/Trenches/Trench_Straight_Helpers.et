@@ -1,0 +1,25 @@
+StaticModelEntity : "{56DC80CF8932FC9A}Prefabs/Structures/Military/Fortifications/Trenches/TrenchOld_01/TrenchOld_01_6m_bare.et" {
+ ID "5272E314F01B2DBE"
+ components {
+  MeshObject "{5272E314F6439B95}" {
+   ClutterOccluder 1
+  }
+ }
+ coords 1129.973 0.279 1709.095
+ {
+  $grp StaticModelEntity : "{4C2C73627DF3B0C5}Prefabs/Structures/Helpers/TerrainBlender6mCube.et" {
+   {
+    ID "6928F3D76A81EB94"
+    coords 0 -0.801 -4.76
+    angles 13.014 0 0
+    scale 1.2
+   }
+   {
+    ID "6928F3D76A81EB96"
+    coords 0 -0.801 4.76
+    angles -13.014 0 0
+    scale 1.2
+   }
+  }
+ }
+}
