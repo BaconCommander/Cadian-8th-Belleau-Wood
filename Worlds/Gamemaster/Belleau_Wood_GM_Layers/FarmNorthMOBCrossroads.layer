@@ -2092,9 +2092,30 @@ PolylineShapeEntity {
   }
  }
 }
+StaticModelEntity : "{20E8D133CC0A90B5}Prefabs/Structures/Military/Fortifications/Trenches/Trench_End_Helpers.et" {
+ coords 1110.855 0.151 1704.21
+ angles 0 -15 0
+ {
+  StaticModelEntity : "{4C2C73627DF3B0C5}Prefabs/Structures/Helpers/TerrainBlender6mCube.et" {
+   coords 0 -0.801 -4.76
+   angles 13.014 0 0
+   scale 1.2
+  }
+ }
+}
 GenericEntity : "{25B265F3E7CBDFC8}Prefabs/Props/Wrecks/BMP1_wreck/BMP1_wreck.et" {
  coords 1119.076 214.163 1772.925
  angles 0 66.549 0
+}
+$grp StaticModelEntity : "{2E2040182DF0B985}Prefabs/Structures/Military/Fortifications/Trenches/Trench_Straight_Helpers_Metal.et" {
+ {
+  coords 1141.931 0.128 1709.478
+  angles 0 0 3.523
+ }
+ {
+  coords 1123.442 0.258 1707.439
+  angles 0 -10.24 2.145
+ }
 }
 $grp GenericEntity : "{31A455F7FD8DCE84}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_plastic.et" {
  {
@@ -2106,31 +2127,20 @@ $grp GenericEntity : "{31A455F7FD8DCE84}Prefabs/Props/Military/Sandbags/Sandbag_
   angles 0 8.622 0
  }
 }
+$grp StaticModelEntity : "{4C2C73627DF3B0C5}Prefabs/Structures/Helpers/TerrainBlender6mCube.et" {
+ {
+  coords 1133.461 -0.491 1702.75
+  angles 13.337 0 0
+ }
+ {
+  coords 1126.254 -0.783 1713.125
+  angles -13.014 0 1.068
+  scale 1.2
+ }
+}
 StaticModelEntity : "{5088E2D220E37FB5}PrefabLibrary/Crater04.et" {
  coords 1119.29 213.805 1728.85
  angles 0 0 4.467
-}
-StaticModelEntity : "{56DC80CF8932FC9A}Prefabs/Structures/Military/Fortifications/Trenches/TrenchOld_01/TrenchOld_01_6m_bare.et" {
- components {
-  MeshObject "{5272E314F6439B95}" {
-   ClutterOccluder 1
-  }
- }
- coords 1129.973 0.279 1709.095
- {
-  $grp StaticModelEntity : "{4C2C73627DF3B0C5}Prefabs/Structures/Helpers/TerrainBlender6mCube.et" {
-   {
-    coords 0 -0.801 -4.76
-    angles 13.014 0 0
-    scale 1.2
-   }
-   {
-    coords 0 -0.801 4.76
-    angles -13.014 0 0
-    scale 1.2
-   }
-  }
- }
 }
 GenericEntity : "{5ACE15347EC7FB65}Prefabs/Structures/CadianGreen/ArtilleryPlatform.et" {
  coords 1135.052 210.398 2165.375
@@ -2152,6 +2162,16 @@ $grp StaticModelEntity : "{6DBCC7EA558FF682}PrefabLibrary/Crater03.et" {
  {
   coords 1156.8 210.873 1782.63
   angles 0.895 0 5.355
+ }
+}
+$grp StaticModelEntity : "{70EC13CD5E3A88FC}Prefabs/Structures/Helpers/TerrainBlender8mCircle.et" {
+ {
+  coords 1155.221 0 1703.657
+  angles 9.21 1.631 10.087
+ }
+ {
+  coords 1154.622 0.151 1714.715
+  angles -4.103 0 8.399
  }
 }
 GenericEntity : "{733C642B71996E53}Buildings/Promethean/PlasmaGenerator/PowerTower.et" {
@@ -2185,6 +2205,20 @@ GenericEntity : "{97BC8B79BFE292BA}Prefabs/Props/Industrial/CompressorTrailerWre
 GenericEntity : "{ADE9BC49AAB00D11}Buildings/Promethean/Refiner/FullRefinery.et" {
  coords 1049.821 215.864 1788.832
  angles 0 90 0
+}
+$grp StaticModelEntity : "{F65B219458C0DB0C}Prefabs/Structures/Military/Fortifications/Trenches/Trench_Straight_Helpers.et" {
+ {
+  coords 1129.704 0.17 1708.024
+  angles 0 0 3.17
+ }
+ {
+  coords 1135.918 0.147 1708.753
+  angles 0.766 -13.964 3.076
+ }
+ {
+  coords 1117.178 0.232 1706.051
+  angles 0.89 -16.282 3.043
+ }
 }
 GenericEntity : "{F6FF03B114D6EF0A}Buildings/Promethean/Furnace/PrometheanFurnace.et" {
  coords 1033.902 217.062 1773.266
