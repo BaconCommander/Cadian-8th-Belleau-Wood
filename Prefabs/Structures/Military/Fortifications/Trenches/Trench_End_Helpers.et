@@ -12,5 +12,9 @@ StaticModelEntity : "{F65B219458C0DB0C}Prefabs/Structures/Military/Fortification
    coords -5.151 -0.908 -0.188
    angles 16.845 90.533 2.408
   }
+  StaticModelEntity : "{4C2C73627DF3B0C5}Prefabs/Structures/Helpers/TerrainBlender6mCube.et" {
+   ID "6930E68423A83262"
+   scale 1.2
+  }
  }
 }
