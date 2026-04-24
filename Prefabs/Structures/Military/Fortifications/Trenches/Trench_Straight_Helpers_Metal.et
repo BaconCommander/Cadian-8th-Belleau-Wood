@@ -1,0 +1,10 @@
+StaticModelEntity : "{F65B219458C0DB0C}Prefabs/Structures/Military/Fortifications/Trenches/Trench_Straight_Helpers.et" {
+ ID "5272E314F01B2DBE"
+ components {
+  MeshObject "{5272E314F6439B95}" {
+   Object "{BB65A90A814F60B0}Assets/Structures/Military/Fortifications/Trenches/TrenchOld_01/TrenchOld_01_6m_metal.xob"
+  }
+ }
+ coords 1142.589 0.179 1710.417
+ angles 0.766 -13.964 3.076
+}
