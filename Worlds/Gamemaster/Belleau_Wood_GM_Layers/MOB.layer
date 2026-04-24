@@ -1693,6 +1693,16 @@ $grp GenericEntity : "{055D5E05823A245A}Prefabs/Structures/Military/Flags/FlagPo
   coords 193.931 176.875 337.592
  }
 }
+$grp GenericEntity : "{07D5C7C755C719BE}Prefabs/Props/Garbage/Generic/Junk_01/Junk_01_pile_medium.et" {
+ {
+  coords 115.624 179.239 378.124
+  angles -1.943 61.798 2.056
+ }
+ {
+  coords 125.792 179.576 403.216
+  angles -2.339 112.562 0.966
+ }
+}
 $grp GenericEntity : "{09070D8EB9398742}Prefabs/Props/Military/Training/Obstacles/ObstacleVault_01.et" {
  {
   coords 113.221 191.121 595.685
@@ -1704,8 +1714,30 @@ $grp GenericEntity : "{09070D8EB9398742}Prefabs/Props/Military/Training/Obstacle
  }
 }
 GenericEntity : "{094DA750D7E9A807}Prefabs/Props/Military/Training/Obstacles/ObstacleLadder_01.et" {
- coords 92.797 189.114 595.399
+ coords 92.797 189.479 595.399
  angles 0 -90 0
+ {
+  GameEntity {
+   ID "5884951FA1A6D487"
+   components {
+    LadderComponent "{588EECC514BB6DFC}" {
+     BottomFrontPositionInfo PointInfo "{52708218AFC5A4E6}" {
+      Offset 0 1 0
+     }
+    }
+   }
+  }
+  GameEntity {
+   ID "5884951FA1A6D4B1"
+   components {
+    LadderComponent "{588EECC514BB6DFC}" {
+     BottomFrontPositionInfo PointInfo "{52708218AFC5A4E6}" {
+      Offset 0 1 0
+     }
+    }
+   }
+  }
+ }
 }
 SCR_DestructibleBuildingEntity : "{0AD94F3CF0D1EDF5}Prefabs/Structures/Bunkers/WW_Bunker2.et" {
  coords 230.285 179.792 317.202
@@ -2362,6 +2394,10 @@ GenericEntity : "{27E1789DF0BA674D}Buildings/Walkways/WalkwayStandardClosed.et" 
  coords 104.101 180.868 313.581
  angles 0 -90 0
 }
+GenericEntity : "{29063844DEEAC10B}Prefabs/Props/Garbage/Generic/Junk_01/Junk_01_pile_large.et" {
+ coords 123.218 179.789 406.439
+ angles 1.788 0.056 1.791
+}
 $grp SCR_DestructibleEntity : "{2AFC62A9517BBCAD}Prefabs/Structures/Walls/Pole/PoleFence_01/PoleFence_01_3m_End.et" {
  {
   coords 106.18 0 572.799
@@ -2787,6 +2823,10 @@ $grp GenericEntity : "{4B9432BFFBC2C30D}Prefabs/Structures/Sign/Sign_Falcon.et" 
   coords 28.183 185.85 533.776
  }
 }
+GenericEntity : "{52F4C6F1D59655CA}Prefabs/Props/Garbage/Generic/Junk_01/Junk_01_single_bathtub.et" {
+ coords 118.392 179.223 382.517
+ angles 0 -72.089 0
+}
 SCR_DestructibleBuildingEntity : "{53ED57F93F1DCE1F}PrefabLibrary/DefaultLibrary/Structures/Industrial/Warehouse_01.et" {
  coords 48.327 1.696 429.983
 }
@@ -2959,6 +2999,10 @@ $grp GenericEntity : "{738385AF87DE6253}Prefabs/Props/Military/Furniture/Props_G
   coords 153.885 181.373 428.594
   angles 0 90 0
  }
+}
+GenericEntity : "{74D1DB7828061BD7}Prefabs/Props/Garbage/Generic/Junk_01/Junk_01_pile_small.et" {
+ coords 113.963 179.366 381.332
+ angles 0.893 0.042 2.684
 }
 GenericEntity : "{756F54A86F96661A}Buildings/Walkways/WalkwayStairs.et" {
  coords 104.179 178.766 307.642
@@ -3519,6 +3563,10 @@ GenericEntity : "{9AEB1E4AD352B78A}Prefabs/Compositions/Misc/SubCompositions/Woo
 StaticModelEntity : "{9E5E43EF29EE3A06}Prefabs/Structures/Houses/Prefabricated/ApartmentPrefab_5I01/Dst/ApartmentPrefab_5I01_Ruin_base.et" {
  coords 158.251 175.367 101.498
 }
+GenericEntity : "{A446CB3C732A360D}Prefabs/Props/Garbage/Generic/Junk_01/Junk_01_pile_long.et" {
+ coords 112.371 179.352 377.569
+ angles 2.768 -83.499 -0.585
+}
 $grp GenericEntity : "{A551B87161DE0189}Prefabs/Structures/Sign/Sign_Arrow.et" {
  {
   coords 75.625 179.773 380.139
@@ -3528,6 +3576,10 @@ $grp GenericEntity : "{A551B87161DE0189}Prefabs/Structures/Sign/Sign_Arrow.et" {
   coords 28.73 181.178 380.228
   angles 0 -90 0
  }
+}
+GenericEntity : "{A8D8015D0E2B600A}Prefabs/Props/Garbage/Generic/Junk_01/Junk_01_single_mattress.et" {
+ coords 118.318 179.524 394.071
+ angles 0.999 -111.768 -2.325
 }
 GenericEntity : "{A9ABB5DF9160A75B}PrefabLibrary/DefaultLibrary/Props/Industrial/VehicleGarbage_01_pile_small.et" {
  coords 132.808 178.243 365.913
@@ -3591,7 +3643,7 @@ $grp GenericEntity : "{B8576ECF78CDBCD7}Prefabs/Props/Military/Training/Obstacle
   angles 5.344 -0.251 -2.695
  }
  {
-  coords 99.059 187.798 573.472
+  coords 98.852 187.668 573.235
   angles 2.684 90 5.35
  }
 }
@@ -5938,15 +5990,5 @@ $grp StaticModelEntity : "{FCE1199662A81082}Prefabs/Walls/Wall_4.et" {
  {
   coords 122.158 182.653 456.847
   scale 5
- }
-}
-$grp GenericEntity : "{FE28DE7A2005204F}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_MortarPlacement_S_IMP_01.et" {
- {
-  coords 61.983 178.364 217.678
-  angles 0 157.393 0
- }
- {
-  coords 75.364 178.899 223.25
-  angles 0 157.393 0
  }
 }
