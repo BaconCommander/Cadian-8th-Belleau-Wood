@@ -3588,6 +3588,10 @@ GenericEntity : "{A8D8015D0E2B600A}Prefabs/Props/Garbage/Generic/Junk_01/Junk_01
  coords 118.318 179.524 394.071
  angles 0.999 -111.768 -2.325
 }
+SCR_DestructibleBuildingEntity : "{A964BB3CC1B5FF28}Prefabs/Structures/Military/Fortifications/CoastalBattery_USSR_01/CoastalBattery_USSR_01_tower.et" {
+ coords 78.229 0.42 611.798
+ angles 0 -90 0
+}
 GenericEntity : "{A9ABB5DF9160A75B}PrefabLibrary/DefaultLibrary/Props/Industrial/VehicleGarbage_01_pile_small.et" {
  coords 132.808 178.243 365.913
  angles 0.889 -170.499 -5.294
