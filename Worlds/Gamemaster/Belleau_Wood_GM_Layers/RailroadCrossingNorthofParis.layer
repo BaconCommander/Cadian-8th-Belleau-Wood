@@ -1,0 +1,119 @@
+$grp GenericEntity : "{3608FCE22D6B7767}Prefabs/Terrain/Trenches/Trench_Straight_Short.et" {
+ {
+  coords 2006.106 189.862 2136.675
+  angles 1.788 0.056 1.791
+ }
+ {
+  coords 1999.069 190.275 2134.958
+  angles 2.776 -26.186 3.613
+ }
+ {
+  coords 1991.789 190.704 2133.537
+  angles 2.681 0.084 1.792
+ }
+ {
+  coords 1985.095 191.142 2135.272
+  angles -0.397 26.52 4.793
+ }
+ {
+  coords 1978.45 191.773 2137.228
+  angles 2.359 4.084 4.642
+ }
+ {
+  coords 1973.356 192.446 2140.125
+  angles 0 43.353 0
+ }
+ {
+  coords 1966.815 193.108 2142.884
+  angles 2.652 0.29 6.249
+ }
+ {
+  coords 2078.088 187.069 2137.642
+  angles 1.166 -9.064 1.626
+ }
+ {
+  coords 2071.41 187.235 2134.834
+  angles 0.963 -35.334 1.338
+ }
+ {
+  coords 2064.446 187.435 2132.28
+  angles 0.272 -9.089 1.626
+ }
+ {
+  coords 2057.561 187.633 2132.935
+  angles -0.483 17.42 1.576
+ }
+ {
+  coords 2050.689 187.887 2133.815
+  angles 0.097 -5.124 2.533
+ }
+ {
+  coords 2045.202 188.125 2135.87
+  angles -1.531 34.2 2.02
+ }
+ {
+  coords 2038.307 188.423 2137.56
+  angles 1.158 -8.884 2.524
+ }
+}
+StaticModelEntity : "{5088E2D220E37FB5}PrefabLibrary/Crater04.et" {
+ coords 2000.928 191.582 2187.329
+ angles 2.678 0.126 2.687
+}
+$grp GenericEntity : "{5A0992D551419C1C}Prefabs/Structures/ConcreteBunkers/BattlementBunker_Prefab.et" {
+ {
+  coords 2020.771 189.415 2113.316
+ }
+ {
+  coords 2018.61 189.175 2134.579
+  angles 0 180 0
+ }
+}
+$grp StaticModelEntity : "{6DBCC7EA558FF682}PrefabLibrary/Crater03.et" {
+ {
+  coords 1972.344 193.164 2177.506
+  angles 2.66 0.25 5.362
+ }
+ {
+  coords 1940.759 196.436 2171.977
+  angles 0 0 7.125
+ }
+ {
+  coords 1984.888 193.368 2202.212
+  angles 3.545 0.333 5.366
+ }
+ {
+  coords 2018.255 190.239 2172.612
+  angles 2.681 0.084 1.792
+ }
+ {
+  coords 1951.435 194.23 2138.422
+  angles 7.063 0.666 5.397
+ }
+}
+$grp StaticModelEntity : "{88208B13596A61E9}PrefabLibrary/Crater02.et" {
+ {
+  coords 1995.593 0 2169.115
+  angles 1.783 0.112 3.578
+ }
+ {
+  coords 1981.016 0 2161.82
+  angles 0.887 0.083 5.357
+ }
+ {
+  coords 1953.51 -0 2220.278
+  angles 0 0 4.467
+ }
+ {
+  coords 1976.229 0 2114.788
+  angles -0.885 -0.097 6.243
+ }
+ {
+  coords 1934.77 0 2157.34
+  angles 0 0 7.125
+ }
+}
+StaticModelEntity : "{E474BFF3E5AEEEC7}PrefabLibrary/Crater01.et" {
+ coords 1973.449 192.551 2158.295
+ angles 0 0 5.356
+}

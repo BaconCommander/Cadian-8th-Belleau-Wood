@@ -5798,6 +5798,10 @@ SplineShapeEntity {
   }
  }
 }
+SCR_DestructibleBuildingEntity : "{0A0CE9FE3F0040AA}Prefabs/Structures/Ruins/Barn_Ruin_01/Barn_Ruin_01_V1_base.et" {
+ coords 1068.916 0.906 2177.72
+ angles 0 5.744 0
+}
 StaticModelEntity : "{0B1F21575FD0CCDD}Prefabs/Trench/Barrier3.et" {
  coords 992.927 214.329 1817.476
  angles 0 180 0
@@ -5894,6 +5898,10 @@ $grp GenericEntity : "{31A455F7FD8DCE84}Prefabs/Props/Military/Sandbags/Sandbag_
   coords 1130.203 210.953 2167.16
   angles 0 8.622 0
  }
+}
+StaticModelEntity : "{4019D320C816AA07}Prefabs/Structures/Cultural/Churches/Church_01/Dst/Church_01_ruin_base.et" {
+ coords 1162.965 210.109 1899.299
+ angles 0 90.839 0
 }
 StaticModelEntity : "{425E288E877ED048}Prefabs/Structures/Industrial/Containers/Silos/Silo_01/Silo_01_Ruin_base.et" {
  coords 1035.318 218.64 1721.148
@@ -6009,8 +6017,13 @@ $grp StaticModelEntity : "{70EC13CD5E3A88FC}Prefabs/Structures/Helpers/TerrainBl
 GenericEntity : "{733C642B71996E53}Buildings/Promethean/PlasmaGenerator/PowerTower.et" {
  coords 1037.395 216.919 1787.128
 }
+GenericEntity : "{7A427A6D790C696C}Buildings/Religious/AdmechStatue/AdmechStatue.et" {
+ coords 1154.612 211.48 1899.676
+ angles -85.319 90 -180
+ scale 0.05
+}
 GenericEntity : "{7A4BF71C3D8BD2BB}Prefabs/Props/Industrial/Train/loco_chme3/loco_chme3_old.et" {
- coords 1095.629 209.275 2200.046
+ coords 1095.593 209.753 2200.123
  angles 0 -115.005 -79.959
 }
 $grp StaticModelEntity : "{7CC7516C8AB0B08F}Prefabs/Structures/Military/Antennas/Antenna_BARS_01/Dst/Antenna_BARS_01_Ruin.et" {
@@ -6138,8 +6151,18 @@ GenericEntity : "{967488E3C13C17EB}Prefabs/Vehicles/WagenWreck.et" {
  coords 1053.247 217.824 1724.63
  angles 0 0 0
 }
+StaticModelEntity : "{96D4374675D2666B}Prefabs/Structures/Cultural/Churches/Church_01/Dst/Church_01_Addon_01_Ruin.et" {
+ coords 1139.968 212.952 1792.772
+ angles 0 -26.608 0
+}
 GenericEntity : "{97BC8B79BFE292BA}Prefabs/Props/Industrial/CompressorTrailerWreck_01/Dst/CompressorTrailerWreck_01_dst_01.et" {
  coords 1104.953 215.004 1765.97
+}
+GenericEntity : "{9D0BEFF9AD11CED6}Prefabs/Structures/Walls/Brick/BrickWall_01/Dst/BrickWall_01_dst_02_debris_02_white.et" {
+ coords 1168.33 210.288 1892.314
+}
+GenericEntity : "{A3D3F4CFF17E5D99}Prefabs/Structures/Walls/Brick/BrickWall_02/dst/Brick_wall_02_gate_dst_01_dbr_03_orange.et" {
+ coords 1156.975 209.891 1892.836
 }
 GenericEntity : "{AB927FEB97D48D43}Prefabs/Structures/Industrial/Mine/Railway/rails_mine_minecart.et" {
  coords 1105.327 209.427 2181.789
@@ -6148,6 +6171,10 @@ GenericEntity : "{AB927FEB97D48D43}Prefabs/Structures/Industrial/Mine/Railway/ra
 GenericEntity : "{ADE9BC49AAB00D11}Buildings/Promethean/Refiner/FullRefinery.et" {
  coords 1049.821 215.864 1788.832
  angles 0 90 0
+}
+SCR_DestructibleEntity : "{B3D49900FB8A9985}Prefabs/Structures/Walls/Brick/BrickWall_02/BrickWall_02_4m_D_orange.et" {
+ coords 1175.824 2.659 1891.903
+ angles 0 -90 0
 }
 StaticModelEntity : "{B7D054A4682119F3}Prefabs/Structures/Cultural/Chapels/Chapel_01/Dst/Chapel_01_Ruin_base.et" {
  coords 1217.264 208.696 1737.991
@@ -6209,6 +6236,9 @@ $grp StaticModelEntity : "{F65B219458C0DB0C}Prefabs/Structures/Military/Fortific
 GenericEntity : "{F6FF03B114D6EF0A}Buildings/Promethean/Furnace/PrometheanFurnace.et" {
  coords 1033.902 217.062 1773.266
  angles 0 93.565 0
+}
+GenericEntity : "{FA56B18F3B613FD5}Prefabs/Structures/Walls/Brick/BrickWall_02/dst/Brick_wall_02_8m_dst_02_dbr_01_base.et" {
+ coords 1159.82 211 1905.575
 }
 $grp StaticModelEntity : "{FAE13B149BA9D61A}Prefabs/Structures/Military/Fortifications/Bunker_SPS/Dst/Bunker_SPS2M_Covered_Ruin.et" {
  {
