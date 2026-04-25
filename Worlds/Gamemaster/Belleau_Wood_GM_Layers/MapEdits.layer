@@ -368,6 +368,7 @@ SCR_GameModeEditor {
   Bacon_GunBuilder_LoadoutStorageComponent "{691917C00A56A6E1}" {
   }
   SCR_AdditionalGameModeSettingsComponent "{691917C00A56A6E8}" {
+   m_bEnableTeamKillPunishment 0
   }
   SCR_ArsenalManagerComponent "{691917C00A56A6F3}" {
   }
