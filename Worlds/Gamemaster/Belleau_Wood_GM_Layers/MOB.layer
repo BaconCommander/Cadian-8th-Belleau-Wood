@@ -205,6 +205,14 @@ $grp GenericEntity {
   coords 71.323 183.026 436.457
   angles 0 -180 0
  }
+ {
+  coords 56.139 179.971 313.182
+  angles 0 -90 0
+ }
+ {
+  coords 108.968 177.53 265.426
+  angles 0 161.217 0
+ }
 }
 RoadEntity {
  coords 62.079 182.052 408.941
@@ -2950,16 +2958,6 @@ $grp GenericEntity : "{6E84387991C01C6D}Prefabs/Props/Military/Training/Obstacle
   angles 6.954 60.389 3.209
  }
 }
-$grp GenericEntity : "{6E9721EBC92A73AA}Prefabs/Structures/Sign/Sign_Mechanicus.et" {
- {
-  coords 56.139 179.971 313.182
-  angles 0 -90 0
- }
- {
-  coords 108.968 177.53 265.426
-  angles 0 161.217 0
- }
-}
 GenericEntity : "{6EAEAD98A470DE8B}Prefabs/Structures/Sign/Sign_Errant.et" {
  coords 193.511 176.906 344.094
  angles 0 -90 0
@@ -3552,6 +3550,15 @@ $grp StaticModelEntity : "{95A4CF49FC9C0481}Prefabs/Compositions/Misc/SubComposi
 GenericEntity : "{9872024066D31343}Prefabs/Props/Industrial/CargoContainers/CargoContainer_01/CargoContainer_Open_MEd.et" {
  coords 76.131 179.917 329.688
 }
+ZEL_SafeZoneEntity : "{98AD581B92D08AF3}Prefabs/Zones/Safe/SafeZone.et" {
+ coords 4.942 171.354 19.336
+ TriggerShapeType "Oriented Bounding Box"
+ SphereRadius 300
+ BoxMaxs 320 100 530
+ DrawShape 0
+ UpdatePeriod 10
+ m_RemovalDelay 10
+}
 GenericEntity : "{99E7714AE7DF78D0}Buildings/Promethean/Refiner/RefineryPipe.et" {
  coords 104.473 178.811 322.239
  angles 0 90 0
@@ -3580,6 +3587,10 @@ $grp GenericEntity : "{A551B87161DE0189}Prefabs/Structures/Sign/Sign_Arrow.et" {
 GenericEntity : "{A8D8015D0E2B600A}Prefabs/Props/Garbage/Generic/Junk_01/Junk_01_single_mattress.et" {
  coords 118.318 179.524 394.071
  angles 0.999 -111.768 -2.325
+}
+SCR_DestructibleBuildingEntity : "{A964BB3CC1B5FF28}Prefabs/Structures/Military/Fortifications/CoastalBattery_USSR_01/CoastalBattery_USSR_01_tower.et" {
+ coords 78.229 0.42 611.798
+ angles 0 -90 0
 }
 GenericEntity : "{A9ABB5DF9160A75B}PrefabLibrary/DefaultLibrary/Props/Industrial/VehicleGarbage_01_pile_small.et" {
  coords 132.808 178.243 365.913

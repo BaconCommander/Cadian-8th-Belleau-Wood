@@ -23,6 +23,15 @@ $grp GenericEntity {
   coords 1135.86 212.395 2167.798
   angles 0 12.127 0
  }
+ {
+  components {
+   MeshObject "{69313589DD1C9650}" {
+    Object "{88C838C2390D0F2C}Assets/Structures/NewBuildings/Ruins_1.xob"
+   }
+  }
+  coords 1093.603 211.148 2173.325
+  angles -7.86 6.326 -1.76
+ }
 }
 PolylineShapeEntity {
  coords 1288.15 208.091 1791.845
@@ -2145,7 +2154,7 @@ SplineShapeEntity {
    }
   }
   ShapePoint "{69296D68834FB827}" {
-   Position -0 -0 0
+   Position 0 0 0
    Data {
     ForestGeneratorPointData "{000000002C57B0BA}" {
     }
@@ -2973,7 +2982,6 @@ SplineShapeEntity {
      {
       coords 33.223 0.923 -105.707
       angles 1.222 -81.411 -1.253
-      scale 1
      }
      {
       coords 46.762 1.668 -82.319
@@ -2983,7 +2991,6 @@ SplineShapeEntity {
      {
       coords 23.333 1.559 -81.466
       angles 2.394 -19.018 2.471
-      scale 1
      }
      {
       coords 58.522 1.563 -123.777
@@ -3068,7 +3075,6 @@ SplineShapeEntity {
      {
       coords 25.465 0.156 -45.947
       angles -0.959 76.269 0.08
-      scale 1
      }
      {
       coords 44.98 -0.684 -28.889
@@ -5857,6 +5863,10 @@ GenericEntity : "{25B265F3E7CBDFC8}Prefabs/Props/Wrecks/BMP1_wreck/BMP1_wreck.et
  coords 1119.076 214.163 1772.925
  angles 0 66.549 0
 }
+GenericEntity : "{2B6B5337B1E92096}Prefabs/Props/Industrial/Train/wagon_box/wagon_box_blue.et" {
+ coords 1081.754 210.23 2196.412
+ angles 0 98.623 82.008
+}
 $grp StaticModelEntity : "{2E2040182DF0B985}Prefabs/Structures/Military/Fortifications/Trenches/Trench_Straight_Helpers_Metal.et" {
  {
   coords 1141.931 0.128 1709.478
@@ -5946,6 +5956,24 @@ GenericEntity : "{654B33C808C4D93E}Prefabs/Props/Wrecks/M151A2_wreck/M151A2_wrec
  coords 1180.596 207.965 1783.892
  angles 0 30.352 0
 }
+$grp GenericEntity : "{669D4E0AD2CCCCE6}Prefabs/Structures/Infrastructure/Rail/Old/platform_segment.et" {
+ {
+  coords 1097.234 209.037 2187.332
+  angles 0 -85.548 0
+ }
+ {
+  coords 1092.086 209.037 2187.733
+  angles 0 -85.548 0
+ }
+ {
+  coords 1086.797 209.037 2188.145
+  angles 0 -85.548 0
+ }
+ {
+  coords 1081.437 209.037 2188.562
+  angles 0 -85.548 0
+ }
+}
 $grp StaticModelEntity : "{6DBCC7EA558FF682}PrefabLibrary/Crater03.et" {
  {
   coords 1188.51 207.64 1774.97
@@ -5980,6 +6008,10 @@ $grp StaticModelEntity : "{70EC13CD5E3A88FC}Prefabs/Structures/Helpers/TerrainBl
 }
 GenericEntity : "{733C642B71996E53}Buildings/Promethean/PlasmaGenerator/PowerTower.et" {
  coords 1037.395 216.919 1787.128
+}
+GenericEntity : "{7A4BF71C3D8BD2BB}Prefabs/Props/Industrial/Train/loco_chme3/loco_chme3_old.et" {
+ coords 1095.629 209.275 2200.046
+ angles 0 -115.005 -79.959
 }
 $grp StaticModelEntity : "{7CC7516C8AB0B08F}Prefabs/Structures/Military/Antennas/Antenna_BARS_01/Dst/Antenna_BARS_01_Ruin.et" {
  {
@@ -6109,6 +6141,10 @@ GenericEntity : "{967488E3C13C17EB}Prefabs/Vehicles/WagenWreck.et" {
 GenericEntity : "{97BC8B79BFE292BA}Prefabs/Props/Industrial/CompressorTrailerWreck_01/Dst/CompressorTrailerWreck_01_dst_01.et" {
  coords 1104.953 215.004 1765.97
 }
+GenericEntity : "{AB927FEB97D48D43}Prefabs/Structures/Industrial/Mine/Railway/rails_mine_minecart.et" {
+ coords 1105.327 209.427 2181.789
+ angles 0 63.517 0
+}
 GenericEntity : "{ADE9BC49AAB00D11}Buildings/Promethean/Refiner/FullRefinery.et" {
  coords 1049.821 215.864 1788.832
  angles 0 90 0
@@ -6133,9 +6169,16 @@ SCR_DestructibleBuildingEntity : "{D37DD4854238C12B}Prefabs/Structures/Buildings
  coords 1018.693 215.764 1761.884
  angles 0 82.677 0
 }
+GenericEntity : "{D6F7AF9DA7B144E7}Prefabs/Props/Industrial/Train/loco_chme3/loco_chme3_blue.et" {
+ coords 1108.493 209.445 2202.056
+ angles 0 91.71 76.83
+}
 GenericEntity : "{D99955DFCF7D3962}Prefabs/Props/Wrecks/CannonWreck_01/CannonWreck_01.et" {
  coords 1161.171 210.567 1789.732
  angles -6.859 120 0
+}
+GenericEntity : "{EF95E58A670F1E72}Prefabs/Props/Industrial/Mine/Mine_01_train/Mine_01_train.et" {
+ coords 1102.828 209.388 2185.865
 }
 $grp StaticModelEntity : "{F65B219458C0DB0C}Prefabs/Structures/Military/Fortifications/Trenches/Trench_Straight_Helpers.et" {
  {
