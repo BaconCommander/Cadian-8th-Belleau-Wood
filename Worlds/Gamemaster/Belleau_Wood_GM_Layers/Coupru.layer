@@ -40,7 +40,7 @@ $grp GenericEntity : "{1FB2F0AEA420C1FB}Prefabs/Terrain/Trenches/Trench_90_Long.
 $grp GenericEntity : "{3608FCE22D6B7767}Prefabs/Terrain/Trenches/Trench_Straight_Short.et" {
  {
   coords 3951.12 177.725 816.321
-  angles 1.79 -0 1.789
+  angles 1.79 0 1.789
  }
  {
   coords 3956.9 177.52 823.554

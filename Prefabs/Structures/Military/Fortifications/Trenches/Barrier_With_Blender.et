@@ -1,0 +1,13 @@
+StaticModelEntity : "{0B1F21575FD0CCDD}Prefabs/Trench/Barrier3.et" {
+ ID "6274E1E7BC0BBB62"
+ coords 998.425 214.329 1839.906
+ angles 0 0 0
+ {
+  StaticModelEntity : "{4C2C73627DF3B0C5}Prefabs/Structures/Helpers/TerrainBlender6mCube.et" {
+   ID "6928F3C5F3C21C54"
+   coords 5.303 -0.55 0.18
+   angles 0 0 27.699
+   scale 0.76
+  }
+ }
+}
