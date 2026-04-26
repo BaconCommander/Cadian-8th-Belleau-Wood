@@ -1816,84 +1816,6 @@ $grp GenericEntity : "{189D6862BADA37FF}Prefabs/Structures/Sign/Sign_NCO.et" {
   angles 0 90 0
  }
 }
-$grp StaticModelEntity : "{18E3F1942F2C8509}Prefabs/Structures/BuildingParts/Entry/Entry_Slope_Platform_01.et" {
- {
-  coords 69.042 183.061 429.865
-  angles 0 90 0
- }
- {
-  coords 182.65 178.069 354.358
-  angles 0 90 0
- }
- {
-  coords 182.65 178.069 358.9
-  angles 0 90 0
- }
- {
-  coords 182.65 178.069 363.394
-  angles 0 90 0
- }
- {
-  coords 182.65 178.069 367.886
-  angles 0 90 0
- }
- {
-  coords 182.65 178.069 372.44
-  angles 0 90 0
- }
- {
-  coords 182.65 178.069 376.912
-  angles 0 90 0
- }
- {
-  coords 182.65 179.28 384.398
-  angles 0 90 0
- }
- {
-  coords 182.65 179.28 388.94
-  angles 0 90 0
- }
- {
-  coords 182.65 179.28 393.434
-  angles 0 90 0
- }
- {
-  coords 182.65 179.28 397.926
-  angles 0 90 0
- }
- {
-  coords 182.65 179.28 402.48
-  angles 0 90 0
- }
- {
-  coords 182.65 179.28 406.952
-  angles 0 90 0
- }
- {
-  coords 65.963 180.482 276.289
-  angles 0 -23.285 0
- }
- {
-  coords 70.071 180.482 278.056
-  angles 0 -23.285 0
- }
- {
-  coords 74.253 180.482 279.857
-  angles 0 -23.285 0
- }
- {
-  coords 78.379 180.482 281.632
-  angles 0 -23.285 0
- }
- {
-  coords 82.507 180.482 283.409
-  angles 0 -23.285 0
- }
- {
-  coords 86.679 180.482 285.204
-  angles 0 -23.285 0
- }
-}
 SCR_DestructibleBuildingEntity : "{1A774A9DF37FE9CA}Prefabs/Structures/Services/Government/MunicipalOffice_E_01/MunicipalOffice_E_01_beige.et" {
  coords 88.868 0.309 399.26
  angles 0 90 0
@@ -1903,6 +1825,20 @@ $grp GenericEntity : "{1AE1D881171B98F8}PrefabsEditable/Auto/Systems/Arsenal/Ars
   components {
    SCR_ArsenalComponent "{56F2C6D1431AD9AF}" {
     m_eArsenalSaveType NO_RESTRICTIONS
+   }
+   SCR_EditableSystemComponent "{6508DA3D78C7D039}" {
+    m_UIInfo SCR_EditableEntityUIInfo "{58D2A1BEBFDC56CC}" {
+     m_sFaction "BFA"
+     m_aAutoLabels {
+      ENTITYTYPE_SYSTEM
+      SIZE_M
+      TRAIT_REARMING
+      FACTION_BFA
+     }
+    }
+   }
+   SCR_FactionAffiliationComponent "{5A50E7655452A21D}" {
+    "faction affiliation" "BFA"
    }
    RplComponent "{56F2C6D1431AD4FE}" {
     "Rpl State Override" None
@@ -1916,6 +1852,20 @@ $grp GenericEntity : "{1AE1D881171B98F8}PrefabsEditable/Auto/Systems/Arsenal/Ars
    SCR_ArsenalComponent "{56F2C6D1431AD9AF}" {
     m_eArsenalSaveType NO_RESTRICTIONS
    }
+   SCR_EditableSystemComponent "{6508DA3D78C7D039}" {
+    m_UIInfo SCR_EditableEntityUIInfo "{58D2A1BEBFDC56CC}" {
+     m_sFaction "BFA"
+     m_aAutoLabels {
+      ENTITYTYPE_SYSTEM
+      SIZE_M
+      TRAIT_REARMING
+      FACTION_BFA
+     }
+    }
+   }
+   SCR_FactionAffiliationComponent "{5A50E7655452A21D}" {
+    "faction affiliation" "BFA"
+   }
    RplComponent "{56F2C6D1431AD4FE}" {
     "Rpl State Override" None
    }
@@ -1928,6 +1878,20 @@ $grp GenericEntity : "{1AE1D881171B98F8}PrefabsEditable/Auto/Systems/Arsenal/Ars
    SCR_ArsenalComponent "{56F2C6D1431AD9AF}" {
     m_eArsenalSaveType NO_RESTRICTIONS
    }
+   SCR_EditableSystemComponent "{6508DA3D78C7D039}" {
+    m_UIInfo SCR_EditableEntityUIInfo "{58D2A1BEBFDC56CC}" {
+     m_sFaction "BFA"
+     m_aAutoLabels {
+      ENTITYTYPE_SYSTEM
+      SIZE_M
+      TRAIT_REARMING
+      FACTION_BFA
+     }
+    }
+   }
+   SCR_FactionAffiliationComponent "{5A50E7655452A21D}" {
+    "faction affiliation" "BFA"
+   }
    RplComponent "{56F2C6D1431AD4FE}" {
     "Rpl State Override" None
    }
@@ -1939,6 +1903,20 @@ $grp GenericEntity : "{1AE1D881171B98F8}PrefabsEditable/Auto/Systems/Arsenal/Ars
   components {
    SCR_ArsenalComponent "{56F2C6D1431AD9AF}" {
     m_eArsenalSaveType NO_RESTRICTIONS
+   }
+   SCR_EditableSystemComponent "{6508DA3D78C7D039}" {
+    m_UIInfo SCR_EditableEntityUIInfo "{58D2A1BEBFDC56CC}" {
+     m_sFaction "BFA"
+     m_aAutoLabels {
+      ENTITYTYPE_SYSTEM
+      SIZE_M
+      TRAIT_REARMING
+      FACTION_BFA
+     }
+    }
+   }
+   SCR_FactionAffiliationComponent "{5A50E7655452A21D}" {
+    "faction affiliation" "BFA"
    }
    RplComponent "{56F2C6D1431AD4FE}" {
     "Rpl State Override" None
@@ -2200,6 +2178,12 @@ $grp GenericEntity : "{24D27F38324B98AC}Prefabs/Props/Military/Skulls/Props_Skul
  {
   coords 175.971 176.914 331.481
   angles 0 90 0
+  {
+   GenericEntity {
+    ID "68E28310C4F8415A"
+    coords 0 0.841 0
+   }
+  }
  }
  {
   coords 169.313 176.914 330.394
@@ -2488,6 +2472,10 @@ SCR_DestructibleBuildingEntity : "{35A406D39D6E0ADA}Prefabs/Structures/Military/
  coords 140.078 0.575 430.255
  angles 0 90 0
 }
+GenericEntity : "{3608FCE22D6B7767}Prefabs/Terrain/Trenches/Trench_Straight_Short.et" {
+ coords 683.558 201.722 265.871
+ angles 2.849 127.221 2.163
+}
 GenericEntity : "{361EEFE7B91BF9E8}Prefabs/Compositions/Misc/SubCompositions/BarrelMetalGroup_01.et" {
  coords 34.914 180.82 373.611
  angles 0 -123.33 0
@@ -2625,20 +2613,6 @@ $grp SCR_FiringRangeTarget : "{379D34B0D41DA810}Prefabs/Props/Military/Training/
 GenericEntity : "{3C3C1BE8A9C49CF9}PrefabLibrary/DefaultLibrary/Props/Garbage/Junk_01_pile_medium.et" {
  coords 113.992 179.217 373.882
  angles -3.683 139.608 -1.566
-}
-$grp GenericEntity : "{3DBE841160EBB22A}Prefabs/MP/Campaign/Bases/CampaignVehicleDepotEntity.et" {
- {
-  coords 171.127 177.979 365.988
-  angles 0 90 0
- }
- {
-  coords 171.127 179.19 396.028
-  angles 0 90 0
- }
- {
-  coords 80.552 180.392 270.022
-  angles 0 -23.285 0
- }
 }
 $grp SCR_DestructibleBuildingEntity : "{4266901113B35A98}Prefabs/Structures/Industrial/Containers/FuelTanks/FuelTank_02/FuelTank_02_yellow.et" {
  {
@@ -3045,6 +3019,20 @@ $grp GenericEntity : "{7FA95863264F3F10}Prefabs/Structures/ConcreteBunkers/Looko
  {
   coords 301.364 181.018 308.025
   angles 0 68.827 0
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{80A5B37A1472B084}Prefabs/Structures/Industrial/Garages/Garage_E_02/Garage_E_02.et" {
+ {
+  coords 173.821 0.383 361.449
+  angles 0 90 0
+ }
+ {
+  coords 173.821 0.465 392.363
+  angles 0 90 0
+ }
+ {
+  coords 80.051 0.536 270.602
+  angles 0 -20.403 0
  }
 }
 GenericEntity : "{8243C6665B352C0B}Buildings/Walkways/WalkwayStandardEnd.et" {
@@ -3875,62 +3863,137 @@ $grp GenericEntity : "{D6F015C42913655E}Prefabs/Props/Military/Aquilla/Props_Aqu
 }
 $grp StaticModelEntity : "{D773642C59FEB0C8}Prefabs/Structures/Tower/Mammut.et" {
  {
+  components {
+   SCR_EditableEntityComponent "{650CE6DBA01498C2}" {
+    m_bAutoRegister NEVER
+   }
+  }
   coords 125.986 173.157 270.786
   angles 0 68.709 0
  }
  {
+  components {
+   SCR_EditableEntityComponent "{650CE6DBA01498C2}" {
+    m_bAutoRegister NEVER
+   }
+  }
   coords 139.133 172.575 275.909
   angles 0 68.709 0
  }
  {
+  components {
+   SCR_EditableEntityComponent "{650CE6DBA01498C2}" {
+    m_bAutoRegister NEVER
+   }
+  }
   coords 152.11 172.285 280.967
   angles 0 68.709 0
  }
  {
+  components {
+   SCR_EditableEntityComponent "{650CE6DBA01498C2}" {
+    m_bAutoRegister NEVER
+   }
+  }
   coords 165.257 172.227 286.09
   angles 0 68.709 0
  }
  {
+  components {
+   SCR_EditableEntityComponent "{650CE6DBA01498C2}" {
+    m_bAutoRegister NEVER
+   }
+  }
   coords 132.164 173.903 336.505
   angles 0 -88.224 0
  }
  {
+  components {
+   SCR_EditableEntityComponent "{650CE6DBA01498C2}" {
+    m_bAutoRegister NEVER
+   }
+  }
   coords 118.422 174.661 336.931
   angles 0 -88.224 0
  }
  {
+  components {
+   SCR_EditableEntityComponent "{650CE6DBA01498C2}" {
+    m_bAutoRegister NEVER
+   }
+  }
   coords 104.137 175.226 337.374
   angles 0 -88.224 0
  }
  {
+  components {
+   SCR_EditableEntityComponent "{650CE6DBA01498C2}" {
+    m_bAutoRegister NEVER
+   }
+  }
   coords 168.357 172.355 294.021
   angles 0 -22.933 0
  }
  {
+  components {
+   SCR_EditableEntityComponent "{650CE6DBA01498C2}" {
+    m_bAutoRegister NEVER
+   }
+  }
   coords 162.859 172.663 307.016
   angles 0 -22.933 0
  }
  {
+  components {
+   SCR_EditableEntityComponent "{650CE6DBA01498C2}" {
+    m_bAutoRegister NEVER
+   }
+  }
   coords 157.431 172.973 319.842
   angles 0 -22.933 0
  }
  {
+  components {
+   SCR_EditableEntityComponent "{650CE6DBA01498C2}" {
+    m_bAutoRegister NEVER
+   }
+  }
   coords 152.934 173.155 330.476
   angles 0 -22.933 0
  }
  {
+  components {
+   SCR_EditableEntityComponent "{650CE6DBA01498C2}" {
+    m_bAutoRegister NEVER
+   }
+  }
   coords 143.415 172.921 336.156
   angles 0 -88.224 0
  }
  {
+  components {
+   SCR_EditableEntityComponent "{650CE6DBA01498C2}" {
+    m_bAutoRegister NEVER
+   }
+  }
   coords 97.64 176.5 330.137
   angles 0 -178.223 0
  }
  {
+  components {
+   SCR_EditableEntityComponent "{650CE6DBA01498C2}" {
+    m_bAutoRegister NEVER
+   }
+  }
   coords 96.939 176.308 307.518
   angles 0 -178.224 0
  }
  {
+  components {
+   SCR_EditableEntityComponent "{650CE6DBA01498C2}" {
+    m_bAutoRegister NEVER
+   }
+  }
   coords 97.291 176.433 318.886
   angles 0 -178.224 0
  }
