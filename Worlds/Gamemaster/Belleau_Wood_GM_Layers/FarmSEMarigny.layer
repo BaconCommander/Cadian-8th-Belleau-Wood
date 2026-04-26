@@ -8204,7 +8204,6 @@ SplineShapeEntity {
      {
       coords 212.22 -0.844 -343.068
       angles 0.993 91.047 0.504
-      scale 1
      }
      {
       coords 111.666 4.003 -196.366
@@ -8946,10 +8945,34 @@ SplineShapeEntity {
   }
  }
 }
+$grp SCR_DestructibleBuildingEntity : "{07B7B618E3DEFBBF}Prefabs/Structures/Cultural/Castles/Castle_01_InnerWall_02.et" {
+ {
+  coords 1673.1 1.314 2525.612
+  angles 0 -29.236 0
+ }
+ {
+  coords 1590.825 3.376 2552.949
+  angles 0 60.764 0
+ }
+}
 GenericEntity : "{1C89C55D1DEDB2BF}Buildings/Religious/Podium/Podium.et" {
  coords 4731.645 178.695 3539.97
  angles 0 -19.982 0
  scale 0.2
+}
+SCR_DestructibleBuildingEntity : "{254884AFA2815CFA}Prefabs/Structures/Ruins/Church_Ruin_02/Church_Ruin_02_base.et" {
+ coords 1934.526 0 2926.751
+ angles 0 -5.643 0
+}
+$grp SCR_DestructibleBuildingEntity : "{2C97FDC04C9E39C0}Prefabs/Structures/Cultural/Castles/Castle_01_InnerWall_Small_01.et" {
+ {
+  coords 1694.488 0.087 2538.285
+  angles 0 151.257 0
+ }
+ {
+  coords 1601.588 0.076 2530.512
+  angles -88.811 -118.743 0
+ }
 }
 $grp GenericEntity : "{3608FCE22D6B7767}Prefabs/Terrain/Trenches/Trench_Straight_Short.et" {
  {
@@ -9032,6 +9055,10 @@ $grp GenericEntity : "{5ACE15347EC7FB65}Prefabs/Structures/CadianGreen/Artillery
   angles 0 162.807 0
  }
 }
+GenericEntity : "{5B1354DE6B605BFA}Prefabs/Props/Military/CargoContainers/Dst/CargoContainer_01_10ft_USSR_Ruin.et" {
+ coords 1946.725 207.214 2893.159
+ angles 1.144 31.945 4.92
+}
 $grp GenericEntity : "{6675E8586EBB29B2}Prefabs/Terrain/Trenches/Trench_Straight_Long.et" {
  {
   coords 2052.27 201.4 3193.21
@@ -9048,6 +9075,16 @@ $grp GenericEntity : "{6675E8586EBB29B2}Prefabs/Terrain/Trenches/Trench_Straight
  {
   coords 2038.63 201.675 3172.08
   angles 0.617 44.517 -1.904
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{6BE382F85F1A7491}Prefabs/Structures/Cultural/Castles/Castle_01_InnerWall_01.et" {
+ {
+  coords 1694.217 -0.031 2539.914
+  angles 0 150.939 0
+ }
+ {
+  coords 1613.671 1.626 2516.454
+  angles 0 -119.061 0
  }
 }
 $grp StaticModelEntity : "{6DBCC7EA558FF682}PrefabLibrary/Crater03.et" {
@@ -9080,6 +9117,16 @@ $grp StaticModelEntity : "{6DBCC7EA558FF682}PrefabLibrary/Crater03.et" {
   angles 2.684 0 0.894
  }
 }
+$grp GenericEntity : "{6E9721EBC92A73AA}Prefabs/Structures/Sign/Sign_Mechanicus.et" {
+ {
+  coords 54.462 180.334 305.399
+  angles 0 -45 0
+ }
+ {
+  coords 108.634 177.85 265.133
+  angles 0 165 0
+ }
+}
 $grp GenericEntity : "{733C642B71996E53}Buildings/Promethean/PlasmaGenerator/PowerTower.et" {
  {
   coords 1993.597 199.787 3202.149
@@ -9107,6 +9154,10 @@ $grp GenericEntity : "{756F54A86F96661A}Buildings/Walkways/WalkwayStairs.et" {
   coords 2005.531 199.774 3207.356
   angles 0 -22.484 0
  }
+}
+StaticModelEntity : "{75CB1C6E6129F779}Prefabs/Structures/Infrastructure/Naval/Houses/CottagePier_01/Dst/CottagePier_01_Ruin_base.et" {
+ coords 1935.507 205.851 2961.427
+ angles 0 -7.033 0
 }
 GenericEntity : "{7A427A6D790C696C}Buildings/Religious/AdmechStatue/AdmechStatue.et" {
  coords 4731.979 178.823 3539.425
@@ -9158,6 +9209,72 @@ $grp StaticModelEntity : "{88208B13596A61E9}PrefabLibrary/Crater02.et" {
   angles 2.074 55.493 6.151
  }
 }
+$grp SCR_DestructibleBuildingEntity : "{92F8DAE5E56CA22E}Prefabs/Structures/Cultural/Castles/Castle_01_OuterWall_01.et" {
+ {
+  coords 1690.293 6.222 2594.882
+  angles 0 -117.396 0
+ }
+ {
+  coords 1680.636 6.775 2613.514
+  angles 0 -117.396 0
+ }
+ {
+  coords 1670.994 7.401 2632.119
+  angles 0 -117.396 0
+ }
+ {
+  coords 1704.616 5.346 2567.244
+  angles 0 -117.396 0
+ }
+ {
+  coords 1714.258 5.15 2548.639
+  angles 0 -117.396 0
+ }
+ {
+  coords 1623.85 8.375 2631.607
+  angles 0 152.604 0
+ }
+ {
+  coords 1642.455 8.313 2641.25
+  angles 0 152.604 0
+ }
+ {
+  coords 1661.087 8.112 2650.906
+  angles 0 152.604 0
+ }
+ {
+  coords 1588.409 6.958 2591.462
+  angles 0 85.281 0
+ }
+ {
+  coords 1586.684 7.617 2612.346
+  angles 0 85.281 0
+ }
+ {
+  coords 1605.316 7.944 2622.002
+  angles 0 152.604 0
+ }
+ {
+  coords 1590.134 6.756 2570.562
+  angles 0 85.281 0
+ }
+ {
+  coords 1634.469 5.586 2514.99
+  angles 0 -1.674 0
+ }
+ {
+  coords 1613.583 6.514 2514.38
+  angles 0 -1.674 0
+ }
+ {
+  coords 1655.056 4.857 2515.44
+  angles 0 -28.921 0
+ }
+ {
+  coords 1694.63 4.789 2537.305
+  angles 0 -28.921 0
+ }
+}
 $grp GenericEntity : "{ADE9BC49AAB00D11}Buildings/Promethean/Refiner/FullRefinery.et" {
  {
   coords 1970.345 199.562 3222.035
@@ -9173,6 +9290,9 @@ $grp GenericEntity : "{ADE9BC49AAB00D11}Buildings/Promethean/Refiner/FullRefiner
  {
   coords 4799.056 166.187 3335.387
  }
+}
+StaticModelEntity : "{B9AA44C98527FA1B}Prefabs/Structures/Infrastructure/Power/DieselPowerPlant_01/Dst/DieselPowerPlant_01_ruin_Base.et" {
+ coords 1919.837 206.328 2987.719
 }
 GenericEntity : "{D6F015C42913655E}Prefabs/Props/Military/Aquilla/Props_Aquilla.et" {
  coords 4708.877 215.985 3531.867
