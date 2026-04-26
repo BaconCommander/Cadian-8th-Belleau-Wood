@@ -5929,6 +5929,26 @@ $grp StaticModelEntity : "{4C2C73627DF3B0C5}Prefabs/Structures/Helpers/TerrainBl
   coords 1069.897 -0.943 1697.609
   angles 12.484 164.088 -4.053
  }
+ {
+  coords 1059.148 -0.639 1678.843
+  angles 12.229 -20.326 -0.266
+  scale 1.2
+ }
+ {
+  coords 1065.801 -0.588 1681.3
+  angles 12.229 -20.326 -0.266
+  scale 1.2
+ }
+ {
+  coords 1072.166 -0.485 1683.651
+  angles 12.229 -20.326 -0.266
+  scale 1.2
+ }
+ {
+  coords 1078.443 -0.561 1686.021
+  angles 12.229 -20.326 -0.266
+  scale 1.2
+ }
 }
 SCR_DestructibleBuildingEntity : "{4D100F180B3EFEC1}Prefabs/Structures/Industrial/Containers/Silos/Silo_01/Silo_01.et" {
  coords 1034.693 -0.009 1724.742
@@ -5945,8 +5965,27 @@ GenericEntity : "{5ACE15347EC7FB65}Prefabs/Structures/CadianGreen/ArtilleryPlatf
  coords 1135.052 210.398 2165.375
  angles 0 -172.553 0
 }
-StaticModelEntity : "{5C7CEAFDFC51355A}Prefabs/Structures/Industrial/Silos/CoalSilo_01/Dst/CoalSilo_01_Ruin.et" {
- coords 1164.358 210.423 1526.286
+$grp StaticModelEntity : "{5C7CEAFDFC51355A}Prefabs/Structures/Industrial/Silos/CoalSilo_01/Dst/CoalSilo_01_Ruin.et" {
+ {
+  coords 1164.358 210.423 1526.286
+ }
+ {
+  coords 1116.294 211.272 1526.286
+ }
+ {
+  coords 1218.528 209.891 1526.286
+ }
+ {
+  coords 1308.005 208.721 1526.286
+ }
+ {
+  coords 1359.278 206.945 1526.286
+  angles 0.893 0.042 2.684
+ }
+ {
+  coords 1407.889 204.449 1526.286
+  angles 0.893 0.042 0.418
+ }
 }
 GenericEntity : "{621AD664E58BC26B}Prefabs/Compositions/Misc/SubCompositions/Tents/Tent_Supply_Small_USSR_01.et" {
  coords 1135.06 210.075 2173.8
@@ -6190,6 +6229,15 @@ $grp StaticModelEntity : "{BE1A7AAA462E6916}Prefabs/Structures/Industrial/Silos/
  }
  {
   coords 1117.237 214.23 1527.053
+ }
+ {
+  coords 1409.856 208.346 1527.053
+ }
+ {
+  coords 1310.635 213.05 1527.053
+ }
+ {
+  coords 1358.647 206.986 1527.053
  }
 }
 SCR_DestructibleBuildingEntity : "{D37DD4854238C12B}Prefabs/Structures/Buildings/Barn Silo.et" {

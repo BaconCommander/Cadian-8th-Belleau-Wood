@@ -8961,7 +8961,7 @@ GenericEntity : "{1C89C55D1DEDB2BF}Buildings/Religious/Podium/Podium.et" {
  scale 0.2
 }
 SCR_DestructibleBuildingEntity : "{254884AFA2815CFA}Prefabs/Structures/Ruins/Church_Ruin_02/Church_Ruin_02_base.et" {
- coords 1934.526 -0 2926.751
+ coords 1934.526 0 2926.751
  angles 0 -5.643 0
 }
 $grp SCR_DestructibleBuildingEntity : "{2C97FDC04C9E39C0}Prefabs/Structures/Cultural/Castles/Castle_01_InnerWall_Small_01.et" {
@@ -9115,6 +9115,16 @@ $grp StaticModelEntity : "{6DBCC7EA558FF682}PrefabLibrary/Crater03.et" {
  {
   coords 4711.51 168.873 3351.12
   angles 2.684 0 0.894
+ }
+}
+$grp GenericEntity : "{6E9721EBC92A73AA}Prefabs/Structures/Sign/Sign_Mechanicus.et" {
+ {
+  coords 54.462 180.334 305.399
+  angles 0 -45 0
+ }
+ {
+  coords 108.634 177.85 265.133
+  angles 0 165 0
  }
 }
 $grp GenericEntity : "{733C642B71996E53}Buildings/Promethean/PlasmaGenerator/PowerTower.et" {
