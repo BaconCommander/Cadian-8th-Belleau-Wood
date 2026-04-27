@@ -1103,7 +1103,7 @@ $grp GenericEntity : "{B325645C144505DA}Prefabs/Terrain/Trenches/Trench_Bend.et"
   angles 1.09 14.422 -0.644
  }
  {
-  coords 1105.4 179.616 3496.49
+  coords 1108.061 179.608 3496.311
   angles 2.678 3.864 0.181
  }
  {
