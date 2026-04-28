@@ -1,0 +1,11 @@
+PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 5864.054 126.697 6017.812
+}
+SCR_GameModeEditor GameMode_Editor_Full : "{DA3986AF1B5032B7}Prefabs/MP/Modes/Editor/GameMode_Editor_Full.et" {
+ coords 5864.054 126.759 6016.812
+}
+ZEL_SafeZoneEntity : "{98AD581B92D08AF3}Prefabs/Zones/Safe/SafeZone.et" {
+ coords 4.072 171.851 19.956
+ TriggerShapeType "Oriented Bounding Box"
+ BoxMaxs 320 60 530
+}
