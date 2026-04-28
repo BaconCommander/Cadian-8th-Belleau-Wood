@@ -177,7 +177,7 @@ $grp GenericEntity : "{3608FCE22D6B7767}Prefabs/Terrain/Trenches/Trench_Straight
 }
 $grp StaticModelEntity : "{481D44B7A7E581F0}Prefabs/Walls/Wall_1.et" {
  {
-  coords 3946.304 180.329 789.488
+  coords 3940.197 180.329 785.507
   angles 0 -33.095 0
   scale 5
  }
@@ -268,11 +268,11 @@ $grp StaticModelEntity : "{481D44B7A7E581F0}Prefabs/Walls/Wall_1.et" {
  }
  {
   coords 4266.837 171.37 968.3
-  angles 0 -75.102 0
+  angles 0 -53.687 0
   scale 5
  }
  {
-  coords 4300.037 171.284 982.946
+  coords 4302.918 171.284 982.539
   angles 0 8.043 0
   scale 5
  }
@@ -552,7 +552,7 @@ $grp StaticModelEntity : "{481D44B7A7E581F0}Prefabs/Walls/Wall_1.et" {
   scale 5
  }
  {
-  coords 4176.127 162.384 402.812
+  coords 4177.686 162.384 402.744
   angles 0 -177.503 0
   scale 5
  }
@@ -664,6 +664,16 @@ $grp StaticModelEntity : "{481D44B7A7E581F0}Prefabs/Walls/Wall_1.et" {
  {
   coords 3906.187 182.147 755.119
   angles 0 -43.386 0
+  scale 5
+ }
+ {
+  coords 3949.427 180.329 791.523
+  angles 0 -33.095 0
+  scale 5
+ }
+ {
+  coords 4280.032 171.331 986.538
+  angles 0 126.313 0
   scale 5
  }
 }
@@ -916,17 +926,7 @@ $grp StaticModelEntity : "{B1C9B97256E1D7B0}Prefabs/Walls/Wall_1_Post.et" {
   scale 5
  }
  {
-  coords 4155.056 162.582 403.338
-  angles 0 -2.868 0
-  scale 5
- }
- {
   coords 4553.83 177.975 576.643
-  angles 0 -88.102 0
-  scale 5
- }
- {
-  coords 4271.922 171.008 988.64
   angles 0 -88.102 0
   scale 5
  }
@@ -955,6 +955,28 @@ $grp GenericEntity : "{B325645C144505DA}Prefabs/Terrain/Trenches/Trench_Bend.et"
  {
   coords 4185.91 168.342 949.987
   angles -2.13 157.275 1.861
+ }
+}
+$grp StaticModelEntity : "{B7130E4DABDB7307}Prefabs/Walls/Manner Gate no doors.et" {
+ {
+  coords 4157.723 161.518 402.973
+  angles 0 2.201 0
+  scale 5
+ }
+ {
+  coords 3938.589 176.624 784.678
+  angles 0 -40.984 0
+  scale 5
+ }
+ {
+  coords 4554.254 174.695 574.522
+  angles 0 -83.365 0
+  scale 5
+ }
+ {
+  coords 4282.378 168.663 986.013
+  angles 0 -170.307 0
+  scale 5
  }
 }
 GenericEntity : "{BBF2E444B91CDC05}Buildings/ModularGothic/PillarWhole.et" {
