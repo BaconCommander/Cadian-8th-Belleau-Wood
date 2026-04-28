@@ -4375,15 +4375,6 @@ $grp GenericEntity : "{9872024066D31343}Prefabs/Props/Industrial/CargoContainers
   scale 2
  }
 }
-ZEL_SafeZoneEntity : "{98AD581B92D08AF3}Prefabs/Zones/Safe/SafeZone.et" {
- coords 4.942 171.354 19.336
- TriggerShapeType "Oriented Bounding Box"
- SphereRadius 300
- BoxMaxs 320 100 530
- DrawShape 0
- UpdatePeriod 10
- m_RemovalDelay 10
-}
 GenericEntity : "{99E7714AE7DF78D0}Buildings/Promethean/Refiner/RefineryPipe.et" {
  coords 104.473 178.811 322.239
  angles 0 90 0
