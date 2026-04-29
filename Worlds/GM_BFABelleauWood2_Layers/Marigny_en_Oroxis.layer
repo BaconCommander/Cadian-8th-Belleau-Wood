@@ -336,17 +336,17 @@ $grp StaticModelEntity : "{481D44B7A7E581F0}Prefabs/Walls/Wall_1.et" {
   scale 5
  }
  {
-  coords 1105.601 181.577 3695.371
+  coords 1105.148 181.577 3693.368
   angles 0 -68.381 0
   scale 5
  }
  {
-  coords 1112.15 180.635 3713.054
+  coords 1111.698 180.635 3711.051
   angles 0 -49.349 0
   scale 5
  }
  {
-  coords 1137.862 181.431 3736.248
+  coords 1139.958 181.056 3740.843
   angles 0 -65.483 0
   scale 5
  }
@@ -451,7 +451,7 @@ $grp StaticModelEntity : "{481D44B7A7E581F0}Prefabs/Walls/Wall_1.et" {
   scale 5
  }
  {
-  coords 1079.318 163.353 4040.135
+  coords 1077.428 163.353 4041.106
   angles 0 -152.809 0
   scale 5
  }
@@ -1077,11 +1077,6 @@ $grp StaticModelEntity : "{B1C9B97256E1D7B0}Prefabs/Walls/Wall_1_Post.et" {
   scale 5
  }
  {
-  coords 1126.169 180.227 3729.231
-  angles 0 -50.027 0
-  scale 5
- }
- {
   coords 1016.527 183.121 3530.145
   scale 5
  }
@@ -1108,12 +1103,34 @@ $grp GenericEntity : "{B325645C144505DA}Prefabs/Terrain/Trenches/Trench_Bend.et"
   angles 1.09 14.422 -0.644
  }
  {
-  coords 1105.4 179.616 3496.49
+  coords 1108.061 179.608 3496.311
   angles 2.678 3.864 0.181
  }
  {
   coords 818.783 177.746 3636.696
   angles 2.931 80.976 1.345
+ }
+}
+$grp StaticModelEntity : "{B7130E4DABDB7307}Prefabs/Walls/Manner Gate no doors.et" {
+ {
+  coords 1034.417 176.932 3529.584
+  angles 0 -3.05 0
+  scale 5
+ }
+ {
+  coords 1139.272 176.932 3739.553
+  angles 0 -46.185 0
+  scale 5
+ }
+ {
+  coords 1095.838 159.971 4031.291
+  angles 0 29.436 0
+  scale 5
+ }
+ {
+  coords 700.655 180.243 3811.887
+  angles 0 -76.371 0
+  scale 5
  }
 }
 $grp StaticModelEntity : "{D3B748962659D281}Prefabs/Trench/Barrier5.et" {
@@ -1155,6 +1172,17 @@ $grp StaticModelEntity : "{D3B748962659D281}Prefabs/Trench/Barrier5.et" {
  {
   coords 820.947 177.21 3619.89
   angles -4.417 -118.267 -0.668
+ }
+}
+$grp GenericEntity : "{D6F015C42913655E}Prefabs/Props/Military/Aquilla/Props_Aquilla.et" {
+ {
+  coords 915.268 210.127 3866.202
+  angles 0 4.224 0
+  scale 3
+ }
+ {
+  coords 917.562 196.369 3890.299
+  angles 0 3.412 0
  }
 }
 $grp GenericEntity : "{DB09806FB8861A40}Prefabs/Terrain/Trenches/Trench_Cross_Short.et" {

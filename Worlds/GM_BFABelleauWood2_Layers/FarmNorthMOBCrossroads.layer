@@ -1,38 +1,3 @@
-$grp GenericEntity {
- {
-  coords 1141.543 212.337 1754.34
-  angles 0 67.021 0
- }
- {
-  coords 1138.122 212.54 1763.297
-  angles 0 67.021 0
- }
- {
-  coords 1124.492 212.654 1836.658
-  angles 0 -105 0
- }
- {
-  coords 1126.938 212.795 1827.142
-  angles 0 -113.324 0
- }
- {
-  coords 1135.001 212.395 2162.737
-  angles 0 -174.062 0
- }
- {
-  coords 1135.86 212.395 2167.798
-  angles 0 12.127 0
- }
- {
-  components {
-   MeshObject "{69313589DD1C9650}" {
-    Object "{88C838C2390D0F2C}Assets/Structures/NewBuildings/Ruins_1.xob"
-   }
-  }
-  coords 1093.603 211.148 2173.325
-  angles -7.86 6.326 -1.76
- }
-}
 PolylineShapeEntity {
  coords 1288.15 208.091 1791.845
  Points {
@@ -5798,6 +5763,10 @@ SplineShapeEntity {
   }
  }
 }
+SCR_DestructibleBuildingEntity : "{034A45B0D41025B9}Prefabs/Structures/Cultural/Castles/Castle_01_OuterWall_01_Corner.et" {
+ coords 1103.896 0.065 1899.176
+ angles 0 -111.51 0
+}
 SCR_DestructibleBuildingEntity : "{0A0CE9FE3F0040AA}Prefabs/Structures/Ruins/Barn_Ruin_01/Barn_Ruin_01_V1_base.et" {
  coords 1068.916 0.906 2177.72
  angles 0 5.744 0
@@ -5898,6 +5867,10 @@ $grp GenericEntity : "{31A455F7FD8DCE84}Prefabs/Props/Military/Sandbags/Sandbag_
   coords 1130.203 210.953 2167.16
   angles 0 8.622 0
  }
+}
+GenericEntity : "{3608FCE22D6B7767}Prefabs/Terrain/Trenches/Trench_Straight_Short.et" {
+ coords 1085.005 179.398 3499.236
+ angles 2.252 10.581 -2.308
 }
 StaticModelEntity : "{4019D320C816AA07}Prefabs/Structures/Cultural/Churches/Church_01/Dst/Church_01_ruin_base.et" {
  coords 1162.965 210.109 1899.299
