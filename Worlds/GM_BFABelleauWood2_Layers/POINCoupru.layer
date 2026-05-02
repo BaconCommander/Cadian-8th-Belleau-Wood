@@ -1,0 +1,128 @@
+SCR_DestructibleBuildingEntity : "{0FC00BDA43145B38}Prefabs/Structures/Ruins/Church_Ruin_02/Church_Ruin_02.et" {
+ coords 4449.25 0.139 1839.444
+ angles 0 37.323 0
+}
+$grp SCR_DestructibleBuildingEntity : "{31CAD6AEE7E7E4CF}Prefabs/Structures/Cultural/Castles/Castle_01_Stairs_01.et" {
+ {
+  coords 4419.231 5.638 1800.067
+  angles 0 127.736 0
+ }
+ {
+  coords 4411.37 -2.73 1789.91
+  angles 0 127.736 0
+ }
+}
+$grp StaticModelEntity : "{4CD6C2FC072CE9CE}Prefabs/Structures/Military/Fortifications/CoastalBattery_USSR_01/Dst/CoastalBattery_USSR_01_tower_Ruin.et" {
+ {
+  coords 4400.354 183.531 1896.351
+  angles 0 -26.631 0
+ }
+ {
+  coords 4411.424 183.531 1895.162
+  angles 0 93.369 0
+ }
+ {
+  coords 4324.93 183.338 1856.433
+ }
+ {
+  coords 4324.939 183.247 1865.179
+  angles 0 68.826 0
+ }
+ {
+  coords 4320.663 182.988 1852.541
+  angles 0 -150.341 0
+ }
+}
+SCR_DestructibleBuildingEntity : "{6BE382F85F1A7491}Prefabs/Structures/Cultural/Castles/Castle_01_InnerWall_01.et" {
+ coords 4392.685 2.398 1769.159
+ angles 0 -147.896 0
+}
+SCR_DestructibleBuildingEntity : "{85D22B7ED8C8024C}Prefabs/Structures/Cultural/Castles/Castle_01_InnerWall_Small_02.et" {
+ coords 4375.51 0.787 1780.149
+ angles 0 34.619 0
+}
+$grp SCR_DestructibleBuildingEntity : "{92F8DAE5E56CA22E}Prefabs/Structures/Cultural/Castles/Castle_01_OuterWall_01.et" {
+ {
+  coords 4456.404 4.854 1822.241
+  angles 0 -53.762 0
+ }
+ {
+  coords 4443.975 5.506 1805.281
+  angles 0 -53.762 0
+ }
+ {
+  coords 4409.581 6.34 1757.849
+  angles 0 -53.762 0
+ }
+ {
+  coords 4468.832 4.198 1838.644
+  angles 0 -98.762 0
+ }
+ {
+  coords 4466.285 4.077 1859.124
+  angles 0 -154.166 0
+ }
+ {
+  coords 4448.37 4.068 1867.633
+  angles 0 -139.606 0
+ }
+ {
+  coords 4432.664 4.209 1880.997
+  angles 0 -139.606 0
+ }
+ {
+  coords 4397.422 2.775 1900.914
+  angles 0 -161.559 0
+ }
+ {
+  coords 4377.556 2.402 1907.538
+  angles 0 -161.559 0
+ }
+ {
+  coords 4357.762 2.09 1914.138
+  angles 0 168.441 0
+ }
+ {
+  coords 4337.302 2.306 1909.588
+  angles 0 107.083 0
+ }
+ {
+  coords 4331.157 2.956 1889.592
+  angles 0 107.083 0
+ }
+ {
+  coords 4318.892 3.653 1849.679
+  angles 0 107.083 0
+ }
+ {
+  coords 4312.65 4.468 1829.573
+  angles 0 62.083 0
+ }
+ {
+  coords 4321.631 5.036 1811.61
+  angles 0 32.083 0
+ }
+ {
+  coords 4339.335 5.086 1800.512
+  angles 0 32.083 0
+ }
+ {
+  coords 4357.118 5.237 1789.364
+  angles 0 32.083 0
+ }
+ {
+  coords 4391.295 6.51 1767.92
+  angles 0 29.417 0
+ }
+}
+SCR_DestructibleBuildingEntity : "{ADDA5472F867C249}Prefabs/Structures/Cultural/Castles/Castle_01_Bridge.et" {
+ coords 4436.159 11.384 1800.303
+ angles 0 46.224 0
+}
+StaticModelEntity : "{DAB124005D5AF944}Prefabs/Structures/Military/Fortifications/CoastalBattery_USSR_01/Dst/CoastalBattery_USSR_01_cabin_Ruin.et" {
+ coords 4407.508 183.412 1895.604
+}
+SCR_DestructibleBuildingEntity : "{DECF116069DCCC2B}Prefabs/Structures/Cultural/Castles/Castle_01_Tower.et" {
+ coords 4423.049 -0.603 1783.215
+ angles 0 -142.257 0
+}
