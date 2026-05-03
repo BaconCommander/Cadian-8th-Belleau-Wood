@@ -3451,6 +3451,10 @@ SCR_DestructibleBuildingEntity : "{53ED57F93F1DCE1F}PrefabLibrary/DefaultLibrary
  }
  coords 48.327 1.696 429.983
 }
+GenericEntity : "{559580C00F1A0080}Prefabs/Structures/PremadeBuildings/Hangar_4Door.et" {
+ coords 58.812 180.569 178.836
+ angles 0 -19.143 0
+}
 $grp GenericEntity : "{569C0E9792A6D39A}Prefabs/Props/Military/Training/Obstacles/ObstacleRamp_01_start.et" {
  {
   components {
@@ -4022,25 +4026,14 @@ SCR_DestructibleBuildingEntity : "{8C2E9411E2F50460}Prefabs/Structures/Infrastru
   }
  }
 }
-$grp SCR_DestructibleBuildingEntity : "{8E3EDA119269CCA6}PrefabLibrary/DefaultLibrary/Structures/Airport/Hangar_01.et" {
- {
-  components {
-   SCR_DestructibleBuildingComponent "{5D7AD09D3EB9E468}" {
-    Enabled 0
-   }
+SCR_DestructibleBuildingEntity : "{8E3EDA119269CCA6}PrefabLibrary/DefaultLibrary/Structures/Airport/Hangar_01.et" {
+ components {
+  SCR_DestructibleBuildingComponent "{5D7AD09D3EB9E468}" {
+   Enabled 0
   }
-  coords 83.885 1.256 487.113
-  angles 0 -87.495 0
  }
- {
-  components {
-   SCR_DestructibleBuildingComponent "{5D7AD09D3EB9E468}" {
-    Enabled 0
-   }
-  }
-  coords 56.043 7.771 159.669
-  angles 0 -17.954 0
- }
+ coords 83.885 1.256 487.113
+ angles 0 -87.495 0
 }
 SCR_DestructibleBuildingEntity : "{90582DA173C00605}Prefabs/Structures/Cultural/Cemeteries/Tombstones/GraveStone_E_01_A.et" {
  coords 182.818 0 329.088
@@ -4694,7 +4687,7 @@ $grp SCR_DestructibleBuildingEntity : "{CDEC6290D9424C36}PrefabLibrary/DefaultLi
  }
 }
 Tree : "{CE711B2E9DA8CA77}Prefabs/Vegetation/Bush/b_sambucus_nigra_2_aut.et" {
- coords 178.046 -0 432.683
+ coords 178.046 0 432.683
 }
 GenericEntity : "{CE763848F6F720AF}Prefabs/Props/Crates/CardboardBox/CardboardBox_03.et" {
  coords 47.605 179.907 287.673
@@ -4712,7 +4705,7 @@ StaticModelEntity : "{D424ED54002CBAF8}Prefabs/Structures/Military/Bunkers/AmmoD
  coords 112.78 173.301 106.736
 }
 Tree : "{D6EC31A48403A52A}Prefabs/Vegetation/Bush/b_sambucus_nigra_1.et" {
- coords 179.5 -0 445.254
+ coords 179.5 0 445.254
  angles 1.412 78.512 2.451
 }
 $grp GenericEntity : "{D6F015C42913655E}Prefabs/Props/Military/Aquilla/Props_Aquilla.et" {
