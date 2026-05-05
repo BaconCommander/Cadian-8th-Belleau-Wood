@@ -4549,6 +4549,78 @@ $grp GenericEntity : "{8B4B8BF44162B24E}Prefabs/Compositions/Slotted/SlotFlatSma
   coords 912.415 201.812 2791.73
  }
 }
+$grp StaticModelEntity : "{90B52D76DE6C9FAC}Prefabs/Walls/Wall_7.et" {
+ {
+  coords 831.865 199.063 2829.887
+  angles 0 0 0
+  scale 6
+ }
+ {
+  coords 831.865 198.386 2816.063
+  angles 0 0 0
+  scale 6
+ }
+ {
+  coords 831.865 201.224 2741.663
+  angles 0 0 0
+  scale 6
+ }
+ {
+  coords 831.865 199.42 2755.487
+  angles 0 0 0
+  scale 6
+ }
+ {
+  coords 831.865 198.373 2767.867
+  angles 0 0 0
+  scale 6
+ }
+ {
+  coords 831.865 197.776 2781.691
+  angles 0 0 0
+  scale 6
+ }
+ {
+  coords 811.524 197.152 2786.873
+  angles 0 90 0
+  scale 6
+ }
+ {
+  coords 825.348 197.486 2786.873
+  angles 0 90 0
+  scale 6
+ }
+ {
+  coords 811.524 196.538 2810.521
+  angles 0 90 0
+  scale 6
+ }
+ {
+  coords 825.348 197.613 2810.521
+  angles 0 90 0
+  scale 6
+ }
+ {
+  coords 783.537 193.57 2810.521
+  angles 0 90 0
+  scale 6
+ }
+ {
+  coords 797.361 195.09 2810.521
+  angles 0 90 0
+  scale 6
+ }
+ {
+  coords 797.361 196.538 2786.873
+  angles 0 90 0
+  scale 6
+ }
+ {
+  coords 783.537 195.631 2786.873
+  angles 0 90 0
+  scale 6
+ }
+}
 $grp StaticModelEntity : "{94BA3F354875A245}Prefabs/Structures/Military/Fortifications/Trenches/Barrier_With_Blender.et" {
  {
   coords 982.954 214.193 1792.15
