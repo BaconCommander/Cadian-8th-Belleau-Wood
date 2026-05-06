@@ -2550,54 +2550,40 @@ GenericEntity : "{195D6C2708028DC5}Prefabs/Props/Remains/SkeletonRemains/Skeleto
 }
 $grp GenericEntity : "{19AA40B6D109F8DD}Prefabs/Structures/ModularGothicPieces/Roof_Cap_3x2x2_Straight.et" {
  {
-  coords 149.731 196.669 303.5
+  coords 149.5 196 303.5
   angles 0 -180 0
-  scale 1.1
  }
  {
-  coords 146.731 196.669 303.5
+  coords 146.5 196 303.5
   angles 0 -180 0
-  scale 1.1
  }
  {
-  coords 143.731 196.669 303.5
+  coords 143.5 196 303.5
   angles 0 -180 0
-  scale 1.1
  }
  {
-  coords 140.731 196.669 303.5
+  coords 134.5 196 303.5
   angles 0 -180 0
-  scale 1.1
  }
  {
-  coords 137.731 196.669 303.5
+  coords 137.5 196 303.5
   angles 0 -180 0
-  scale 1.1
  }
  {
-  coords 137.731 196.669 303.5
+  coords 140.5 196 303.5
   angles 0 -180 0
-  scale 1.1
  }
  {
-  coords 134.731 196.669 303.5
+  coords 125.5 196 303.5
   angles 0 -180 0
-  scale 1.1
  }
  {
-  coords 131.731 196.669 303.5
+  coords 128.5 196 303.5
   angles 0 -180 0
-  scale 1.1
  }
  {
-  coords 128.731 196.669 303.5
+  coords 131.5 196 303.5
   angles 0 -180 0
-  scale 1.1
- }
- {
-  coords 125.731 196.669 303.5
-  angles 0 -180 0
-  scale 1.1
  }
 }
 SCR_DestructibleBuildingEntity : "{1A774A9DF37FE9CA}Prefabs/Structures/Services/Government/MunicipalOffice_E_01/MunicipalOffice_E_01_beige.et" {
@@ -3823,6 +3809,246 @@ $grp GenericEntity : "{42E6C85BC6FCA557}Prefabs/Structures/ModularGothicPieces/F
  {
   coords 130 178 300.5
  }
+ {
+  coords 89 180 282
+  angles 0 -20 0
+ }
+ {
+  coords 86.181 180 280.974
+  angles 0 -20 0
+ }
+ {
+  coords 80.543 180 278.922
+  angles 0 -20 0
+ }
+ {
+  coords 83.362 180 279.948
+  angles 0 -20 0
+ }
+ {
+  coords 74.905 180 276.87
+  angles 0 -20 0
+ }
+ {
+  coords 77.724 180 277.896
+  angles 0 -20 0
+ }
+ {
+  coords 69.267 180 274.818
+  angles 0 -20 0
+ }
+ {
+  coords 72.086 180 275.844
+  angles 0 -20 0
+ }
+ {
+  coords 63.629 180 272.766
+  angles 0 -20 0
+ }
+ {
+  coords 66.448 180 273.792
+  angles 0 -20 0
+ }
+ {
+  coords 87.207 180 278.155
+  angles 0 -20 0
+ }
+ {
+  coords 81.569 180 276.103
+  angles 0 -20 0
+ }
+ {
+  coords 84.388 180 277.129
+  angles 0 -20 0
+ }
+ {
+  coords 75.931 180 274.051
+  angles 0 -20 0
+ }
+ {
+  coords 78.75 180 275.077
+  angles 0 -20 0
+ }
+ {
+  coords 70.293 180 271.999
+  angles 0 -20 0
+ }
+ {
+  coords 73.112 180 273.025
+  angles 0 -20 0
+ }
+ {
+  coords 64.655 180 269.947
+  angles 0 -20 0
+ }
+ {
+  coords 67.474 180 270.973
+  angles 0 -20 0
+ }
+ {
+  coords 90.026 180 279.181
+  angles 0 -20 0
+ }
+ {
+  coords 88.233 180 275.336
+  angles 0 -20 0
+ }
+ {
+  coords 82.595 180 273.284
+  angles 0 -20 0
+ }
+ {
+  coords 85.414 180 274.31
+  angles 0 -20 0
+ }
+ {
+  coords 76.957 180 271.232
+  angles 0 -20 0
+ }
+ {
+  coords 79.776 180 272.258
+  angles 0 -20 0
+ }
+ {
+  coords 71.319 180 269.18
+  angles 0 -20 0
+ }
+ {
+  coords 74.138 180 270.206
+  angles 0 -20 0
+ }
+ {
+  coords 65.681 180 267.128
+  angles 0 -20 0
+ }
+ {
+  coords 68.5 180 268.154
+  angles 0 -20 0
+ }
+ {
+  coords 91.052 180 276.362
+  angles 0 -20 0
+ }
+ {
+  coords 89.259 180 272.517
+  angles 0 -20 0
+ }
+ {
+  coords 83.621 180 270.465
+  angles 0 -20 0
+ }
+ {
+  coords 86.44 180 271.491
+  angles 0 -20 0
+ }
+ {
+  coords 77.983 180 268.413
+  angles 0 -20 0
+ }
+ {
+  coords 80.802 180 269.439
+  angles 0 -20 0
+ }
+ {
+  coords 72.345 180 266.361
+  angles 0 -20 0
+ }
+ {
+  coords 75.164 180 267.387
+  angles 0 -20 0
+ }
+ {
+  coords 66.707 180 264.309
+  angles 0 -20 0
+ }
+ {
+  coords 69.526 180 265.335
+  angles 0 -20 0
+ }
+ {
+  coords 92.078 180 273.543
+  angles 0 -20 0
+ }
+ {
+  coords 90.285 180 269.698
+  angles 0 -20 0
+ }
+ {
+  coords 84.647 180 267.646
+  angles 0 -20 0
+ }
+ {
+  coords 87.466 180 268.672
+  angles 0 -20 0
+ }
+ {
+  coords 79.009 180 265.594
+  angles 0 -20 0
+ }
+ {
+  coords 81.828 180 266.62
+  angles 0 -20 0
+ }
+ {
+  coords 73.371 180 263.542
+  angles 0 -20 0
+ }
+ {
+  coords 76.19 180 264.568
+  angles 0 -20 0
+ }
+ {
+  coords 67.733 180 261.49
+  angles 0 -20 0
+ }
+ {
+  coords 70.552 180 262.516
+  angles 0 -20 0
+ }
+ {
+  coords 93.104 180 270.724
+  angles 0 -20 0
+ }
+ {
+  coords 91.311 180 266.879
+  angles 0 -20 0
+ }
+ {
+  coords 85.673 180 264.827
+  angles 0 -20 0
+ }
+ {
+  coords 88.492 180 265.853
+  angles 0 -20 0
+ }
+ {
+  coords 80.035 180 262.775
+  angles 0 -20 0
+ }
+ {
+  coords 82.854 180 263.801
+  angles 0 -20 0
+ }
+ {
+  coords 74.397 180 260.723
+  angles 0 -20 0
+ }
+ {
+  coords 77.216 180 261.749
+  angles 0 -20 0
+ }
+ {
+  coords 68.759 180 258.671
+  angles 0 -20 0
+ }
+ {
+  coords 71.578 180 259.697
+  angles 0 -20 0
+ }
+ {
+  coords 94.13 180 267.905
+  angles 0 -20 0
+ }
 }
 $grp GenericEntity : "{437520619D44C860}Prefabs/Props/Military/Furniture/Props_GuardLaptop.et" {
  {
@@ -4624,76 +4850,6 @@ $grp GenericEntity : "{6D670E6C586D28F7}Prefabs/Structures/ModularGothicPieces/R
  {
   coords 146.5 193 299
  }
- {
-  coords 149.5 194.5 306.5
-  angles 0 180 0
- }
- {
-  coords 146.5 194.5 300.5
- }
- {
-  coords 146.5 194.5 306.5
-  angles 0 180 0
- }
- {
-  coords 143.5 194.5 300.5
- }
- {
-  coords 143.5 194.5 306.5
-  angles 0 180 0
- }
- {
-  coords 140.5 194.5 300.5
- }
- {
-  coords 140.5 194.5 306.5
-  angles 0 180 0
- }
- {
-  coords 137.5 194.5 300.5
- }
- {
-  coords 137.5 194.5 306.5
-  angles 0 180 0
- }
- {
-  coords 134.5 194.5 300.5
- }
- {
-  coords 137.5 194.5 306.5
-  angles 0 180 0
- }
- {
-  coords 134.5 194.5 300.5
- }
- {
-  coords 134.5 194.5 306.5
-  angles 0 180 0
- }
- {
-  coords 131.5 194.5 300.5
- }
- {
-  coords 131.5 194.5 306.5
-  angles 0 180 0
- }
- {
-  coords 128.5 194.5 300.5
- }
- {
-  coords 128.5 194.5 306.5
-  angles 0 180 0
- }
- {
-  coords 125.5 194.5 300.5
- }
- {
-  coords 125.5 194.5 306.5
-  angles 0 180 0
- }
- {
-  coords 122.5 194.5 300.5
- }
 }
 $grp GenericEntity : "{6E84387991C01C6D}Prefabs/Props/Military/Training/Obstacles/ObstacleClimb_01.et" {
  {
@@ -4840,12 +4996,12 @@ GenericEntity : "{77D49455528ED5E6}Prefabs/Props/Military/MilitaryCrates/ShellCo
 $grp GenericEntity : "{7A427A6D790C696C}Assets/Buildings/Religious/AdmechStatue/AdmechStatue.et" {
  {
   coords 92.575 178.219 282.97
-  angles 0 -110.587 0
+  angles 0 -110 0
   scale 0.1
  }
  {
   coords 97.635 177.961 269.5
-  angles 0 -110.587 0
+  angles 0 -110 0
   scale 0.1
  }
  {
@@ -4897,15 +5053,6 @@ $grp SCR_DestructibleBuildingEntity : "{80A5B37A1472B084}Prefabs/Structures/Indu
   }
   coords 173.821 0.465 392.363
   angles 0 90 0
- }
- {
-  components {
-   SCR_DestructibleBuildingComponent "{5D7AD092A3CB4B41}" {
-    Enabled 0
-   }
-  }
-  coords 80.051 0.536 270.602
-  angles 0 -20.403 0
  }
 }
 $grp StaticModelEntity : "{80DF3BD810D032AF}Prefabs/Structures/Industrial/Towers/LightTower_01/LightTower_01.et" {
@@ -4988,7 +5135,7 @@ StaticModelEntity : "{82CCE96E35DC6A6E}Prefabs/Structures/Military/Antennas/Ante
    Enabled 0
   }
  }
- coords 143.998 1.716 325.54
+ coords 143.998 -0.002 325.54
 }
 $grp GenericEntity : "{83638542425F5794}Prefabs/Structures/Military/Flags/FlagPole_02/FlagPole_02_V1_AquillaRed.et" {
  {
