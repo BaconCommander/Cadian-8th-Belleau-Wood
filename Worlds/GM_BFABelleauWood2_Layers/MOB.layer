@@ -2399,6 +2399,9 @@ $grp GenericEntity : "{05A71DFCA0C141AF}Prefabs/Structures/Barracks/Grimdark_Bar
   coords 164.942 180.875 462.627
  }
 }
+GenericEntity : "{05BEF65DD58E5B12}Prefabs/Structures/PremadeBuildings/CommandBuilding.et" {
+ coords 95.696 180.881 397.585
+}
 $grp GenericEntity : "{07D5C7C755C719BE}Prefabs/Props/Garbage/Generic/Junk_01/Junk_01_pile_medium.et" {
  {
   coords 115.624 179.239 378.124
@@ -2663,15 +2666,6 @@ $grp GenericEntity : "{19AA40B6D109F8DD}Prefabs/Structures/ModularGothicPieces/R
   coords 131.5 196 303.5
   angles 0 -180 0
  }
-}
-SCR_DestructibleBuildingEntity : "{1A774A9DF37FE9CA}Prefabs/Structures/Services/Government/MunicipalOffice_E_01/MunicipalOffice_E_01_beige.et" {
- components {
-  SCR_DestructibleBuildingComponent "{5DA867E2A76ADC8B}" {
-   Enabled 0
-  }
- }
- coords 88.868 0.309 399.26
- angles 0 90 0
 }
 $grp GenericEntity : "{1AE1D881171B98F8}PrefabsEditable/Auto/Systems/Arsenal/ArsenalBoxes/IMP/E_ArsenalBox_IMP.et" {
  {
@@ -4143,12 +4137,6 @@ $grp GenericEntity : "{481F7C4B3AC7F440}Prefabs/Structures/Military/Flags/FlagPo
  {
   coords 122.804 186.854 557.008
  }
- {
-  coords 100.253 180.209 396.929
- }
- {
-  coords 100.493 180.319 401.461
- }
 }
 StaticModelEntity : "{4984743C2D03EA02}Prefabs/Structures/Military/Houses/ApartmentBuilding_3I01/Dst/ApartmentBuilding_3I01_Ruin_base.et" {
  coords 125.054 172.563 74.147
@@ -4748,14 +4736,6 @@ $grp GenericEntity : "{733C642B71996E53}Assets/Buildings/Promethean/PlasmaGenera
  }
 }
 $grp GenericEntity : "{738385AF87DE6253}Prefabs/Props/Military/Furniture/Props_GuardTerminal.et" {
- {
-  coords 97.603 181.066 400.414
-  angles 0 90 0
- }
- {
-  coords 95.055 181.059 388.23
-  angles 0 180 0
- }
  {
   coords 136.209 181.373 437.967
   angles 0 -90 0
@@ -5515,7 +5495,7 @@ SCR_DestructibleBuildingEntity : "{88044D117268E628}Prefabs/Structures/Military/
  angles 0 -90 0
 }
 GenericEntity : "{884D3DDC2DDCCB22}Prefabs/Structures/Sign/Sign_Command.et" {
- coords 97.843 179.69 389.155
+ coords 98.922 179.69 389.155
  angles 0 90 0
 }
 SCR_DestructibleBuildingEntity : "{8E3EDA119269CCA6}PrefabLibrary/DefaultLibrary/Structures/Airport/Hangar_01.et" {
@@ -5828,7 +5808,7 @@ GenericEntity : "{A446CB3C732A360D}Prefabs/Props/Garbage/Generic/Junk_01/Junk_01
 }
 $grp GenericEntity : "{A551B87161DE0189}Prefabs/Structures/Sign/Sign_Arrow.et" {
  {
-  coords 75.625 179.773 380.139
+  coords 75.625 179.773 375.589
   angles 0 90 0
  }
  {
@@ -6463,14 +6443,8 @@ Tree : "{CE711B2E9DA8CA77}Prefabs/Vegetation/Bush/b_sambucus_nigra_2_aut.et" {
 GenericEntity : "{CE763848F6F720AF}Prefabs/Props/Crates/CardboardBox/CardboardBox_03.et" {
  coords 47.605 179.907 287.673
 }
-$grp GenericEntity : "{D2BBB29E13CCE206}Prefabs/Props/Fabric/Flags/Flag_1_2_Aquila_Red.et" {
- {
-  coords 96.575 187.225 388.284
- }
- {
-  coords 96.087 187.264 410.259
-  angles 0 -178.887 0
- }
+GenericEntity : "{D2BBB29E13CCE206}Prefabs/Props/Fabric/Flags/Flag_1_2_Aquila_Red.et" {
+ coords 96.575 187.225 388.284
 }
 $grp GenericEntity : "{D418508518915AD5}Prefabs/Structures/BuildingParts/Eletrical/DieselGenerator_01/DieselGenerator_01_active.et" {
  {
@@ -7137,23 +7111,23 @@ $grp StaticModelEntity : "{EE836DAE53355BB6}Prefabs/Trench/Barrier2.et" {
   angles 0 -90 0
  }
  {
-  coords 95.703 180.336 377.163
+  coords 95.703 180.336 375.93
   angles 0 -90 0
  }
  {
-  coords 91.189 180.427 377.163
+  coords 91.189 180.427 375.93
   angles 0 -90 0
  }
  {
-  coords 86.854 180.394 377.163
+  coords 86.854 180.394 375.93
   angles 0 -90 0
  }
  {
-  coords 82.34 180.41 377.163
+  coords 82.34 180.41 375.93
   angles 0 -90 0
  }
  {
-  coords 77.92 180.334 377.163
+  coords 77.92 180.334 375.93
   angles 0 -90 0
  }
  {
