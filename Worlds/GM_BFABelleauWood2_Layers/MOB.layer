@@ -2622,8 +2622,8 @@ $grp GenericEntity : "{187F5139CAD843CC}Prefabs/Structures/CadianGreen/CommandPo
  }
 }
 GenericEntity : "{189D6862BADA37FF}Prefabs/Structures/Sign/Sign_NCO.et" {
- coords 135.072 177.643 434.728
- angles 0 -87.722 0
+ coords 130.275 180.594 422.565
+ angles 0 -177.722 0
 }
 GenericEntity : "{195D6C2708028DC5}Prefabs/Props/Remains/SkeletonRemains/SkeletonRemains_03_V3.et" {
  coords 122.415 181.1 299.728
@@ -3284,6 +3284,9 @@ GenericEntity : "{2C2256DE59DD9840}Prefabs/Structures/BuildingParts/Eletrical/Br
  coords 130.546 177.918 313.229
  angles 0 -90 0
 }
+GenericEntity : "{2D7EB2F1AF1A551C}Prefabs/Structures/PremadeBuildings/NCO_Building.et" {
+ coords 133.301 181.555 438.807
+}
 $grp GenericEntity : "{2DD4D94957E1DC2B}Prefabs/Props/Furniture/Carpet_03_red.et" {
  {
   coords 116.828 181.099 305.947
@@ -3384,15 +3387,6 @@ $grp SCR_DestructibleEntity : "{35648B063A2B4400}Prefabs/Props/Military/Graves/G
   coords 181.911 176.974 315.325
   angles 0 89.979 0
  }
-}
-SCR_DestructibleBuildingEntity : "{35A406D39D6E0ADA}Prefabs/Structures/Military/Houses/Barracks_01/Barracks_01_military_camo_v1.et" {
- components {
-  SCR_DestructibleBuildingComponent "{5D7E937B62062DE5}" {
-   Enabled 0
-  }
- }
- coords 152.463 0.824 438.88
- angles 0 92.278 0
 }
 GenericEntity : "{3608FCE22D6B7767}Prefabs/Terrain/Trenches/Trench_Straight_Short.et" {
  coords 683.558 201.722 265.871
@@ -4736,14 +4730,6 @@ $grp GenericEntity : "{733C642B71996E53}Assets/Buildings/Promethean/PlasmaGenera
  }
 }
 $grp GenericEntity : "{738385AF87DE6253}Prefabs/Props/Military/Furniture/Props_GuardTerminal.et" {
- {
-  coords 136.209 181.373 437.967
-  angles 0 -90 0
- }
- {
-  coords 166.43 181.373 439.995
-  angles 0 90 0
- }
  {
   coords 119.814 181.024 304.725
   angles 0 90 0
