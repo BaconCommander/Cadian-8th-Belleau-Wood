@@ -6142,8 +6142,8 @@ $grp StaticModelEntity : "{94BA3F354875A245}Prefabs/Structures/Military/Fortific
   {
    StaticModelEntity {
     ID "6928F3C5F3C21C54"
-    coords 5.241 -0.55 -0.032
-    angles 0 1.691 27.699
+    coords 5.303 -0.55 0.18
+    angles 0 0 27.699
    }
   }
  }
@@ -6153,7 +6153,7 @@ $grp StaticModelEntity : "{94BA3F354875A245}Prefabs/Structures/Military/Fortific
   {
    StaticModelEntity {
     ID "6928F3C5F3C21C54"
-    coords 5.656 -0.55 0.151
+    coords 5.303 -0.55 0.18
     angles 0 0 27.699
    }
   }

@@ -430,10 +430,10 @@ $grp SCR_IndestructibleEnvironmentalEntity : "{1200EAC7C79003AF}Prefabs/Rocks/Gr
   angles 0 146.818 0
  }
  {
-  coords 765.171 204.517 800.425
+  coords 1024.18 204.517 1075.411
  }
  {
-  coords 786.573 204.46 801.915
+  coords 1045.582 204.46 1076.901
   angles 0 161.47 0
  }
 }
@@ -447,11 +447,15 @@ $grp StaticModelEntity : "{18CFB46A50275E9F}Prefabs/Trench/Erode_Dirt_Big.et" {
   angles 13.064 -1.514 -6.667
  }
  {
-  coords 538.711 210.221 1002.516
+  coords 797.72 210.221 1277.502
   angles 0 0 0
  }
 }
 $grp GenericEntity : "{1FB2F0AEA420C1FB}Prefabs/Terrain/Trenches/Trench_90_Long.et" {
+ {
+  coords 694.07 202.056 322.601
+  angles 0 59.511 0
+ }
  {
   coords 661.72 199.009 533.439
   angles -0.838 -20.604 0.315
@@ -539,10 +543,6 @@ $grp GenericEntity : "{2B24356C351A2538}Prefabs/Props/Wrecks/M113_wreck/M113_wre
 GenericEntity : "{2BCCA31989E825C8}PrefabLibrary/DefaultLibrary/Props/Military/BTR70_wreck.et" {
  coords 765.85 201.94 357.969
  angles -1.15 117.411 -3.62
-}
-SCR_DestructibleBuildingEntity : "{2EED177FAA9F36D2}Prefabs/Structures/Infrastructure/Bridges/ConcreteBridge_01/ConcreteBridge_01_Narrow_PillarBig.et" {
- coords 509.971 177.3 400.356
- angles -0.479 69.374 -14.415
 }
 $grp GenericEntity : "{3608FCE22D6B7767}Prefabs/Terrain/Trenches/Trench_Straight_Short.et" {
  {
@@ -731,57 +731,16 @@ $grp StaticModelEntity : "{44A1CE40DBDE2A97}Prefabs/Trench/Erode_Big_Rock.et" {
   angles 12.218 34.439 -2.384
  }
  {
-  coords 638.325 203.65 836.975
+  coords 897.334 203.65 1111.961
   angles 0 -140.411 5.68
  }
  {
-  coords 496.876 210.585 956.778
+  coords 755.885 210.585 1231.764
   angles 0 -101.719 0
  }
  {
-  coords 723.436 212.461 899.318
+  coords 982.445 212.461 1174.304
   angles 0 28.222 0
- }
- {
-  coords 624.744 205.929 85.696
-  angles 2.997 -48.838 2.617
- }
-}
-$grp StaticModelEntity : "{4C2C73627DF3B0C5}Prefabs/Structures/Helpers/TerrainBlender6mCube.et" {
- {
-  coords 566.561 -2.45 413.599
-  angles 0 -20.251 -14.01
-  scale 5
- }
- {
-  coords 588.408 2.498 421.659
-  angles 0 -20.251 -14.01
-  scale 5
- }
- {
-  coords 612.236 4.506 430.45
-  angles 0 -20.251 0.99
-  scale 5
- }
- {
-  coords 637.983 1.435 439.949
-  angles 0 -20.251 7.215
-  scale 5
- }
- {
-  coords 663.311 -2.935 449.294
-  angles 0 -20.251 7.215
-  scale 5
- }
- {
-  coords 602.588 -1.85 456.463
-  angles -11.66 -20.455 1.011
-  scale 5
- }
- {
-  coords 619.865 -1.273 409.673
-  angles 11.66 -20.455 1.011
-  scale 5
  }
 }
 SCR_DestructibleEntity : "{4D8C6C01C420F054}Prefabs/Props/Industrial/CompressorTrailerWreck_01/CompressorTrailerWreck_01_Gray.et" {
@@ -1078,14 +1037,6 @@ $grp GenericEntity : "{6675E8586EBB29B2}Prefabs/Terrain/Trenches/Trench_Straight
   coords 599.295 201.635 653.211
   angles 1.646 -98.085 -1.138
  }
- {
-  coords 703.555 202.744 320.109
-  angles 0.892 94.438 0.069
- }
- {
-  coords 692.473 202.571 319.465
-  angles 0.892 94.438 0.069
- }
 }
 SCR_IndestructibleEnvironmentalEntity : "{6BAF8D4249D7BDCA}Prefabs/Rocks/Granite/Granite_BeachStone_02.et" {
  coords 846.089 2.132 386.868
@@ -1126,28 +1077,6 @@ SCR_DestructibleEntity : "{6EF819618DC56698}Prefabs/Props/Industrial/CompressorT
  coords 730.433 200.102 525.874
  angles -0.895 0 -0.895
 }
-$grp StaticModelEntity : "{70EC13CD5E3A88FC}Prefabs/Structures/Helpers/TerrainBlender8mCircle.et" {
- {
-  coords 620.419 -0.549 452.748
-  angles -5.356 35.853 0
-  scale 5
- }
- {
-  coords 578.06 -2.098 441.859
-  angles 1.286 10.854 -13.874
-  scale 5
- }
- {
-  coords 598.634 -1.568 403.097
-  angles 15.048 17.685 -2.188
-  scale 5
- }
- {
-  coords 638.025 -0.183 419.185
-  angles 8.783 -0.964 5.318
-  scale 5
- }
-}
 SCR_IndestructibleEnvironmentalEntity : "{735E970ACBB1B473}Prefabs/Rocks/Granite/Granite_Boulder_01.et" {
  coords 860.357 -0.425 379.712
 }
@@ -1181,11 +1110,11 @@ $grp GenericEntity : "{7FA95863264F3F10}Prefabs/Structures/ConcreteBunkers/Looko
 }
 $grp StaticModelEntity : "{82292A7C480E8F88}Prefabs/Trench/Erode_4_Stone.et" {
  {
-  coords 540.744 210.505 884.342
+  coords 799.753 210.505 1159.328
   angles 0 -142.582 0
  }
  {
-  coords 602.856 211.533 974.719
+  coords 861.865 211.533 1249.705
   angles 0 54.052 0
  }
 }
@@ -1200,15 +1129,15 @@ $grp SCR_DestructibleBuildingEntity : "{84DEA01FFFE606FE}Prefabs/Structures/Mili
 }
 $grp StaticModelEntity : "{84E8415C26FF817E}Prefabs/Trench/Erode_5_BigDirt.et" {
  {
-  coords 702.603 205.91 811.235
+  coords 961.612 205.91 1086.221
   angles 0 -163.966 0
  }
  {
-  coords 595.36 207.651 850.551
+  coords 854.369 207.651 1125.537
   angles 0 -149.243 -4.617
  }
  {
-  coords 662.021 207.544 930.274
+  coords 921.03 207.544 1205.26
   angles 0 26.298 0
  }
 }
@@ -1508,13 +1437,13 @@ $grp GenericEntity : "{8F9620C34803541D}Prefabs/Props/ImperialCargoShip/Imperial
     m_bAutoRegister NEVER
    }
   }
-  coords 631.472 150.104 941.777
+  coords 890.481 150.104 1216.763
   angles 10.5 -61.101 -23.544
  }
 }
 $grp StaticModelEntity : "{9622D46D09E8C8B1}Prefabs/Trench/Erode_Dirt.et" {
  {
-  coords 760.934 212.284 865.693
+  coords 1019.943 212.284 1140.679
   angles 0 48.698 0
  }
  {
@@ -1524,12 +1453,12 @@ $grp StaticModelEntity : "{9622D46D09E8C8B1}Prefabs/Trench/Erode_Dirt.et" {
 }
 $grp SCR_IndestructibleEnvironmentalEntity : "{9633134198F3AB1A}Prefabs/Rocks/Granite/GraniteRock_01.et" {
  {
-  coords 589.163 221.598 897.162
+  coords 848.172 221.598 1172.148
   angles 0 21.268 0
   scale 5
  }
  {
-  coords 633.777 207.053 869.292
+  coords 892.786 207.053 1144.278
   scale 5
  }
 }
@@ -1958,208 +1887,6 @@ GenericEntity : "{DE59CB05202006E8}Prefabs/Props/Agriculture/CultivatorWreck_01.
 SCR_IndestructibleEnvironmentalEntity : "{DF20AE31B95E6757}Prefabs/Rocks/Granite/Granite_BeachStone_03_Fucus.et" {
  coords 862.008 1.319 378.487
 }
-$grp GenericEntity : "{E334CE2BDD3AA04E}Prefabs/Structures/ModularGothicPieces/Pillar_Base_Small_Square.et" {
- {
-  coords 620.604 196.075 439.73
-  angles 0 70 0
-  scale 3
- }
- {
-  coords 620.604 205.075 439.73
-  angles 0 70 0
-  scale 3
- }
- {
-  coords 616.648 203.362 450.6
-  angles 0 70 0
-  scale 3
- }
- {
-  coords 616.648 194.362 450.6
-  angles 0 70 0
-  scale 3
- }
- {
-  coords 612.73 200.934 461.364
-  angles 0 70 0
-  scale 3
- }
- {
-  coords 612.73 191.934 461.364
-  angles 0 70 0
-  scale 3
- }
- {
-  coords 608.563 199.362 472.814
-  angles 0 70 0
-  scale 3
- }
- {
-  coords 608.563 190.362 472.814
-  angles 0 70 0
-  scale 3
- }
- {
-  coords 604.459 190.362 484.09
-  angles 0 70 0
-  scale 3
- }
- {
-  coords 604.459 199.362 484.09
-  angles 0 70 0
-  scale 3
- }
- {
-  coords 624.554 196.335 427.912
-  angles 0 -110 0
-  scale 3
- }
- {
-  coords 624.554 205.335 427.912
-  angles 0 -110 0
-  scale 3
- }
- {
-  coords 628.51 203.622 417.042
-  angles 0 -110 0
-  scale 3
- }
- {
-  coords 628.51 194.622 417.042
-  angles 0 -110 0
-  scale 3
- }
- {
-  coords 632.428 201.194 406.278
-  angles 0 -110 0
-  scale 3
- }
- {
-  coords 632.428 192.194 406.278
-  angles 0 -110 0
-  scale 3
- }
- {
-  coords 636.595 199.622 394.828
-  angles 0 -110 0
-  scale 3
- }
- {
-  coords 636.595 190.622 394.828
-  angles 0 -110 0
-  scale 3
- }
- {
-  coords 640.699 190.622 383.552
-  angles 0 -110 0
-  scale 3
- }
- {
-  coords 640.699 199.622 383.552
-  angles 0 -110 0
-  scale 3
- }
- {
-  coords 588.724 195.279 428.127
-  angles 0 70 0
-  scale 3
- }
- {
-  coords 588.724 204.279 428.127
-  angles 0 70 0
-  scale 3
- }
- {
-  coords 584.768 202.566 438.997
-  angles 0 70 0
-  scale 3
- }
- {
-  coords 584.768 193.566 438.997
-  angles 0 70 0
-  scale 3
- }
- {
-  coords 580.85 200.138 449.761
-  angles 0 70 0
-  scale 3
- }
- {
-  coords 580.85 191.138 449.761
-  angles 0 70 0
-  scale 3
- }
- {
-  coords 576.683 198.566 461.211
-  angles 0 70 0
-  scale 3
- }
- {
-  coords 576.683 189.566 461.211
-  angles 0 70 0
-  scale 3
- }
- {
-  coords 572.579 189.566 472.487
-  angles 0 70 0
-  scale 3
- }
- {
-  coords 572.579 198.566 472.487
-  angles 0 70 0
-  scale 3
- }
- {
-  coords 592.674 195.539 416.309
-  angles 0 -110 0
-  scale 3
- }
- {
-  coords 592.674 204.539 416.309
-  angles 0 -110 0
-  scale 3
- }
- {
-  coords 596.63 202.826 405.439
-  angles 0 -110 0
-  scale 3
- }
- {
-  coords 596.63 193.826 405.439
-  angles 0 -110 0
-  scale 3
- }
- {
-  coords 600.548 200.398 394.675
-  angles 0 -110 0
-  scale 3
- }
- {
-  coords 600.548 191.398 394.675
-  angles 0 -110 0
-  scale 3
- }
- {
-  coords 604.715 198.826 383.225
-  angles 0 -110 0
-  scale 3
- }
- {
-  coords 604.715 189.826 383.225
-  angles 0 -110 0
-  scale 3
- }
- {
-  coords 608.819 189.826 371.949
-  angles 0 -110 0
-  scale 3
- }
- {
-  coords 608.819 198.826 371.949
-  angles 0 -110 0
-  scale 3
- }
-}
 $grp StaticModelEntity : "{E474BFF3E5AEEEC7}PrefabLibrary/Crater01.et" {
  {
   coords 665.436 199.147 487.379
@@ -2365,8 +2092,8 @@ $grp GameEntity : "{F4761EB8A9426499}Prefabs/Props/Military/Sandbags/AegisLine_B
   angles -3.98 -68.686 0.366
  }
  {
-  coords 780.534 205.751 700.293
-  angles -7.422 -93.346 -4.891
+  coords 780.325 206.051 700.615
+  angles -27.746 -91.421 3.751
  }
  {
   coords 779.62 205.551 696.003
@@ -2413,6 +2140,10 @@ $grp GameEntity : "{F4761EB8A9426499}Prefabs/Props/Military/Sandbags/AegisLine_B
   angles -1.643 -118.593 -1.143
  }
  {
+  coords 763.132 204.74 720.548
+  angles -2.091 -100.694 -1.426
+ }
+ {
   coords 765.414 204.794 717.755
   angles -2.473 -158.491 3.827
  }
@@ -2439,6 +2170,10 @@ $grp GameEntity : "{F4761EB8A9426499}Prefabs/Props/Military/Sandbags/AegisLine_B
  {
   coords 775.403 201.844 642.406
   angles -2.005 -74.414 -6.109
+ }
+ {
+  coords 775.443 202.158 646.885
+  angles -1.598 -105.948 -2.334
  }
  {
   coords 773.252 202.333 651.345
@@ -2525,6 +2260,10 @@ $grp GameEntity : "{F4761EB8A9426499}Prefabs/Props/Military/Sandbags/AegisLine_B
   angles -4.473 -90.38 -0.863
  }
  {
+  coords 823.07 203.292 560.566
+  angles -1.957 -104.499 -0.418
+ }
+ {
   coords 824.735 203.179 555.982
   angles -2.773 -115.597 -1.646
  }
@@ -2566,7 +2305,7 @@ $grp GameEntity : "{F4761EB8A9426499}Prefabs/Props/Military/Sandbags/AegisLine_B
  }
  {
   coords 871.589 203.232 423.943
-  angles -0.972 -161.763 4.678
+  angles -9.406 -162.46 32.452
  }
  {
   coords 866.827 202.62 425.995
@@ -2601,6 +2340,10 @@ $grp GameEntity : "{F4761EB8A9426499}Prefabs/Props/Military/Sandbags/AegisLine_B
   angles -0.992 -87.92 2.649
  }
  {
+  coords 875.623 204.622 421.306
+  angles -13.007 -138.815 4.718
+ }
+ {
   coords 879.446 204.583 394.237
   angles 0.331 -97.083 2.663
  }
@@ -2631,6 +2374,10 @@ $grp GameEntity : "{F4761EB8A9426499}Prefabs/Props/Military/Sandbags/AegisLine_B
  {
   coords 880.859 205.524 349.523
   angles -0.21 -103.586 -0.87
+ }
+ {
+  coords 877.696 205.302 331.334
+  angles 0.286 -71.37 -0.848
  }
  {
   coords 868.869 204.789 315.228
@@ -2705,6 +2452,10 @@ $grp GameEntity : "{F4761EB8A9426499}Prefabs/Props/Military/Sandbags/AegisLine_B
   angles 2.771 -83.173 -0.569
  }
  {
+  coords 864.413 203.53 273.123
+  angles 2.068 -114.6 -1.93
+ }
+ {
   coords 861.587 203.688 277.209
   angles 0.67 -133.876 -1.885
  }
@@ -2731,6 +2482,10 @@ $grp GameEntity : "{F4761EB8A9426499}Prefabs/Props/Military/Sandbags/AegisLine_B
  {
   coords 885.007 203.868 225.11
   angles 0.909 -76.555 3.893
+ }
+ {
+  coords 882.143 204.504 216.348
+  angles 2.352 -99.426 3.233
  }
  {
   coords 886.555 203.536 229.611
@@ -2780,108 +2535,10 @@ $grp GameEntity : "{F4761EB8A9426499}Prefabs/Props/Military/Sandbags/AegisLine_B
   coords 888.738 205.038 170.587
   angles 1.258 -77.612 -1.556
  }
- {
-  coords 888.964 204.672 147.615
-  angles 1.258 -77.612 -1.556
- }
- {
-  coords 890.523 204.769 152.279
-  angles 2.001 -63.512 -0.003
- }
- {
-  coords 891.425 204.866 156.666
-  angles 1.629 -94.951 -1.937
- }
- {
-  coords 890.136 205.02 161.465
-  angles 2.079 -114.291 -1.919
- }
-}
-$grp GenericEntity : "{FA771E44182BDD22}Prefabs/Structures/ModularGothicPieces/Wall_3x3x0.5_Straight.et" {
- {
-  coords 618.613 201.233 445.447
-  angles 0 70 0
-  scale 3
- }
- {
-  coords 614.657 199.52 456.317
-  angles 0 70 0
-  scale 3
- }
- {
-  coords 610.739 197.092 467.081
-  angles 0 70 0
-  scale 3
- }
- {
-  coords 606.572 195.521 478.531
-  angles 0 70 0
-  scale 3
- }
- {
-  coords 630.501 199.78 411.325
-  angles 0 -110 0
-  scale 3
- }
- {
-  coords 634.419 197.352 400.561
-  angles 0 -110 0
-  scale 3
- }
- {
-  coords 638.586 195.781 389.111
-  angles 0 -110 0
-  scale 3
- }
- {
-  coords 626.545 201.493 422.195
-  angles 0 -110 0
-  scale 3
- }
- {
-  coords 582.777 198.724 444.714
-  angles 0 70 0
-  scale 3
- }
- {
-  coords 578.859 196.296 455.478
-  angles 0 70 0
-  scale 3
- }
- {
-  coords 574.692 194.725 466.928
-  angles 0 70 0
-  scale 3
- }
- {
-  coords 598.621 198.984 399.722
-  angles 0 -110 0
-  scale 3
- }
- {
-  coords 602.539 196.556 388.958
-  angles 0 -110 0
-  scale 3
- }
- {
-  coords 606.706 194.985 377.508
-  angles 0 -110 0
-  scale 3
- }
- {
-  coords 594.665 200.697 410.592
-  angles 0 -110 0
-  scale 3
- }
- {
-  coords 586.733 200.437 433.844
-  angles 0 70 0
-  scale 3
- }
 }
 $grp StaticModelEntity : "{FDC92872D165E74A}Prefabs/Trench/Erode_3_Stone.et" {
  {
-  coords 747.2 203.973 801.607
+  coords 1006.209 203.973 1076.593
   angles 0 -165 0
  }
  {

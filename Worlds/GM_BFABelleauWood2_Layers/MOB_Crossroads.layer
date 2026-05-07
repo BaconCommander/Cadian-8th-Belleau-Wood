@@ -2,7 +2,7 @@ GenericEntity BrokenChurch {
  coords 1715.865 208.696 781.204
  angles 0 -24.827 0
  {
-  $grp GenericEntity : "{063C1A4FC1D71FDC}Assets/Buildings/ModularGothic/2mWallBroken.et" {
+  $grp GenericEntity : "{063C1A4FC1D71FDC}Buildings/ModularGothic/2mWallBroken.et" {
    {
     coords -6.469 -0.216 -4.611
     angles 0 90 0
@@ -65,7 +65,7 @@ GenericEntity BrokenChurch {
    coords -1.209 -0.727 -2.715
    angles 0 24.827 0
   }
-  $grp GenericEntity : "{912EBDA3A340684E}Assets/Buildings/ModularGothic/6mWallWindow.et" {
+  $grp GenericEntity : "{912EBDA3A340684E}Buildings/ModularGothic/6mWallWindow.et" {
    {
     coords -6.469 -0.193 5.389
     angles 0 90 0
@@ -83,7 +83,7 @@ GenericEntity BrokenChurch {
    coords 4.137 0.549 3.752
    angles 0 24.827 0
   }
-  $grp GenericEntity : "{BBF2E444B91CDC05}Assets/Buildings/ModularGothic/PillarWhole.et" {
+  $grp GenericEntity : "{BBF2E444B91CDC05}Buildings/ModularGothic/PillarWhole.et" {
    {
     coords -6.601 -0.115 7.903
    }
@@ -176,7 +176,7 @@ GenericEntity BrokenChurch {
     angles 0 24.827 0
    }
   }
-  $grp GenericEntity : "{C90BD9F77B715DC7}Assets/Buildings/ModularGothic/3mWallBare.et" {
+  $grp GenericEntity : "{C90BD9F77B715DC7}Buildings/ModularGothic/3mWallBare.et" {
    {
     coords -6.469 -0.116 10.389
     angles 0 90 0
@@ -245,10 +245,10 @@ GenericEntity BrokenChurch {
    coords 4.295 4.116 7.609
    angles 0 178.655 0
   }
-  GenericEntity : "{E83A06A60292FE47}Assets/Buildings/ModularGothic/6mDoor.et" {
+  GenericEntity : "{E83A06A60292FE47}Buildings/ModularGothic/6mDoor.et" {
    coords 0.077 -0.803 -11.939
   }
-  $grp GenericEntity : "{EEED9A5CF7F06C78}Assets/Buildings/ModularGothic/PillarBroken.et" {
+  $grp GenericEntity : "{EEED9A5CF7F06C78}Buildings/ModularGothic/PillarBroken.et" {
    {
     coords -6.588 0.869 -2.215
    }
@@ -268,23 +268,23 @@ GenericEntity BrokenChurch {
     angles 0 123.3 0
    }
    {
-    coords 5.58 5.89 12.89
+    coords 5.353 5.89 12.889
     angles 0 -179.7 0
    }
    {
-    coords 5.503 5.89 7.781
+    coords 5.353 5.89 7.889
     angles 0 96.9 0
    }
    {
-    coords 5.527 5.89 2.816
+    coords 5.353 5.89 2.889
     angles 0 -25.8 0
    }
    {
-    coords 5.526 5.89 -7.139
+    coords 5.353 5.89 -7.111
     angles 0 -150.1 0
    }
    {
-    coords 5.555 5.89 -12.156
+    coords 5.353 5.89 -12.111
     angles 0 -63.9 0
    }
    {
