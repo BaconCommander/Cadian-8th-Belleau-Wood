@@ -1505,9 +1505,15 @@ $grp SplineShapeEntity {
    }
    ShapePoint "{692CF791F7500218}" {
     Position -0.78 -4.904 -76.127
+    Data {
+     SplinePointData SplinePointData {
+      InTangent 19.534 -0.165 0.334
+      OutTangent 19.534 -0.165 0.334
+     }
+    }
    }
    ShapePoint "{692CF791F4AC2501}" {
-    Position 50.866 -5.084 -77.046
+    Position 51.244 -4.95 -74.806
    }
   }
   {
@@ -1524,13 +1530,19 @@ $grp SplineShapeEntity {
         Position -9.485 -1.388 -13.546
        }
        ShapePoint "{692CF791C081DBC1}" {
-        Position -8.571 -4.437 -67.502
+        Position -8.572 -4.437 -67.502
        }
        ShapePoint "{692CF791C081DC77}" {
         Position -0.78 -4.904 -76.127
+        Data {
+         SplinePointData "{00000000D8F1BA4F}" {
+          InTangent 19.534 -0.165 0.334
+          OutTangent 19.534 -0.165 0.334
+         }
+        }
        }
        ShapePoint "{692CF791C081DCA1}" {
-        Position 50.866 -5.084 -77.046
+        Position 51.244 -4.95 -74.806
        }
       }
       IsClosedSpline 0
@@ -2303,10 +2315,10 @@ $grp GenericEntity : "{040884AD26894E77}Prefabs/Structures/ModularGothicPieces/F
 }
 $grp GenericEntity : "{055D5E05823A245A}Prefabs/Structures/Military/Flags/FlagPole_02/FlagPole_02_V1_Cadia.et" {
  {
-  coords 181.124 180.812 467.537
+  coords 181.971 180.95 469.63
  }
  {
-  coords 181.549 181.27 476.04
+  coords 182.396 181.467 478.133
  }
  {
   coords 28.979 181.171 375.301
@@ -2379,6 +2391,12 @@ $grp GenericEntity : "{05A71DFCA0C141AF}Prefabs/Structures/Barracks/Grimdark_Bar
  {
   coords 61.375 181.465 402.69
   angles 0 90 0
+ }
+ {
+  coords 149.942 181.036 462.627
+ }
+ {
+  coords 164.942 180.875 462.627
  }
 }
 $grp GenericEntity : "{07D5C7C755C719BE}Prefabs/Props/Garbage/Generic/Junk_01/Junk_01_pile_medium.et" {
@@ -6732,7 +6750,7 @@ $grp StaticModelEntity : "{DA822ADE75D09EB0}Prefabs/Compositions/Misc/SubComposi
   angles 0 26.713 0
  }
  {
-  coords 142.131 181.144 479.674
+  coords 141.597 181.144 480.936
   angles 0 47.672 0
  }
  {
