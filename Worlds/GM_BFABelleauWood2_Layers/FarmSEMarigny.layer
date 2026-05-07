@@ -2,7 +2,7 @@ GenericEntity BrokenChurch2 {
  coords 1941.714 199.59 3251.138
  angles 0 -71.234 0
  {
-  $grp GenericEntity : "{063C1A4FC1D71FDC}Buildings/ModularGothic/2mWallBroken.et" {
+  $grp GenericEntity : "{063C1A4FC1D71FDC}Assets/Buildings/ModularGothic/2mWallBroken.et" {
    {
     coords -6.469 -0.216 -4.611
     angles 0 90 0
@@ -65,7 +65,7 @@ GenericEntity BrokenChurch2 {
    coords -1.209 -0.727 -2.715
    angles 0 24.827 0
   }
-  $grp GenericEntity : "{912EBDA3A340684E}Buildings/ModularGothic/6mWallWindow.et" {
+  $grp GenericEntity : "{912EBDA3A340684E}Assets/Buildings/ModularGothic/6mWallWindow.et" {
    {
     coords -6.469 -0.193 5.389
     angles 0 90 0
@@ -83,7 +83,7 @@ GenericEntity BrokenChurch2 {
    coords 4.137 0.549 3.752
    angles 0 24.827 0
   }
-  $grp GenericEntity : "{BBF2E444B91CDC05}Buildings/ModularGothic/PillarWhole.et" {
+  $grp GenericEntity : "{BBF2E444B91CDC05}Assets/Buildings/ModularGothic/PillarWhole.et" {
    {
     coords -6.601 -0.115 7.903
    }
@@ -176,7 +176,7 @@ GenericEntity BrokenChurch2 {
     angles 0 24.827 0
    }
   }
-  $grp GenericEntity : "{C90BD9F77B715DC7}Buildings/ModularGothic/3mWallBare.et" {
+  $grp GenericEntity : "{C90BD9F77B715DC7}Assets/Buildings/ModularGothic/3mWallBare.et" {
    {
     coords -6.469 -0.116 10.389
     angles 0 90 0
@@ -245,10 +245,10 @@ GenericEntity BrokenChurch2 {
    coords 4.295 4.116 7.609
    angles 0 178.655 0
   }
-  GenericEntity : "{E83A06A60292FE47}Buildings/ModularGothic/6mDoor.et" {
+  GenericEntity : "{E83A06A60292FE47}Assets/Buildings/ModularGothic/6mDoor.et" {
    coords 0.077 -0.803 -11.939
   }
-  $grp GenericEntity : "{EEED9A5CF7F06C78}Buildings/ModularGothic/PillarBroken.et" {
+  $grp GenericEntity : "{EEED9A5CF7F06C78}Assets/Buildings/ModularGothic/PillarBroken.et" {
    {
     coords -6.588 0.869 -2.215
    }
@@ -8955,7 +8955,7 @@ $grp SCR_DestructibleBuildingEntity : "{07B7B618E3DEFBBF}Prefabs/Structures/Cult
   angles 0 60.764 0
  }
 }
-GenericEntity : "{1C89C55D1DEDB2BF}Buildings/Religious/Podium/Podium.et" {
+GenericEntity : "{1C89C55D1DEDB2BF}Assets/Buildings/Religious/Podium/Podium.et" {
  coords 4731.645 178.695 3539.97
  angles 0 -19.982 0
  scale 0.2
@@ -9119,7 +9119,7 @@ $grp StaticModelEntity : "{6DBCC7EA558FF682}PrefabLibrary/Crater03.et" {
 }
 $grp GenericEntity : "{6E9721EBC92A73AA}Prefabs/Structures/Sign/Sign_Mechanicus.et" {
  {
-  coords 54.462 180.334 305.399
+  coords 54.462 179.958 305.399
   angles 0 -45 0
  }
  {
@@ -9127,7 +9127,7 @@ $grp GenericEntity : "{6E9721EBC92A73AA}Prefabs/Structures/Sign/Sign_Mechanicus.
   angles 0 165 0
  }
 }
-$grp GenericEntity : "{733C642B71996E53}Buildings/Promethean/PlasmaGenerator/PowerTower.et" {
+$grp GenericEntity : "{733C642B71996E53}Assets/Buildings/Promethean/PlasmaGenerator/PowerTower.et" {
  {
   coords 1993.597 199.787 3202.149
   angles 0 -110.134 0
@@ -9141,7 +9141,7 @@ $grp GenericEntity : "{733C642B71996E53}Buildings/Promethean/PlasmaGenerator/Pow
   angles 0 -171.764 0
  }
 }
-$grp GenericEntity : "{756F54A86F96661A}Buildings/Walkways/WalkwayStairs.et" {
+$grp GenericEntity : "{756F54A86F96661A}Assets/Buildings/Walkways/WalkwayStairs.et" {
  {
   coords 1999.076 203.782 3204.684
   angles 0 -22.484 0
@@ -9159,7 +9159,7 @@ StaticModelEntity : "{75CB1C6E6129F779}Prefabs/Structures/Infrastructure/Naval/H
  coords 1935.507 205.851 2961.427
  angles 0 -7.033 0
 }
-GenericEntity : "{7A427A6D790C696C}Buildings/Religious/AdmechStatue/AdmechStatue.et" {
+GenericEntity : "{7A427A6D790C696C}Assets/Buildings/Religious/AdmechStatue/AdmechStatue.et" {
  coords 4731.979 178.823 3539.425
  angles 0 71.594 0
  scale 0.07
@@ -9275,7 +9275,7 @@ $grp SCR_DestructibleBuildingEntity : "{92F8DAE5E56CA22E}Prefabs/Structures/Cult
   angles 0 -28.921 0
  }
 }
-$grp GenericEntity : "{ADE9BC49AAB00D11}Buildings/Promethean/Refiner/FullRefinery.et" {
+$grp GenericEntity : "{ADE9BC49AAB00D11}Assets/Buildings/Promethean/Refiner/FullRefinery.et" {
  {
   coords 1970.345 199.562 3222.035
   angles 0 -58.468 0
@@ -9313,7 +9313,7 @@ $grp StaticModelEntity : "{E474BFF3E5AEEEC7}PrefabLibrary/Crater01.et" {
   angles 2.684 0 0.894
  }
 }
-GenericEntity : "{F35F3CCE81557757}Buildings/ModularGothic/3mWallTech.et" {
+GenericEntity : "{F35F3CCE81557757}Assets/Buildings/ModularGothic/3mWallTech.et" {
  coords 2005.538 201.525 3179.922
  angles 0 26.922 0
 }

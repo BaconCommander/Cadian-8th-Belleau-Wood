@@ -2,7 +2,7 @@ GenericEntity : "{187F5139CAD843CC}Prefabs/Structures/CadianGreen/CommandPost.et
  coords 854.475 173.06 3857.392
  angles 0 -86.137 0
 }
-GenericEntity : "{1C89C55D1DEDB2BF}Buildings/Religious/Podium/Podium.et" {
+GenericEntity : "{1C89C55D1DEDB2BF}Assets/Buildings/Religious/Podium/Podium.et" {
  coords 915.631 172 3892.206
  angles 0 2.546 0
  scale 0.2
@@ -41,7 +41,7 @@ $grp GenericEntity : "{1FB2F0AEA420C1FB}Prefabs/Terrain/Trenches/Trench_90_Long.
   angles 0 -28.116 0
  }
 }
-GenericEntity : "{346AAE670CA2CD5D}Buildings/SupportPylons/Short Support Pylon/ShortPylon.et" {
+GenericEntity : "{346AAE670CA2CD5D}Assets/Buildings/SupportPylons/Short Support Pylon/ShortPylon.et" {
  coords 977.184 174.294 3801.146
  angles 0 20.124 0
 }
@@ -842,7 +842,7 @@ $grp GenericEntity : "{5A0992D551419C1C}Prefabs/Structures/ConcreteBunkers/Battl
     ClutterOccluder 1
    }
   }
-  coords 1139.615 176.044 3710.864
+  coords 1139.615 176.297 3710.864
   angles 0 -50.572 0
  }
  {
@@ -1007,7 +1007,7 @@ $grp GenericEntity : "{6675E8586EBB29B2}Prefabs/Terrain/Trenches/Trench_Straight
   angles 2.883 82.954 1.445
  }
 }
-GenericEntity : "{7A427A6D790C696C}Buildings/Religious/AdmechStatue/AdmechStatue.et" {
+GenericEntity : "{7A427A6D790C696C}Assets/Buildings/Religious/AdmechStatue/AdmechStatue.et" {
  coords 917.405 172.27 3890.423
  angles 0 4.557 0
  scale 0.06
@@ -1062,7 +1062,7 @@ $grp GenericEntity : "{86C9C97FF2E85003}Prefabs/Structures/CadianGreen/CadianGre
   angles 0 19.009 0
  }
 }
-$grp GenericEntity : "{ADE9BC49AAB00D11}Buildings/Promethean/Refiner/FullRefinery.et" {
+$grp GenericEntity : "{ADE9BC49AAB00D11}Assets/Buildings/Promethean/Refiner/FullRefinery.et" {
  {
   coords 913.697 170.412 3908.062
  }
@@ -1199,7 +1199,7 @@ $grp GenericEntity : "{DB09806FB8861A40}Prefabs/Terrain/Trenches/Trench_Cross_Sh
   angles 0 -40.298 0
  }
 }
-$grp GenericEntity : "{F35F3CCE81557757}Buildings/ModularGothic/3mWallTech.et" {
+$grp GenericEntity : "{F35F3CCE81557757}Assets/Buildings/ModularGothic/3mWallTech.et" {
  {
   coords 1048.352 179.186 3572.368
   angles 0 -101.17 0
