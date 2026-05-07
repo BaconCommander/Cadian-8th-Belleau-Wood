@@ -4870,6 +4870,10 @@ $grp StaticModelEntity : "{80DF3BD810D032AF}Prefabs/Structures/Industrial/Towers
   coords 122.554 181.629 468.816
   angles -0.007 -135.31 -1.266
  }
+ {
+  coords 122.488 181.25 448.963
+  angles 0 -2.455 0
+ }
 }
 GenericEntity : "{8243C6665B352C0B}Assets/Buildings/Walkways/WalkwayStandardEnd.et" {
  coords 104.11 180.892 318.51
@@ -5469,6 +5473,94 @@ $grp GenericEntity : "{87A0F3E9F1B57D90}Prefabs/Structures/BuildingParts/Lights/
     }
    }
   }
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+    Enabled 0
+   }
+  }
+  coords 137.754 192.834 438.82
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+    Enabled 0
+   }
+  }
+  coords 146.754 192.834 438.82
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+    Enabled 0
+   }
+  }
+  coords 155.754 192.834 438.82
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+    Enabled 0
+   }
+  }
+  coords 143.864 187.503 433.954
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+    Enabled 0
+   }
+  }
+  coords 149.958 187.503 433.954
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+    Enabled 0
+   }
+  }
+  coords 155.779 187.503 433.954
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+    Enabled 0
+   }
+  }
+  coords 161.831 187.503 433.954
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+    Enabled 0
+   }
+  }
+  coords 149.958 187.503 443.933
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+    Enabled 0
+   }
+  }
+  coords 155.779 187.503 443.933
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+    Enabled 0
+   }
+  }
+  coords 161.831 187.503 443.933
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+    Enabled 0
+   }
+  }
+  coords 143.864 187.503 443.933
  }
 }
 SCR_DestructibleBuildingEntity : "{88044D117268E628}Prefabs/Structures/Military/Houses/Barracks_01/Barracks_01_military_yellow.et" {
