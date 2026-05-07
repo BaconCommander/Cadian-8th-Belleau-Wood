@@ -2350,6 +2350,36 @@ $grp GenericEntity : "{05A71DFCA0C141AF}Prefabs/Structures/Barracks/Grimdark_Bar
   coords 18.943 180.336 307.781
   angles 0 -180 0
  }
+ {
+  coords 65.011 180.202 368.589
+ }
+ {
+  coords 47.997 180.517 369.29
+ }
+ {
+  coords 47.507 181.338 389.503
+  angles 0 180 0
+ }
+ {
+  coords 64.521 180.783 389.628
+  angles 0 -180 0
+ }
+ {
+  coords 62.122 180.29 354.505
+  angles 0 90 0
+ }
+ {
+  coords 45.232 180.528 354.505
+  angles 0 -90 0
+ }
+ {
+  coords 41.619 182.292 402.69
+  angles 0 -90 0
+ }
+ {
+  coords 61.375 181.465 402.69
+  angles 0 90 0
+ }
 }
 $grp GenericEntity : "{07D5C7C755C719BE}Prefabs/Props/Garbage/Generic/Junk_01/Junk_01_pile_medium.et" {
  {
