@@ -2406,6 +2406,14 @@ $grp GenericEntity : "{05A71DFCA0C141AF}Prefabs/Structures/Barracks/Grimdark_Bar
   coords 74.669 180.139 316.178
   angles 0 -168.997 0
  }
+ {
+  coords 144.059 179.308 397.654
+  angles 0 -135 0
+ }
+ {
+  coords 152.845 178.786 388.868
+  angles 0 -135 0
+ }
 }
 GenericEntity : "{05BEF65DD58E5B12}Prefabs/Structures/PremadeBuildings/CommandBuilding.et" {
  coords 95.696 180.881 397.585
