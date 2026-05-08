@@ -2751,7 +2751,7 @@ $grp GenericEntity : "{1AE1D881171B98F8}PrefabsEditable/Auto/Systems/Arsenal/Ars
     "Rpl State Override" None
    }
   }
-  coords 57.88 184.516 434.038
+  coords 57.88 184.516 435.788
   {
    GenericEntity {
     ID "6508DA3D9C4664CD"
@@ -2788,7 +2788,7 @@ $grp GenericEntity : "{1AE1D881171B98F8}PrefabsEditable/Auto/Systems/Arsenal/Ars
     "Rpl State Override" None
    }
   }
-  coords 62.415 184.516 433.95
+  coords 62.415 184.516 435.762
  }
  {
   components {
@@ -3264,9 +3264,15 @@ GenericEntity : "{29063844DEEAC10B}Prefabs/Props/Garbage/Generic/Junk_01/Junk_01
  coords 123.218 179.789 406.439
  angles 1.788 0.056 1.791
 }
-GenericEntity : "{292E70E13DE00DAF}Prefabs/Structures/Doors/Wall_Doorway_Huge_6x6x0.5_Straight.et" {
- coords 131.5 178 317
- angles 0 90 0
+$grp GenericEntity : "{292E70E13DE00DAF}Prefabs/Structures/Doors/Wall_Doorway_Huge_6x6x0.5_Straight.et" {
+ {
+  coords 131.5 178 317
+  angles 0 90 0
+ }
+ {
+  coords 64.5 184.5 431
+  angles 0 -90 0
+ }
 }
 $grp GenericEntity : "{2ABF235305BB37AE}Prefabs/Compositions/Misc/SubCompositions/Furniture/Table_Desk_US_03.et" {
  {
@@ -3477,13 +3483,13 @@ $grp SCR_DestructibleBuildingEntity : "{2EED177FAA9F36D2}Prefabs/Structures/Infr
   angles -0.479 69.374 -14.415
  }
  {
-  coords 64.68 184.681 429.879
-  angles 0 -0.975 19.987
+  coords 64.566 184.421 430.999
+  angles 0 0 19.987
   scale 0.5
  }
  {
-  coords 69.673 182.865 429.964
-  angles 0 -0.975 19.987
+  coords 69.559 182.605 431.084
+  angles 0 0 19.987
   scale 0.5
  }
 }
@@ -7662,6 +7668,222 @@ $grp GenericEntity : "{42E6C85BC6FCA557}Prefabs/Structures/ModularGothicPieces/F
   coords 96.234 178.312 275.026
   angles 0 -20 20.927
  }
+ {
+  coords 63 184.5 426.5
+ }
+ {
+  coords 63 184.5 429.5
+ }
+ {
+  coords 63 184.5 432.5
+ }
+ {
+  coords 63 184.5 435.5
+ }
+ {
+  coords 63 184.5 438.5
+ }
+ {
+  coords 63 184.5 423.5
+ }
+ {
+  coords 60 184.5 426.5
+ }
+ {
+  coords 60 184.5 429.5
+ }
+ {
+  coords 60 184.5 432.5
+ }
+ {
+  coords 60 184.5 435.5
+ }
+ {
+  coords 60 184.5 438.5
+ }
+ {
+  coords 60 184.5 423.5
+ }
+ {
+  coords 57 184.5 426.5
+ }
+ {
+  coords 57 184.5 429.5
+ }
+ {
+  coords 57 184.5 432.5
+ }
+ {
+  coords 57 184.5 435.5
+ }
+ {
+  coords 57 184.5 438.5
+ }
+ {
+  coords 57 184.5 423.5
+ }
+ {
+  coords 54 184.5 429.5
+ }
+ {
+  coords 54 184.5 432.5
+ }
+ {
+  coords 54 184.5 435.5
+ }
+ {
+  coords 54 184.5 438.5
+ }
+ {
+  coords 54 184.5 423.5
+ }
+ {
+  coords 51 184.5 426.5
+ }
+ {
+  coords 51 184.5 429.5
+ }
+ {
+  coords 51 184.5 432.5
+ }
+ {
+  coords 51 184.5 435.5
+ }
+ {
+  coords 51 184.5 438.5
+ }
+ {
+  coords 51 184.5 423.5
+ }
+ {
+  coords 48 184.5 426.5
+ }
+ {
+  coords 48 184.5 429.5
+ }
+ {
+  coords 48 184.5 432.5
+ }
+ {
+  coords 48 184.5 435.5
+ }
+ {
+  coords 48 184.5 438.5
+ }
+ {
+  coords 48 184.5 423.5
+ }
+ {
+  coords 54 184.5 426.5
+ }
+ {
+  coords 45 184.5 429.5
+ }
+ {
+  coords 45 184.5 432.5
+ }
+ {
+  coords 45 184.5 435.5
+ }
+ {
+  coords 45 184.5 438.5
+ }
+ {
+  coords 45 184.5 423.5
+ }
+ {
+  coords 42 184.5 426.5
+ }
+ {
+  coords 42 184.5 429.5
+ }
+ {
+  coords 42 184.5 432.5
+ }
+ {
+  coords 42 184.5 435.5
+ }
+ {
+  coords 42 184.5 438.5
+ }
+ {
+  coords 42 184.5 423.5
+ }
+ {
+  coords 39 184.5 426.5
+ }
+ {
+  coords 39 184.5 429.5
+ }
+ {
+  coords 39 184.5 432.5
+ }
+ {
+  coords 39 184.5 435.5
+ }
+ {
+  coords 39 184.5 438.5
+ }
+ {
+  coords 39 184.5 423.5
+ }
+ {
+  coords 45 184.5 426.5
+ }
+ {
+  coords 36 184.5 429.5
+ }
+ {
+  coords 36 184.5 432.5
+ }
+ {
+  coords 36 184.5 435.5
+ }
+ {
+  coords 36 184.5 438.5
+ }
+ {
+  coords 36 184.5 423.5
+ }
+ {
+  coords 33 184.5 426.5
+ }
+ {
+  coords 33 184.5 429.5
+ }
+ {
+  coords 33 184.5 432.5
+ }
+ {
+  coords 33 184.5 435.5
+ }
+ {
+  coords 33 184.5 438.5
+ }
+ {
+  coords 33 184.5 423.5
+ }
+ {
+  coords 30 184.5 426.5
+ }
+ {
+  coords 30 184.5 429.5
+ }
+ {
+  coords 30 184.5 432.5
+ }
+ {
+  coords 30 184.5 435.5
+ }
+ {
+  coords 30 184.5 438.5
+ }
+ {
+  coords 30 184.5 423.5
+ }
+ {
+  coords 36 184.5 426.5
+ }
 }
 $grp GenericEntity : "{437520619D44C860}Prefabs/Props/Military/Furniture/Props_GuardLaptop.et" {
  {
@@ -7990,14 +8212,6 @@ $grp GenericEntity : "{4B9432BFFBC2C30D}Prefabs/Structures/Sign/Sign_Falcon.et" 
 GenericEntity : "{52F4C6F1D59655CA}Prefabs/Props/Garbage/Generic/Junk_01/Junk_01_single_bathtub.et" {
  coords 118.392 179.223 382.517
  angles 0 -72.089 0
-}
-SCR_DestructibleBuildingEntity : "{53ED57F93F1DCE1F}PrefabLibrary/DefaultLibrary/Structures/Industrial/Warehouse_01.et" {
- components {
-  SCR_DestructibleBuildingComponent "{5D7AD0958CE7D71F}" {
-   Enabled 0
-  }
- }
- coords 48.327 1.696 429.983
 }
 $grp GenericEntity : "{559580C00F1A0080}Prefabs/Structures/PremadeBuildings/Hangar_4Door.et" {
  {
