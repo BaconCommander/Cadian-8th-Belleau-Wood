@@ -267,6 +267,15 @@ $grp GenericEntity {
   coords 124.149 181.476 309.758
   angles 75 0 0
  }
+ {
+  components {
+   MeshObject "{6950F066DD4D8C83}" {
+    Object "{FF3E3DE838958816}Assets/Item/Equipment/Medals/PurpleSkull/PurpleSkull_Main.xob"
+   }
+  }
+  coords 30.384 180.815 303.255
+  angles 86.512 -90.204 180
+ }
 }
 RoadEntity {
  coords 62.079 182.052 408.941
