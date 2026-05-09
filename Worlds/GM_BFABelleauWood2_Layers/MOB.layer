@@ -267,6 +267,15 @@ $grp GenericEntity {
   coords 124.149 181.476 309.758
   angles 75 0 0
  }
+ {
+  components {
+   MeshObject "{6950F066DD4D8C83}" {
+    Object "{FF3E3DE838958816}Assets/Item/Equipment/Medals/PurpleSkull/PurpleSkull_Main.xob"
+   }
+  }
+  coords 30.384 180.815 303.255
+  angles 86.512 -90.204 180
+ }
 }
 RoadEntity {
  coords 62.079 182.052 408.941
@@ -2398,6 +2407,22 @@ $grp GenericEntity : "{05A71DFCA0C141AF}Prefabs/Structures/Barracks/Grimdark_Bar
  {
   coords 164.942 180.875 462.627
  }
+ {
+  coords 88.035 179.798 312.664
+  angles 0 -155.982 0
+ }
+ {
+  coords 74.669 180.139 316.178
+  angles 0 -168.997 0
+ }
+ {
+  coords 144.059 179.308 397.654
+  angles 0 -135 0
+ }
+ {
+  coords 152.845 178.786 388.868
+  angles 0 -135 0
+ }
 }
 GenericEntity : "{05BEF65DD58E5B12}Prefabs/Structures/PremadeBuildings/CommandBuilding.et" {
  coords 95.696 180.881 397.585
@@ -2483,6 +2508,75 @@ SCR_DestructibleBuildingEntity : "{0AD94F3CF0D1EDF5}Prefabs/Structures/Bunkers/W
 }
 SCR_DestructibleBuildingEntity : "{0B551E5D1F11D69D}Prefabs/Structures/Houses/Village/House_Village_E_1I02/House_Village_E_1I02_ruin2.et" {
  coords 135.595 0 103.372
+}
+GenericEntity : "{0B6FC3FDDC33989E}Prefabs/Structures/Industrial/Houses/Warehouse_01/Furniture/Warehouse_01_furniture_01.et" {
+ coords 48.377 184.352 430.848
+ {
+  GenericEntity {
+   ID "56E0E50D2EAD7FE7"
+   coords 10.644 0.435 -5.932
+  }
+  GenericEntity {
+   ID "56E0E50D2EAD7F2A"
+   coords 8.444 0.43 -6.296
+  }
+  GenericEntity {
+   ID "56E0E50D2EAD7F5A"
+   coords 7.976 0.43 -6.443
+  }
+  GenericEntity {
+   ID "56E0E50D2EAD7D20"
+   coords 3.973 0.05 -6.318
+  }
+  GenericEntity {
+   ID "56E0E50D2EAD7CAC"
+   coords 11.884 0.05 -5.888
+  }
+  GenericEntity {
+   ID "56E0E50D2EAD7CD9"
+   coords 7.009 0.05 -6.348
+  }
+  GenericEntity {
+   ID "56E0E50D2EAD7C62"
+   coords 8.128 1.638 -6.113
+  }
+  GenericEntity {
+   ID "56E0E50D2EAD7C77"
+   coords 5.88 0.435 -6.266
+  }
+  GenericEntity {
+   ID "56E0E50D2EAD7AAD"
+   coords 15.077 0.05 7.244
+  }
+  GenericEntity {
+   ID "56E0E50D2EAD7AD9"
+   coords 15.207 0.05 4.913
+  }
+  GenericEntity {
+   ID "56E0E50D2EAD79DA"
+   coords 15.253 0.05 3.082
+  }
+  GenericEntity {
+   ID "56E0E50D2EAD779B"
+   coords 11.131 2.834 -5.886
+  }
+  GenericEntity {
+   ID "56E0E50D2EAD7860"
+   coords 10.399 2.834 -5.852
+  }
+  GenericEntity {
+   ID "56E0E50D2EAD786C"
+   coords 12.313 2.834 -5.809
+  }
+  GenericEntity {
+   ID "56E0E50D2EAD7775"
+   coords 4.709 0.05 -3.789
+  }
+  GenericEntity {
+   ID "56E0E50D2EAD7630"
+   coords 15.013 0.195 -5.669
+  }
+ }
 }
 $grp GenericEntity : "{0C7319383777A107}Prefabs/Props/Furniture/CabinetMetal_01_grey_V3.et" {
  {
@@ -2700,7 +2794,7 @@ $grp GenericEntity : "{1AE1D881171B98F8}PrefabsEditable/Auto/Systems/Arsenal/Ars
     "Rpl State Override" None
    }
   }
-  coords 55.17 184.516 425.904
+  coords 49.607 184.516 427.805
   angles 0 90 0
  }
  {
@@ -2726,7 +2820,7 @@ $grp GenericEntity : "{1AE1D881171B98F8}PrefabsEditable/Auto/Systems/Arsenal/Ars
     "Rpl State Override" None
    }
   }
-  coords 57.88 184.516 434.038
+  coords 61.746 184.516 434.806
   {
    GenericEntity {
     ID "6508DA3D9C4664CD"
@@ -2763,7 +2857,7 @@ $grp GenericEntity : "{1AE1D881171B98F8}PrefabsEditable/Auto/Systems/Arsenal/Ars
     "Rpl State Override" None
    }
   }
-  coords 62.415 184.516 433.95
+  coords 57.78 184.516 433.604
  }
  {
   components {
@@ -2788,7 +2882,7 @@ $grp GenericEntity : "{1AE1D881171B98F8}PrefabsEditable/Auto/Systems/Arsenal/Ars
     "Rpl State Override" None
    }
   }
-  coords 61.698 184.516 425.947
+  coords 62.313 184.516 426.848
   angles 0 90 0
  }
 }
@@ -2803,6 +2897,12 @@ $grp GenericEntity : "{1E922B6EC7DD052B}Prefabs/Structures/ModularGothicPieces/R
  {
   coords 122.091 181 309.5
   angles 0 -90 0
+ }
+ {
+  coords 169.239 184 353.5
+ }
+ {
+  coords 171.824 184.808 404.512
  }
 }
 $grp GenericEntity : "{1F7C4696BD75AABC}Prefabs/Structures/Sign/Sign_Bastion.et" {
@@ -3233,9 +3333,15 @@ GenericEntity : "{29063844DEEAC10B}Prefabs/Props/Garbage/Generic/Junk_01/Junk_01
  coords 123.218 179.789 406.439
  angles 1.788 0.056 1.791
 }
-GenericEntity : "{292E70E13DE00DAF}Prefabs/Structures/Doors/Wall_Doorway_Huge_6x6x0.5_Straight.et" {
- coords 131.5 178 317
- angles 0 90 0
+$grp GenericEntity : "{292E70E13DE00DAF}Prefabs/Structures/Doors/Wall_Doorway_Huge_6x6x0.5_Straight.et" {
+ {
+  coords 131.5 178 317
+  angles 0 90 0
+ }
+ {
+  coords 64.5 184.5 431
+  angles 0 -90 0
+ }
 }
 $grp GenericEntity : "{2ABF235305BB37AE}Prefabs/Compositions/Misc/SubCompositions/Furniture/Table_Desk_US_03.et" {
  {
@@ -3446,13 +3552,13 @@ $grp SCR_DestructibleBuildingEntity : "{2EED177FAA9F36D2}Prefabs/Structures/Infr
   angles -0.479 69.374 -14.415
  }
  {
-  coords 64.68 184.681 429.879
-  angles 0 -0.975 19.987
+  coords 64.566 184.421 430.999
+  angles 0 0 19.987
   scale 0.5
  }
  {
-  coords 69.673 182.865 429.964
-  angles 0 -0.975 19.987
+  coords 69.559 182.605 431.084
+  angles 0 0 19.987
   scale 0.5
  }
 }
@@ -5263,6 +5369,2590 @@ $grp GenericEntity : "{42E6C85BC6FCA557}Prefabs/Structures/ModularGothicPieces/F
    }
   }
  }
+ {
+  coords 178 178.802 382
+  angles 0 90 0
+  {
+   $grp GenericEntity : "{02CB8A19E8C2A16F}Prefabs/Structures/ModularGothicPieces/Roof_Flat_3x.05x3.et" {
+    {
+     coords -16.499 24 -7.499
+    }
+    {
+     coords -13.499 24 -10.499
+    }
+    {
+     coords -16.499 24 -10.499
+    }
+    {
+     coords -28.499 14.5 -7.499
+    }
+    {
+     coords -25.499 14.5 -10.499
+    }
+    {
+     coords -13.499 24 -7.499
+    }
+    {
+     coords -10.499 14.5 -7.499
+    }
+    {
+     coords -25.499 14.5 -7.499
+    }
+    {
+     coords -19.499 14.5 -7.499
+    }
+    {
+     coords -7.499 14.5 -10.499
+    }
+    {
+     coords -10.499 14.5 -10.499
+    }
+    {
+     coords -1.499 14.5 -7.499
+    }
+    {
+     coords -4.499 14.5 -7.499
+    }
+    {
+     coords -4.499 14.5 -10.499
+    }
+    {
+     coords -1.499 14.5 -10.499
+    }
+    {
+     coords -7.499 14.5 -7.499
+    }
+    {
+     coords -22.499 14.5 -10.499
+    }
+    {
+     coords -28.499 14.5 -10.499
+    }
+    {
+     coords -19.499 14.5 -10.499
+    }
+    {
+     coords -22.499 14.5 -7.499
+    }
+   }
+   $grp GenericEntity : "{040884AD26894E77}Prefabs/Structures/ModularGothicPieces/Floor_Walkway_3x3x3_Straight.et" {
+    {
+     coords -23.999 6 -11.999
+    }
+    {
+     coords -23.999 6 -9
+    }
+    {
+     coords -23.999 6 -6
+    }
+    {
+     coords -26.999 6 -6
+    }
+    {
+     coords -26.999 6 -11.999
+    }
+    {
+     coords -26.999 6 -9
+    }
+    {
+     coords -26.999 6 -14.999
+    }
+    {
+     coords -23.999 6 -14.999
+    }
+   }
+   $grp GenericEntity : "{11B557F14768FA56}Prefabs/Structures/Doors/Wall_Doorway_Small_3x6x0.5_Straight.et" {
+    {
+     coords -24 0 -16.5
+    }
+    {
+     coords -22.499 0 -6
+     angles 0 90 0
+    }
+   }
+   $grp GenericEntity : "{1E922B6EC7DD052B}Prefabs/Structures/ModularGothicPieces/Railing_3m.et" {
+    {
+     coords -23.999 6 -4.499
+    }
+    {
+     coords -22.5 6 -9.499
+     angles 0 -90 0
+    }
+    {
+     coords -22.5 6 -12.498
+     angles 0 -90 0
+    }
+    {
+     coords -26.999 6 -4.499
+    }
+   }
+   GenericEntity : "{248CBAD8E0E6FC6F}Prefabs/Compositions/Misc/SubCompositions/Decorations/Barrel_Filled_02.et" {
+    coords -18.511 0.1 -15.027
+    angles 0 20 0
+   }
+   $grp GenericEntity : "{292E70E13DE00DAF}Prefabs/Structures/Doors/Wall_Doorway_Huge_6x6x0.5_Straight.et" {
+    {
+     coords -25.5 0 1.501
+    }
+    {
+     coords -19.5 0 1.501
+    }
+    {
+     coords -13.5 0 1.501
+    }
+    {
+     coords -7.5 0 1.501
+    }
+    {
+     coords -1.5 0 1.501
+    }
+   }
+   GenericEntity : "{361EEFE7B91BF9E8}Prefabs/Compositions/Misc/SubCompositions/BarrelMetalGroup_01.et" {
+    coords -21.03 0.1 -11.013
+    angles 0 20 0
+   }
+   $grp GenericEntity : "{3D9E202AB6FB25F2}Prefabs/Structures/ModularGothicPieces/Pillar_Base_Large_Square.et" {
+    {
+     coords -16.501 16.5 -4.501
+    }
+    {
+     coords -10.501 19.5 -4.501
+    }
+    {
+     coords -10.501 16.5 -4.501
+    }
+    {
+     coords -10.501 13.5 -4.501
+    }
+    {
+     coords -10.501 16.5 -10.501
+    }
+    {
+     coords -16.501 13.5 -4.501
+    }
+    {
+     coords -16.501 19.5 -4.501
+    }
+    {
+     coords -16.501 16.5 -10.501
+    }
+    {
+     coords -10.501 19.5 -10.501
+    }
+    {
+     coords -16.501 13.5 -10.501
+    }
+    {
+     coords -16.501 19.5 -10.501
+    }
+    {
+     coords -10.501 13.5 -10.501
+    }
+   }
+   GenericEntity : "{3FD26066E47DD5AE}PrefabLibrary/DefaultLibrary/Props/Commercial/CrateWooden_01_plain.et" {
+    coords -26.883 0.022 -9.645
+    angles 0 -148.133 0
+   }
+   $grp GenericEntity : "{42E6C85BC6FCA557}Prefabs/Structures/ModularGothicPieces/Floor_Foundaition_3x3x3_Straight.et" {
+    {
+     coords 0 0 -3
+    }
+    {
+     coords -23.999 0 -3
+    }
+    {
+     coords -26.999 0 -3
+    }
+    {
+     coords -12 0 -6
+    }
+    {
+     coords -6 0 -6
+    }
+    {
+     coords -15 0 -6
+    }
+    {
+     coords -9 0 -6
+    }
+    {
+     coords -3 0 -6
+    }
+    {
+     coords -23.999 0 -6
+    }
+    {
+     coords -18 0 -6
+    }
+    {
+     coords -26.999 0 -6
+    }
+    {
+     coords -20.999 0 -6
+    }
+    {
+     coords -3 0 0
+    }
+    {
+     coords -20.999 0 0
+    }
+    {
+     coords -12 0 0
+    }
+    {
+     coords -15 0 0
+    }
+    {
+     coords -6 0 0
+    }
+    {
+     coords -9 0 0
+    }
+    {
+     coords -9 0 -3
+    }
+    {
+     coords -3 0 -3
+    }
+    {
+     coords -23.999 0 0
+    }
+    {
+     coords -26.999 0 0
+    }
+    {
+     coords -17.999 0 0
+    }
+    {
+     coords -17.999 0 -3
+    }
+    {
+     coords -12 0 -3
+    }
+    {
+     coords -20.999 0 -3
+    }
+    {
+     coords -15 0 -3
+    }
+    {
+     coords -6 0 -3
+    }
+    {
+     coords -20.999 -0.217 3.029
+     angles -10.97 0 0
+    }
+    {
+     coords -23.999 -0.217 3.029
+     angles -10.97 0 0
+    }
+    {
+     coords -23.999 -0.788 5.974
+     angles -10.97 0 0
+    }
+    {
+     coords -26.999 -0.788 5.974
+     angles -10.97 0 0
+    }
+    {
+     coords 0 0 -15
+    }
+    {
+     coords -18 0 -14.999
+    }
+    {
+     coords -26.999 0 -14.999
+    }
+    {
+     coords -23.999 0 -14.999
+    }
+    {
+     coords -14.999 -0.217 3.029
+     angles -10.97 0 0
+    }
+    {
+     coords -17.999 -0.217 3.029
+     angles -10.97 0 0
+    }
+    {
+     coords -17.999 -0.788 5.974
+     angles -10.97 0 0
+    }
+    {
+     coords -20.999 -0.788 5.974
+     angles -10.97 0 0
+    }
+    {
+     coords -5.999 -0.788 5.974
+     angles -10.97 0 0
+    }
+    {
+     coords -2.999 -0.788 5.974
+     angles -10.97 0 0
+    }
+    {
+     coords -5.999 -0.217 3.029
+     angles -10.97 0 0
+    }
+    {
+     coords -8.999 -0.788 5.974
+     angles -10.97 0 0
+    }
+    {
+     coords -8.999 -0.217 3.029
+     angles -10.97 0 0
+    }
+    {
+     coords -11.999 -0.217 3.029
+     angles -10.97 0 0
+    }
+    {
+     coords -11.999 -0.788 5.974
+     angles -10.97 0 0
+    }
+    {
+     coords -14.999 -0.788 5.974
+     angles -10.97 0 0
+    }
+    {
+     coords 0 -0.788 5.974
+     angles -10.97 0 0
+    }
+    {
+     coords -26.999 -0.217 3.029
+     angles -10.97 0 0
+    }
+    {
+     coords 0 -0.217 3.029
+     angles -10.97 0 0
+    }
+    {
+     coords -3 -0.217 3.028
+     angles -10.97 0 0
+    }
+    {
+     coords -18 0 -9
+    }
+    {
+     coords -20.999 0 -9
+    }
+    {
+     coords -12 0 -9
+    }
+    {
+     coords -15 0 -9
+    }
+    {
+     coords -6 0 -9
+    }
+    {
+     coords -9 0 -9
+    }
+    {
+     coords -3 0 -9
+    }
+    {
+     coords 0 0 -6
+    }
+    {
+     coords -15 0 -11.999
+    }
+    {
+     coords -6 0 -12
+    }
+    {
+     coords -9 0 -12
+    }
+    {
+     coords -3 0 -12
+    }
+    {
+     coords 0 0 -9
+    }
+    {
+     coords -26.999 0 -8.999
+    }
+    {
+     coords -23.999 0 -9
+    }
+    {
+     coords 0 0 -12
+    }
+    {
+     coords -23.999 0 -11.999
+    }
+    {
+     coords -26.999 0 -11.999
+    }
+    {
+     coords -18 0 -11.999
+    }
+    {
+     coords -20.999 0 -11.999
+    }
+    {
+     coords -12 0 -12
+    }
+    {
+     coords -21 0 -14.999
+    }
+    {
+     coords -12 0 -14.999
+    }
+    {
+     coords -15 0 -14.999
+    }
+    {
+     coords -6 0 -14.999
+    }
+    {
+     coords -3 0 -15
+    }
+    {
+     coords -9 0 -14.999
+    }
+   }
+   GenericEntity : "{48D88E385C227341}Prefabs/Compositions/Misc/SubCompositions/Decorations/Barrel_Filled_01.et" {
+    coords -21.739 0.05 -13.15
+    angles 0 20 0
+   }
+   $grp GenericEntity : "{6D670E6C586D28F7}Prefabs/Structures/ModularGothicPieces/Roof_Sloped_3x3x3_Straight.et" {
+    {
+     coords -1.5 9 -16.499
+    }
+    {
+     coords -16.5 12 -1.499
+     angles 0 -180 0
+    }
+    {
+     coords -13.5 12 -1.499
+     angles 0 -180 0
+    }
+    {
+     coords -10.5 12 -1.499
+     angles 0 -180 0
+    }
+    {
+     coords -7.5 12 -1.499
+     angles 0 -180 0
+    }
+    {
+     coords -25.499 9 -16.499
+    }
+    {
+     coords -13.499 9 -16.499
+    }
+    {
+     coords -28.499 9 -16.499
+    }
+    {
+     coords -10.499 9 -16.499
+    }
+    {
+     coords -25.5 12 -1.499
+     angles 0 -180 0
+    }
+    {
+     coords -4.499 9 -16.499
+    }
+    {
+     coords -7.499 9 -16.499
+    }
+    {
+     coords -19.5 12 -1.499
+     angles 0 -180 0
+    }
+    {
+     coords -22.5 12 -1.499
+     angles 0 -180 0
+    }
+    {
+     coords -22.499 12 -13.499
+    }
+    {
+     coords -19.499 12 -13.499
+    }
+    {
+     coords -25.499 12 -13.499
+    }
+    {
+     coords -22.499 9 -16.499
+    }
+    {
+     coords -28.499 12 -13.499
+    }
+    {
+     coords -16.499 9 -16.499
+    }
+    {
+     coords -19.499 9 -16.499
+    }
+    {
+     coords -1.499 12 -13.499
+    }
+    {
+     coords -7.499 12 -13.499
+    }
+    {
+     coords -4.499 12 -13.499
+    }
+    {
+     coords -10.499 12 -13.499
+    }
+    {
+     coords -13.499 12 -13.499
+    }
+    {
+     coords -16.499 12 -13.499
+    }
+    {
+     coords -13.5 9 1.501
+     angles 0 -180 0
+    }
+    {
+     coords -19.5 9 1.501
+     angles 0 -180 0
+    }
+    {
+     coords -16.5 9 1.501
+     angles 0 -180 0
+    }
+    {
+     coords -22.5 9 1.501
+     angles 0 -180 0
+    }
+    {
+     coords -25.5 9 1.501
+     angles 0 -180 0
+    }
+    {
+     coords -4.5 12 -1.499
+     angles 0 -180 0
+    }
+    {
+     coords -1.5 12 -1.499
+     angles 0 -180 0
+    }
+    {
+     coords 1.5 12 -1.499
+     angles 0 -180 0
+    }
+    {
+     coords -10.5 9 1.501
+     angles 0 -180 0
+    }
+    {
+     coords -7.5 9 1.501
+     angles 0 -180 0
+    }
+    {
+     coords -4.5 9 1.501
+     angles 0 -180 0
+    }
+    {
+     coords -1.5 9 1.501
+     angles 0 -180 0
+    }
+    {
+     coords 1.5 9 1.501
+     angles 0 -180 0
+    }
+   }
+   GenericEntity : "{75D125481E2E0663}Prefabs/Compositions/Misc/SubCompositions/Barrel_ToolRack_01.et" {
+    coords -26.776 0.022 -5.432
+    angles 0 85.029 0
+   }
+   $grp GenericEntity : "{87A0F3E9F1B57D90}Prefabs/Structures/BuildingParts/Lights/LampIndustrial_05/LampIndustrial_05_lamp.et" {
+    {
+     components {
+      SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+       Enabled 0
+      }
+     }
+     coords -8.794 14.032 -7.51
+    }
+    {
+     components {
+      SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+       Enabled 0
+      }
+     }
+     coords -2.261 14.032 -7.51
+    }
+    {
+     components {
+      SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+       Enabled 0
+      }
+     }
+     coords -25.477 14.032 -7.51
+    }
+    {
+     components {
+      SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+       Enabled 0
+      }
+     }
+     coords -18.944 14.032 -7.51
+    }
+   }
+   GenericEntity : "{93B2511EFB2B6A51}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/CrateStack_01_grey.et" {
+    coords -27.445 0.022 -6.567
+    angles 0 175.029 0
+   }
+   $grp GenericEntity : "{95B501A3A70F5475}Prefabs/Structures/ModularGothicPieces/Pillar_Base_Medium_Square.et" {
+    {
+     coords -10.501 22.5 -4.501
+    }
+    {
+     coords -16.501 22.5 -4.501
+    }
+    {
+     coords -10.501 22.5 -10.501
+    }
+    {
+     coords -29.001 8.5 -3.501
+    }
+    {
+     coords -29.001 8.5 -11.502
+    }
+    {
+     coords -29.001 11.5 -11.502
+    }
+    {
+     coords -29.001 -3.5 -11.502
+    }
+    {
+     coords -29.001 -0.5 -3.501
+    }
+    {
+     coords -29.001 -0.5 -11.502
+    }
+    {
+     coords -29.001 2.5 -3.501
+    }
+    {
+     coords -29.001 2.5 -11.502
+    }
+    {
+     coords -29.001 5.5 -3.501
+    }
+    {
+     coords -29.001 5.5 -11.502
+    }
+    {
+     coords -29.001 11.5 -3.501
+    }
+    {
+     coords -29.001 -3.5 -3.501
+    }
+    {
+     coords -16.501 22.5 -10.501
+    }
+    {
+     coords 1.999 8.5 -13.896
+    }
+    {
+     coords 1.999 11.5 -13.896
+    }
+    {
+     coords 1.999 11.5 -1.472
+    }
+    {
+     coords 1.999 5.5 -1.472
+    }
+    {
+     coords 1.999 2.5 -13.896
+    }
+    {
+     coords 1.999 5.5 -13.896
+    }
+    {
+     coords 1.999 8.5 -1.472
+    }
+    {
+     coords 1.999 -0.5 -1.472
+    }
+    {
+     coords 1.999 -0.5 -13.896
+    }
+    {
+     coords 1.999 2.5 -1.472
+    }
+   }
+   $grp GenericEntity : "{A0E1676D66F5B672}Prefabs/Structures/ModularGothicPieces/Stairs_1x3x3_Straight.et" {
+    {
+     coords -16.338 0 -15
+    }
+    {
+     coords -19.337 3 -15
+    }
+   }
+   GenericEntity : "{A9CF5E8C5D91C476}Prefabs/Compositions/Misc/SubCompositions/Decorations/Barrel_Group_Crate_01.et" {
+    coords -20.843 0.1 -14.914
+    angles 0 20 0
+   }
+   GenericEntity : "{B4FFD63EDFCBD850}Prefabs/Compositions/Misc/SubCompositions/CrateStacked_02.et" {
+    coords -27.236 0.022 -8.098
+    angles 0 175.029 0
+   }
+   SCR_DestructibleBuildingEntity : "{C7A59DCCFF7BF19F}Prefabs/Structures/Industrial/Containers/FuelTanks/FuelTank_02/FuelTank_02_Base.et" {
+    coords -5.917 0.124 -14.636
+    angles 0 -180 0
+   }
+   $grp GenericEntity : "{CD6BB71C522F7B4B}Prefabs/Structures/ModularGothicPieces/Wall2_3x3x0.5_Straight.et" {
+    {
+     coords -6 6 1.5
+    }
+    {
+     coords -3 6 1.5
+    }
+    {
+     coords 0 6 1.5
+    }
+    {
+     coords -17.999 6 1.501
+    }
+    {
+     coords -14.999 6 1.501
+    }
+    {
+     coords -11.999 6 1.5
+    }
+    {
+     coords -9 6 1.5
+    }
+    {
+     coords -26.999 6 1.501
+    }
+    {
+     coords -23.999 6 1.501
+    }
+    {
+     coords -20.999 6 1.501
+    }
+   }
+   GenericEntity : "{D93EF3E97E06D435}Prefabs/Compositions/Misc/SubCompositions/BarrelClutter_04.et" {
+    coords -21.697 0.05 -8.47
+    angles 0 105.74 0
+   }
+   $grp GenericEntity : "{E334CE2BDD3AA04E}Prefabs/Structures/ModularGothicPieces/Pillar_Base_Small_Square.et" {
+    {
+     coords -10.501 25.5 -4.501
+    }
+    {
+     coords -16.501 25.5 -4.501
+    }
+    {
+     coords -10.501 25.5 -10.501
+    }
+    {
+     coords -29.001 14.5 -11.502
+    }
+    {
+     coords -29.001 14.5 -3.501
+    }
+    {
+     coords -16.501 25.5 -10.501
+    }
+    {
+     coords 1.999 14.5 -13.896
+    }
+    {
+     coords 1.999 14.5 -1.472
+    }
+   }
+   GenericEntity : "{E4416C4C6938BEEE}Prefabs/Props/Crates/CrateWooden_02/CrateWooden_02_1x1x1.et" {
+    coords -26.711 0.022 -12.339
+    angles 0 175.029 0
+   }
+   $grp GenericEntity : "{FA771E44182BDD22}Prefabs/Structures/ModularGothicPieces/Wall_3x3x0.5_Straight.et" {
+    Wall_3x3x5_Straight {
+     coords 1.5 0 0
+     angles 0 90 0
+    }
+    {
+     coords -15.001 15 -10.501
+     angles 0 -180 0
+    }
+    {
+     coords -12.001 18 -10.501
+     angles 0 -180 0
+    }
+    {
+     coords -12.001 15 -10.501
+     angles 0 -180 0
+    }
+    {
+     coords -15.001 21 -4.501
+     angles 0 -180 0
+    }
+    {
+     coords -15.001 21 -10.501
+     angles 0 -180 0
+    }
+    {
+     coords -12.001 21 -10.501
+     angles 0 -180 0
+    }
+    {
+     coords -15.001 18 -10.501
+     angles 0 -180 0
+    }
+    {
+     coords 1.5 9 -9
+     angles 0 90 0
+    }
+    {
+     coords 1.5 9 -12
+     angles 0 90 0
+    }
+    {
+     coords -28.5 9 -3
+     angles 0 90 0
+    }
+    {
+     coords -28.5 9 -12
+     angles 0 90 0
+    }
+    {
+     coords -10.501 15 -6.001
+     angles 0 90 0
+    }
+    {
+     coords -10.501 18 -6.001
+     angles 0 90 0
+    }
+    {
+     coords -10.501 15 -9
+     angles 0 90 0
+    }
+    {
+     coords 1.5 12 -9
+     angles 0 90 0
+    }
+    {
+     coords 1.5 12 -6
+     angles 0 90 0
+    }
+    {
+     coords 1.5 9 -3
+     angles 0 90 0
+    }
+    {
+     coords 1.5 9 -6
+     angles 0 90 0
+    }
+    {
+     coords -10.501 21 -6.001
+     angles 0 90 0
+    }
+    {
+     coords -12.001 15 -4.501
+     angles 0 -180 0
+    }
+    {
+     coords -10.501 21 -9
+     angles 0 90 0
+    }
+    {
+     coords -10.501 18 -9
+     angles 0 90 0
+    }
+    {
+     coords -12.001 21 -4.501
+     angles 0 -180 0
+    }
+    {
+     coords -15.001 18 -4.501
+     angles 0 -180 0
+    }
+    {
+     coords -12.001 18 -4.501
+     angles 0 -180 0
+    }
+    {
+     coords -15.001 15 -4.501
+     angles 0 -180 0
+    }
+    {
+     coords -28.5 9 -6
+     angles 0 90 0
+    }
+    {
+     coords -28.5 9 -9
+     angles 0 90 0
+    }
+    {
+     coords -9 6 -16.501
+    }
+    {
+     coords -6.001 6 -16.501
+    }
+    {
+     coords -3.001 6 -16.501
+    }
+    {
+     coords -0.001 6 -16.501
+    }
+    {
+     coords -16.5 15 -6
+     angles 0 90 0
+    }
+    {
+     coords -16.5 15 -9
+     angles 0 90 0
+    }
+    {
+     coords -28.5 12 -9
+     angles 0 90 0
+    }
+    {
+     coords -28.5 12 -6
+     angles 0 90 0
+    }
+    {
+     coords -16.5 21 -6
+     angles 0 90 0
+    }
+    {
+     coords -16.5 21 -9
+     angles 0 90 0
+    }
+    {
+     coords -16.5 18 -9
+     angles 0 90 0
+    }
+    {
+     coords -16.5 18 -6
+     angles 0 90 0
+    }
+    {
+     coords -15 3 -16.501
+    }
+    {
+     coords -21 3 -16.501
+    }
+    {
+     coords -18 3 -16.501
+    }
+    {
+     coords -27 3 -16.501
+    }
+    {
+     coords -27 6 -16.501
+    }
+    {
+     coords -15 0 -16.501
+    }
+    {
+     coords -12 0 -16.501
+    }
+    {
+     coords -12 3 -16.501
+    }
+    {
+     coords -9 0 -16.501
+    }
+    {
+     coords -6.001 0 -16.501
+    }
+    {
+     coords -3.001 0 -16.501
+    }
+    {
+     coords -0.001 0 -16.501
+    }
+    {
+     coords -18 0 -16.501
+    }
+    {
+     coords -21 0 -16.501
+    }
+    {
+     coords -27 0 -16.501
+    }
+    {
+     coords -0.001 3 -16.501
+    }
+    {
+     coords -3.001 3 -16.501
+    }
+    {
+     coords -6.001 3 -16.501
+    }
+    {
+     coords -9 3 -16.501
+    }
+    {
+     coords -28.5 6 -6
+     angles 0 90 0
+    }
+    {
+     coords -28.5 6 -15
+     angles 0 90 0
+    }
+    {
+     coords -28.5 6 -9
+     angles 0 90 0
+    }
+    {
+     coords -28.5 6 -12
+     angles 0 90 0
+    }
+    {
+     coords 1.5 6 -15
+     angles 0 90 0
+    }
+    {
+     coords 1.5 6 0
+     angles 0 90 0
+    }
+    {
+     coords -28.5 6 -0.001
+     angles 0 90 0
+    }
+    {
+     coords -28.5 6 -3
+     angles 0 90 0
+    }
+    {
+     coords -24 6 -16.501
+    }
+    {
+     coords -21 6 -16.501
+    }
+    {
+     coords -18 6 -16.501
+    }
+    {
+     coords -15 6 -16.501
+    }
+    {
+     coords -12 6 -16.501
+    }
+    {
+     coords -28.5 0 -0.001
+     angles 0 90 0
+    }
+    {
+     coords -28.5 0 -3
+     angles 0 90 0
+    }
+    {
+     coords -28.5 0 -6
+     angles 0 90 0
+    }
+    {
+     coords -28.5 0 -9
+     angles 0 90 0
+    }
+    {
+     coords 1.5 0 -15
+     angles 0 90 0
+    }
+    {
+     coords -28.5 0 -15
+     angles 0 90 0
+    }
+    {
+     coords -28.5 0 -12
+     angles 0 90 0
+    }
+    {
+     coords -28.5 3 -9
+     angles 0 90 0
+    }
+    {
+     coords -28.5 3 -15
+     angles 0 90 0
+    }
+    {
+     coords -28.5 3 -12
+     angles 0 90 0
+    }
+    {
+     coords 1.5 3 -15
+     angles 0 90 0
+    }
+    {
+     coords -28.5 3 -3
+     angles 0 90 0
+    }
+    {
+     coords -28.5 3 -0.001
+     angles 0 90 0
+    }
+    {
+     coords -28.5 3 -6
+     angles 0 90 0
+    }
+    {
+     coords 1.5 3 0
+     angles 0 90 0
+    }
+    {
+     coords -24 0 -4.501
+    }
+    {
+     coords -24 3 -4.501
+    }
+    {
+     coords -27 0 -4.501
+    }
+    {
+     coords -22.5 0 -12
+     angles 0 90 0
+    }
+    {
+     coords -22.5 3 -15
+     angles 0 90 0
+    }
+    {
+     coords -22.5 0 -15
+     angles 0 90 0
+    }
+    {
+     coords -27 3 -4.501
+    }
+    {
+     coords -22.5 3 -9
+     angles 0 90 0
+    }
+    {
+     coords -22.5 0 -9
+     angles 0 90 0
+    }
+    {
+     coords -22.5 3 -12
+     angles 0 90 0
+    }
+   }
+  }
+ }
+ {
+  coords 163 178 376
+  angles 0 -90 0
+  {
+   $grp GenericEntity : "{02CB8A19E8C2A16F}Prefabs/Structures/ModularGothicPieces/Roof_Flat_3x.05x3.et" {
+    {
+     coords -16.499 24 -7.499
+    }
+    {
+     coords -13.499 24 -10.499
+    }
+    {
+     coords -16.499 24 -10.499
+    }
+    {
+     coords -28.499 14.5 -7.499
+    }
+    {
+     coords -25.499 14.5 -10.499
+    }
+    {
+     coords -13.499 24 -7.499
+    }
+    {
+     coords -10.499 14.5 -7.499
+    }
+    {
+     coords -25.499 14.5 -7.499
+    }
+    {
+     coords -19.499 14.5 -7.499
+    }
+    {
+     coords -7.499 14.5 -10.499
+    }
+    {
+     coords -10.499 14.5 -10.499
+    }
+    {
+     coords -1.499 14.5 -7.499
+    }
+    {
+     coords -4.499 14.5 -7.499
+    }
+    {
+     coords -4.499 14.5 -10.499
+    }
+    {
+     coords -1.499 14.5 -10.499
+    }
+    {
+     coords -7.499 14.5 -7.499
+    }
+    {
+     coords -22.499 14.5 -10.499
+    }
+    {
+     coords -28.499 14.5 -10.499
+    }
+    {
+     coords -19.499 14.5 -10.499
+    }
+    {
+     coords -22.499 14.5 -7.499
+    }
+   }
+   $grp GenericEntity : "{040884AD26894E77}Prefabs/Structures/ModularGothicPieces/Floor_Walkway_3x3x3_Straight.et" {
+    {
+     coords -23.999 6 -11.999
+    }
+    {
+     coords -23.999 6 -9
+    }
+    {
+     coords -23.999 6 -6
+    }
+    {
+     coords -26.999 6 -6
+    }
+    {
+     coords -26.999 6 -11.999
+    }
+    {
+     coords -26.999 6 -9
+    }
+    {
+     coords -26.999 6 -14.999
+    }
+    {
+     coords -23.999 6 -14.999
+    }
+   }
+   $grp GenericEntity : "{11B557F14768FA56}Prefabs/Structures/Doors/Wall_Doorway_Small_3x6x0.5_Straight.et" {
+    {
+     coords -24 0 -16.5
+    }
+    {
+     coords -22.499 0 -6
+     angles 0 90 0
+    }
+   }
+   $grp GenericEntity : "{1E922B6EC7DD052B}Prefabs/Structures/ModularGothicPieces/Railing_3m.et" {
+    {
+     coords -23.999 6 -4.499
+    }
+    {
+     coords -22.5 6 -9.499
+     angles 0 -90 0
+    }
+    {
+     coords -22.5 6 -12.498
+     angles 0 -90 0
+    }
+    {
+     coords -26.999 6 -4.499
+    }
+   }
+   GenericEntity : "{248CBAD8E0E6FC6F}Prefabs/Compositions/Misc/SubCompositions/Decorations/Barrel_Filled_02.et" {
+    coords -18.511 0.1 -15.027
+    angles 0 20 0
+   }
+   $grp GenericEntity : "{292E70E13DE00DAF}Prefabs/Structures/Doors/Wall_Doorway_Huge_6x6x0.5_Straight.et" {
+    {
+     coords -25.5 0 1.501
+    }
+    {
+     coords -19.5 0 1.501
+    }
+    {
+     coords -13.5 0 1.501
+    }
+    {
+     coords -7.5 0 1.501
+    }
+    {
+     coords -1.5 0 1.501
+    }
+   }
+   GenericEntity : "{361EEFE7B91BF9E8}Prefabs/Compositions/Misc/SubCompositions/BarrelMetalGroup_01.et" {
+    coords -21.03 0.1 -11.013
+    angles 0 20 0
+   }
+   $grp GenericEntity : "{3D9E202AB6FB25F2}Prefabs/Structures/ModularGothicPieces/Pillar_Base_Large_Square.et" {
+    {
+     coords -16.501 16.5 -4.501
+    }
+    {
+     coords -10.501 19.5 -4.501
+    }
+    {
+     coords -10.501 16.5 -4.501
+    }
+    {
+     coords -10.501 13.5 -4.501
+    }
+    {
+     coords -10.501 16.5 -10.501
+    }
+    {
+     coords -16.501 13.5 -4.501
+    }
+    {
+     coords -16.501 19.5 -4.501
+    }
+    {
+     coords -16.501 16.5 -10.501
+    }
+    {
+     coords -10.501 19.5 -10.501
+    }
+    {
+     coords -16.501 13.5 -10.501
+    }
+    {
+     coords -16.501 19.5 -10.501
+    }
+    {
+     coords -10.501 13.5 -10.501
+    }
+   }
+   GenericEntity : "{3FD26066E47DD5AE}PrefabLibrary/DefaultLibrary/Props/Commercial/CrateWooden_01_plain.et" {
+    coords -26.883 0.022 -9.645
+    angles 0 -148.133 0
+   }
+   $grp GenericEntity : "{42E6C85BC6FCA557}Prefabs/Structures/ModularGothicPieces/Floor_Foundaition_3x3x3_Straight.et" {
+    {
+     coords 0 0 -3
+    }
+    {
+     coords -23.999 0 -3
+    }
+    {
+     coords -26.999 0 -3
+    }
+    {
+     coords -12 0 -6
+    }
+    {
+     coords -6 0 -6
+    }
+    {
+     coords -15 0 -6
+    }
+    {
+     coords -9 0 -6
+    }
+    {
+     coords -3 0 -6
+    }
+    {
+     coords -23.999 0 -6
+    }
+    {
+     coords -18 0 -6
+    }
+    {
+     coords -26.999 0 -6
+    }
+    {
+     coords -20.999 0 -6
+    }
+    {
+     coords -3 0 0
+    }
+    {
+     coords -20.999 0 0
+    }
+    {
+     coords -12 0 0
+    }
+    {
+     coords -15 0 0
+    }
+    {
+     coords -6 0 0
+    }
+    {
+     coords -9 0 0
+    }
+    {
+     coords -9 0 -3
+    }
+    {
+     coords -3 0 -3
+    }
+    {
+     coords -23.999 0 0
+    }
+    {
+     coords -26.999 0 0
+    }
+    {
+     coords -17.999 0 0
+    }
+    {
+     coords -17.999 0 -3
+    }
+    {
+     coords -12 0 -3
+    }
+    {
+     coords -20.999 0 -3
+    }
+    {
+     coords -15 0 -3
+    }
+    {
+     coords -6 0 -3
+    }
+    {
+     coords -20.999 -0.217 3.029
+     angles -10.97 0 0
+    }
+    {
+     coords -23.999 -0.217 3.029
+     angles -10.97 0 0
+    }
+    {
+     coords -23.999 -0.788 5.974
+     angles -10.97 0 0
+    }
+    {
+     coords -26.999 -0.788 5.974
+     angles -10.97 0 0
+    }
+    {
+     coords 0 0 -15
+    }
+    {
+     coords -18 0 -14.999
+    }
+    {
+     coords -26.999 0 -14.999
+    }
+    {
+     coords -23.999 0 -14.999
+    }
+    {
+     coords -14.999 -0.217 3.029
+     angles -10.97 0 0
+    }
+    {
+     coords -17.999 -0.217 3.029
+     angles -10.97 0 0
+    }
+    {
+     coords -17.999 -0.788 5.974
+     angles -10.97 0 0
+    }
+    {
+     coords -20.999 -0.788 5.974
+     angles -10.97 0 0
+    }
+    {
+     coords -5.999 -0.788 5.974
+     angles -10.97 0 0
+    }
+    {
+     coords -2.999 -0.788 5.974
+     angles -10.97 0 0
+    }
+    {
+     coords -5.999 -0.217 3.029
+     angles -10.97 0 0
+    }
+    {
+     coords -8.999 -0.788 5.974
+     angles -10.97 0 0
+    }
+    {
+     coords -8.999 -0.217 3.029
+     angles -10.97 0 0
+    }
+    {
+     coords -11.999 -0.217 3.029
+     angles -10.97 0 0
+    }
+    {
+     coords -11.999 -0.788 5.974
+     angles -10.97 0 0
+    }
+    {
+     coords -14.999 -0.788 5.974
+     angles -10.97 0 0
+    }
+    {
+     coords 0 -0.788 5.974
+     angles -10.97 0 0
+    }
+    {
+     coords -26.999 -0.217 3.029
+     angles -10.97 0 0
+    }
+    {
+     coords 0 -0.217 3.029
+     angles -10.97 0 0
+    }
+    {
+     coords -3 -0.217 3.028
+     angles -10.97 0 0
+    }
+    {
+     coords -18 0 -9
+    }
+    {
+     coords -20.999 0 -9
+    }
+    {
+     coords -12 0 -9
+    }
+    {
+     coords -15 0 -9
+    }
+    {
+     coords -6 0 -9
+    }
+    {
+     coords -9 0 -9
+    }
+    {
+     coords -3 0 -9
+    }
+    {
+     coords 0 0 -6
+    }
+    {
+     coords -15 0 -11.999
+    }
+    {
+     coords -6 0 -12
+    }
+    {
+     coords -9 0 -12
+    }
+    {
+     coords -3 0 -12
+    }
+    {
+     coords 0 0 -9
+    }
+    {
+     coords -26.999 0 -8.999
+    }
+    {
+     coords -23.999 0 -9
+    }
+    {
+     coords 0 0 -12
+    }
+    {
+     coords -23.999 0 -11.999
+    }
+    {
+     coords -26.999 0 -11.999
+    }
+    {
+     coords -18 0 -11.999
+    }
+    {
+     coords -20.999 0 -11.999
+    }
+    {
+     coords -12 0 -12
+    }
+    {
+     coords -21 0 -14.999
+    }
+    {
+     coords -12 0 -14.999
+    }
+    {
+     coords -15 0 -14.999
+    }
+    {
+     coords -6 0 -14.999
+    }
+    {
+     coords -3 0 -15
+    }
+    {
+     coords -9 0 -14.999
+    }
+   }
+   GenericEntity : "{48D88E385C227341}Prefabs/Compositions/Misc/SubCompositions/Decorations/Barrel_Filled_01.et" {
+    coords -21.739 0.05 -13.15
+    angles 0 20 0
+   }
+   $grp GenericEntity : "{6D670E6C586D28F7}Prefabs/Structures/ModularGothicPieces/Roof_Sloped_3x3x3_Straight.et" {
+    {
+     coords -1.5 9 -16.499
+    }
+    {
+     coords -16.5 12 -1.499
+     angles 0 -180 0
+    }
+    {
+     coords -13.5 12 -1.499
+     angles 0 -180 0
+    }
+    {
+     coords -10.5 12 -1.499
+     angles 0 -180 0
+    }
+    {
+     coords -7.5 12 -1.499
+     angles 0 -180 0
+    }
+    {
+     coords -25.499 9 -16.499
+    }
+    {
+     coords -13.499 9 -16.499
+    }
+    {
+     coords -28.499 9 -16.499
+    }
+    {
+     coords -10.499 9 -16.499
+    }
+    {
+     coords -25.5 12 -1.499
+     angles 0 -180 0
+    }
+    {
+     coords -4.499 9 -16.499
+    }
+    {
+     coords -7.499 9 -16.499
+    }
+    {
+     coords -19.5 12 -1.499
+     angles 0 -180 0
+    }
+    {
+     coords -22.5 12 -1.499
+     angles 0 -180 0
+    }
+    {
+     coords -22.499 12 -13.499
+    }
+    {
+     coords -19.499 12 -13.499
+    }
+    {
+     coords -25.499 12 -13.499
+    }
+    {
+     coords -22.499 9 -16.499
+    }
+    {
+     coords -28.499 12 -13.499
+    }
+    {
+     coords -16.499 9 -16.499
+    }
+    {
+     coords -19.499 9 -16.499
+    }
+    {
+     coords -1.499 12 -13.499
+    }
+    {
+     coords -7.499 12 -13.499
+    }
+    {
+     coords -4.499 12 -13.499
+    }
+    {
+     coords -10.499 12 -13.499
+    }
+    {
+     coords -13.499 12 -13.499
+    }
+    {
+     coords -16.499 12 -13.499
+    }
+    {
+     coords -13.5 9 1.501
+     angles 0 -180 0
+    }
+    {
+     coords -19.5 9 1.501
+     angles 0 -180 0
+    }
+    {
+     coords -16.5 9 1.501
+     angles 0 -180 0
+    }
+    {
+     coords -22.5 9 1.501
+     angles 0 -180 0
+    }
+    {
+     coords -25.5 9 1.501
+     angles 0 -180 0
+    }
+    {
+     coords -4.5 12 -1.499
+     angles 0 -180 0
+    }
+    {
+     coords -1.5 12 -1.499
+     angles 0 -180 0
+    }
+    {
+     coords 1.5 12 -1.499
+     angles 0 -180 0
+    }
+    {
+     coords -10.5 9 1.501
+     angles 0 -180 0
+    }
+    {
+     coords -7.5 9 1.501
+     angles 0 -180 0
+    }
+    {
+     coords -4.5 9 1.501
+     angles 0 -180 0
+    }
+    {
+     coords -1.5 9 1.501
+     angles 0 -180 0
+    }
+    {
+     coords 1.5 9 1.501
+     angles 0 -180 0
+    }
+   }
+   GenericEntity : "{75D125481E2E0663}Prefabs/Compositions/Misc/SubCompositions/Barrel_ToolRack_01.et" {
+    coords -26.776 0.022 -5.432
+    angles 0 85.029 0
+   }
+   $grp GenericEntity : "{87A0F3E9F1B57D90}Prefabs/Structures/BuildingParts/Lights/LampIndustrial_05/LampIndustrial_05_lamp.et" {
+    {
+     components {
+      SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+       Enabled 0
+      }
+     }
+     coords -8.794 14.032 -7.51
+    }
+    {
+     components {
+      SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+       Enabled 0
+      }
+     }
+     coords -2.261 14.032 -7.51
+    }
+    {
+     components {
+      SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+       Enabled 0
+      }
+     }
+     coords -25.477 14.032 -7.51
+    }
+    {
+     components {
+      SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+       Enabled 0
+      }
+     }
+     coords -18.944 14.032 -7.51
+    }
+   }
+   GenericEntity : "{93B2511EFB2B6A51}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/CrateStack_01_grey.et" {
+    coords -27.445 0.022 -6.567
+    angles 0 175.029 0
+   }
+   $grp GenericEntity : "{95B501A3A70F5475}Prefabs/Structures/ModularGothicPieces/Pillar_Base_Medium_Square.et" {
+    {
+     coords -10.501 22.5 -4.501
+    }
+    {
+     coords -16.501 22.5 -4.501
+    }
+    {
+     coords -10.501 22.5 -10.501
+    }
+    {
+     coords -29.001 8.5 -3.501
+    }
+    {
+     coords -29.001 8.5 -11.502
+    }
+    {
+     coords -29.001 11.5 -11.502
+    }
+    {
+     coords 1.999 -3.5 -11.501
+    }
+    {
+     coords 1.999 -3.5 -3.501
+    }
+    {
+     coords -29.001 -3.5 -11.502
+    }
+    {
+     coords -29.001 -0.5 -3.501
+    }
+    {
+     coords -29.001 -0.5 -11.502
+    }
+    {
+     coords -29.001 2.5 -3.501
+    }
+    {
+     coords -29.001 2.5 -11.502
+    }
+    {
+     coords -29.001 5.5 -3.501
+    }
+    {
+     coords -29.001 5.5 -11.502
+    }
+    {
+     coords -29.001 11.5 -3.501
+    }
+    {
+     coords -29.001 -3.5 -3.501
+    }
+    {
+     coords -16.501 22.5 -10.501
+    }
+    {
+     coords 1.999 8.5 -13.639
+    }
+    {
+     coords 1.999 11.5 -13.639
+    }
+    {
+     coords 1.999 11.5 -1.085
+    }
+    {
+     coords 1.999 5.5 -1.085
+    }
+    {
+     coords 1.999 2.5 -13.639
+    }
+    {
+     coords 1.999 5.5 -13.639
+    }
+    {
+     coords 1.999 8.5 -1.085
+    }
+    {
+     coords 1.999 -0.5 -1.085
+    }
+    {
+     coords 1.999 -0.5 -13.639
+    }
+    {
+     coords 1.999 2.5 -1.085
+    }
+   }
+   $grp GenericEntity : "{A0E1676D66F5B672}Prefabs/Structures/ModularGothicPieces/Stairs_1x3x3_Straight.et" {
+    {
+     coords -16.338 0 -15
+    }
+    {
+     coords -19.337 3 -15
+    }
+   }
+   GenericEntity : "{A9CF5E8C5D91C476}Prefabs/Compositions/Misc/SubCompositions/Decorations/Barrel_Group_Crate_01.et" {
+    coords -20.843 0.1 -14.914
+    angles 0 20 0
+   }
+   GenericEntity : "{B4FFD63EDFCBD850}Prefabs/Compositions/Misc/SubCompositions/CrateStacked_02.et" {
+    coords -27.236 0.022 -8.098
+    angles 0 175.029 0
+   }
+   SCR_DestructibleBuildingEntity : "{C7A59DCCFF7BF19F}Prefabs/Structures/Industrial/Containers/FuelTanks/FuelTank_02/FuelTank_02_Base.et" {
+    coords -5.917 0.141 -14.636
+    angles 0 -180 0
+   }
+   $grp GenericEntity : "{CD6BB71C522F7B4B}Prefabs/Structures/ModularGothicPieces/Wall2_3x3x0.5_Straight.et" {
+    {
+     coords -6 6 1.5
+    }
+    {
+     coords -3 6 1.5
+    }
+    {
+     coords 0 6 1.5
+    }
+    {
+     coords -17.999 6 1.501
+    }
+    {
+     coords -14.999 6 1.501
+    }
+    {
+     coords -11.999 6 1.5
+    }
+    {
+     coords -9 6 1.5
+    }
+    {
+     coords -26.999 6 1.501
+    }
+    {
+     coords -23.999 6 1.501
+    }
+    {
+     coords -20.999 6 1.501
+    }
+   }
+   GenericEntity : "{D93EF3E97E06D435}Prefabs/Compositions/Misc/SubCompositions/BarrelClutter_04.et" {
+    coords -21.697 0.05 -8.47
+    angles 0 105.74 0
+   }
+   $grp GenericEntity : "{E334CE2BDD3AA04E}Prefabs/Structures/ModularGothicPieces/Pillar_Base_Small_Square.et" {
+    {
+     coords -10.501 25.5 -4.501
+    }
+    {
+     coords -16.501 25.5 -4.501
+    }
+    {
+     coords -10.501 25.5 -10.501
+    }
+    {
+     coords -29.001 14.5 -11.502
+    }
+    {
+     coords -29.001 14.5 -3.501
+    }
+    {
+     coords -16.501 25.5 -10.501
+    }
+    {
+     coords 1.999 14.5 -13.639
+    }
+    {
+     coords 1.999 14.5 -1.085
+    }
+   }
+   GenericEntity : "{E4416C4C6938BEEE}Prefabs/Props/Crates/CrateWooden_02/CrateWooden_02_1x1x1.et" {
+    coords -26.711 0.022 -12.339
+    angles 0 175.029 0
+   }
+   $grp GenericEntity : "{FA771E44182BDD22}Prefabs/Structures/ModularGothicPieces/Wall_3x3x0.5_Straight.et" {
+    Wall_3x3x5_Straight2 {
+     coords 1.5 0 0
+     angles 0 90 0
+    }
+    {
+     coords -15.001 15 -10.501
+     angles 0 -180 0
+    }
+    {
+     coords -12.001 18 -10.501
+     angles 0 -180 0
+    }
+    {
+     coords -12.001 15 -10.501
+     angles 0 -180 0
+    }
+    {
+     coords -15.001 21 -4.501
+     angles 0 -180 0
+    }
+    {
+     coords -15.001 21 -10.501
+     angles 0 -180 0
+    }
+    {
+     coords -12.001 21 -10.501
+     angles 0 -180 0
+    }
+    {
+     coords -15.001 18 -10.501
+     angles 0 -180 0
+    }
+    {
+     coords 1.5 9 -9
+     angles 0 90 0
+    }
+    {
+     coords 1.5 9 -12
+     angles 0 90 0
+    }
+    {
+     coords -28.5 9 -3
+     angles 0 90 0
+    }
+    {
+     coords -28.5 9 -12
+     angles 0 90 0
+    }
+    {
+     coords -10.501 15 -6.001
+     angles 0 90 0
+    }
+    {
+     coords -10.501 18 -6.001
+     angles 0 90 0
+    }
+    {
+     coords -10.501 15 -9
+     angles 0 90 0
+    }
+    {
+     coords 1.5 12 -9
+     angles 0 90 0
+    }
+    {
+     coords 1.5 12 -6
+     angles 0 90 0
+    }
+    {
+     coords 1.5 9 -3
+     angles 0 90 0
+    }
+    {
+     coords 1.5 9 -6
+     angles 0 90 0
+    }
+    {
+     coords -10.501 21 -6.001
+     angles 0 90 0
+    }
+    {
+     coords -12.001 15 -4.501
+     angles 0 -180 0
+    }
+    {
+     coords -10.501 21 -9
+     angles 0 90 0
+    }
+    {
+     coords -10.501 18 -9
+     angles 0 90 0
+    }
+    {
+     coords -12.001 21 -4.501
+     angles 0 -180 0
+    }
+    {
+     coords -15.001 18 -4.501
+     angles 0 -180 0
+    }
+    {
+     coords -12.001 18 -4.501
+     angles 0 -180 0
+    }
+    {
+     coords -15.001 15 -4.501
+     angles 0 -180 0
+    }
+    {
+     coords -28.5 9 -6
+     angles 0 90 0
+    }
+    {
+     coords -28.5 9 -9
+     angles 0 90 0
+    }
+    {
+     coords -9 6 -16.501
+    }
+    {
+     coords -6.001 6 -16.501
+    }
+    {
+     coords -3.001 6 -16.501
+    }
+    {
+     coords -0.001 6 -16.501
+    }
+    {
+     coords -16.5 15 -6
+     angles 0 90 0
+    }
+    {
+     coords -16.5 15 -9
+     angles 0 90 0
+    }
+    {
+     coords -28.5 12 -9
+     angles 0 90 0
+    }
+    {
+     coords -28.5 12 -6
+     angles 0 90 0
+    }
+    {
+     coords -16.5 21 -6
+     angles 0 90 0
+    }
+    {
+     coords -16.5 21 -9
+     angles 0 90 0
+    }
+    {
+     coords -16.5 18 -9
+     angles 0 90 0
+    }
+    {
+     coords -16.5 18 -6
+     angles 0 90 0
+    }
+    {
+     coords -15 3 -16.501
+    }
+    {
+     coords -21 3 -16.501
+    }
+    {
+     coords -18 3 -16.501
+    }
+    {
+     coords -27 3 -16.501
+    }
+    {
+     coords -27 6 -16.501
+    }
+    {
+     coords -15 0 -16.501
+    }
+    {
+     coords -12 0 -16.501
+    }
+    {
+     coords -12 3 -16.501
+    }
+    {
+     coords -9 0 -16.501
+    }
+    {
+     coords -6.001 0 -16.501
+    }
+    {
+     coords -3.001 0 -16.501
+    }
+    {
+     coords -0.001 0 -16.501
+    }
+    {
+     coords -18 0 -16.501
+    }
+    {
+     coords -21 0 -16.501
+    }
+    {
+     coords -27 0 -16.501
+    }
+    {
+     coords -0.001 3 -16.501
+    }
+    {
+     coords -3.001 3 -16.501
+    }
+    {
+     coords -6.001 3 -16.501
+    }
+    {
+     coords -9 3 -16.501
+    }
+    {
+     coords -28.5 6 -6
+     angles 0 90 0
+    }
+    {
+     coords -28.5 6 -15
+     angles 0 90 0
+    }
+    {
+     coords -28.5 6 -9
+     angles 0 90 0
+    }
+    {
+     coords -28.5 6 -12
+     angles 0 90 0
+    }
+    {
+     coords 1.5 6 -15
+     angles 0 90 0
+    }
+    {
+     coords 1.5 6 0
+     angles 0 90 0
+    }
+    {
+     coords -28.5 6 -0.001
+     angles 0 90 0
+    }
+    {
+     coords -28.5 6 -3
+     angles 0 90 0
+    }
+    {
+     coords -24 6 -16.501
+    }
+    {
+     coords -21 6 -16.501
+    }
+    {
+     coords -18 6 -16.501
+    }
+    {
+     coords -15 6 -16.501
+    }
+    {
+     coords -12 6 -16.501
+    }
+    {
+     coords -28.5 0 -0.001
+     angles 0 90 0
+    }
+    {
+     coords -28.5 0 -3
+     angles 0 90 0
+    }
+    {
+     coords -28.5 0 -6
+     angles 0 90 0
+    }
+    {
+     coords -28.5 0 -9
+     angles 0 90 0
+    }
+    {
+     coords 1.5 0 -15
+     angles 0 90 0
+    }
+    {
+     coords -28.5 0 -15
+     angles 0 90 0
+    }
+    {
+     coords -28.5 0 -12
+     angles 0 90 0
+    }
+    {
+     coords -28.5 3 -9
+     angles 0 90 0
+    }
+    {
+     coords -28.5 3 -15
+     angles 0 90 0
+    }
+    {
+     coords -28.5 3 -12
+     angles 0 90 0
+    }
+    {
+     coords 1.5 3 -15
+     angles 0 90 0
+    }
+    {
+     coords -28.5 3 -3
+     angles 0 90 0
+    }
+    {
+     coords -28.5 3 -0.001
+     angles 0 90 0
+    }
+    {
+     coords -28.5 3 -6
+     angles 0 90 0
+    }
+    {
+     coords 1.5 3 0
+     angles 0 90 0
+    }
+    {
+     coords -24 0 -4.501
+    }
+    {
+     coords -24 3 -4.501
+    }
+    {
+     coords -27 0 -4.501
+    }
+    {
+     coords -22.5 0 -12
+     angles 0 90 0
+    }
+    {
+     coords -22.5 3 -15
+     angles 0 90 0
+    }
+    {
+     coords -22.5 0 -15
+     angles 0 90 0
+    }
+    {
+     coords -27 3 -4.501
+    }
+    {
+     coords -22.5 3 -9
+     angles 0 90 0
+    }
+    {
+     coords -22.5 0 -9
+     angles 0 90 0
+    }
+    {
+     coords -22.5 3 -12
+     angles 0 90 0
+    }
+   }
+  }
+ }
+ {
+  coords 172 178.452 379.108
+  angles 14.146 0 0
+ }
+ {
+  coords 169 178.452 379.108
+  angles 14.146 0 0
+ }
+ {
+  coords 172 177.735 376.265
+  angles 14.146 0 0
+ }
+ {
+  coords 169 177.735 376.265
+  angles 14.146 0 0
+ }
+ {
+  coords 166 177.735 376.265
+  angles 14.146 0 0
+ }
+ {
+  coords 166 178.452 379.108
+  angles 14.146 0 0
+ }
+ {
+  coords 175 177.735 376.265
+  angles 14.146 0 0
+ }
+ {
+  coords 175 178.452 379.108
+  angles 14.146 0 0
+ }
+ {
+  coords 93.591 179.388 274.064
+  angles 0 -20 20.927
+ }
+ {
+  coords 96.234 178.312 275.026
+  angles 0 -20 20.927
+ }
+ {
+  coords 63 184.5 426.5
+ }
+ {
+  coords 63 184.5 429.5
+ }
+ {
+  coords 63 184.5 432.5
+ }
+ {
+  coords 63 184.5 435.5
+ }
+ {
+  coords 63 184.5 438.5
+ }
+ {
+  coords 63 184.5 423.5
+ }
+ {
+  coords 60 184.5 426.5
+ }
+ {
+  coords 60 184.5 429.5
+ }
+ {
+  coords 60 184.5 432.5
+ }
+ {
+  coords 60 184.5 435.5
+ }
+ {
+  coords 60 184.5 438.5
+ }
+ {
+  coords 60 184.5 423.5
+ }
+ {
+  coords 57 184.5 426.5
+ }
+ {
+  coords 57 184.5 429.5
+ }
+ {
+  coords 57 184.5 432.5
+ }
+ {
+  coords 57 184.5 435.5
+ }
+ {
+  coords 57 184.5 438.5
+ }
+ {
+  coords 57 184.5 423.5
+ }
+ {
+  coords 54 184.5 429.5
+ }
+ {
+  coords 54 184.5 432.5
+ }
+ {
+  coords 54 184.5 435.5
+ }
+ {
+  coords 54 184.5 438.5
+ }
+ {
+  coords 54 184.5 423.5
+ }
+ {
+  coords 51 184.5 426.5
+ }
+ {
+  coords 51 184.5 429.5
+ }
+ {
+  coords 51 184.5 432.5
+ }
+ {
+  coords 51 184.5 435.5
+ }
+ {
+  coords 51 184.5 438.5
+ }
+ {
+  coords 51 184.5 423.5
+ }
+ {
+  coords 48 184.5 426.5
+ }
+ {
+  coords 48 184.5 429.5
+ }
+ {
+  coords 48 184.5 432.5
+ }
+ {
+  coords 48 184.5 435.5
+ }
+ {
+  coords 48 184.5 438.5
+ }
+ {
+  coords 48 184.5 423.5
+ }
+ {
+  coords 54 184.5 426.5
+ }
+ {
+  coords 45 184.5 429.5
+ }
+ {
+  coords 45 184.5 432.5
+ }
+ {
+  coords 45 184.5 435.5
+ }
+ {
+  coords 45 184.5 438.5
+ }
+ {
+  coords 45 184.5 423.5
+ }
+ {
+  coords 42 184.5 426.5
+ }
+ {
+  coords 42 184.5 429.5
+ }
+ {
+  coords 42 184.5 432.5
+ }
+ {
+  coords 42 184.5 435.5
+ }
+ {
+  coords 42 184.5 438.5
+ }
+ {
+  coords 42 184.5 423.5
+ }
+ {
+  coords 39 184.5 426.5
+ }
+ {
+  coords 39 184.5 429.5
+ }
+ {
+  coords 39 184.5 432.5
+ }
+ {
+  coords 39 184.5 435.5
+ }
+ {
+  coords 39 184.5 438.5
+ }
+ {
+  coords 39 184.5 423.5
+ }
+ {
+  coords 45 184.5 426.5
+ }
+ {
+  coords 36 184.5 429.5
+ }
+ {
+  coords 36 184.5 432.5
+ }
+ {
+  coords 36 184.5 435.5
+ }
+ {
+  coords 36 184.5 438.5
+ }
+ {
+  coords 36 184.5 423.5
+ }
+ {
+  coords 33 184.5 426.5
+ }
+ {
+  coords 33 184.5 429.5
+ }
+ {
+  coords 33 184.5 432.5
+ }
+ {
+  coords 33 184.5 435.5
+ }
+ {
+  coords 33 184.5 438.5
+ }
+ {
+  coords 33 184.5 423.5
+ }
+ {
+  coords 30 184.5 426.5
+ }
+ {
+  coords 30 184.5 429.5
+ }
+ {
+  coords 30 184.5 432.5
+ }
+ {
+  coords 30 184.5 435.5
+ }
+ {
+  coords 30 184.5 438.5
+ }
+ {
+  coords 30 184.5 423.5
+ }
+ {
+  coords 36 184.5 426.5
+ }
 }
 $grp GenericEntity : "{437520619D44C860}Prefabs/Props/Military/Furniture/Props_GuardLaptop.et" {
  {
@@ -5284,7 +7974,7 @@ $grp GenericEntity : "{43EC507222934A86}Prefabs/Props/Military/Furniture/Props_G
   angles 0 44.711 0
  }
  {
-  coords 72.517 179.826 307.901
+  coords 75.126 179.826 308.256
   angles 0 -171.466 0
  }
  {
@@ -5591,14 +8281,6 @@ $grp GenericEntity : "{4B9432BFFBC2C30D}Prefabs/Structures/Sign/Sign_Falcon.et" 
 GenericEntity : "{52F4C6F1D59655CA}Prefabs/Props/Garbage/Generic/Junk_01/Junk_01_single_bathtub.et" {
  coords 118.392 179.223 382.517
  angles 0 -72.089 0
-}
-SCR_DestructibleBuildingEntity : "{53ED57F93F1DCE1F}PrefabLibrary/DefaultLibrary/Structures/Industrial/Warehouse_01.et" {
- components {
-  SCR_DestructibleBuildingComponent "{5D7AD0958CE7D71F}" {
-   Enabled 0
-  }
- }
- coords 48.327 1.696 429.983
 }
 $grp GenericEntity : "{559580C00F1A0080}Prefabs/Structures/PremadeBuildings/Hangar_4Door.et" {
  {
@@ -6064,6 +8746,258 @@ $grp GenericEntity : "{6D670E6C586D28F7}Prefabs/Structures/ModularGothicPieces/R
  {
   coords 146.5 193 299
  }
+ {
+  coords 61.5 190.5 422
+ }
+ {
+  coords 58.5 190.5 422
+ }
+ {
+  coords 55.5 190.5 422
+ }
+ {
+  coords 52.5 190.5 422
+ }
+ {
+  coords 49.5 190.5 422
+ }
+ {
+  coords 46.5 190.5 422
+ }
+ {
+  coords 43.5 190.5 422
+ }
+ {
+  coords 40.5 190.5 422
+ }
+ {
+  coords 37.5 190.5 422
+ }
+ {
+  coords 34.5 190.5 422
+ }
+ {
+  coords 31.5 190.5 422
+ }
+ {
+  coords 28.5 190.5 422
+ }
+ {
+  coords 34.5 190.5 428
+  angles 0 180 0
+ }
+ {
+  coords 37.5 190.5 428
+  angles 0 180 0
+ }
+ {
+  coords 40.5 190.5 428
+  angles 0 180 0
+ }
+ {
+  coords 43.5 190.5 428
+  angles 0 180 0
+ }
+ {
+  coords 46.5 190.5 428
+  angles 0 180 0
+ }
+ {
+  coords 49.5 190.5 428
+  angles 0 180 0
+ }
+ {
+  coords 52.5 190.5 428
+  angles 0 180 0
+ }
+ {
+  coords 55.5 190.5 428
+  angles 0 180 0
+ }
+ {
+  coords 58.5 190.5 428
+  angles 0 180 0
+ }
+ {
+  coords 61.5 190.5 428
+  angles 0 180 0
+ }
+ {
+  coords 64.5 190.5 428
+  angles 0 180 0
+ }
+ {
+  coords 31.5 190.5 428
+  angles 0 180 0
+ }
+ {
+  coords 58.5 193.5 428
+ }
+ {
+  coords 55.5 193.5 428
+ }
+ {
+  coords 52.5 193.5 428
+ }
+ {
+  coords 49.5 193.5 428
+ }
+ {
+  coords 46.5 193.5 428
+ }
+ {
+  coords 43.5 193.5 428
+ }
+ {
+  coords 40.5 193.5 428
+ }
+ {
+  coords 37.5 193.5 428
+ }
+ {
+  coords 34.5 193.5 428
+ }
+ {
+  coords 31.5 193.5 428
+ }
+ {
+  coords 28.5 193.5 428
+ }
+ {
+  coords 34.5 193.5 434
+  angles 0 180 0
+ }
+ {
+  coords 37.5 193.5 434
+  angles 0 180 0
+ }
+ {
+  coords 40.5 193.5 434
+  angles 0 180 0
+ }
+ {
+  coords 43.5 193.5 434
+  angles 0 180 0
+ }
+ {
+  coords 46.5 193.5 434
+  angles 0 180 0
+ }
+ {
+  coords 49.5 193.5 434
+  angles 0 180 0
+ }
+ {
+  coords 52.5 193.5 434
+  angles 0 180 0
+ }
+ {
+  coords 55.5 193.5 434
+  angles 0 180 0
+ }
+ {
+  coords 58.5 193.5 434
+  angles 0 180 0
+ }
+ {
+  coords 61.5 193.5 434
+  angles 0 180 0
+ }
+ {
+  coords 64.5 193.5 434
+  angles 0 180 0
+ }
+ {
+  coords 31.5 193.5 434
+  angles 0 180 0
+ }
+ {
+  coords 61.5 193.5 428
+ }
+ {
+  coords 58.5 190.5 434
+ }
+ {
+  coords 55.5 190.5 434
+ }
+ {
+  coords 52.5 190.5 434
+ }
+ {
+  coords 49.5 190.5 434
+ }
+ {
+  coords 46.5 190.5 434
+ }
+ {
+  coords 43.5 190.5 434
+ }
+ {
+  coords 40.5 190.5 434
+ }
+ {
+  coords 37.5 190.5 434
+ }
+ {
+  coords 34.5 190.5 434
+ }
+ {
+  coords 31.5 190.5 434
+ }
+ {
+  coords 28.5 190.5 434
+ }
+ {
+  coords 34.5 190.5 440
+  angles 0 180 0
+ }
+ {
+  coords 37.5 190.5 440
+  angles 0 180 0
+ }
+ {
+  coords 40.5 190.5 440
+  angles 0 180 0
+ }
+ {
+  coords 43.5 190.5 440
+  angles 0 180 0
+ }
+ {
+  coords 46.5 190.5 440
+  angles 0 180 0
+ }
+ {
+  coords 49.5 190.5 440
+  angles 0 180 0
+ }
+ {
+  coords 52.5 190.5 440
+  angles 0 180 0
+ }
+ {
+  coords 55.5 190.5 440
+  angles 0 180 0
+ }
+ {
+  coords 58.5 190.5 440
+  angles 0 180 0
+ }
+ {
+  coords 61.5 190.5 440
+  angles 0 180 0
+ }
+ {
+  coords 64.5 190.5 440
+  angles 0 180 0
+ }
+ {
+  coords 31.5 190.5 440
+  angles 0 180 0
+ }
+ {
+  coords 61.5 190.5 434
+ }
 }
 $grp GenericEntity : "{6E84387991C01C6D}Prefabs/Props/Military/Training/Obstacles/ObstacleClimb_01.et" {
  {
@@ -6400,7 +9334,7 @@ $grp StaticModelEntity : "{80DF3BD810D032AF}Prefabs/Structures/Industrial/Towers
   angles 0 92.382 0
  }
  {
-  coords 48.436 178.824 373.969
+  coords 56.431 180.084 374.246
   angles 0 178.013 0
  }
  {
@@ -7019,6 +9953,24 @@ $grp GenericEntity : "{87A0F3E9F1B57D90}Prefabs/Structures/BuildingParts/Lights/
    }
   }
  }
+ {
+  coords 58.529 189.982 427.915
+ }
+ {
+  coords 49.305 189.982 427.915
+ }
+ {
+  coords 40.805 189.982 427.915
+ }
+ {
+  coords 49.305 189.982 433.999
+ }
+ {
+  coords 40.805 189.982 433.999
+ }
+ {
+  coords 58.529 189.982 433.999
+ }
 }
 GenericEntity : "{884D3DDC2DDCCB22}Prefabs/Structures/Sign/Sign_Command.et" {
  coords 98.922 179.69 389.155
@@ -7297,17 +10249,13 @@ GenericEntity : "{9AEB1E4AD352B78A}Prefabs/Compositions/Misc/SubCompositions/Woo
  coords 34.213 180.671 367.797
  angles 3.216 -52.105 0.236
 }
-$grp GenericEntity : "{9BC966E99C5E6406}Prefabs/Structures/PremadeBuildings/GothicGarage.et" {
+GenericEntity : "{9BC966E99C5E6406}Prefabs/Structures/PremadeBuildings/GothicGarage.et" {
+ coords 87.616 179.997 281.467
  {
-  coords 87.616 179.997 281.467
- }
- {
-  coords 177.164 178.032 348.816
-  angles 0 90 0
- }
- {
-  coords 177.164 178.802 382.725
-  angles 0 90 0
+  SCR_DestructibleBuildingEntity {
+   ID "694C1BC417D701B6"
+   coords -5.917 0.119 -14.636
+  }
  }
 }
 StaticModelEntity : "{9E5E43EF29EE3A06}Prefabs/Structures/Houses/Prefabricated/ApartmentPrefab_5I01/Dst/ApartmentPrefab_5I01_Ruin_base.et" {
@@ -11739,6 +14687,318 @@ $grp GenericEntity : "{FA771E44182BDD22}Prefabs/Structures/ModularGothicPieces/W
  {
   coords 48.664 187.866 463.618
   angles 0 -90 0
+ }
+ {
+  coords 64.5 184.5 426.5
+  angles 0 90 0
+ }
+ {
+  coords 64.5 184.5 423.5
+  angles 0 90 0
+ }
+ {
+  coords 64.5 184.5 435.5
+  angles 0 90 0
+ }
+ {
+  coords 64.5 184.5 438.5
+  angles 0 90 0
+ }
+ {
+  coords 64.5 187.5 435.5
+  angles 0 90 0
+ }
+ {
+  coords 64.5 187.5 438.5
+  angles 0 90 0
+ }
+ {
+  coords 64.5 187.5 426.5
+  angles 0 90 0
+ }
+ {
+  coords 64.5 187.5 423.5
+  angles 0 90 0
+ }
+ {
+  coords 28.5 187.5 435.5
+  angles 0 90 0
+ }
+ {
+  coords 28.5 187.5 438.5
+  angles 0 90 0
+ }
+ {
+  coords 28.5 187.5 426.5
+  angles 0 90 0
+ }
+ {
+  coords 28.5 187.5 423.5
+  angles 0 90 0
+ }
+ {
+  coords 28.5 184.5 423.5
+  angles 0 90 0
+ }
+ {
+  coords 28.5 184.5 426.5
+  angles 0 90 0
+ }
+ {
+  coords 28.5 184.5 435.5
+  angles 0 90 0
+ }
+ {
+  coords 28.5 184.5 438.5
+  angles 0 90 0
+ }
+ {
+  coords 28.5 187.5 432.5
+  angles 0 90 0
+ }
+ {
+  coords 28.5 184.5 432.5
+  angles 0 90 0
+ }
+ {
+  coords 28.5 187.5 429.5
+  angles 0 90 0
+ }
+ {
+  coords 28.5 184.5 429.5
+  angles 0 90 0
+ }
+ {
+  coords 63 184.5 422
+ }
+ {
+  coords 63 187.5 422
+ }
+ {
+  coords 60 187.5 422
+ }
+ {
+  coords 60 184.5 422
+ }
+ {
+  coords 54 187.5 422
+ }
+ {
+  coords 54 184.5 422
+ }
+ {
+  coords 57 184.5 422
+ }
+ {
+  coords 57 187.5 422
+ }
+ {
+  coords 42 187.5 422
+ }
+ {
+  coords 42 184.5 422
+ }
+ {
+  coords 45 184.5 422
+ }
+ {
+  coords 45 187.5 422
+ }
+ {
+  coords 48 187.5 422
+ }
+ {
+  coords 48 184.5 422
+ }
+ {
+  coords 51 184.5 422
+ }
+ {
+  coords 51 187.5 422
+ }
+ {
+  coords 30 187.5 422
+ }
+ {
+  coords 30 184.5 422
+ }
+ {
+  coords 33 184.5 422
+ }
+ {
+  coords 33 187.5 422
+ }
+ {
+  coords 36 187.5 422
+ }
+ {
+  coords 36 184.5 422
+ }
+ {
+  coords 39 184.5 422
+ }
+ {
+  coords 39 187.5 422
+ }
+ {
+  coords 63 187.5 440
+ }
+ {
+  coords 60 187.5 440
+ }
+ {
+  coords 60 184.5 440
+ }
+ {
+  coords 54 187.5 440
+ }
+ {
+  coords 54 184.5 440
+ }
+ {
+  coords 57 184.5 440
+ }
+ {
+  coords 57 187.5 440
+ }
+ {
+  coords 42 187.5 440
+ }
+ {
+  coords 42 184.5 440
+ }
+ {
+  coords 45 184.5 440
+ }
+ {
+  coords 45 187.5 440
+ }
+ {
+  coords 48 187.5 440
+ }
+ {
+  coords 48 184.5 440
+ }
+ {
+  coords 51 184.5 440
+ }
+ {
+  coords 51 187.5 440
+ }
+ {
+  coords 30 187.5 440
+ }
+ {
+  coords 30 184.5 440
+ }
+ {
+  coords 33 184.5 440
+ }
+ {
+  coords 33 187.5 440
+ }
+ {
+  coords 36 187.5 440
+ }
+ {
+  coords 36 184.5 440
+ }
+ {
+  coords 39 184.5 440
+ }
+ {
+  coords 39 187.5 440
+ }
+ {
+  coords 63 184.5 440
+ }
+ {
+  coords 64.5 190.5 432.5
+  angles 0 90 0
+ }
+ {
+  coords 64.5 190.5 429.5
+  angles 0 90 0
+ }
+ {
+  coords 28.5 190.5 429.5
+  angles 0 90 0
+ }
+ {
+  coords 28.5 190.5 432.5
+  angles 0 90 0
+ }
+ {
+  coords 63 190.5 428
+ }
+ {
+  coords 60 190.5 428
+ }
+ {
+  coords 57 190.5 428
+ }
+ {
+  coords 54 190.5 428
+ }
+ {
+  coords 51 190.5 428
+ }
+ {
+  coords 48 190.5 428
+ }
+ {
+  coords 45 190.5 428
+ }
+ {
+  coords 42 190.5 428
+ }
+ {
+  coords 39 190.5 428
+ }
+ {
+  coords 36 190.5 428
+ }
+ {
+  coords 33 190.5 428
+ }
+ {
+  coords 30 190.5 428
+ }
+ {
+  coords 63 190.5 434
+ }
+ {
+  coords 60 190.5 434
+ }
+ {
+  coords 57 190.5 434
+ }
+ {
+  coords 54 190.5 434
+ }
+ {
+  coords 51 190.5 434
+ }
+ {
+  coords 48 190.5 434
+ }
+ {
+  coords 45 190.5 434
+ }
+ {
+  coords 42 190.5 434
+ }
+ {
+  coords 39 190.5 434
+ }
+ {
+  coords 36 190.5 434
+ }
+ {
+  coords 33 190.5 434
+ }
+ {
+  coords 30 190.5 434
  }
 }
 $grp GenericEntity : "{FCC120DE04E71AAE}Prefabs/Props/Remains/SkeletonRemains/SkeletonRemains_03_V2.et" {
