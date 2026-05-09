@@ -9179,24 +9179,24 @@ GenericEntity : "{7AB486CD1FBB0B0A}PrefabLibrary/DefaultLibrary/Props/Garbage/Ju
 }
 $grp GenericEntity : "{7BA72CFDB168A8D2}Prefabs/Props/Furniture/CabinetMetal_01_grey_V2.et" {
  {
-  coords 63.089 184.916 456.702
+  coords 65.589 184.916 456.702
  }
  {
-  coords 62.324 184.916 456.702
+  coords 64.824 184.916 456.702
  }
  {
-  coords 61.551 184.916 456.702
+  coords 64.051 184.916 456.702
  }
  {
-  coords 61.628 184.916 458.31
+  coords 64.128 184.916 458.31
   angles 0 180 0
  }
  {
-  coords 62.393 184.916 458.31
+  coords 64.893 184.916 458.31
   angles 0 180 0
  }
  {
-  coords 63.166 184.916 458.31
+  coords 65.666 184.916 458.31
   angles 0 180 0
  }
  {
@@ -11581,24 +11581,75 @@ $grp GenericEntity : "{EBCA9D56FB84CD2B}PrefabsEditable/Auto/Compositions/Slotte
   {
    GenericEntity {
     ID "5D1EB45BA40E2740"
-    coords -0.96 -0.455 -14.5
+    coords -0.96 -0.646 -14.5
+    angles -0.121 177.426 -2.681
    }
    GenericEntity {
     ID "5D1EB45BA40E2783"
-    coords -0.823 -0.664 -20.5
+    coords -0.823 -0.772 -20.5
+    angles -2.225 170.095 -2.335
    }
    GenericEntity {
     ID "5D1EB45BA40E27A8"
-    coords -0.869 -0.534 -17.5
+    coords -0.869 -0.694 -17.5
+    angles 0.577 6.667 2.769
    }
    GenericEntity {
     ID "5D1EB45BA40E27DF"
-    coords -0.836 -0.291 -11.5
+    coords -0.836 -0.651 -11.5
+    angles -0.214 4.568 2.675
+   }
+   GenericEntity {
+    ID "5D1EB45BA40E2798"
+    coords -0.836 -0.648 16.256
+    angles 2.327 -8.996 3.251
+   }
+   GenericEntity {
+    ID "5D1EB45BA40E27C3"
+    coords -0.869 -0.397 10.256
+    angles 36.823 -177.215 8.669
+   }
+   GenericEntity {
+    ID "5D1EB45BA40E27F7"
+    coords -0.96 -0.7 13.256
+    angles -0.779 -178.153 -3.603
    }
   }
  }
  {
   coords 46.106 185.79 519.854
+  {
+   GenericEntity {
+    ID "5D1EB45BA40E2740"
+    coords -0.96 -1.09 -14.5
+    angles -1.051 177.485 -3.533
+   }
+   GenericEntity {
+    ID "5D1EB45BA40E2798"
+    coords -0.836 -0.336 16.256
+    angles 1.447 -9.042 3.391
+   }
+   GenericEntity {
+    ID "5D1EB45BA40E27A8"
+    coords -0.869 -1.143 -17.5
+    angles 0.473 6.669 3.656
+   }
+   GenericEntity {
+    ID "5D1EB45BA40E27C3"
+    coords -0.869 -0.396 10.256
+    angles 36.823 -177.215 8.669
+   }
+   GenericEntity {
+    ID "5D1EB45BA40E27DF"
+    coords -0.836 -1.02 -11.5
+    angles 0.604 4.616 3.636
+   }
+   GenericEntity {
+    ID "5D1EB45BA40E27F7"
+    coords -0.96 -0.407 13.256
+    angles -0.779 -178.153 -3.603
+   }
+  }
  }
 }
 $grp StaticModelEntity : "{EE836DAE53355BB6}Prefabs/Trench/Barrier2.et" {

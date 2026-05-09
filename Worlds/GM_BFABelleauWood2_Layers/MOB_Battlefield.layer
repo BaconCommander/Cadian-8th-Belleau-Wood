@@ -2930,6 +2930,10 @@ $grp SCR_IndestructibleEnvironmentalEntity : "{D5CC7A5A32C640A3}Prefabs/Rocks/Gr
   coords 775.643 206.915 112.253
  }
 }
+GenericEntity : "{D6F015C42913655E}Prefabs/Props/Military/Aquilla/Props_Aquilla.et" {
+ coords 102.956 181.832 455.701
+ scale 6
+}
 StaticModelEntity : "{DA822ADE75D09EB0}Prefabs/Compositions/Misc/SubCompositions/Tent_Barrack_Camo_Cluttered_USSR_02.et" {
  coords 687.588 199.348 405.638
  angles 0 127.769 0
