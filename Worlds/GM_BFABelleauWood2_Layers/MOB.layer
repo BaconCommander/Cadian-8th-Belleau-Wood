@@ -2190,6 +2190,15 @@ $grp GenericEntity : "{03262D2D61225380}PrefabLibrary/DefaultLibrary/Infrastruct
   coords 25.887 0 557.369
   angles 2.2 -179.658 0.026
  }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{64DCE194BCF3476E}" {
+    Enabled 0
+   }
+  }
+  coords 29.508 -0 540.84
+  angles -2.2 -89.999 -0.013
+ }
 }
 $grp GenericEntity : "{040884AD26894E77}Prefabs/Structures/ModularGothicPieces/Floor_Walkway_3x3x3_Straight.et" {
  {
@@ -3784,7 +3793,7 @@ $grp SCR_DestructibleBuildingEntity : "{4266901113B35A98}Prefabs/Structures/Indu
     Enabled 0
    }
   }
-  coords 95.286 0.145 523.773
+  coords 95.286 1.422 523.773
  }
  {
   components {
@@ -3792,7 +3801,7 @@ $grp SCR_DestructibleBuildingEntity : "{4266901113B35A98}Prefabs/Structures/Indu
     Enabled 0
    }
   }
-  coords 95.286 -0.186 529.852
+  coords 95.286 1.091 529.852
  }
  {
   components {
@@ -3800,7 +3809,7 @@ $grp SCR_DestructibleBuildingEntity : "{4266901113B35A98}Prefabs/Structures/Indu
     Enabled 0
    }
   }
-  coords 95.286 0.469 517.438
+  coords 95.286 1.746 517.438
  }
 }
 $grp GenericEntity : "{42E6C85BC6FCA557}Prefabs/Structures/ModularGothicPieces/Floor_Foundaition_3x3x3_Straight.et" {
@@ -8205,7 +8214,7 @@ $grp GenericEntity : "{559580C00F1A0080}Prefabs/Structures/PremadeBuildings/Hang
   angles 0 -19.143 0
  }
  {
-  coords 83.805 183.674 489.773
+  coords 83.805 185.295 489.773
   angles 0 -90 0
  }
 }
@@ -8483,6 +8492,42 @@ $grp SCR_DestructibleBuildingEntity : "{686B4C83AC940895}Prefabs/Structures/Infr
  {
   coords 35.563 -7.577 195.234
   angles 0 -20 0
+  scale 3
+ }
+ {
+  coords 56.431 -11.016 477.903
+  scale 3
+ }
+ {
+  coords 56.431 -10.867 500.403
+  scale 3
+ }
+ {
+  coords 56.431 -11.312 522.903
+  scale 3
+ }
+ {
+  coords 86.431 -9.46 477.903
+  scale 3
+ }
+ {
+  coords 86.431 -9.724 500.403
+  scale 3
+ }
+ {
+  coords 86.431 -10.492 522.903
+  scale 3
+ }
+ {
+  coords 109.715 -9.031 477.903
+  scale 3
+ }
+ {
+  coords 109.715 -9.643 500.403
+  scale 3
+ }
+ {
+  coords 109.715 -10.832 522.903
   scale 3
  }
 }
@@ -10624,7 +10669,7 @@ $grp SCR_DestructibleBuildingEntity : "{C604699791656656}Prefabs/Structures/Indu
     Enabled 0
    }
   }
-  coords 103.893 0.569 523.867
+  coords 103.893 1.846 523.867
  }
  {
   components {
@@ -10632,7 +10677,7 @@ $grp SCR_DestructibleBuildingEntity : "{C604699791656656}Prefabs/Structures/Indu
     Enabled 0
    }
   }
-  coords 103.893 0.219 529.946
+  coords 103.893 1.496 529.946
  }
  {
   components {
@@ -10640,7 +10685,7 @@ $grp SCR_DestructibleBuildingEntity : "{C604699791656656}Prefabs/Structures/Indu
     Enabled 0
    }
   }
-  coords 103.893 0.934 517.532
+  coords 103.893 2.211 517.532
  }
 }
 GenericEntity : "{C707F02B5A64AA08}Prefabs/Props/Wrecks/BRDM2_wreck/BRDM2_wreck.et" {
