@@ -178,11 +178,12 @@ $grp SCR_IndestructibleEnvironmentalEntity : "{1200EAC7C79003AF}Prefabs/Rocks/Gr
   angles 0 146.818 0
  }
  {
-  coords 1024.18 204.517 1075.411
+  coords 741.135 204.517 821.68
+  angles 0 -5.421 0
  }
  {
-  coords 1045.582 204.46 1076.901
-  angles 0 161.47 0
+  coords 762.301 204.46 825.185
+  angles 0 156.049 0
  }
 }
 StaticModelEntity : "{15F4B6D3CA0645C9}Prefabs/Trench/Arty_Trench.et" {
@@ -195,8 +196,8 @@ $grp StaticModelEntity : "{18CFB46A50275E9F}Prefabs/Trench/Erode_Dirt_Big.et" {
   angles 13.064 -1.514 -6.667
  }
  {
-  coords 797.72 210.221 1277.502
-  angles 0 0 0
+  coords 496.595 210.221 1001.472
+  angles 0 -5.421 0
  }
 }
 $grp GenericEntity : "{1FB2F0AEA420C1FB}Prefabs/Terrain/Trenches/Trench_90_Long.et" {
@@ -881,16 +882,16 @@ $grp StaticModelEntity : "{44A1CE40DBDE2A97}Prefabs/Trench/Erode_Big_Rock.et" {
   angles 12.218 34.439 -2.384
  }
  {
-  coords 897.334 203.65 1111.961
-  angles 0 -140.411 5.68
+  coords 611.403 203.65 846.082
+  angles 0 -145.832 5.68
  }
  {
-  coords 755.885 210.585 1231.764
-  angles 0 -101.719 0
+  coords 459.269 210.585 951.986
+  angles 0 -107.14 0
  }
  {
-  coords 982.445 212.461 1174.304
-  angles 0 28.222 0
+  coords 690.244 212.461 916.188
+  angles 0 22.801 0
  }
 }
 $grp StaticModelEntity : "{4C2C73627DF3B0C5}Prefabs/Structures/Helpers/TerrainBlender6mCube.et" {
@@ -1832,12 +1833,12 @@ $grp GenericEntity : "{7FA95863264F3F10}Prefabs/Structures/ConcreteBunkers/Looko
 }
 $grp StaticModelEntity : "{82292A7C480E8F88}Prefabs/Trench/Erode_4_Stone.et" {
  {
-  coords 799.753 210.505 1159.328
-  angles 0 -142.582 0
+  coords 509.784 210.505 884.018
+  angles 0 -148.003 0
  }
  {
-  coords 861.865 211.533 1249.705
-  angles 0 54.052 0
+  coords 563.079 211.533 979.859
+  angles 0 48.631 0
  }
 }
 $grp SCR_DestructibleBuildingEntity : "{84DEA01FFFE606FE}Prefabs/Structures/Military/Bunkers/AirfieldBunker_E_01/AirfieldBunker_E_01_base.et" {
@@ -1851,16 +1852,16 @@ $grp SCR_DestructibleBuildingEntity : "{84DEA01FFFE606FE}Prefabs/Structures/Mili
 }
 $grp StaticModelEntity : "{84E8415C26FF817E}Prefabs/Trench/Erode_5_BigDirt.et" {
  {
-  coords 961.612 205.91 1086.221
-  angles 0 -163.966 0
+  coords 677.826 205.91 826.53
+  angles 0 -169.387 0
  }
  {
-  coords 854.369 207.651 1125.537
-  angles 0 -149.243 -4.617
+  coords 567.348 207.651 855.539
+  angles 0 -154.664 -4.617
  }
  {
-  coords 921.03 207.544 1205.26
-  angles 0 26.298 0
+  coords 626.179 207.544 941.203
+  angles 0 20.877 0
  }
 }
 $grp GenericEntity : "{86C9C97FF2E85003}Prefabs/Structures/CadianGreen/CadianGreenTrenchWall.et" {
@@ -2159,8 +2160,8 @@ $grp GenericEntity : "{8F9620C34803541D}Prefabs/Props/ImperialCargoShip/Imperial
     m_bAutoRegister NEVER
    }
   }
-  coords 890.481 150.104 1216.763
-  angles 10.5 -61.101 -23.544
+  coords 594.68 150.104 949.768
+  angles 10.5 -66.522 -23.544
  }
 }
 $grp GenericEntity : "{95B501A3A70F5475}Prefabs/Structures/ModularGothicPieces/Pillar_Base_Medium_Square.et" {
@@ -2263,8 +2264,8 @@ $grp GenericEntity : "{95B501A3A70F5475}Prefabs/Structures/ModularGothicPieces/P
 }
 $grp StaticModelEntity : "{9622D46D09E8C8B1}Prefabs/Trench/Erode_Dirt.et" {
  {
-  coords 1019.943 212.284 1140.679
-  angles 0 48.698 0
+  coords 730.751 212.284 886.256
+  angles 0 43.277 0
  }
  {
   coords 849.192 202.347 362.992
@@ -2273,12 +2274,13 @@ $grp StaticModelEntity : "{9622D46D09E8C8B1}Prefabs/Trench/Erode_Dirt.et" {
 }
 $grp SCR_IndestructibleEnvironmentalEntity : "{9633134198F3AB1A}Prefabs/Rocks/Granite/GraniteRock_01.et" {
  {
-  coords 848.172 221.598 1172.148
-  angles 0 21.268 0
+  coords 556.775 221.598 901.356
+  angles 0 15.847 0
   scale 5
  }
  {
-  coords 892.786 207.053 1144.278
+  coords 603.823 207.053 877.825
+  angles 0 -5.421 0
   scale 5
  }
 }
@@ -4372,8 +4374,8 @@ $grp GenericEntity : "{FA771E44182BDD22}Prefabs/Structures/ModularGothicPieces/W
 }
 $grp StaticModelEntity : "{FDC92872D165E74A}Prefabs/Trench/Erode_3_Stone.et" {
  {
-  coords 1006.209 203.973 1076.593
-  angles 0 -165 0
+  coords 723.133 203.973 821.159
+  angles 0 -170.421 0
  }
  {
   coords 678.127 198.397 421.257
