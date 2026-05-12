@@ -8433,6 +8433,108 @@ $grp GenericEntity : "{4B9432BFFBC2C30D}Prefabs/Structures/Sign/Sign_Falcon.et" 
   coords 28.183 185.85 533.776
  }
 }
+$grp StaticModelEntity : "{4C2C73627DF3B0C5}Prefabs/Structures/Helpers/TerrainBlender6mCube.et" {
+ {
+  coords 586.288 2.289 407.12
+  angles 23.757 -26.781 -13.926
+ }
+ {
+  coords 580.815 1.058 405.067
+  angles 23.757 -26.781 -16.426
+ }
+ {
+  coords 574.982 -0.324 402.943
+  angles 23.757 -26.781 -16.426
+ }
+ {
+  coords 569.206 -1.918 400.84
+  angles 23.757 -26.781 -16.426
+ }
+ {
+  coords 591.856 3.382 409.338
+  angles 23.757 -26.781 -11.426
+ }
+ {
+  coords 563.544 -3.525 398.779
+  angles 23.757 -26.781 -16.426
+ }
+ {
+  coords 571.885 1.597 429.507
+  angles -13.344 -16.364 -15.426
+ }
+ {
+  coords 566.052 -0.185 427.383
+  angles -13.344 -16.364 -15.426
+ }
+ {
+  coords 560.276 -0.995 425.28
+  angles -13.344 -16.364 -15.426
+ }
+ {
+  coords 554.615 -2.15 423.219
+  angles -13.344 -16.364 -15.426
+ }
+ {
+  coords 565.9 -0.235 427.785
+  angles -7.229 -18.06 -18.074
+ }
+ {
+  coords 652.115 3.087 430.338
+  angles 19.803 -18.203 7.815
+ }
+ {
+  coords 657.899 2.065 432.595
+  angles 19.803 -18.203 10.315
+ }
+ {
+  coords 663.807 0.944 435.001
+  angles 19.803 -18.203 12.815
+ }
+ {
+  coords 669.772 -0.278 437.425
+  angles 19.803 -18.203 10.315
+ }
+ {
+  coords 675.879 -1.596 439.833
+  angles 19.803 -18.203 7.815
+ }
+ {
+  coords 681.971 -3.29 442.139
+  angles 19.803 -18.203 5.315
+ }
+ {
+  coords 664.558 -0.515 432.718
+  angles 19.803 -18.203 12.815
+ }
+ {
+  coords 649.454 2.148 455.721
+  angles -14.072 -21.899 10.233
+ }
+ {
+  coords 655.479 0.651 457.804
+  angles -14.072 -21.899 12.733
+ }
+ {
+  coords 661.558 -0.897 459.91
+  angles -14.072 -21.899 10.233
+ }
+ {
+  coords 667.74 -1.779 462.103
+  angles -14.072 -21.899 7.733
+ }
+ {
+  coords 647.374 -0.071 460.896
+  angles -14.072 -21.899 10.233
+ }
+ {
+  coords 653.399 -1.609 462.979
+  angles -14.072 -21.899 12.733
+ }
+ {
+  coords 659.58 -2.977 464.831
+  angles -14.072 -21.899 10.233
+ }
+}
 GenericEntity : "{52F4C6F1D59655CA}Prefabs/Props/Garbage/Generic/Junk_01/Junk_01_single_bathtub.et" {
  coords 118.392 179.223 382.517
  angles 0 -72.089 0
@@ -10838,7 +10940,7 @@ $grp Tree : "{B2CF1BEA5DA54CAB}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_b
   scale 1.075
  }
  {
-  coords 78.912 -0 460.92
+  coords 78.912 0 460.92
   angles -0.835 66.924 -1.696
   scale 0.862
   Enabled 0
