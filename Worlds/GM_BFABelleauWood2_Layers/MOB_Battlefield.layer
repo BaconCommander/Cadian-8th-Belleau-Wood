@@ -1473,6 +1473,38 @@ $grp StaticModelEntity : "{5088E2D220E37FB5}PrefabLibrary/Crater04.et" {
   angles 0.895 0 -5.355
  }
 }
+$grp GameEntity : "{50E6A3845C9F20FD}Prefabs/Props/Military/Camps/LanternMilitary_US_01.et" {
+ {
+  coords 230.658 179.674 314.827
+ }
+ {
+  coords 227.907 179.674 319.144
+ }
+ {
+  coords 222.276 177.356 333.338
+ }
+ {
+  coords 225.536 177.935 337.852
+ }
+ {
+  coords 220.663 179.446 345.958
+ }
+ {
+  coords 229.009 179.437 344.11
+ }
+ {
+  coords 229.092 177.926 339.579
+ }
+ {
+  coords 232.014 178.886 336.219
+ }
+ {
+  coords 202.596 178.759 369.405
+ }
+ {
+  coords 219.459 178.756 374.19
+ }
+}
 $grp GenericEntity : "{51C4AC5C58A27E54}Prefabs/Terrain/Trenches/Trench_90_Short.et" {
  {
   coords 606.308 198.113 542.46
