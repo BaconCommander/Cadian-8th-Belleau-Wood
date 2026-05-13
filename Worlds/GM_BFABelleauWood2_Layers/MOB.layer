@@ -1836,8 +1836,8 @@ $grp GenericEntity : "{03262D2D61225380}PrefabLibrary/DefaultLibrary/Infrastruct
     Enabled 0
    }
   }
-  coords 46.445 0 299.598
-  angles -0.013 -83.833 2.2
+  coords 39.061 -0.16 303.708
+  angles 0.013 96.167 -2.2
  }
  {
   components {
@@ -1845,8 +1845,8 @@ $grp GenericEntity : "{03262D2D61225380}PrefabLibrary/DefaultLibrary/Infrastruct
     Enabled 0
    }
   }
-  coords 46.485 -0.052 276.746
-  angles -0.013 -93.423 2.2
+  coords 38.097 -0.009 275.819
+  angles 0.342 95.174 -2.173
  }
  {
   components {
@@ -1854,8 +1854,8 @@ $grp GenericEntity : "{03262D2D61225380}PrefabLibrary/DefaultLibrary/Infrastruct
     Enabled 0
    }
   }
-  coords 53.727 0 254.899
-  angles -0.013 -111.714 2.2
+  coords 42.691 0.193 250.504
+  angles 0.013 68.286 -2.2
  }
  {
   components {
@@ -2650,7 +2650,8 @@ $grp GenericEntity : "{16415CF017E77E29}Prefabs/Props/Military/Training/Obstacle
 }
 $grp GenericEntity : "{16DE51898F7E3EF3}Prefabs/Props/Crates/CardboardBox/CardboardBox_05.et" {
  {
-  coords 47.11 179.911 287.676
+  coords 46.039 180.028 293.791
+  angles 0.895 0.014 0.895
  }
  {
   coords 81.383 182.335 450.242
@@ -3334,8 +3335,8 @@ $grp SCR_DestructibleEntity : "{2AFC62A9517BBCAD}Prefabs/Structures/Walls/Pole/P
 }
 $grp GenericEntity : "{2B1D0128ED660BE9}Prefabs/Props/Crates/BoxWooden_01.et" {
  {
-  coords 48.104 180.132 294.478
-  angles 82.174 180 -180
+  coords 47.033 180.062 300.593
+  angles 0 -180 0
  }
  {
   coords 82.377 182.473 457.044
@@ -3345,6 +3346,10 @@ $grp GenericEntity : "{2B1D0128ED660BE9}Prefabs/Props/Crates/BoxWooden_01.et" {
 GenericEntity : "{2C2256DE59DD9840}Prefabs/Structures/BuildingParts/Eletrical/BreakerBox_03/BreakerBox_03.et" {
  coords 130.546 177.918 313.229
  angles 0 -90 0
+}
+GenericEntity : "{2C2A93CF39BB274C}Prefabs/Trenches/Trench_Narrow_Straight_6m/Trench_Narrow_Straight_6m_Platform_Reinforced_Decorated.et" {
+ coords 52.323 178.889 277.038
+ angles 0.227 82.718 1.776
 }
 GenericEntity : "{2D7EB2F1AF1A551C}Prefabs/Structures/PremadeBuildings/NCO_Building.et" {
  coords 133.301 181.555 438.807
@@ -8949,16 +8954,6 @@ $grp GenericEntity : "{6B68854FD47B936F}Prefabs/Props/Military/Training/Obstacle
   angles -2.684 -90 -6.235
  }
 }
-$grp StaticModelEntity : "{6C8CCD052F92E879}Prefabs/Structures/Military/Fortifications/Trenches/TrenchOld_03/TrenchOld_03_6m_wood_left.et" {
- {
-  coords 49.882 0 275.124
-  angles -0.262 -98.402 -1.771
- }
- {
-  coords 51.524 -0.333 268.504
-  angles 0.085 -108.981 -7.222
- }
-}
 $grp GenericEntity : "{6D670E6C586D28F7}Prefabs/Structures/ModularGothicPieces/Roof_Sloped_3x3x3_Straight.et" {
  {
   coords 131.5 184 314
@@ -9553,8 +9548,8 @@ $grp GenericEntity : "{7A427A6D790C696C}Assets/Buildings/Religious/AdmechStatue/
 }
 $grp GenericEntity : "{7A8A656933BAB1DD}Prefabs/Props/Crates/CardboardBox/CardboardBox_06.et" {
  {
-  coords 47.379 180.175 287.706
-  angles 0 -76.868 0
+  coords 46.308 180.024 293.821
+  angles 1.075 -76.881 -0.669
  }
  {
   coords 81.652 182.328 450.272
@@ -10379,6 +10374,16 @@ $grp GenericEntity : "{87A0F3E9F1B57D90}Prefabs/Structures/BuildingParts/Lights/
 GenericEntity : "{884D3DDC2DDCCB22}Prefabs/Structures/Sign/Sign_Command.et" {
  coords 98.922 179.69 389.155
  angles 0 90 0
+}
+$grp GenericEntity : "{8AC982B70E20F526}Prefabs/Trenches/Trench_Narrow_Straight_6m/Trench_Narrow_Straight_6m_Platform_Reinforced_Decorated2.et" {
+ {
+  coords 51.978 179.177 283.975
+  angles -0.895 89.986 0.895
+ }
+ {
+  coords 53.892 178.913 270.327
+  angles 0.699 67.033 1.648
+ }
 }
 GenericEntity : "{8E67D88E525C588B}Prefabs/Structures/Crane/GrimdarkCrane.et" {
  coords 136.368 176.483 287.849
@@ -11457,7 +11462,8 @@ Tree : "{CE711B2E9DA8CA77}Prefabs/Vegetation/Bush/b_sambucus_nigra_2_aut.et" {
 }
 $grp GenericEntity : "{CE763848F6F720AF}Prefabs/Props/Crates/CardboardBox/CardboardBox_03.et" {
  {
-  coords 47.605 179.907 287.673
+  coords 46.534 180.02 293.788
+  angles 0.895 0.014 0.895
  }
  {
   coords 81.878 182.322 450.239
@@ -11671,7 +11677,8 @@ $grp GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
     m_eInitialLightState LIT
    }
   }
-  coords 48.59 179.95 290.815
+  coords 47.519 180.046 296.93
+  angles 0.895 0 0
  }
  {
   components {
@@ -11921,11 +11928,12 @@ $grp GenericEntity : "{E24A324BDAA2EEE3}Prefabs/Props/Industrial/BarrelMetal_01_
   coords 33.721 181.147 381.271
  }
  {
-  coords 51.118 179.979 293.751
+  coords 50.047 180.061 299.866
+  angles 0.895 0 0
  }
  {
-  coords 52.037 180.084 292.334
-  angles 90 180 -180
+  coords 50.966 180.039 298.449
+  angles 0.895 0 0
  }
  {
   coords 85.391 182.368 456.317
@@ -11942,8 +11950,8 @@ $grp GenericEntity : "{E2B01D303DD412D7}Prefabs/Props/Military/AmmoBoxes/AmmoBox
   angles 1.79 0 3.575
  }
  {
-  coords 50.596 179.893 288.575
-  angles -0.03 45.327 5.057
+  coords 49.525 180.007 294.69
+  angles -0.637 45.32 0.629
  }
  {
   coords 199.753 176.979 350.669
@@ -12019,10 +12027,6 @@ SCR_DestructibleEntity : "{E38C2EEE61381A66}Prefabs/Structures/Infrastructure/Pi
 GenericEntity : "{E4416C4C6938BEEE}Prefabs/Props/Crates/CrateWooden_02/CrateWooden_02_1x1x1.et" {
  coords 148.351 178.05 318.82
 }
-StaticModelEntity : "{E4DD0292A16CEC49}Prefabs/Structures/Military/Fortifications/Trenches/TrenchOld_03/TrenchOld_03_6m_wood_base.et" {
- coords 49.325 0 282.047
- angles 0 -90 -1.79
-}
 $grp GenericEntity : "{E639E7FAF33DC166}Prefabs/Props/Furniture/BedDouble_02.et" {
  {
   coords 115.865 181.05 297.952
@@ -12047,6 +12051,10 @@ $grp GenericEntity : "{E97732A225782E68}Prefabs/Structures/Military/Flags/FlagPo
  {
   coords 57.192 178.846 249.06
  }
+}
+GenericEntity : "{EBF719F71E529564}Prefabs/Trenches/Trench_Narrow_Curved_6m/Trench_Narrow_Curved_6m_PlatformInside_Reinforced_Decorated.et" {
+ coords 56.342 178.771 262.96
+ angles 0 105 0
 }
 $grp StaticModelEntity : "{EE836DAE53355BB6}Prefabs/Trench/Barrier2.et" {
  {

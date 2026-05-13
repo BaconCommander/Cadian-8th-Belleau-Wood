@@ -4301,17 +4301,6 @@ $grp GenericEntity : "{060E70051177F302}Prefabs/Compositions/Misc/SubComposition
   coords 463.388 168.902 2826.349
  }
 }
-StaticModelEntity : "{0B1F21575FD0CCDD}Prefabs/Trench/Barrier3.et" {
- coords 982.932 214.329 1788.067
- angles 0 180 0
- {
-  StaticModelEntity : "{4C2C73627DF3B0C5}Prefabs/Structures/Helpers/TerrainBlender6mCube.et" {
-   coords 5.303 -0.55 0.18
-   angles 0 0 27.699
-   scale 0.76
-  }
- }
-}
 GenericEntity : "{11B873E1A2876735}Prefabs/Compositions/Misc/SubCompositions/Tents/Tent_CommandPost_Conflict_USSR_01.et" {
  coords 442.776 169.731 2831.709
  angles 0 60 0
@@ -4447,11 +4436,6 @@ $grp GenericEntity : "{2A27606856B8A914}Prefabs/Compositions/Slotted/SlotRoadLar
   coords 382.302 166.359 2857.918
   angles -7.292 -41.252 -4.244
  }
-}
-StaticModelEntity : "{4C2C73627DF3B0C5}Prefabs/Structures/Helpers/TerrainBlender6mCube.et" {
- coords 976.436 -0.627 1778.28
- angles 0 114.093 27.699
- scale 0.76
 }
 GenericEntity : "{621AD664E58BC26B}Prefabs/Compositions/Misc/SubCompositions/Tents/Tent_Supply_Small_USSR_01.et" {
  coords 443.08 169.594 2839.414
@@ -4619,85 +4603,6 @@ $grp StaticModelEntity : "{90B52D76DE6C9FAC}Prefabs/Walls/Wall_7.et" {
   coords 783.537 195.631 2786.873
   angles 0 90 0
   scale 6
- }
-}
-$grp StaticModelEntity : "{94BA3F354875A245}Prefabs/Structures/Military/Fortifications/Trenches/Barrier_With_Blender.et" {
- {
-  coords 982.954 214.193 1792.15
-  angles 0 180 0
-  {
-   StaticModelEntity {
-    ID "6928F3C5F3C21C54"
-    coords 5.303 -0.55 0.18
-    angles 0 0 27.699
-   }
-  }
- }
- {
-  coords 983.583 214.182 1795.58
-  angles 0 -160.958 0
-  {
-   StaticModelEntity {
-    ID "6928F3C5F3C21C54"
-    coords 5.303 -0.55 0.18
-    angles 0 0 27.699
-   }
-  }
- }
- {
-  coords 985.173 214.445 1798.974
-  angles 0 -150.507 0
-  {
-   StaticModelEntity {
-    ID "6928F3C5F3C21C54"
-    coords 5.303 -0.55 0.18
-    angles 0 0 27.699
-   }
-  }
- }
- {
-  coords 982.084 214.445 1784.119
-  angles 0 -150.507 0
-  {
-   StaticModelEntity {
-    ID "6928F3C5F3C21C54"
-    coords 5.303 -0.55 0.18
-    angles 0 0 27.699
-   }
-  }
- }
- {
-  coords 980.142 214.445 1780.503
-  angles 0 -150.507 0
-  {
-   StaticModelEntity {
-    ID "6928F3C5F3C21C54"
-    coords 5.303 -0.55 0.18
-    angles 0 0 27.699
-   }
-  }
- }
- {
-  coords 987.246 214.434 1801.306
-  angles 0 -131.465 0
-  {
-   StaticModelEntity {
-    ID "6928F3C5F3C21C54"
-    coords 5.303 -0.55 0.18
-    angles 0 0 27.699
-   }
-  }
- }
- {
-  coords 989.282 214.445 1804.578
-  angles 0 -158.105 0
-  {
-   StaticModelEntity {
-    ID "6928F3C5F3C21C54"
-    coords 5.303 -0.55 0.18
-    angles 0 0 27.699
-   }
-  }
  }
 }
 $grp SCR_IndestructibleEnvironmentalEntity : "{A7606C7E96A39B5D}Prefabs/Rocks/Granite/Granite_Boulder_02_V2.et" {
