@@ -284,7 +284,7 @@ $grp GenericEntity : "{1FB07F071D3109D2}Prefabs/Trenches/Trench_Wide_Curved_12m/
   angles 0 2.678 -2.288
  }
  {
-  coords 807.403 205.258 755.404
+  coords 809.533 205.214 756.106
   angles 0.49 -155.031 -1.094
  }
 }
@@ -374,7 +374,7 @@ $grp GenericEntity : "{2BACC796ED34A3E0}Prefabs/Trenches/Trench_Wide_Endcap_12m/
   angles -1.531 179.936 2.409
  }
  {
-  coords 795.572 204.919 761.428
+  coords 797.841 204.935 761.929
   angles 1.996 -149.92 2.354
  }
 }
@@ -400,7 +400,7 @@ $grp GenericEntity : "{2C2A93CF39BB274C}Prefabs/Trenches/Trench_Narrow_Straight_
   angles 0 132.029 0
  }
  {
-  coords 815.313 206.239 795.39
+  coords 815.335 205.803 795.379
   angles 2.006 64.025 -2.553
  }
 }
@@ -1998,7 +1998,7 @@ $grp GenericEntity : "{7D36C6A061F65893}Prefabs/Trenches/Trench_Narrow_Straight_
   angles 0 26.029 -1.47
  }
  {
-  coords 826.54 206.246 783.859
+  coords 826.548 205.88 783.855
   angles 0 26.029 -1.47
  }
 }
@@ -2448,8 +2448,8 @@ $grp GenericEntity : "{8F43B8D244846784}Prefabs/Trenches/Trench_Wide_Intersectio
   angles -0.834 -14.462 0.359
  }
  {
-  coords 837.584 205.366 762.183
-  angles 0 165 0
+  coords 837.577 204.892 762.209
+  angles -3.237 165 0
  }
 }
 $grp GenericEntity : "{8F9620C34803541D}Prefabs/Props/ImperialCargoShip/ImperialCargoShip.et" {
@@ -3015,7 +3015,7 @@ $grp GenericEntity : "{D5412F840FD369E5}Prefabs/Trenches/Trench_Narrow_Curved_6m
   angles 0 -116.001 0
  }
  {
-  coords 809.846 206.587 809.701
+  coords 809.846 206.303 809.701
   angles 0 -75 0
  }
 }
@@ -3193,7 +3193,7 @@ $grp GenericEntity : "{EBF719F71E529564}Prefabs/Trenches/Trench_Narrow_Curved_6m
   angles 0 90 0
  }
  {
-  coords 833.037 206.025 778.851
+  coords 833.047 205.561 778.853
   angles 1.253 75 0
  }
 }
@@ -3211,7 +3211,7 @@ $grp GenericEntity : "{EFD8541E1857328A}Prefabs/Trenches/Trench_Narrow_Straight_
   angles 0 119.191 5.19
  }
  {
-  coords 812.28 206.344 802.156
+  coords 812.283 206.1 802.146
   angles 0 70.898 -2.46
  }
 }
