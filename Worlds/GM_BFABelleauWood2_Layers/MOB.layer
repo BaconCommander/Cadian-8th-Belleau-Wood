@@ -3631,6 +3631,15 @@ $grp SCR_FiringRangeTarget : "{379D34B0D41DA810}Prefabs/Props/Military/Training/
   angles 0 -180 0
  }
 }
+$grp GameEntity : "{381BE1AB407447DC}Prefabs/Props/Military/AmmoBoxes/AmmoBox_M229_Hydra/AmmoBox_M229_Hydra_base.et" {
+ {
+  coords 30.521 184.578 430.818
+ }
+ {
+  coords 30.793 184.55 431.27
+  angles 0 -90 0
+ }
+}
 $grp GenericEntity : "{3B58A243F817AABB}Prefabs/Props/Furniture/Chair_03/Chair_03_red.et" {
  {
   coords 129.953 184.1 309.261
@@ -8125,6 +8134,15 @@ GenericEntity : "{44D06BE47D7E15C8}Prefabs/Compositions/Misc/SubCompositions/Fur
  coords 128.409 181.068 309.505
  angles 0 0 0
 }
+GenericEntity : "{45C675ED3CFBBEC5}Prefabs/Props/Military/Compositions/US/ArsenalBox_US.et" {
+ components {
+  SCR_FactionAffiliationComponent "{5A50E7655452A21D}" {
+   "faction affiliation" "US"
+  }
+ }
+ coords 30.978 184.55 424.178
+ angles 0 30 0
+}
 $grp SCR_DestructibleEntity : "{46C94CC89A608559}Prefabs/Structures/Walls/Pole/PoleFence_01/PoleFence_01_3m.et" {
  {
   coords 106.147 -0.001 575.991
@@ -9463,9 +9481,15 @@ GenericEntity : "{75D125481E2E0663}Prefabs/Compositions/Misc/SubCompositions/Bar
  coords 147.817 178.05 311.934
  angles 0 -90 0
 }
-GameEntity : "{764D801CA90A48AD}Prefabs/Props/Military/AmmoBoxes/AmmoBox_M229_Hydra/AmmoBox_M229_Hydra.et" {
- coords 33.746 181.344 386.49
- angles 2.126 -121.339 -3.385
+$grp GameEntity : "{764D801CA90A48AD}Prefabs/Props/Military/AmmoBoxes/AmmoBox_M229_Hydra/AmmoBox_M229_Hydra.et" {
+ {
+  coords 33.746 181.344 386.49
+  angles 2.126 -121.339 -3.385
+ }
+ {
+  coords 30.422 184.55 431.317
+  angles 0 60 0
+ }
 }
 GenericEntity : "{77D49455528ED5E6}Prefabs/Props/Military/MilitaryCrates/ShellContainerstack_01/ShellContainerstack_01_pile_small.et" {
  coords 9.957 179.601 231.633
@@ -12035,6 +12059,9 @@ SCR_DestructibleEntity : "{E38C2EEE61381A66}Prefabs/Structures/Infrastructure/Pi
 }
 GenericEntity : "{E4416C4C6938BEEE}Prefabs/Props/Crates/CrateWooden_02/CrateWooden_02_1x1x1.et" {
  coords 148.351 178.05 318.82
+}
+GenericEntity : "{E55FC02F8C1518A2}Prefabs/Structures/Military/Flags/FlagPole_02/FlagPole_02_V1_US.et" {
+ coords 30.666 184.6 423.802
 }
 $grp GenericEntity : "{E639E7FAF33DC166}Prefabs/Props/Furniture/BedDouble_02.et" {
  {
