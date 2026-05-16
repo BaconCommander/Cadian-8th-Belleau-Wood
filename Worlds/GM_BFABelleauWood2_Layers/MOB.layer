@@ -4128,9 +4128,6 @@ $grp GenericEntity : "{42E6C85BC6FCA557}Prefabs/Structures/ModularGothicPieces/F
     {
      coords 12 0 -1.5
     }
-    {
-     coords 12 0 1.5
-    }
    }
    $grp GenericEntity : "{19AA40B6D109F8DD}Prefabs/Structures/ModularGothicPieces/Roof_Cap_3x2x2_Straight.et" {
     {
@@ -4819,7 +4816,7 @@ $grp GenericEntity : "{42E6C85BC6FCA557}Prefabs/Structures/ModularGothicPieces/F
      coords 9 0 -1.5
     }
     {
-     coords 15 0 1.5
+     coords 11.999 0 1.5
     }
     {
      coords 15 0 10.5
@@ -4882,7 +4879,7 @@ $grp GenericEntity : "{42E6C85BC6FCA557}Prefabs/Structures/ModularGothicPieces/F
      coords 21 0 -1.5
     }
     {
-     coords 21 0 1.5
+     coords 17.969 0 1.5
     }
     {
      coords 30 0 -1.5
@@ -5119,11 +5116,11 @@ $grp GenericEntity : "{42E6C85BC6FCA557}Prefabs/Structures/ModularGothicPieces/F
      angles 0 -180 0
     }
     {
-     coords 15 3 1.5
+     coords 11.999 3 1.5
      angles 0 -180 0
     }
     {
-     coords 21 3 1.5
+     coords 17.969 3 1.5
      angles 0 -180 0
     }
     {
@@ -11365,6 +11362,9 @@ $grp GenericEntity : "{CD6BB71C522F7B4B}Prefabs/Structures/ModularGothicPieces/W
   coords 125 177.807 303.5
   angles 0 90 0
  }
+ {
+  coords 65.168 184.866 455.799
+ }
 }
 $grp GenericEntity : "{CD7E8C11BDD1EC2B}Prefabs/Props/Military/Skulls/Props_Skull_01.et" {
  {
@@ -15096,6 +15096,10 @@ $grp GenericEntity : "{FA771E44182BDD22}Prefabs/Structures/ModularGothicPieces/W
  {
   coords 58.944 186.263 505.885
   angles 0 180 0
+ }
+ {
+  coords 65.168 187.866 455.799
+  angles 0 -180 0
  }
 }
 $grp GenericEntity : "{FCC120DE04E71AAE}Prefabs/Props/Remains/SkeletonRemains/SkeletonRemains_03_V2.et" {
