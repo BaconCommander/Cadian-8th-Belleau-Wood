@@ -3513,9 +3513,13 @@ $grp SCR_DestructibleBuildingEntity : "{2EED177FAA9F36D2}Prefabs/Structures/Infr
   angles 0 0 19.987
   scale 0.5
  }
+ {
+  coords 189.204 177.323 277.206
+  angles -0.479 70 -14.415
+ }
 }
 SCR_SpawnPoint : "{309A9CED277B3061}Prefabs/MP/Spawning/SpawnPoint_IMP.et" {
- coords 130.402 180.623 226.135
+ coords 195.201 180.623 261.068
  angles 0 -20.392 0
  m_sFaction "BFA"
 }
