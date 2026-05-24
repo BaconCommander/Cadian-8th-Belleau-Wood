@@ -3029,7 +3029,7 @@ $grp SCR_IndestructibleEnvironmentalEntity : "{D5CC7A5A32C640A3}Prefabs/Rocks/Gr
  }
 }
 GenericEntity : "{D6F015C42913655E}Prefabs/Props/Military/Aquilla/Props_Aquilla.et" {
- coords 102.956 181.832 455.701
+ coords 103.242 181.832 455.701
  scale 6
 }
 $grp GenericEntity : "{D767E68010526021}Prefabs/Structures/Bunkers/Bunker_Gun.et" {
