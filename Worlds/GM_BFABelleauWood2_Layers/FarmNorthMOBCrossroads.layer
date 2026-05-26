@@ -6353,7 +6353,7 @@ $grp StaticModelEntity : "{88208B13596A61E9}PrefabLibrary/Crater02.et" {
   scale 1.78
  }
  {
-  coords 1052.341 -0 1921.921
+  coords 1052.341 0 1921.921
   angles 1.213 151.631 0.362
   scale 1.78
  }
@@ -6362,7 +6362,7 @@ $grp StaticModelEntity : "{88208B13596A61E9}PrefabLibrary/Crater02.et" {
   angles -3.466 119.199 -2.957
  }
  {
-  coords 1001.724 -0 1915.713
+  coords 1001.724 0 1915.713
   angles 1.537 -159.919 -4.195
  }
 }
