@@ -2101,7 +2101,7 @@ $grp PolylineShapeEntity {
   coords 9483.235 142.243 1432.322
   Points {
    ShapePoint "{6970CCC6A297DB2C}" {
-    Position 0 -0 0
+    Position 0 0 0
    }
    ShapePoint "{6970CCC6A297EC46}" {
     Position 0.233 -0.442 -10.904
@@ -3074,7 +3074,7 @@ $grp PolylineShapeEntity {
       angles 0 65.954 0
      }
      SCR_DestructibleEntity : "{FEBCDDEEC6E0D631}Prefabs/Props/Industrial/CableTrestleMine_01/CableTrestleMine_01_start.et" {
-      coords 0 -0 0
+      coords 0 0 0
       angles 0 87.148 0
      }
     }
@@ -3693,7 +3693,7 @@ $grp PolylineShapeEntity {
   coords 10934.287 185.21 1271.88
   Points {
    ShapePoint "{6970CCCF4AC9BAFC}" {
-    Position 0 -0 0
+    Position 0 0 0
    }
    ShapePoint "{6970CCCF4AC9CC3F}" {
     Position 16.873 -0.875 -5.744
@@ -3949,8 +3949,296 @@ $grp PolylineShapeEntity {
       angles 0 -102.391 0
      }
      SCR_DestructibleEntity : "{FEBCDDEEC6E0D631}Prefabs/Props/Industrial/CableTrestleMine_01/CableTrestleMine_01_start.et" {
-      coords 0 -0 0
+      coords 0 0 0
       angles 0 18.8 0
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 10133.943 144.485 2250.159
+  Points {
+   ShapePoint "{697363E81437B21C}" {
+    Position -14.602 -1.764 10.605
+   }
+   ShapePoint "{697363E81437C3F4}" {
+    Position -10.777 2.106 -59.081
+   }
+   ShapePoint "{697363E81D5DF93A}" {
+    Position -10.21 2.487 -115.907
+   }
+   ShapePoint "{697363E81C70D519}" {
+    Position -26.973 0.017 -138.102
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   WallGeneratorEntity : "{345E2A0CCE7ABFD6}Prefabs/Walls/Generators/Walls/WoodenWall.et" {
+    Flags 0x100003 0
+    m_iSeed 22179
+    {
+     $grp SCR_DestructibleEntity : "{498FF5CEEC669BB1}Prefabs/Walls/Farm Fence 1.et" {
+      {
+       coords -13.4 -0.228 -11.286
+       angles 0 176.859 0
+      }
+      {
+       coords -10.854 2.122 -59.603
+       angles 0 179.345 0
+      }
+      {
+       coords -10.715 2.471 -71.757
+       angles 0 179.345 0
+      }
+      {
+       coords -10.602 2.608 -81.582
+       angles 0 179.345 0
+      }
+      {
+       coords -10.406 2.638 -98.736
+       angles 0 179.345 0
+      }
+      {
+       coords -10.266 2.601 -111.004
+       angles 0 179.345 0
+      }
+      {
+       coords -24.744 0.258 -135.16
+       angles 0 -142.855 0
+      }
+     }
+     $grp SCR_DestructibleEntity : "{A614126224B438EA}Prefabs/Walls/Farm Fence.et" {
+      {
+       coords -14.603 -1.766 10.635
+       angles 0 176.859 0
+      }
+      {
+       coords -14.47 -1.569 8.199
+       angles 0 176.859 0
+      }
+      {
+       coords -14.336 -1.374 5.764
+       angles 0 176.859 0
+      }
+      {
+       coords -14.202 -1.224 3.328
+       angles 0 176.859 0
+      }
+      {
+       coords -14.069 -1.084 0.892
+       angles 0 176.859 0
+      }
+      {
+       coords -13.935 -0.93 -1.543
+       angles 0 176.859 0
+      }
+      {
+       coords -13.801 -0.75 -3.979
+       angles 0 176.859 0
+      }
+      {
+       coords -13.668 -0.59 -6.415
+       angles 0 176.859 0
+      }
+      {
+       coords -13.534 -0.4 -8.85
+       angles 0 176.859 0
+      }
+      {
+       coords -13.264 -0.047 -13.775
+       angles 0 176.859 0
+      }
+      {
+       coords -13.003 0.325 -18.532
+       angles 0 176.859 0
+      }
+      {
+       coords -12.869 0.503 -20.968
+       angles 0 176.859 0
+      }
+      {
+       coords -12.735 0.674 -23.404
+       angles 0 176.859 0
+      }
+      {
+       coords -12.602 0.865 -25.839
+       angles 0 176.859 0
+      }
+      {
+       coords -12.468 1.055 -28.275
+       angles 0 176.859 0
+      }
+      {
+       coords -12.334 1.237 -30.711
+       angles 0 176.859 0
+      }
+      {
+       coords -11.946 1.509 -37.789
+       angles 0 176.859 0
+      }
+      {
+       coords -11.812 1.579 -40.225
+       angles 0 176.859 0
+      }
+      {
+       coords -11.678 1.655 -42.661
+       angles 0 176.859 0
+      }
+      {
+       coords -11.545 1.723 -45.096
+       angles 0 176.859 0
+      }
+      {
+       coords -11.411 1.776 -47.532
+       angles 0 176.859 0
+      }
+      {
+       coords -11.15 1.925 -52.289
+       angles 0 176.859 0
+      }
+      {
+       coords -11.016 2.001 -54.725
+       angles 0 176.859 0
+      }
+      {
+       coords -10.881 2.047 -57.16
+       angles 0 179.345 0
+      }
+      {
+       coords -10.825 2.2 -62.1
+       angles 0 179.345 0
+      }
+      {
+       coords -10.77 2.325 -66.871
+       angles 0 179.345 0
+      }
+      {
+       coords -10.743 2.394 -69.314
+       angles 0 179.345 0
+      }
+      {
+       coords -10.686 2.547 -74.253
+       angles 0 179.345 0
+      }
+      {
+       coords -10.658 2.577 -76.696
+       angles 0 179.345 0
+      }
+      {
+       coords -10.63 2.592 -79.139
+       angles 0 179.345 0
+      }
+      {
+       coords -10.574 2.638 -84.079
+       angles 0 179.345 0
+      }
+      {
+       coords -10.546 2.645 -86.521
+       angles 0 179.345 0
+      }
+      {
+       coords -10.518 2.671 -88.964
+       angles 0 179.345 0
+      }
+      {
+       coords -10.49 2.656 -91.407
+       angles 0 179.345 0
+      }
+      {
+       coords -10.462 2.631 -93.85
+       angles 0 179.345 0
+      }
+      {
+       coords -10.434 2.641 -96.293
+       angles 0 179.345 0
+      }
+      {
+       coords -10.378 2.627 -101.232
+       angles 0 179.345 0
+      }
+      {
+       coords -10.35 2.639 -103.675
+       angles 0 179.345 0
+      }
+      {
+       coords -10.322 2.623 -106.118
+       angles 0 179.345 0
+      }
+      {
+       coords -10.294 2.621 -108.561
+       angles 0 179.345 0
+      }
+      {
+       coords -10.237 2.557 -113.501
+       angles 0 179.345 0
+      }
+      {
+       coords -11.591 2.361 -117.798
+       angles 0 -142.855 0
+      }
+      {
+       coords -13.06 2.194 -119.737
+       angles 0 -142.855 0
+      }
+      {
+       coords -14.529 1.914 -121.676
+       angles 0 -142.855 0
+      }
+      {
+       coords -15.998 1.678 -123.615
+       angles 0 -142.855 0
+      }
+      {
+       coords -17.467 1.426 -125.555
+       angles 0 -142.855 0
+      }
+      {
+       coords -20.336 0.923 -129.342
+       angles 0 -142.855 0
+      }
+      {
+       coords -21.806 0.672 -131.281
+       angles 0 -142.855 0
+      }
+      {
+       coords -23.275 0.473 -133.221
+       angles 0 -142.855 0
+      }
+     }
+     SCR_DestructibleEntity : "{C68438A28E5DCDC0}Prefabs/Walls/Farm Fence Post.et" {
+      coords -26.251 0.088 -137.15
+      angles 0 -142.855 0
+     }
+     $grp SCR_DestructibleEntity : "{FD73A8EF292B0AC3}Prefabs/Walls/Farm Fence 4.et" {
+      {
+       coords -13.13 0.144 -16.211
+       angles 0 176.859 0
+      }
+      {
+       coords -12.201 1.373 -33.146
+       angles 0 176.859 0
+      }
+      {
+       coords -12.073 1.462 -35.468
+       angles 0 176.859 0
+      }
+      {
+       coords -11.277 1.852 -49.968
+       angles 0 176.859 0
+      }
+      {
+       coords -10.797 2.277 -64.543
+       angles 0 179.345 0
+      }
+      {
+       coords -10.191 2.486 -115.95
+       angles 0 -142.855 0
+      }
+      {
+       coords -18.936 1.176 -127.494
+       angles 0 -142.855 0
+      }
      }
     }
    }
