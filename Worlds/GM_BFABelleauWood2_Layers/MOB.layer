@@ -202,6 +202,33 @@ $grp GenericEntity {
   coords 30.272 180.806 303.195
   angles 90 -93.435 116.565
  }
+ {
+  components {
+   SCR_EditableEntityComponent "{6710C5DB9E5FD418}" {
+    Enabled 0
+   }
+  }
+  coords 129.489 180.634 190.862
+  angles -0.159 71.687 0.039
+ }
+ {
+  components {
+   SCR_EditableEntityComponent "{6710C5DB9E5FD418}" {
+    Enabled 0
+   }
+  }
+  coords 102.207 180.564 182.436
+  angles -0.63 71.674 -0.054
+ }
+ {
+  components {
+   SCR_EditableEntityComponent "{6710C5DB9E5FD418}" {
+    Enabled 0
+   }
+  }
+  coords 156.984 180.041 200.053
+  angles 0.804 71.324 0.082
+ }
 }
 RoadEntity {
  coords 62.079 182.052 408.941
@@ -2616,121 +2643,6 @@ $grp GenericEntity : "{19AA40B6D109F8DD}Prefabs/Structures/ModularGothicPieces/R
   angles 0 -180 0
  }
 }
-$grp GenericEntity : "{1AE1D881171B98F8}PrefabsEditable/Auto/Systems/Arsenal/ArsenalBoxes/IMP/E_ArsenalBox_IMP.et" {
- {
-  components {
-   SCR_ArsenalComponent "{56F2C6D1431AD9AF}" {
-    m_eArsenalSaveType NO_RESTRICTIONS
-   }
-   SCR_EditableSystemComponent "{6508DA3D78C7D039}" {
-    m_UIInfo SCR_EditableEntityUIInfo "{58D2A1BEBFDC56CC}" {
-     m_sFaction "BFA"
-     m_aAutoLabels {
-      ENTITYTYPE_SYSTEM
-      SIZE_M
-      TRAIT_REARMING
-      FACTION_BFA
-     }
-    }
-   }
-   SCR_FactionAffiliationComponent "{5A50E7655452A21D}" {
-    "faction affiliation" "BFA"
-   }
-   RplComponent "{56F2C6D1431AD4FE}" {
-    "Rpl State Override" None
-   }
-  }
-  coords 55.498 184.516 423.841
- }
- {
-  components {
-   SCR_ArsenalComponent "{56F2C6D1431AD9AF}" {
-    m_eArsenalSaveType NO_RESTRICTIONS
-   }
-   SCR_EditableSystemComponent "{6508DA3D78C7D039}" {
-    m_UIInfo SCR_EditableEntityUIInfo "{58D2A1BEBFDC56CC}" {
-     m_sFaction "BFA"
-     m_aAutoLabels {
-      ENTITYTYPE_SYSTEM
-      SIZE_M
-      TRAIT_REARMING
-      FACTION_BFA
-     }
-    }
-   }
-   SCR_FactionAffiliationComponent "{5A50E7655452A21D}" {
-    "faction affiliation" "BFA"
-   }
-   RplComponent "{56F2C6D1431AD4FE}" {
-    "Rpl State Override" None
-   }
-  }
-  coords 61.701 184.516 437.689
-  {
-   GenericEntity {
-    ID "6508DA3D9C4664CD"
-    {
-     DecalEntity {
-      ID "56DEFDB4A2C87F38"
-      coords 0 -0.385 0
-      angles 0 -79.364 0
-     }
-    }
-   }
-  }
- }
- {
-  components {
-   SCR_ArsenalComponent "{56F2C6D1431AD9AF}" {
-    m_eArsenalSaveType NO_RESTRICTIONS
-   }
-   SCR_EditableSystemComponent "{6508DA3D78C7D039}" {
-    m_UIInfo SCR_EditableEntityUIInfo "{58D2A1BEBFDC56CC}" {
-     m_sFaction "BFA"
-     m_aAutoLabels {
-      ENTITYTYPE_SYSTEM
-      SIZE_M
-      TRAIT_REARMING
-      FACTION_BFA
-     }
-    }
-   }
-   SCR_FactionAffiliationComponent "{5A50E7655452A21D}" {
-    "faction affiliation" "BFA"
-   }
-   RplComponent "{56F2C6D1431AD4FE}" {
-    "Rpl State Override" None
-   }
-  }
-  coords 58.287 184.516 437.634
- }
- {
-  components {
-   SCR_ArsenalComponent "{56F2C6D1431AD9AF}" {
-    m_eArsenalSaveType NO_RESTRICTIONS
-   }
-   SCR_EditableSystemComponent "{6508DA3D78C7D039}" {
-    m_UIInfo SCR_EditableEntityUIInfo "{58D2A1BEBFDC56CC}" {
-     m_sFaction "BFA"
-     m_aAutoLabels {
-      ENTITYTYPE_SYSTEM
-      SIZE_M
-      TRAIT_REARMING
-      FACTION_BFA
-     }
-    }
-   }
-   SCR_FactionAffiliationComponent "{5A50E7655452A21D}" {
-    "faction affiliation" "BFA"
-   }
-   RplComponent "{56F2C6D1431AD4FE}" {
-    "Rpl State Override" None
-   }
-  }
-  coords 61.159 184.516 424.212
-  angles 0 -180 0
- }
-}
 GenericEntity : "{1C531149AF99ACD1}Prefabs/Props/Furniture/TableDining_01.et" {
  coords 117.226 181.05 306.084
 }
@@ -3689,10 +3601,6 @@ $grp GenericEntity : "{3CF7EAA0F05546FF}Prefabs/Props/Furniture/PhoneTable_01_Ba
  {
   coords 41.208 185.822 458.784
   angles 0 -28.81 0
- }
- {
-  coords 35.842 185.822 463.92
-  angles 0 -116.513 0
  }
 }
 $grp GenericEntity : "{3D9E202AB6FB25F2}Prefabs/Structures/ModularGothicPieces/Pillar_Base_Large_Square.et" {
@@ -8719,35 +8627,6 @@ $grp SCR_DestructibleBuildingEntity : "{617D7CE9A6B13AD8}Prefabs/Structures/Cult
   angles 0 -90 0
  }
 }
-$grp GenericEntity : "{679081466BFA8E75}Prefabs/Props/DropShip/DropShip.et" {
- {
-  components {
-   SCR_EditableEntityComponent "{6710C5DB9E5FD418}" {
-    Enabled 0
-   }
-  }
-  coords 129.489 180.634 190.862
-  angles -0.159 71.687 0.039
- }
- {
-  components {
-   SCR_EditableEntityComponent "{6710C5DB9E5FD418}" {
-    Enabled 0
-   }
-  }
-  coords 102.207 180.564 182.436
-  angles -0.63 71.674 -0.054
- }
- {
-  components {
-   SCR_EditableEntityComponent "{6710C5DB9E5FD418}" {
-    Enabled 0
-   }
-  }
-  coords 156.984 180.041 200.053
-  angles 0.804 71.324 0.082
- }
-}
 $grp SCR_DestructibleBuildingEntity : "{686B4C83AC940895}Prefabs/Structures/Infrastructure/Naval/Piers/PierConcrete_01_flat.et" {
  {
   coords 148.326 -7.321 236.277
@@ -9513,10 +9392,6 @@ $grp GenericEntity : "{757FCCE8E756175C}Prefabs/Props/Furniture/MeetingTable_01.
  {
   coords 41.011 184.916 458.893
   angles 0 -94.111 0
- }
- {
-  coords 35.726 184.916 463.728
-  angles 0 178.186 0
  }
 }
 GenericEntity : "{75D125481E2E0663}Prefabs/Compositions/Misc/SubCompositions/Barrel_ToolRack_01.et" {
@@ -10489,10 +10364,6 @@ $grp GenericEntity : "{942A96E02BC7AFA6}Prefabs/Items/Equipment/Maps/Map_Paper_0
   coords 40.866 185.822 458.196
   angles 0 -4.111 0
  }
- {
-  coords 36.416 185.822 463.555
-  angles 0 -91.814 0
- }
 }
 $grp GenericEntity : "{95B501A3A70F5475}Prefabs/Structures/ModularGothicPieces/Pillar_Base_Medium_Square.et" {
  {
@@ -11136,6 +11007,23 @@ GenericEntity : "{BE384DC07D8C8250}Prefabs/Compositions/Misc/SubCompositions/Fur
 GenericEntity : "{BE4A86F97A2E2945}Prefabs/Props/VehicleParts/Tires/Wheel_M998.et" {
  coords 115.741 178.352 303.401
 }
+$grp GenericEntity : "{BE99D77D1155B127}Prefabs/Props/Military/Arsenal/ArsenalBoxes/US/ArsenalBox_US.et" {
+ {
+  components {
+   SCR_ArsenalComponent "{56F2C6D1431AD9AF}" {
+    m_eArsenalSaveType NO_RESTRICTIONS
+   }
+   SCR_FactionAffiliationComponent "{5A50E7655452A21D}" {
+    "faction affiliation" "BFA"
+   }
+  }
+  coords 57.82 184.55 435.936
+  angles 0 -180 0
+ }
+ {
+  coords 54.443 184.55 433.459
+ }
+}
 GenericEntity : "{BF0D7662331BECC0}Prefabs/Props/VehicleParts/Tires/Wheel_UAZ469.et" {
  coords 115.569 178.364 299.448
 }
@@ -11626,10 +11514,6 @@ $grp GenericEntity : "{D60220233693B077}Prefabs/Items/Equipment/Maps/Map_Paper_0
  {
   coords 41.199 185.822 459.403
   angles 0 175.889 0
- }
- {
-  coords 35.224 185.822 463.936
-  angles 0 88.186 0
  }
 }
 $grp Tree : "{D6EC31A48403A52A}Prefabs/Vegetation/Bush/b_sambucus_nigra_1.et" {
