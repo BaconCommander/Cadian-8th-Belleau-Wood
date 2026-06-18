@@ -1,0 +1,5 @@
+ZEL_SafeZoneEntity : "{98AD581B92D08AF3}Prefabs/Zones/Safe/SafeZone.et" {
+ coords 4.072 171.851 19.956
+ TriggerShapeType "Oriented Bounding Box"
+ BoxMaxs 320 60 530
+}

@@ -1349,20 +1349,6 @@ $grp SCR_DestructibleBuildingEntity : "{5C2A3D3F1352CF6D}Prefabs/Trench/Trench_9
   angles 0 57.966 0
  }
 }
-$grp StaticModelEntity : "{5D93DBBACD6ABDE9}Prefabs/Trench/Erode_3_Dirt.et" {
- {
-  coords 719.626 201.712 722.867
-  angles 0 162.355 0
- }
- {
-  coords 704.583 201.792 737.68
-  angles 0 -115.384 7.906
- }
- {
-  coords 725.273 202.21 744.167
-  angles 1.73 77.18 -7.715
- }
-}
 GenericEntity : "{617B374D894242C0}Prefabs/TrenchDecorations/Trench_DirtBlender.et" {
  coords 926.522 201.951 258.234
 }

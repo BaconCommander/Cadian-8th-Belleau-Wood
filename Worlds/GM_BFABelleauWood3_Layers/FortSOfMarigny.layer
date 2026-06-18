@@ -1,0 +1,256 @@
+GenericEntity : "{43EC507222934A86}Prefabs/Props/Military/Furniture/Props_GuardATM.et" {
+ coords 1196.531 209.668 2413.885
+ angles 0 -80.018 0
+}
+$grp StaticModelEntity : "{5088E2D220E37FB5}PrefabLibrary/Crater04.et" {
+ {
+  coords 1244.044 210.96 2368.625
+  angles -0.895 0.014 -0.895
+ }
+ {
+  coords 1183.856 210.411 2372.703
+  angles 0 0 1.79
+ }
+ {
+  coords 1274.14 211.876 2366.709
+  angles -2.683 0.042 -0.896
+ }
+ {
+  coords 1235.251 207.17 2493.088
+  angles -3.576 0.056 -0.897
+ }
+ {
+  coords 1061.2 206.8 2453.41
+  angles 1.788 -0.056 -1.791
+ }
+ {
+  coords 1101.164 208.412 2376.131
+  angles 0 0 -1.79
+ }
+}
+SCR_DestructibleBuildingEntity : "{52D3F2118C1B68E0}Prefabs/Structures/Military/Houses/GuardTower_USSR_01/GuardTower_USSR_01_green.et" {
+ coords 1161.28 -0.066 2372.491
+ angles 0 12.211 0
+}
+$grp StaticModelEntity : "{5D0248A228159B01}Prefabs/Structures/Debris/DebrisPile/DebrisPile_Concrete_01_Debris_V4.et" {
+ {
+  coords 1199.422 212.25 2383.532
+  angles 0 -91.786 0
+  scale 5
+ }
+ {
+  coords 1211.876 210.555 2380.688
+  angles 0 88.214 90
+  scale 5
+ }
+ {
+  coords 1244.674 212.25 2391.892
+  angles 0 11.615 0
+  scale 5
+ }
+ {
+  coords 1246.701 209.653 2442.006
+  angles -2.116 -83.857 94.384
+  scale 5
+ }
+ {
+  coords 1160.254 209.12 2427.042
+  angles 0 -168.56 90
+  scale 5
+ }
+ {
+  coords 1165.872 208.734 2438.514
+  angles 0 11.44 0
+  scale 5
+ }
+}
+$grp StaticModelEntity : "{60366D9A5D791236}Prefabs/Structures/Debris/DebrisPile/DebrisPile_Concrete_01_Debris_V3.et" {
+ {
+  coords 1189.263 210.189 2383.37
+  angles 0 86.264 0
+  scale 5
+ }
+ {
+  coords 1168.038 208.392 2448.441
+  angles 0 -170.51 0
+  scale 5
+ }
+}
+SCR_DestructibleEntity : "{604EE87480F156CE}Prefabs/Structures/Walls/Concrete/ConcreteWall_USSR_01/ConcreteWall_USSR_01_pile.et" {
+ coords 1243.63 0 2398.455
+}
+$grp StaticModelEntity : "{6DBCC7EA558FF682}PrefabLibrary/Crater03.et" {
+ {
+  coords 1231.237 211.042 2349.343
+  angles -0.895 0 0
+ }
+ {
+  coords 1275.508 210.808 2406.136
+  angles -1.79 0 0
+ }
+ {
+  coords 1270.356 209.232 2453.398
+  angles -1.789 -0.028 0.896
+ }
+ {
+  coords 1263.785 209.877 2433.933
+  angles -1.79 0 0
+ }
+ {
+  coords 1202.096 207.747 2470.087
+  angles -2.684 0 0
+ }
+ {
+  coords 1264.51 208.912 2474.084
+  angles -1.789 0.028 -0.896
+ }
+ {
+  coords 1123.206 209.494 2382.197
+  angles 0 0 -2.684
+ }
+ {
+  coords 1070.356 207.076 2417.844
+  angles -2.683 0.042 -0.896
+ }
+ {
+  coords 1154.172 207.548 2476.718
+  angles -0.895 -0.014 0.895
+ }
+}
+SCR_DestructibleEntity : "{850FA846E37E385D}Prefabs/Structures/Walls/Concrete/ConcreteWall_USSR_01/ConcreteWall_USSR_01_pillar.et" {
+ coords 1241.85 0.045 2384.947
+ angles 0 -3.805 0
+ scale 5
+}
+$grp StaticModelEntity : "{85AA2163519C855D}Prefabs/Structures/Debris/DebrisPile/DebrisPile_Concrete_01_Debris_V2.et" {
+ {
+  coords 1187.728 210.338 2379.761
+  scale 5
+ }
+ {
+  coords 1242.831 211.206 2379.166
+  angles -7.692 -62.037 91.246
+  scale 5
+ }
+ {
+  coords 1164.877 208.32 2450.761
+  angles 0 103.226 0
+  scale 5
+ }
+}
+$grp SCR_DestructibleEntity : "{879865F07EA907B0}Prefabs/Structures/Walls/Concrete/ConcreteWall_02/ConcreteWall_02_4m.et" {
+ {
+  coords 1229.824 -0.068 2385.127
+  angles 0 -2.853 0
+  scale 5
+ }
+ {
+  coords 1247.281 -0.058 2408.634
+  angles 0 -79.779 0
+  scale 5
+ }
+ {
+  coords 1250.781 0.664 2428.044
+  angles 0 -79.779 0
+  scale 5
+ }
+ {
+  coords 1229.124 1.175 2441.295
+  angles 0 10.221 0
+  scale 5
+ }
+ {
+  coords 1209.445 1.814 2444.843
+  angles 0 10.221 0
+  scale 5
+ }
+ {
+  coords 1201.387 2.098 2446.296
+  angles 0 10.221 0
+  scale 5
+ }
+ {
+  coords 1159.585 1.02 2408.404
+  angles 0 100.385 0
+  scale 5
+ }
+ {
+  coords 1156.054 0.355 2389.138
+  angles 0 100.385 0
+  scale 5
+ }
+}
+$grp StaticModelEntity : "{88208B13596A61E9}PrefabLibrary/Crater02.et" {
+ {
+  coords 1221.959 0 2367.462
+  angles 0 0 -0.895
+ }
+ {
+  coords 1195.85 0 2360.282
+ }
+ {
+  coords 1261.126 -0.001 2391.589
+  angles -0.895 0 0
+ }
+ {
+  coords 1294.94 -0.001 2440.997
+  angles -1.79 0 0
+ }
+ {
+  coords 1236.432 0 2466.697
+  angles -2.683 0.042 -0.896
+ }
+ {
+  coords 1214.139 0 2453.746
+  angles -2.681 0.084 -1.792
+ }
+ {
+  coords 1131.342 0.001 2428.889
+  angles -1.788 0.056 -1.791
+ }
+ {
+  coords 1156.042 -0 2455.478
+  angles -1.79 0 0
+ }
+}
+$grp StaticModelEntity : "{B7130E4DABDB7307}Prefabs/Walls/Manner Gate no doors.et" {
+ {
+  coords 1177.26 203.636 2380.957
+  scale 5
+ }
+ {
+  coords 1190.116 203.636 2448.716
+  angles 0 9.969 0
+  scale 5
+ }
+}
+StaticModelEntity : "{DBCDEC45DB834E8A}Prefabs/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01.et" {
+ coords 1231.407 210.047 2400.41
+ angles 0 12.201 0
+}
+$grp StaticModelEntity : "{E474BFF3E5AEEEC7}PrefabLibrary/Crater01.et" {
+ {
+  coords 1201.002 210.344 2340.754
+  angles 0 0 -1.79
+ }
+ {
+  coords 1283.069 211.273 2390.263
+  angles -1.79 0 0
+ }
+ {
+  coords 1130.741 207.988 2471.247
+  angles 0 0 0.895
+ }
+}
+$grp StaticModelEntity : "{E9FE1583ED580A73}Prefabs/Structures/Debris/DebrisPile/DebrisPile_Concrete_01_Debris_V1.et" {
+ {
+  coords 1185.819 210.394 2382.48
+  angles 0 85.865 0
+  scale 5
+ }
+ {
+  coords 1167.96 208.282 2451.997
+  angles 0 -170.909 0
+  scale 5
+ }
+}

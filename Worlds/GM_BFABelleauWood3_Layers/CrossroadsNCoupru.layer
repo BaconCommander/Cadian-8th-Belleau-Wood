@@ -1,0 +1,12 @@
+StaticModelEntity : "{029C478BCDA3855A}Prefabs/Structures/Industrial/Houses/FactoryHallWIP_01/Dst/FactoryHallWIP_01_Ruin.et" {
+ coords 4588.663 193.292 2088.93
+ angles 0 17.48 0
+}
+GenericEntity : "{5A0992D551419C1C}Prefabs/Structures/ConcreteBunkers/BattlementBunker_Prefab.et" {
+ coords 4582.087 192.528 2100.887
+ angles 0 105 0
+}
+StaticModelEntity : "{C21E28C926C0C720}Prefabs/Structures/Recreation/Houses/Cottage_E_01/Dst/Cottage_E_01_Ruin.et" {
+ coords 4613.493 193.18 2114.488
+ angles 0 64.107 0
+}
